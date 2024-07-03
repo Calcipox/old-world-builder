@@ -1,5 +1,11 @@
 {
   "direct": {
+    "\"Fight Me!\"": {
+      "name_fr": "\"Affronte-moi!\""
+    },
+    "\"Stand Back Chief\"": {
+      "name_fr": "\"Restez en Retrait Chef\""
+    },
     "Ancestral Grudge": {
       "name_fr": "Rancune Ancestrale"
     },
@@ -77,12 +83,6 @@
     },
     "Veteran (champion)": {
       "name_fr": "Vétéran (champion)"
-    },
-    "\"Fight Me!\"": {
-      "name_fr": "\"Affronte-moi!\""
-    },
-    "\"Stand Back Chief\"": {
-      "name_fr": "\"Restez en Retrait Chef\""
     }
   },
   "regex": {}

@@ -18,8 +18,14 @@
     "Dispersed Formation": {
       "name_fr": "Formation Éparse"
     },
+    "Esquire": {
+      "name_fr": "Escuyer"
+    },
     "Finest Warhorses": {
       "name_fr": "Destriers Supérieurs"
+    },
+    "Gallant": {
+      "name_fr": "Preux Chevalier"
     },
     "Grail Monk": {
       "name_fr": "Moine du Graal"
@@ -35,6 +41,9 @@
     },
     "Lore of the Lady": {
       "name_fr": "Domaine de la Dame"
+    },
+    "Paragon": {
+      "name_fr": "Champion de la Quête"
     },
     "Peasant's Duty": {
       "name_fr": "Devoir du Paysan"
@@ -56,6 +65,15 @@
     },
     "The Questing Vow": {
       "name_fr": "Le Vœu de la Quête"
+    },
+    "Villein": {
+      "name_fr": "Maître Archer"
+    },
+    "Warden": {
+      "name_fr": "Prévôt"
+    },
+    "Yeoman": {
+      "name_fr": "Prévôt"
     },
     "the Grail Vow": {
       "name_fr": "le Vœu du Graal"

@@ -57,6 +57,9 @@
     "Cavalry spears": {
       "name_fr": "Lances de Cavalerie"
     },
+    "Chaos Armour": {
+      "name_fr": "Armure du Chaos"
+    },
     "Chariot Runners": {
       "name_fr": "Escorteurs de Chars"
     },
@@ -84,14 +87,8 @@
     "Detachment": {
       "name_fr": "Détachement"
     },
-    "Flaming Breath": {
-      "name_fr": "Souffle Enflammé"
-    },
     "Dragged Along": {
       "name_fr": "Tracté"
-    },
-    "Chaos Armour": {
-      "name_fr": "Armure du Chaos"
     },
     "Drilled": {
       "name_fr": "Bien Entraînés"
@@ -150,6 +147,9 @@
     "Flaming Attacks": {
       "name_fr": "Attaques Enflammées"
     },
+    "Flaming Breath": {
+      "name_fr": "Souffle Enflammé"
+    },
     "Flammable": {
       "name_fr": "Inflammable"
     },
@@ -170,6 +170,12 @@
     },
     "Giant Attacks": {
       "name_fr": "Attaques de Géant"
+    },
+    "Great Cannon": {
+      "name_fr": "Grand Canon"
+    },
+    "Great Eagle": {
+      "name_fr": "Grand Aigle"
     },
     "Great weapon": {
       "name_fr": "Arme lourde"
@@ -300,6 +306,9 @@
     "Morning Star": {
       "name_fr": "Morgenstern"
     },
+    "Mortar": {
+      "name_fr": "Mortier"
+    },
     "Motley Crew": {
       "name_fr": "Bande Hétéroclite"
     },
@@ -411,6 +420,12 @@
     "Shortbows": {
       "name_fr": "Arcs Courts"
     },
+    "Skeletal Steed": {
+      "name_fr": "Coursier Squelette"
+    },
+    "Skeleton Warriors": {
+      "name_fr": "Guerriers Squelette"
+    },
     "Skirmishers": {
       "name_fr": "Tirailleurs"
     },
@@ -519,6 +534,9 @@
     "Whips": {
       "name_fr": "Fouets"
     },
+    "Writhing tentacles": {
+      "name_fr": "Tentacules frétillants"
+    },
     "champion": {
       "name_fr": "champion"
     },
@@ -536,9 +554,6 @@
     },
     "when mounted": {
       "name_fr": "si monté"
-    },
-    "Writhing tentacles": {
-      "name_fr": "Tentacules frétillants"
     }
   },
   "regex": {
