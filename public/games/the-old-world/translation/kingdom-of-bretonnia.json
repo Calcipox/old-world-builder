@@ -1,0 +1,71 @@
+{
+  "direct": {
+    "Aura of the Lady": {
+      "name_fr": "Aura de la Dame"
+    },
+    "Blessed Triptych": {
+      "name_fr": "Triptyque Béni"
+    },
+    "Blessings of the Lady": {
+      "name_fr": "Bénédiction de la Dame"
+    },
+    "Burning Braziers": {
+      "name_fr": "Braséros"
+    },
+    "Defensive Stakes": {
+      "name_fr": "Pieux de Défense"
+    },
+    "Dispersed Formation": {
+      "name_fr": "Formation Éparse"
+    },
+    "Finest Warhorses": {
+      "name_fr": "Destriers Supérieurs"
+    },
+    "Grail Monk": {
+      "name_fr": "Moine du Graal"
+    },
+    "Grail Reliquae": {
+      "name_fr": "Reliquaire du Graal"
+    },
+    "Lance Formation": {
+      "name_fr": "Formation en Fer de Lance"
+    },
+    "Living Saints": {
+      "name_fr": "Saints Vivants"
+    },
+    "Lore of the Lady": {
+      "name_fr": "Domaine de la Dame"
+    },
+    "Peasant's Duty": {
+      "name_fr": "Devoir du Paysan"
+    },
+    "Peasantry": {
+      "name_fr": "Paysannerie"
+    },
+    "Retinue of the Saints": {
+      "name_fr": "Suite des Saints"
+    },
+    "Shield of the Lady": {
+      "name_fr": "Bouclier de la Dame"
+    },
+    "The Grail Vow": {
+      "name_fr": "Le Vœu du Graal"
+    },
+    "The Knight's Vow": {
+      "name_fr": "Le Vœu du Chevalier"
+    },
+    "The Questing Vow": {
+      "name_fr": "Le Vœu de la Quête"
+    },
+    "the Grail Vow": {
+      "name_fr": "le Vœu du Graal"
+    },
+    "the Knight's Vow": {
+      "name_fr": "le Vœu du Chevalier"
+    },
+    "the Questing Vow": {
+      "name_fr": "le Vœu de la Quête"
+    }
+  },
+  "regex": {}
+}

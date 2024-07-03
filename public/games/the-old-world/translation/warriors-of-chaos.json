@@ -1,0 +1,45 @@
+{
+  "direct": {
+    "Caged Fury": {
+      "name_fr": "Fureur Entravée"
+    },
+    "Chaos Armour": {
+      "name_fr": "Armure du Chaos"
+    },
+    "Ensorcelled Weapons": {
+      "name_fr": "Armes Ensorcelées"
+    },
+    "Gaze of the Gods": {
+      "name_fr": "Regard des Dieux"
+    },
+    "Handler": {
+      "name_fr": "Dresseur"
+    },
+    "Lore of Chaos": {
+      "name_fr": "Domaine du Chaos"
+    },
+    "Mark of Chaos Undivided": {
+      "name_fr": "Marque du Chaos Universel"
+    },
+    "Ogre Charge": {
+      "name_fr": "Charge d'Ogre"
+    },
+    "Rampant Mutation": {
+      "name_fr": "Mutations Étranges"
+    },
+    "Two-headed Dragon": {
+      "name_fr": "Dragon Bicéphale"
+    },
+    "Wilful Beast": {
+      "name_fr": "Bête Capricieuse"
+    }
+  },
+  "regex": {
+    "Mark of (\\w+)": {
+      "name_fr": "Marque de $1"
+    },
+    "Spawn of (\\w+)": {
+      "name_fr": "Rejeton de $1"
+    }
+  }
+}

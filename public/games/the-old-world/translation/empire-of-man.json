@@ -1,0 +1,74 @@
+{
+  "direct": {
+    "\"Hold the Line!\"": {
+      "name_fr": "\"Tenez la Ligne!\""
+    },
+    "Clouds of Soot & Smoke": {
+      "name_fr": "Nuages de Suie et de Fumée"
+    },
+    "Fanatical Zeal": {
+      "name_fr": "Zèle Fanatique"
+    },
+    "Feel No Pain": {
+      "name_fr": "Insensibles à la Douleur"
+    },
+    "Grenade Launching Blunderbuss": {
+      "name_fr": "Tromblon à Grenades"
+    },
+    "Grinding Wheels": {
+      "name_fr": "Roues Broyeuses"
+    },
+    "Hellblaster": {
+      "name_fr": "Feu d'Enfer"
+    },
+    "Hellstorm": {
+      "name_fr": "Tonnerre de Feu"
+    },
+    "Hochland Long Rifle": {
+      "name_fr": "Long Fusil du Hochland"
+    },
+    "Holy Fervour": {
+      "name_fr": "Ferveur Sacrée"
+    },
+    "Inner Circle": {
+      "name_fr": "Cercle Intérieur"
+    },
+    "Master of Ballistics": {
+      "name_fr": "Maître en Balistique"
+    },
+    "Master of Battle": {
+      "name_fr": "Maître des Batailles"
+    },
+    "Pigeon Bombs": {
+      "name_fr": "Pigeons Grenadiers"
+    },
+    "Prayers of Sigmar": {
+      "name_fr": "Prières de Sigmar"
+    },
+    "Prayers of Ulric": {
+      "name_fr": "Prières d'Ulric"
+    },
+    "Steam Cannon": {
+      "name_fr": "Canon à Vapeur"
+    },
+    "Steam Gun": {
+      "name_fr": "Couleuvrine à Vapeur"
+    },
+    "Steam Power": {
+      "name_fr": "Propulsion à Vapeur"
+    },
+    "Suffer Not...": {
+      "name_fr": "Ne Tolérez Pas..."
+    },
+    "Symbol of Might": {
+      "name_fr": "Symbole de Puissance"
+    },
+    "Two Heads": {
+      "name_fr": "Bicéphale"
+    },
+    "Witch Bane": {
+      "name_fr": "Fléau des Sorciers"
+    }
+  },
+  "regex": {}
+}

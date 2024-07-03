@@ -1,0 +1,86 @@
+{
+  "direct": {
+    "Aaaaaaa": {
+      "name_fr": "Renaître des Cendres"
+    },
+    "Arrows of Isha": {
+      "name_fr": "Flèches d'Isha"
+    },
+    "Blessings of Asuryan": {
+      "name_fr": "Bienfaits d'Asuryan"
+    },
+    "Blizzard Aura": {
+      "name_fr": "Aura de Blizzard"
+    },
+    "Bow of Avelorn": {
+      "name_fr": "Arc d'Avelorn"
+    },
+    "Ceremonial Halberd": {
+      "name_fr": "Hallebarde de Cérémonie"
+    },
+    "Chracian Great Blade": {
+      "name_fr": "Grande Lame de Chrace"
+    },
+    "Chracian Warriors": {
+      "name_fr": "Guerriers de Chrace"
+    },
+    "Deflect Shots": {
+      "name_fr": "Tirs Déviés"
+    },
+    "Dragon Armour": {
+      "name_fr": "Armure Dragon"
+    },
+    "From the Ashes": {
+      "name_fr": "Renaître des Cendres"
+    },
+    "Horn of Isha": {
+      "name_fr": "Cor d'Isha"
+    },
+    "Ithilmar Armour": {
+      "name_fr": "Armure en Ithilmar"
+    },
+    "Ithilmar Barding": {
+      "name_fr": "Barde en Ithilmar"
+    },
+    "Ithilmar Weapons": {
+      "name_fr": "Armes en Ithilmar"
+    },
+    "King’s Guard": {
+      "name_fr": "Garde du Roi"
+    },
+    "Lileath's Blessing": {
+      "name_fr": "Bienfait de Lileath"
+    },
+    "Lion Cloak": {
+      "name_fr": "Cape de Lion"
+    },
+    "Lore of Saphery": {
+      "name_fr": "Domaine de Saphery"
+    },
+    "Naval Discipline": {
+      "name_fr": "Discipline Navale"
+    },
+    "Sons of Caledor": {
+      "name_fr": "Fils de Caledor"
+    },
+    "Sword of Hoeth": {
+      "name_fr": "Épée de Hoeth"
+    },
+    "Valour of Ages": {
+      "name_fr": "Valeur des Âges"
+    },
+    "Wake of Fire": {
+      "name_fr": "Sillage de Feu"
+    },
+    "Warriors of Nagarythe": {
+      "name_fr": "Guerriers de Nagarythe"
+    },
+    "Warriors of the White Tower": {
+      "name_fr": "Guerriers de la Tour Blanche"
+    },
+    "Witness to Destiny": {
+      "name_fr": "Témoins du Destin"
+    }
+  },
+  "regex": {}
+}

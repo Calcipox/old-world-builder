@@ -1,0 +1,74 @@
+{
+  "direct": {
+    "Arise!": {
+      "name_fr": "Levez-vous!"
+    },
+    "Arrows of Asaph": {
+      "name_fr": "Flèches d'Asaph"
+    },
+    "Banner of the King": {
+      "name_fr": "Bannière du Roi"
+    },
+    "Cloud of Dust": {
+      "name_fr": "Nuage de Poussière"
+    },
+    "Covenant of Power": {
+      "name_fr": "Alliance de Pouvoir"
+    },
+    "Curse of the Necropolis": {
+      "name_fr": "Malédiction de la Nécropole"
+    },
+    "Dry as Dust": {
+      "name_fr": "Desséchés"
+    },
+    "Eternal Taskmaster": {
+      "name_fr": "Éternel Contremaître"
+    },
+    "From Beneath the Sands": {
+      "name_fr": "Surgis de Sous les Sables"
+    },
+    "Indomitable": {
+      "name_fr": "Indomptable"
+    },
+    "Khopesh": {
+      "name_fr": "Khopesh"
+    },
+    "Lore of Nehekara": {
+      "name_fr": "Domaine de Nehekara"
+    },
+    "My Will Be Done": {
+      "name_fr": "Que Ma Volonté Soit Faite"
+    },
+    "Nehekharan Phalanx": {
+      "name_fr": "Phalange de Nehekhara"
+    },
+    "Nehekharan Undead": {
+      "name_fr": "Morts-vivants de Nehekhara"
+    },
+    "Resurrecting the Fallen": {
+      "name_fr": "Ressusciter les Défunts"
+    },
+    "Screaming Skulls": {
+      "name_fr": "Crânes Hurlants"
+    },
+    "Skulls of the Foe": {
+      "name_fr": "Crânes de l'Ennemi"
+    },
+    "Soul Reaper": {
+      "name_fr": "Faucheur d'Âmes"
+    },
+    "Sworn Protector": {
+      "name_fr": "Protecteur Assermenté"
+    },
+    "Unbound Spirits": {
+      "name_fr": "Esprits Déchaînés"
+    },
+    "Unstoppable Assault": {
+      "name_fr": "Assaut Inexorable"
+    },
+    "Vortex of Souls": {
+      "name_fr": "Vortex des Âmes"
+    }
+  },
+  "regex": {}
+}

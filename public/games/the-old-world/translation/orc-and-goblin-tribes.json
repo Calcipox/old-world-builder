@@ -1,0 +1,71 @@
+{
+  "direct": {
+    "Big 'Uns": {
+      "name_fr": "Kostos"
+    },
+    "Big Stabbas": {
+      "name_fr": "Grands Kitrou"
+    },
+    "Bully": {
+      "name_fr": "Brute"
+    },
+    "Choppas": {
+      "name_fr": "Kikoup'"
+    },
+    "Da Boyz": {
+      "name_fr": "Lé Boyz"
+    },
+    "Doom Diver": {
+      "name_fr": "Plongeur de la Mort"
+    },
+    "Ignore Goblin Panic": {
+      "name_fr": "Ignore la Panique des Gobelins"
+    },
+    "Ignore Panic": {
+      "name_fr": "Ignore la Panique"
+    },
+    "Ker-splat": {
+      "name_fr": "Sproutch"
+    },
+    "Lore of Gork": {
+      "name_fr": "Domaine de Gork"
+    },
+    "Lore of Mork": {
+      "name_fr": "Domaine de Mork"
+    },
+    "Mob Rule": {
+      "name_fr": "La Loi du Nombre"
+    },
+    "Netters": {
+      "name_fr": "Rétiaires"
+    },
+    "Quell Impetuosity": {
+      "name_fr": "Calme l'Impétuosité"
+    },
+    "Release the Fanatics!": {
+      "name_fr": "Lâchez les Fanatiques!"
+    },
+    "Skulking Menace": {
+      "name_fr": "Menace Dissimulée"
+    },
+    "Spiked Ball & Chains": {
+      "name_fr": "Chaînes & Boulets"
+    },
+    "Squigs Go Wild": {
+      "name_fr": "Squigs Sauvages"
+    },
+    "Tusker Charge": {
+      "name_fr": "Charge de Sanglier"
+    },
+    "Waaagh!": {
+      "name_fr": "Waaagh!"
+    },
+    "Warpaint": {
+      "name_fr": "Peintures de Guerre"
+    },
+    "if frenzied": {
+      "name_fr": "si frénétique"
+    }
+  },
+  "regex": {}
+}

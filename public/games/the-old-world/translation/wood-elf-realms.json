@@ -1,0 +1,74 @@
+{
+  "direct": {
+    "Arcane Bodkins": {
+      "name_fr": "Bodkins Cabalistiques"
+    },
+    "Asrai Longbow": {
+      "name_fr": "Arc long Asrai"
+    },
+    "Asrai Longbows": {
+      "name_fr": "Arcs longs Asrai"
+    },
+    "Asrai Spear": {
+      "name_fr": "Lance Asrai"
+    },
+    "Asrai Spears": {
+      "name_fr": "Lances Asrai"
+    },
+    "Crown of Antlers": {
+      "name_fr": "Grande Ramure"
+    },
+    "Dances of Loec": {
+      "name_fr": "Danses de Loec"
+    },
+    "Daughters of Eternity": {
+      "name_fr": "Filles de l'Éternité"
+    },
+    "Deepwood Coven": {
+      "name_fr": "Sabbat du Grand-bois"
+    },
+    "Enchanted Arrows": {
+      "name_fr": "Flèches Enchantées"
+    },
+    "Guardians of the Wildwood": {
+      "name_fr": "Gardiens du Bois Sauvage"
+    },
+    "Hagbane Tips": {
+      "name_fr": "Flèches de Fléau des Furies"
+    },
+    "Hawk-eyed Archer": {
+      "name_fr": "Archer à l'Œil de Faucon"
+    },
+    "Lore of Athel Loren": {
+      "name_fr": "Domaine d'Athel Loren"
+    },
+    "Moonfire Shot": {
+      "name_fr": "Traits de Feu Lunaire"
+    },
+    "Swiftshiver Shards": {
+      "name_fr": "Échardes d'Archère Hâtive"
+    },
+    "Talismanic Tattoos": {
+      "name_fr": "Tatouages Talismaniques"
+    },
+    "The Arrow of Kurnous": {
+      "name_fr": "La Flèche de Kurnous"
+    },
+    "Tree Spirit": {
+      "name_fr": "Esprit des Forêts"
+    },
+    "Tree Whack": {
+      "name_fr": "Abattage"
+    },
+    "Troubadour of Loec": {
+      "name_fr": "Troubadour de Loec"
+    },
+    "Trueflight Arrows": {
+      "name_fr": "Pointes de Parabole Pure"
+    },
+    "Woodland Ambush": {
+      "name_fr": "Embuscade dans les Bois"
+    }
+  },
+  "regex": {}
+}

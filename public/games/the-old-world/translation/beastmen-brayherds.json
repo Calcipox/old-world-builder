@@ -1,0 +1,75 @@
+{
+  "direct": {
+    "Bestial Charge": {
+      "name_fr": "Charge Bestiale"
+    },
+    "Blood Greed": {
+      "name_fr": "Soif de Sang"
+    },
+    "Blood Rage": {
+      "name_fr": "Rage Sanguinaire"
+    },
+    "Brayhorn": {
+      "name_fr": "Braillecorne"
+    },
+    "Braystaff": {
+      "name_fr": "Braillesceptre"
+    },
+    "Bull-gors": {
+      "name_fr": "Taurogors"
+    },
+    "Drunken": {
+      "name_fr": "Ivres"
+    },
+    "Ensorcelled Weapons": {
+      "name_fr": "Armes Ensorcelées"
+    },
+    "Foe Render": {
+      "name_fr": "Déchiqueteur"
+    },
+    "Gaze of the Gods": {
+      "name_fr": "Regard des Dieux"
+    },
+    "Ghostsight": {
+      "name_fr": "Vue Spirituelle"
+    },
+    "Lore of Beasts": {
+      "name_fr": "Domaine des Bêtes"
+    },
+    "Maddening Aura": {
+      "name_fr": "Aura de Démence"
+    },
+    "Mark of Chaos Undivided": {
+      "name_fr": "Marque du Chaos Universel"
+    },
+    "Primal Fury": {
+      "name_fr": "Fureur Primale"
+    },
+    "Razor Tusks": {
+      "name_fr": "Défenses Acérées"
+    },
+    "Slaughterer's Call": {
+      "name_fr": "Appel du Massacreur"
+    },
+    "Soul-eater": {
+      "name_fr": "Mangeur d'Âmes"
+    },
+    "Spurting Bile Blood": {
+      "name_fr": "Giclée de Sang Bilieux"
+    },
+    "Stony Stare": {
+      "name_fr": "Regard de Pierre"
+    },
+    "Storm Call": {
+      "name_fr": "Appeler la Tempête"
+    },
+    "Swallow Whole": {
+      "name_fr": "Avaler Tout Rond"
+    }
+  },
+  "regex": {
+    "Mark of (\\w+)": {
+      "name_fr": "Marque de $1"
+    }
+  }
+}

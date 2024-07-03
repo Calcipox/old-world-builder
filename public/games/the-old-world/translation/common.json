@@ -1,0 +1,549 @@
+{
+  "direct": {
+    "Additional hand weapon": {
+      "name_fr": "Arme de base additionnelle"
+    },
+    "Additional hand weapons": {
+      "name_fr": "Armes de base additionnelles"
+    },
+    "Ambushers": {
+      "name_fr": "Embusqueurs"
+    },
+    "Armour Bane": {
+      "name_fr": "Arme Perforante"
+    },
+    "Armoured Hide": {
+      "name_fr": "Peau Blindée"
+    },
+    "Barding": {
+      "name_fr": "Caparaçon"
+    },
+    "Battle Magic": {
+      "name_fr": "Magie de Bataille"
+    },
+    "Battle Standard Bearer": {
+      "name_fr": "Porteur de la Grande Bannière"
+    },
+    "Beguiling Aura": {
+      "name_fr": "Aura Envoûtante"
+    },
+    "Bolt Thrower": {
+      "name_fr": "Baliste"
+    },
+    "Brace of Pistols": {
+      "name_fr": "Plusieurs Pistolets"
+    },
+    "Brace of pistols": {
+      "name_fr": "Plusieurs pistolets"
+    },
+    "Brace of repeater handbows": {
+      "name_fr": "Paires d'arbalètes de poing à répétitions"
+    },
+    "Breath Weapon": {
+      "name_fr": "Arme à Souffle"
+    },
+    "Calloused hide": {
+      "name_fr": "Peau calleuse"
+    },
+    "Calloused hides": {
+      "name_fr": "Peaux calleuses"
+    },
+    "Cannon": {
+      "name_fr": "Canon"
+    },
+    "Cavalry spear": {
+      "name_fr": "Lance de Cavalerie"
+    },
+    "Cavalry spears": {
+      "name_fr": "Lances de Cavalerie"
+    },
+    "Chariot Runners": {
+      "name_fr": "Escorteurs de Chars"
+    },
+    "Cleaving Blow": {
+      "name_fr": "Coup de Fendoir"
+    },
+    "Close Order": {
+      "name_fr": "Ordre Serré"
+    },
+    "Counter Charge": {
+      "name_fr": "Contre-charge"
+    },
+    "Crossbow": {
+      "name_fr": "Arbalète"
+    },
+    "Cumbersome": {
+      "name_fr": "Encombrant"
+    },
+    "Daemonology": {
+      "name_fr": "Démonisme"
+    },
+    "Dark Magic": {
+      "name_fr": "Magie Noire"
+    },
+    "Detachment": {
+      "name_fr": "Détachement"
+    },
+    "Dragged Along": {
+      "name_fr": "Tracté"
+    },
+    "Drilled": {
+      "name_fr": "Bien Entraînés"
+    },
+    "Dwarfs": {
+      "name_fr": "Nains"
+    },
+    "Elementalism": {
+      "name_fr": "Élémentalisme"
+    },
+    "Elven Reflexes": {
+      "name_fr": "Réflexes Elfiques"
+    },
+    "Elves": {
+      "name_fr": "Elfes"
+    },
+    "Eternal Hatred": {
+      "name_fr": "Haine Éternelle"
+    },
+    "Ethereal": {
+      "name_fr": "Ethéré"
+    },
+    "Evasive": {
+      "name_fr": "Esquiveur"
+    },
+    "Extra Attacks": {
+      "name_fr": "Attaques Supplémentaires"
+    },
+    "Fast Cavalry": {
+      "name_fr": "Cavalerie Rapide"
+    },
+    "Fear": {
+      "name_fr": "Peur"
+    },
+    "Fear of Elves": {
+      "name_fr": "Peur des Elfes"
+    },
+    "Feigned Flight": {
+      "name_fr": "Fuite Feinte"
+    },
+    "Fight In Extra Rank": {
+      "name_fr": "Combat Sur Plusieurs Rangs"
+    },
+    "Fire & Flee": {
+      "name_fr": "Tir & Fuite"
+    },
+    "First Charge": {
+      "name_fr": "Première Charge"
+    },
+    "Flail": {
+      "name_fr": "Fléau"
+    },
+    "Flails": {
+      "name_fr": "Fléaux"
+    },
+    "Flaming Attacks": {
+      "name_fr": "Attaques Enflammées"
+    },
+    "Flammable": {
+      "name_fr": "Inflammable"
+    },
+    "Fly": {
+      "name_fr": "Vol"
+    },
+    "Frenzy": {
+      "name_fr": "Frénésie"
+    },
+    "Full plate armour": {
+      "name_fr": "Armure de plate complète"
+    },
+    "Furious Charge": {
+      "name_fr": "Charge Dévastatrice"
+    },
+    "General": {
+      "name_fr": "Général"
+    },
+    "Giant Attacks": {
+      "name_fr": "Attaques de Géant"
+    },
+    "Great weapon": {
+      "name_fr": "Arme lourde"
+    },
+    "Great weapons": {
+      "name_fr": "Armes lourdes"
+    },
+    "Halberd": {
+      "name_fr": "Hallebarde"
+    },
+    "Halberds": {
+      "name_fr": "Hallebardes"
+    },
+    "Hand weapon": {
+      "name_fr": "Arme de base"
+    },
+    "Hand weapons": {
+      "name_fr": "Armes de base"
+    },
+    "Handgun": {
+      "name_fr": "Arquebuse"
+    },
+    "Hatred": {
+      "name_fr": "Haine"
+    },
+    "Heavy armour": {
+      "name_fr": "Armure lourde"
+    },
+    "Hekarti's Blessing": {
+      "name_fr": "Bénédiction d'Hekarti"
+    },
+    "High Elves": {
+      "name_fr": "Hauts Elfes"
+    },
+    "High Magic": {
+      "name_fr": "Haute Magie"
+    },
+    "Horde": {
+      "name_fr": "Horde"
+    },
+    "Howdah": {
+      "name_fr": "Howdah"
+    },
+    "Ignores Cover": {
+      "name_fr": "Ignore les Couverts"
+    },
+    "Illusion": {
+      "name_fr": "Illusionnisme"
+    },
+    "Immovable Object": {
+      "name_fr": "Objet Inébranlable"
+    },
+    "Immune To Psychology": {
+      "name_fr": "Immunisé à la Psychologie"
+    },
+    "Impact Hits": {
+      "name_fr": "Touches d'Impact"
+    },
+    "Impetuous": {
+      "name_fr": "Impétueux"
+    },
+    "Javelin": {
+      "name_fr": "Javeline"
+    },
+    "Javelins": {
+      "name_fr": "Javelines"
+    },
+    "Killing Blow": {
+      "name_fr": "Coup Fatal"
+    },
+    "Lance": {
+      "name_fr": "Lance de Joute"
+    },
+    "Lances": {
+      "name_fr": "Lances de Joute"
+    },
+    "Large Target": {
+      "name_fr": "Grande Cible"
+    },
+    "Largely Insignificant": {
+      "name_fr": "Complètement Insignifiant"
+    },
+    "Levies": {
+      "name_fr": "Conscrits"
+    },
+    "Light armour": {
+      "name_fr": "Armure légère"
+    },
+    "Loner": {
+      "name_fr": "Solitaire"
+    },
+    "Longbow": {
+      "name_fr": "Arc Long"
+    },
+    "Longbows": {
+      "name_fr": "Arcs Longs"
+    },
+    "Magic Item": {
+      "name_fr": "Objet Magique"
+    },
+    "Magic Items": {
+      "name_fr": "Objets Magiques"
+    },
+    "Magic Resistance": {
+      "name_fr": "Résistance à la Magie"
+    },
+    "Magic Standard": {
+      "name_fr": "Bannière Magique"
+    },
+    "Magical Attacks": {
+      "name_fr": "Attaques Magiques"
+    },
+    "Magical Standard": {
+      "name_fr": "Bannière Magique"
+    },
+    "Martial Prowess": {
+      "name_fr": "Prouesses Martiales"
+    },
+    "Mercenaries": {
+      "name_fr": "Mercenaires"
+    },
+    "Monster Handlers": {
+      "name_fr": "Dresseurs de Monstres"
+    },
+    "Monster Slayer": {
+      "name_fr": "Tueur de Monstres"
+    },
+    "Morning Star": {
+      "name_fr": "Morgenstern"
+    },
+    "Motley Crew": {
+      "name_fr": "Bande Hétéroclite"
+    },
+    "Move & Shoot": {
+      "name_fr": "Mouvement & Tir"
+    },
+    "Move Or Shoot": {
+      "name_fr": "Mouvement ou Tir"
+    },
+    "Move Through Cover": {
+      "name_fr": "Mouvement à Couvert"
+    },
+    "Multiple Shots": {
+      "name_fr": "Tirs Multiples"
+    },
+    "Multiple Wounds": {
+      "name_fr": "Blessures Multiples"
+    },
+    "Murderous": {
+      "name_fr": "Meurtriers"
+    },
+    "Musician": {
+      "name_fr": "Musicien"
+    },
+    "Necromancy": {
+      "name_fr": "Nécromancie"
+    },
+    "No armour": {
+      "name_fr": "Pas d'Armure"
+    },
+    "On foot": {
+      "name_fr": "À Pied"
+    },
+    "Open Order": {
+      "name_fr": "Ordre Dispersé"
+    },
+    "Orcs & Goblins": {
+      "name_fr": "Orques & Gobelins"
+    },
+    "Pick Up And...": {
+      "name_fr": "Ramassage"
+    },
+    "Pistol": {
+      "name_fr": "Pistolet"
+    },
+    "Poisoned Attacks": {
+      "name_fr": "Attaques Empoisonnées"
+    },
+    "Ponderous": {
+      "name_fr": "Incommode"
+    },
+    "Quick Shot": {
+      "name_fr": "Tir Rapide"
+    },
+    "Rallying Cry": {
+      "name_fr": "Cri de Ralliement"
+    },
+    "Random Attacks": {
+      "name_fr": "Attaques Aléatoires"
+    },
+    "Random Movement": {
+      "name_fr": "Mouvement Aléatoire"
+    },
+    "Regeneration": {
+      "name_fr": "Régénération"
+    },
+    "Regimental Unit": {
+      "name_fr": "Unité Régimentaire"
+    },
+    "Repeater crossbow": {
+      "name_fr": "Arbalète à répétition"
+    },
+    "Repeater crossbows": {
+      "name_fr": "Arbalètes à répétition"
+    },
+    "Repeater handbow": {
+      "name_fr": "Arbalète de poing à répétition"
+    },
+    "Repeater handgun": {
+      "name_fr": "Arquebuse à répétition"
+    },
+    "Repeater pistol": {
+      "name_fr": "Pistolet à répétition"
+    },
+    "Requires Two Hands": {
+      "name_fr": "Armes à Deux Mains"
+    },
+    "Reserve Move": {
+      "name_fr": "Mouvement de Réserve"
+    },
+    "Scouts": {
+      "name_fr": "Éclaireurs"
+    },
+    "Sea Dragon Cloak": {
+      "name_fr": "Cape en peau de Dragon des mers"
+    },
+    "Shield": {
+      "name_fr": "Bouclier"
+    },
+    "Shields": {
+      "name_fr": "Boucliers"
+    },
+    "Shieldwall": {
+      "name_fr": "Mur de Boucliers"
+    },
+    "Shortbow": {
+      "name_fr": "Arc Court"
+    },
+    "Shortbows": {
+      "name_fr": "Arcs Courts"
+    },
+    "Skirmishers": {
+      "name_fr": "Tirailleurs"
+    },
+    "Sling": {
+      "name_fr": "Fronde"
+    },
+    "Standard bearer": {
+      "name_fr": "Porte-étendard"
+    },
+    "Steam gun": {
+      "name_fr": "Canon à vapeur"
+    },
+    "Stomp Attacks": {
+      "name_fr": "Attaques de Piétinement"
+    },
+    "Strike First": {
+      "name_fr": "Frappe En Premier"
+    },
+    "Strike Last": {
+      "name_fr": "Frappe En Dernier"
+    },
+    "Stubborn": {
+      "name_fr": "Obstiné"
+    },
+    "Stupidity": {
+      "name_fr": "Stupidité"
+    },
+    "Swiftstride": {
+      "name_fr": "Rapide"
+    },
+    "Terror": {
+      "name_fr": "Terreur"
+    },
+    "The Quickening Storm": {
+      "name_fr": "Orage Revitalisant"
+    },
+    "Throwing Axe": {
+      "name_fr": "Hache de lancer"
+    },
+    "Throwing Axes": {
+      "name_fr": "Haches de lancer"
+    },
+    "Throwing Spear": {
+      "name_fr": "Javelot"
+    },
+    "Throwing axe": {
+      "name_fr": "Hache de lancer"
+    },
+    "Throwing axes": {
+      "name_fr": "Haches de lancer"
+    },
+    "Throwing weapon": {
+      "name_fr": "Arme de lancer"
+    },
+    "Throwing weapons": {
+      "name_fr": "Armes de lancer"
+    },
+    "Thrusting Spear": {
+      "name_fr": "Lance d'Infanterie"
+    },
+    "Thrusting Spears": {
+      "name_fr": "Lances d'Infanterie"
+    },
+    "Thrusting spear": {
+      "name_fr": "Lance d'Infanterie"
+    },
+    "Thrusting spears": {
+      "name_fr": "Lances d'Infanterie"
+    },
+    "Timmm-berrr!": {
+      "name_fr": "Timmm-berrr!"
+    },
+    "Unbreakable": {
+      "name_fr": "Indémoralisable"
+    },
+    "Unstable": {
+      "name_fr": "Instables"
+    },
+    "Vanguard": {
+      "name_fr": "Avant-garde"
+    },
+    "Veteran": {
+      "name_fr": "Vétérans"
+    },
+    "Volley Fire": {
+      "name_fr": "Tir de Volée"
+    },
+    "Waaagh! Magic": {
+      "name_fr": "Magie Waaagh!"
+    },
+    "Warband": {
+      "name_fr": "Bande de Guerre"
+    },
+    "Warbow": {
+      "name_fr": "Arc de Guerre"
+    },
+    "Warbows": {
+      "name_fr": "Arcs de Guerre"
+    },
+    "Warp-spawned": {
+      "name_fr": "Engeance du Warp"
+    },
+    "Whip": {
+      "name_fr": "Fouet"
+    },
+    "Whips": {
+      "name_fr": "Fouets"
+    },
+    "champion": {
+      "name_fr": "champion"
+    },
+    "if appropriately mounted": {
+      "name_fr": "si monté"
+    },
+    "light Armour": {
+      "name_fr": "Armure légère"
+    },
+    "light armour": {
+      "name_fr": "Armure légère"
+    },
+    "musician": {
+      "name_fr": "musicien"
+    },
+    "when mounted": {
+      "name_fr": "si monté"
+    }
+  },
+  "regex": {
+    "(\\d-\\d) per (\\d+) points": {
+      "name_fr": "$1 par tranche de $2 points"
+    },
+    "(\\d-\\d) unit per (\\d+) points": {
+      "name_fr": "$1 unité par tranche de $2 points"
+    },
+    "Level (\\d) Wizard": {
+      "name_fr": "Sorcier de Niveau $1"
+    },
+    "Level (\\d) \\(or (\\d)\\) Wizard": {
+      "name_fr": "Sorcier de Niveau $1 (ou $2)"
+    }
+  }
+}

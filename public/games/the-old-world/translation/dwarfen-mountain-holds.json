@@ -1,0 +1,89 @@
+{
+  "direct": {
+    "Ancestral Grudge": {
+      "name_fr": "Rancune Ancestrale"
+    },
+    "Ancestral Shield": {
+      "name_fr": "Bouclier Ancestral"
+    },
+    "Artillery Master": {
+      "name_fr": "Maître de l'Artillerie"
+    },
+    "Bombing Run": {
+      "name_fr": "Bombardement"
+    },
+    "Borne Aloft": {
+      "name_fr": "Porté"
+    },
+    "Deathblow": {
+      "name_fr": "Ultime Attaque"
+    },
+    "Dive Bomb": {
+      "name_fr": "Largage en Piqué"
+    },
+    "Dwarf Crafted": {
+      "name_fr": "Facture Naine"
+    },
+    "Entrenchment": {
+      "name_fr": "Retranchement"
+    },
+    "Forgefire": {
+      "name_fr": "Forgefeu"
+    },
+    "Gromril Armour": {
+      "name_fr": "Armure en Gromril"
+    },
+    "Gromril Weapons": {
+      "name_fr": "Armes en Gromril"
+    },
+    "Oathstone": {
+      "name_fr": "Pierre de Serment"
+    },
+    "Resolute": {
+      "name_fr": "Résolu"
+    },
+    "Royal Guard": {
+      "name_fr": "Garde Royale"
+    },
+    "Rune Lore": {
+      "name_fr": "Savoir Runique"
+    },
+    "Runes of Protection": {
+      "name_fr": "Runes de Protection"
+    },
+    "Runes of Warding": {
+      "name_fr": "Runes de Sauvegarde"
+    },
+    "Shieldbearers": {
+      "name_fr": "Porteurs de Bouclier"
+    },
+    "Slayer": {
+      "name_fr": "Tueur"
+    },
+    "Slayer of Daemons": {
+      "name_fr": "Tueur de Démons"
+    },
+    "Slayer of Dragons": {
+      "name_fr": "Tueur de Dragons"
+    },
+    "Stoic Defenders": {
+      "name_fr": "Défenseurs Stoïques"
+    },
+    "Strike the Runes": {
+      "name_fr": "Frapper les Runes"
+    },
+    "Venerable": {
+      "name_fr": "Vénérables"
+    },
+    "Veteran (champion)": {
+      "name_fr": "Vétéran (champion)"
+    },
+    "“Fight Me!”": {
+      "name_fr": "“Affronte-moi!”"
+    },
+    "“Stand Back Chief”": {
+      "name_fr": "“Restez en Retrait Chef”"
+    }
+  },
+  "regex": {}
+}
