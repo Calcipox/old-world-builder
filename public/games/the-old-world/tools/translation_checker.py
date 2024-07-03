@@ -27,6 +27,10 @@ def construct_translation(to_translate, translation_data, language, current_tran
         logger.debug("{}DIRECT: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
+    # Ugly fix to avoid translating again all champions names:
+    if "(champion)" in to_translate and current_translation is not None and current_translation and "(champion)" not in current_translation:
+        return "{} ({})".format(current_translation, construct_translation("champion", translation_data, language, None, nested_debug_prefix))
+
     # Translate list of string separated by ',':
     if "," in to_translate:
         final = ""
@@ -186,7 +190,7 @@ def main():
                     json_file_content = json.load(read_file)
 
                 army_translation_path = os.path.join(common_data_directory, file)
-                merged_translation_data = common_translation_data
+                merged_translation_data = common_translation_data.copy()
                 if os.path.exists(army_translation_path):
                     logger.info("Check: {} using {}".format(file, army_translation_path))
                     army_translation_data = get_and_sort_translations_data(army_translation_path)
