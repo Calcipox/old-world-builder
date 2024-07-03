@@ -78,11 +78,11 @@
     "Veteran (champion)": {
       "name_fr": "Vétéran (champion)"
     },
-    "“Fight Me!”": {
-      "name_fr": "“Affronte-moi!”"
+    "\"Fight Me!\"": {
+      "name_fr": "\"Affronte-moi!\""
     },
-    "“Stand Back Chief”": {
-      "name_fr": "“Restez en Retrait Chef”"
+    "\"Stand Back Chief\"": {
+      "name_fr": "\"Restez en Retrait Chef\""
     }
   },
   "regex": {}

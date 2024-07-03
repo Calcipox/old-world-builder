@@ -84,8 +84,14 @@
     "Detachment": {
       "name_fr": "Détachement"
     },
+    "Flaming Breath": {
+      "name_fr": "Souffle Enflammé"
+    },
     "Dragged Along": {
       "name_fr": "Tracté"
+    },
+    "Chaos Armour": {
+      "name_fr": "Armure du Chaos"
     },
     "Drilled": {
       "name_fr": "Bien Entraînés"
@@ -530,6 +536,9 @@
     },
     "when mounted": {
       "name_fr": "si monté"
+    },
+    "Writhing tentacles": {
+      "name_fr": "Tentacules frétillants"
     }
   },
   "regex": {
