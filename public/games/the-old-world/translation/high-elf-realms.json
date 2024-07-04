@@ -1,10 +1,16 @@
 {
   "direct": {
-    "Aaaaaaa": {
-      "name_fr": "Renaître des Cendres"
+    "Archmage": {
+      "name_fr": "Archimage"
     },
     "Arrows of Isha": {
       "name_fr": "Flèches d'Isha"
+    },
+    "Barded Elven Steed": {
+      "name_fr": "Coursier Elfique Caparaçonné"
+    },
+    "Bladelord": {
+      "name_fr": "Grande Lame"
     },
     "Blessings of Asuryan": {
       "name_fr": "Bienfaits d'Asuryan"
@@ -15,11 +21,20 @@
     "Bow of Avelorn": {
       "name_fr": "Arc d'Avelorn"
     },
+    "Bows of Avelorn": {
+      "name_fr": "Arcs d'Avelorn"
+    },
     "Ceremonial Halberd": {
       "name_fr": "Hallebarde de Cérémonie"
     },
+    "Ceremonial Halberds": {
+      "name_fr": "Hallebardes de Cérémonie"
+    },
     "Chracian Great Blade": {
       "name_fr": "Grande Lame de Chrace"
+    },
+    "Chracian Great Blades": {
+      "name_fr": "Grandes Lames de Chrace"
     },
     "Chracian Warriors": {
       "name_fr": "Guerriers de Chrace"
@@ -30,8 +45,65 @@
     "Dragon Armour": {
       "name_fr": "Armure Dragon"
     },
+    "Dragon Mage": {
+      "name_fr": "Mage Dragon"
+    },
+    "Dragon Princes": {
+      "name_fr": "Princes Dragons"
+    },
+    "Drakemaster": {
+      "name_fr": "Maître Dragon"
+    },
+    "Eagle-Claw Bolt Thrower": {
+      "name_fr": "Baliste Serre d'Aigle"
+    },
+    "Eagle-Eye Bolt Thrower": {
+      "name_fr": "Baliste Œil-d'aigle"
+    },
+    "Ellyrian Reavers": {
+      "name_fr": "Patrouilleurs Ellyriens"
+    },
+    "Elven Archers": {
+      "name_fr": "Archers Elfiques"
+    },
+    "Elven Honours": {
+      "name_fr": "Honneurs Elfiques"
+    },
+    "Elven Spearmen": {
+      "name_fr": "Lanciers Elfiques"
+    },
+    "Elven Steed": {
+      "name_fr": "Coursier Elfique"
+    },
+    "Flamespyre Phoenix": {
+      "name_fr": "Phénix Spire-de-feu"
+    },
     "From the Ashes": {
       "name_fr": "Renaître des Cendres"
+    },
+    "Frostheart Phoenix": {
+      "name_fr": "Phénix Cœur-de-Givre"
+    },
+    "Griffon": {
+      "name_fr": "Griffon"
+    },
+    "Guardian": {
+      "name_fr": "Gardien"
+    },
+    "Handmaiden of the Everqueen": {
+      "name_fr": "Suivante de la Reine Éternelle"
+    },
+    "Handmaiden's spear": {
+      "name_fr": "Lance de suivante"
+    },
+    "Harbinger": {
+      "name_fr": "Émissaire"
+    },
+    "High Helm": {
+      "name_fr": "Grand Heaume"
+    },
+    "High Sister": {
+      "name_fr": "Sœur Supérieure"
     },
     "Horn of Isha": {
       "name_fr": "Cor d'Isha"
@@ -45,11 +117,17 @@
     "Ithilmar Weapons": {
       "name_fr": "Armes en Ithilmar"
     },
-    "King’s Guard": {
+    "Keeper of the Flame": {
+      "name_fr": "Gardien de la Flamme"
+    },
+    "King's Guard": {
       "name_fr": "Garde du Roi"
     },
     "Lileath's Blessing": {
       "name_fr": "Bienfait de Lileath"
+    },
+    "Lion Chariot of Chrace": {
+      "name_fr": "Char à Lions de Chrace"
     },
     "Lion Cloak": {
       "name_fr": "Cape de Lion"
@@ -57,14 +135,68 @@
     "Lore of Saphery": {
       "name_fr": "Domaine de Saphery"
     },
+    "Lothern Sea Guard": {
+      "name_fr": "Garde Maritime de Lothern"
+    },
+    "Lothern Skycutter": {
+      "name_fr": "Cotre Volant de Lothern"
+    },
+    "Mage": {
+      "name_fr": "Mage"
+    },
+    "Moon Dragon": {
+      "name_fr": "Dragon Lunaire"
+    },
     "Naval Discipline": {
       "name_fr": "Discipline Navale"
+    },
+    "Noble": {
+      "name_fr": "Noble"
+    },
+    "Phoenix Guard": {
+      "name_fr": "Garde Phénix"
+    },
+    "Prince": {
+      "name_fr": "Prince"
+    },
+    "Sea Master": {
+      "name_fr": "Maître Maritime"
+    },
+    "Sentinel": {
+      "name_fr": "Sentinelle"
+    },
+    "Shadow Walker": {
+      "name_fr": "Arpenteur des Ombres"
+    },
+    "Shadow Warriors": {
+      "name_fr": "Guerriers Fantômes"
+    },
+    "Silver Helms": {
+      "name_fr": "Heaumes d'Argent"
+    },
+    "Sisters of Avelorn": {
+      "name_fr": "Sœurs d'Avelorn"
     },
     "Sons of Caledor": {
       "name_fr": "Fils de Caledor"
     },
+    "Star Dragon": {
+      "name_fr": "Dragon Stellaire"
+    },
+    "Sun Dragon": {
+      "name_fr": "Dragon Solaire"
+    },
     "Sword of Hoeth": {
       "name_fr": "Épée de Hoeth"
+    },
+    "Swordmasters of Hoeth": {
+      "name_fr": "Maîtres des Épées de Hoeth"
+    },
+    "Tiranoc Chariot": {
+      "name_fr": "Char de Tiranoc"
+    },
+    "Tiranoc Chariots": {
+      "name_fr": "Chars de Tiranoc"
     },
     "Valour of Ages": {
       "name_fr": "Valeur des Âges"
@@ -77,6 +209,9 @@
     },
     "Warriors of the White Tower": {
       "name_fr": "Guerriers de la Tour Blanche"
+    },
+    "White Lions of Chrace": {
+      "name_fr": "Lions Blancs de Chrace"
     },
     "Witness to Destiny": {
       "name_fr": "Témoins du Destin"
