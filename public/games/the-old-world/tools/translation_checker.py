@@ -168,6 +168,10 @@ def main():
                         "--prettify",
                         action="store_true",
                         help="Use 'prettier' to reformat the file at the end.")
+    parser.add_argument("-r",
+                        "--dry-run",
+                        action="store_true",
+                        help="Avoid writing result file.")
     args = parser.parse_args()
     logger.setLevel(logging.INFO)
     if args.debug:
@@ -202,10 +206,11 @@ def main():
 
                 add_missing_translations(json_file_content, merged_translation_data, language)
 
-                # Write the file with all new translations added:
-                with open(os.path.join(args.json_directory_path, file), "w", encoding='utf8') as write_file:
-                    json.dump(json_file_content, write_file, indent=2, ensure_ascii=False)
-                    write_file.write("\n")
+                if not args.dry_run:
+                    # Write the file with all new translations added:
+                    with open(os.path.join(args.json_directory_path, file), "w", encoding='utf8') as write_file:
+                        json.dump(json_file_content, write_file, indent=2, ensure_ascii=False)
+                        write_file.write("\n")
 
     if args.prettify:
         cmd = "npx prettier . --write"
