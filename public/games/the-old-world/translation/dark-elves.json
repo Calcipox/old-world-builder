@@ -18,11 +18,23 @@
     "Bloodwrack Medusa": {
       "name_fr": "Méduse Incarnate"
     },
+    "Bloodwrack Medusas": {
+      "name_fr": "Méduses Incarnates"
+    },
     "Bloodwrack Shrine": {
+      "name_fr": "Sanctuaire Incarnat"
+    },
+    "Bloodwrack Shrines": {
       "name_fr": "Sanctuaires Incarnats"
+    },
+    "Brace of Repeater handbows": {
+      "name_fr": "Paire d’arbalètes à répétition de poing"
     },
     "Cauldron of Blood": {
       "name_fr": "Chaudron de Sang"
+    },
+    "Cavernous maw": {
+      "name_fr": "Gueule caverneuse"
     },
     "Cold One Chariot": {
       "name_fr": "Char à Sangs-froids"
@@ -72,6 +84,9 @@
     "Dread Knight": {
       "name_fr": "Chevalier d'effroi"
     },
+    "Dread halberds": {
+      "name_fr": "Hallebardes d'effroi"
+    },
     "Eternal Hatred": {
       "name_fr": "Haine Éternelle"
     },
@@ -89,6 +104,9 @@
     },
     "Har Ganeth Executioners": {
       "name_fr": "Exécuteurs de Har Ganeth"
+    },
+    "Har Ganeth greatswords": {
+      "name_fr": "Grandes épées d’Har Ganeth"
     },
     "Harpies": {
       "name_fr": "Harpies"
@@ -108,6 +126,9 @@
     "Kharibdyss": {
       "name_fr": "Kharibdyss"
     },
+    "Lash & buckler": {
+      "name_fr": "Lanières & bocles"
+    },
     "Lordling": {
       "name_fr": "Patricien"
     },
@@ -123,17 +144,32 @@
     "Murderous": {
       "name_fr": "Meurtriers"
     },
+    "Petrifying gaze": {
+      "name_fr": "Regard pétrificateur"
+    },
+    "Ravager harpoon": {
+      "name_fr": "Harpon ravageur"
+    },
     "Reaper Bolt Thrower": {
       "name_fr": "Baliste faucheuse"
-    },
-    "Repeater bolt thrower": {
-      "name_fr": "Baliste à répétition"
     },
     "Reaver": {
       "name_fr": "Ravageur"
     },
     "Repeater Crossbowmen": {
       "name_fr": "Arbalétriers Elfes Noirs"
+    },
+    "Repeater bolt thrower": {
+      "name_fr": "Baliste à répétition"
+    },
+    "Repeater crossbow": {
+      "name_fr": "Arbalète à répétition"
+    },
+    "Repeater handbows": {
+      "name_fr": "Arbalètes à répétition de poing"
+    },
+    "Scourgerunner Chariot": {
+      "name_fr": "Char à courre"
     },
     "Scourgerunner Chariots": {
       "name_fr": "Chars à courre"
@@ -161,6 +197,9 @@
     },
     "Tower Master": {
       "name_fr": "Maître de la tour"
+    },
+    "Venomous tail": {
+      "name_fr": "Queue venimeuse"
     },
     "War Hydra": {
       "name_fr": "Hydre de guerre"

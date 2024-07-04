@@ -63,13 +63,16 @@
     "Chariot Runners": {
       "name_fr": "Escorteurs de Chars"
     },
+    "Claws": {
+      "name_fr": "Griffes"
+    },
     "Cleaving Blow": {
       "name_fr": "Coup de Fendoir"
     },
     "Close Order": {
       "name_fr": "Ordre Serré"
     },
-    "Cold one": {
+    "Cold One": {
       "name_fr": "Sang-froid"
     },
     "Counter Charge": {
@@ -495,6 +498,9 @@
     "Timmm-berrr!": {
       "name_fr": "Timmm-berrr!"
     },
+    "Two hand weapons": {
+      "name_fr": "Deux armes de base"
+    },
     "Unbreakable": {
       "name_fr": "Indémoralisable"
     },
@@ -551,9 +557,6 @@
     },
     "light Armour": {
       "name_fr": "Armure légère"
-    },
-    "Two hand weapons": {
-      "name_fr": "Deux armes de base"
     },
     "light armour": {
       "name_fr": "Armure légère"
