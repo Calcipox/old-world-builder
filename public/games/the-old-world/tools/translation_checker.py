@@ -50,13 +50,14 @@ def construct_translation(to_translate, translation_data, language, current_tran
     # Try to match any regex (containing a number or special characters, like "Level 4 Wizard"):
     for regex in translation_data.get("regex"):
         val = re.fullmatch(regex, to_translate.strip())
+        curr = None if current_translation is None else re.fullmatch(regex, current_translation.strip())
 
         if val is not None:
             final = translation_data.get("regex").get(regex).get(language)
             if final is not None:
                 for i in range(1, len(val.groups()) + 1):
-                    final = final.replace("$%d" % i, val.group(i))
-                    final = to_translate.replace(to_translate.strip(), final)
+                    final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language, None if curr is None else curr.group(i), nested_debug_prefix))
+                final = to_translate.replace(to_translate.strip(), final)
                 logger.debug("{}REGEX: '{}'->'{}'".format(debug_prefix, to_translate, final))
                 return final
 
@@ -96,7 +97,7 @@ def construct_translation(to_translate, translation_data, language, current_tran
         return final
 
     if current_translation is not None and current_translation:
-        logger.debug("{}USE CURRENT: '{}'".format(debug_prefix, current_translation))
+        logger.debug("{}USE CURRENT: '{}'->'{}'".format(debug_prefix, to_translate, current_translation))
         return current_translation
 
     logger.debug("{}NOT TRANSLATED: '{}'".format(debug_prefix, to_translate))
