@@ -1,0 +1,179 @@
+{
+  "direct": {
+    "Abyssal Howl": {
+      "name_fr": "Hurlement Abyssal"
+    },
+    "Black Ark Corsairs": {
+      "name_fr": "Corsaires des Arches Noires"
+    },
+    "Black Dragon": {
+      "name_fr": "Dragon noir"
+    },
+    "Black Guard of Naggarond": {
+      "name_fr": "Garde Noire de Naggarond"
+    },
+    "Bloodshade": {
+      "name_fr": "Ombre sanglante"
+    },
+    "Bloodwrack Medusa": {
+      "name_fr": "Méduse Incarnate"
+    },
+    "Bloodwrack Shrine": {
+      "name_fr": "Sanctuaires Incarnats"
+    },
+    "Cauldron of Blood": {
+      "name_fr": "Chaudron de Sang"
+    },
+    "Cold One Chariot": {
+      "name_fr": "Char à Sangs-froids"
+    },
+    "Cold One Knights": {
+      "name_fr": "Chevaliers sur Sang-froid"
+    },
+    "Cursed Coven": {
+      "name_fr": "Cabale Maudite"
+    },
+    "Dance of Death": {
+      "name_fr": "Danse de la Mort"
+    },
+    "Dark Elf Dreadlord": {
+      "name_fr": "Despote Elfe Noir"
+    },
+    "Dark Elf Master": {
+      "name_fr": "Maître Elfe Noir"
+    },
+    "Dark Elf Shades": {
+      "name_fr": "Ombres Elfes Noirs"
+    },
+    "Dark Elf Warriors": {
+      "name_fr": "Guerriers Elfes Noirs"
+    },
+    "Dark Pegasus": {
+      "name_fr": "Pégase noir"
+    },
+    "Dark Riders": {
+      "name_fr": "Cavaliers Noirs"
+    },
+    "Dark Runes": {
+      "name_fr": "Runes Sombres"
+    },
+    "Dark Steed": {
+      "name_fr": "Coursier noir"
+    },
+    "Death Hag": {
+      "name_fr": "Matriarche"
+    },
+    "Doomfire Warlocks": {
+      "name_fr": "Conjurateurs du Feu Maudit"
+    },
+    "Draich Master": {
+      "name_fr": "Maître du Draich"
+    },
+    "Dread Knight": {
+      "name_fr": "Chevalier d'effroi"
+    },
+    "Eternal Hatred": {
+      "name_fr": "Haine Éternelle"
+    },
+    "Forbidden Poisons": {
+      "name_fr": "Poisons Interdits"
+    },
+    "Gifts of Khaine": {
+      "name_fr": "Dons de Khaine"
+    },
+    "Goad Beast": {
+      "name_fr": "Dompteur"
+    },
+    "Hag": {
+      "name_fr": "Doyenne"
+    },
+    "Har Ganeth Executioners": {
+      "name_fr": "Exécuteurs de Har Ganeth"
+    },
+    "Harpies": {
+      "name_fr": "Harpies"
+    },
+    "Hekarti's Blessing": {
+      "name_fr": "Bénédiction d'Hekarti"
+    },
+    "Herald": {
+      "name_fr": "Héraut"
+    },
+    "High Beastmaster": {
+      "name_fr": "Haut Belluaire"
+    },
+    "Khainite Assassin": {
+      "name_fr": "Assassin Khainite"
+    },
+    "Kharibdyss": {
+      "name_fr": "Kharibdyss"
+    },
+    "Lordling": {
+      "name_fr": "Patricien"
+    },
+    "Lore of Naggaroth": {
+      "name_fr": "Domaine de Naggaroth"
+    },
+    "Manticore": {
+      "name_fr": "Manticore"
+    },
+    "Master (champion)": {
+      "name_fr": "Maître Conjurateur (champion)"
+    },
+    "Murderous": {
+      "name_fr": "Meurtriers"
+    },
+    "Reaper Bolt Thrower": {
+      "name_fr": "Baliste faucheuse"
+    },
+    "Repeater bolt thrower": {
+      "name_fr": "Baliste à répétition"
+    },
+    "Reaver": {
+      "name_fr": "Ravageur"
+    },
+    "Repeater Crossbowmen": {
+      "name_fr": "Arbalétriers Elfes Noirs"
+    },
+    "Scourgerunner Chariots": {
+      "name_fr": "Chars à courre"
+    },
+    "Sea Dragon Cloak": {
+      "name_fr": "Cape en peau de Dragon des Mers"
+    },
+    "Serrated maws": {
+      "name_fr": "Mâchoires dentelées"
+    },
+    "Shrinekeeper": {
+      "name_fr": "Gardienne du sanctuaire"
+    },
+    "Sisters of Slaughter": {
+      "name_fr": "Sœurs du massacre"
+    },
+    "Sorceress": {
+      "name_fr": "Sorcière"
+    },
+    "Stony Stare": {
+      "name_fr": "Regard de Pierre"
+    },
+    "Supreme Sorceress": {
+      "name_fr": "Sorcière Suprême"
+    },
+    "Tower Master": {
+      "name_fr": "Maître de la tour"
+    },
+    "War Hydra": {
+      "name_fr": "Hydre de guerre"
+    },
+    "Wicked claws": {
+      "name_fr": "Griffes acérées"
+    },
+    "Witch Elf Crew": {
+      "name_fr": "Équipage de Furies"
+    },
+    "Witch Elves": {
+      "name_fr": "Furies"
+    }
+  },
+  "regex": {}
+}

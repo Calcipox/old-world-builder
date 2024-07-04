@@ -69,6 +69,9 @@
     "Close Order": {
       "name_fr": "Ordre Serré"
     },
+    "Cold one": {
+      "name_fr": "Sang-froid"
+    },
     "Counter Charge": {
       "name_fr": "Contre-charge"
     },
@@ -105,9 +108,6 @@
     "Elves": {
       "name_fr": "Elfes"
     },
-    "Eternal Hatred": {
-      "name_fr": "Haine Éternelle"
-    },
     "Ethereal": {
       "name_fr": "Ethéré"
     },
@@ -128,6 +128,9 @@
     },
     "Feigned Flight": {
       "name_fr": "Fuite Feinte"
+    },
+    "Fiery breath": {
+      "name_fr": "Souffle ardent"
     },
     "Fight In Extra Rank": {
       "name_fr": "Combat Sur Plusieurs Rangs"
@@ -204,8 +207,8 @@
     "Heavy armour": {
       "name_fr": "Armure lourde"
     },
-    "Hekarti's Blessing": {
-      "name_fr": "Bénédiction d'Hekarti"
+    "Hidden": {
+      "name_fr": "Caché"
     },
     "High Elves": {
       "name_fr": "Hauts Elfes"
@@ -327,9 +330,6 @@
     "Multiple Wounds": {
       "name_fr": "Blessures Multiples"
     },
-    "Murderous": {
-      "name_fr": "Meurtriers"
-    },
     "Musician": {
       "name_fr": "Musicien"
     },
@@ -401,9 +401,6 @@
     },
     "Scouts": {
       "name_fr": "Éclaireurs"
-    },
-    "Sea Dragon Cloak": {
-      "name_fr": "Cape en peau de Dragon des mers"
     },
     "Shield": {
       "name_fr": "Bouclier"
@@ -528,14 +525,20 @@
     "Warp-spawned": {
       "name_fr": "Engeance du Warp"
     },
+    "Warpaint": {
+      "name_fr": "Peintures de Guerre"
+    },
     "Whip": {
       "name_fr": "Fouet"
     },
     "Whips": {
       "name_fr": "Fouets"
     },
+    "Wilful Beast": {
+      "name_fr": "Bête Capricieuse"
+    },
     "Writhing tentacles": {
-      "name_fr": "Tentacules frétillants"
+      "name_fr": "Tentacules sinueux"
     },
     "champion": {
       "name_fr": "champion"
@@ -543,8 +546,14 @@
     "if appropriately mounted": {
       "name_fr": "si monté"
     },
+    "if frenzied": {
+      "name_fr": "si frénétique"
+    },
     "light Armour": {
       "name_fr": "Armure légère"
+    },
+    "Two hand weapons": {
+      "name_fr": "Deux armes de base"
     },
     "light armour": {
       "name_fr": "Armure légère"
@@ -552,11 +561,23 @@
     "musician": {
       "name_fr": "musicien"
     },
+    "war machine": {
+      "name_fr": "machine de guerre"
+    },
+    "war machine chosen": {
+      "name_fr": "machine de guerre sélectionnée"
+    },
+    "war machines": {
+      "name_fr": "machines de guerre"
+    },
     "when mounted": {
       "name_fr": "si monté"
     }
   },
   "regex": {
+    "(\\d-\\d) (.*) per (\\d+) points": {
+      "name_fr": "$1 $2 par tranche de $3 points"
+    },
     "(\\d-\\d) per (\\d+) points": {
       "name_fr": "$1 par tranche de $2 points"
     },
