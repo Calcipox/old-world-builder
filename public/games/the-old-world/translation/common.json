@@ -135,7 +135,7 @@
     "Fiery breath": {
       "name_fr": "Souffle ardent"
     },
-    "Fight In Extra Rank": {
+    "Fight in Extra Rank": {
       "name_fr": "Combat Sur Plusieurs Rangs"
     },
     "Fire & Flee": {
@@ -237,7 +237,7 @@
     "Immovable Object": {
       "name_fr": "Objet Inébranlable"
     },
-    "Immune To Psychology": {
+    "Immune to Psychology": {
       "name_fr": "Immunisé à la Psychologie"
     },
     "Impact Hits": {
@@ -551,6 +551,12 @@
     },
     "champion": {
       "name_fr": "champion"
+    },
+    "claws and fangs": {
+      "name_fr": "griffes et crocs"
+    },
+    "claws and teeth": {
+      "name_fr": "griffes et crocs"
     },
     "if appropriately mounted": {
       "name_fr": "si monté"
