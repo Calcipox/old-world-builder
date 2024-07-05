@@ -1,0 +1,176 @@
+{
+  "direct": {
+    "Abominable Attacks": {
+      "name_fr": "Attaques Abominables"
+    },
+    "Assassin": {
+      "name_fr": "Assassin"
+    },
+    "Clanrats": {
+      "name_fr": "Guerriers des clans"
+    },
+    "Clawleader": {
+      "name_fr": "Grandes-griffes"
+    },
+    "Cloud of Flies": {
+      "name_fr": "Nuage de Mouches"
+    },
+    "Crushing Bulk": {
+      "name_fr": "Écrasement"
+    },
+    "Doom-flayer": {
+      "name_fr": "Ratasphère"
+    },
+    "Doomwheel": {
+      "name_fr": "Roue Infernale"
+    },
+    "Eshin Infiltration": {
+      "name_fr": "Infiltration Eshin"
+    },
+    "Fangleader": {
+      "name_fr": "Grandes-dents"
+    },
+    "Giant Rats": {
+      "name_fr": "Rats Géants"
+    },
+    "Grey Seer": {
+      "name_fr": "Prophète Gris"
+    },
+    "Gutter Runners": {
+      "name_fr": "Coureurs d'Égouts"
+    },
+    "Hell Pit Abomination": {
+      "name_fr": "Abomination de Malefosse"
+    },
+    "Lore of the Horned Rat": {
+      "name_fr": "Domaine du Rat Cornu"
+    },
+    "Master Assassin": {
+      "name_fr": "Maître Assassin"
+    },
+    "Master Moulder": {
+      "name_fr": "Maîtres corrupteurs"
+    },
+    "Night Runners": {
+      "name_fr": "Coureurs Nocturnes"
+    },
+    "Nightleader": {
+      "name_fr": "Grande-cape"
+    },
+    "Packmaster": {
+      "name_fr": "Chef de meute"
+    },
+    "Pavise": {
+      "name_fr": "Pavois"
+    },
+    "Plague Censer Bearers": {
+      "name_fr": "Encenseurs à Peste"
+    },
+    "Plague Deacon": {
+      "name_fr": "Diacre de la Peste"
+    },
+    "Plague Furnace": {
+      "name_fr": "Creuset de la Peste"
+    },
+    "Plague Monks": {
+      "name_fr": "Moines de la Peste"
+    },
+    "Plague Priest": {
+      "name_fr": "Prêtre de la Peste"
+    },
+    "Plague censer": {
+      "name_fr": "Encensoir à Peste"
+    },
+    "Plague censers": {
+      "name_fr": "Encensoirs à Peste"
+    },
+    "Plagueclaw Catapult": {
+      "name_fr": "Catapulte de la Peste"
+    },
+    "Poisoned Wind Globadiers": {
+      "name_fr": "Globadiers"
+    },
+    "Poisoned Wind Mortar": {
+      "name_fr": "Mortier à Globes Toxiques"
+    },
+    "Poisoned Wind globes": {
+      "name_fr": "Globes de Vent Empoisonné"
+    },
+    "Rat Ogres": {
+      "name_fr": "Rat-ogres"
+    },
+    "Rat Swarms": {
+      "name_fr": "Nuées de rats"
+    },
+    "Ratling Gun": {
+      "name_fr": "Mitrailleuse Ratling"
+    },
+    "Rats only": {
+      "name_fr": "Rats uniquement"
+    },
+    "Safe from Harm": {
+      "name_fr": "À l'Abri du Danger"
+    },
+    "Screaming Bell": {
+      "name_fr": "Cloche Hurlante"
+    },
+    "Scurry Away": {
+      "name_fr": "Sauve qui Peut !"
+    },
+    "Skaven Chieftain": {
+      "name_fr": "Chef Skaven"
+    },
+    "Skaven Warlord": {
+      "name_fr": "Seigneur de Guerre"
+    },
+    "Stormvermin": {
+      "name_fr": "Vermines de choc"
+    },
+    "Too Horrible to Die": {
+      "name_fr": "Trop Horrible pour Mourir"
+    },
+    "Verminous Valour": {
+      "name_fr": "Courageux mais pas Téméraire"
+    },
+    "Warlock Engineer": {
+      "name_fr": "Technomage"
+    },
+    "Warp Grinder": {
+      "name_fr": "Foreuse à Malepierre"
+    },
+    "Warp Lightning Cannon": {
+      "name_fr": "Canon à Malefoudre"
+    },
+    "Warpfire Thrower": {
+      "name_fr": "Lance-Feu"
+    },
+    "Warplock Jezzails": {
+      "name_fr": "Jezzails"
+    },
+    "Warplock jezzails": {
+      "name_fr": "Jezzails"
+    },
+    "Warplock musket": {
+      "name_fr": "Mousquet à Malepierre"
+    },
+    "Warplock pistol": {
+      "name_fr": "Pistolet à Malepierre"
+    },
+    "Warpstone Tokens": {
+      "name_fr": "Fragments de Malepierre"
+    },
+    "Warpstone Weapons": {
+      "name_fr": "Armes à base de Malepierre"
+    },
+    "Warpstone claws": {
+      "name_fr": "Griffes de Malepierre"
+    },
+    "Weapon Team": {
+      "name_fr": "Équipes d'armes"
+    },
+    "Zzzzap!": {
+      "name_fr": "Zzzzap!"
+    }
+  },
+  "regex": {}
+}
