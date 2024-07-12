@@ -1314,8 +1314,16 @@ export const Unit = ({ isMobile, previewData = {} }) => {
                 if (
                   lore === "troll-magic" &&
                   list.armyComposition !== "troll-horde" &&
+                  unit.items
+                    .find((items) => items.name_en === "Magic Items")
+                    ?.selected.find(
+                      (item) => item.name_en === "Da Hag's Brew"
+                    ) === undefined &&
                   index !== 0
                 ) {
+                  if (unit.activeLore === "troll-magic") {
+                    handleLoresChange(unit.lores[0]);
+                  }
                   return false;
                 }
                 return true;
@@ -1428,10 +1436,10 @@ export const Unit = ({ isMobile, previewData = {} }) => {
         <label htmlFor="customNote">
           <FormattedMessage id="unit.customNote" />
         </label>
-        <input
-          type="text"
+        <textarea
           id="customNote"
-          className="input"
+          className="input textarea"
+          rows="2"
           value={unit.customNote || ""}
           onChange={handleCustomNoteChange}
           autoComplete="off"
