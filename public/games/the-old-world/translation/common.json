@@ -710,11 +710,20 @@
     }
   },
   "regex": {
+    "([\\w\\s-]+) only": {
+      "name_fr": "$1 uniquement"
+    },
+    "([\\w\\s-]+) or ([\\w\\s-]+) per (\\d+) points(.*)": {
+      "name_fr": "$1 ou $2 par tranche de $3 points$4"
+    },
     "(\\d-\\d) (.*) or (.*) per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 par tranche de $4 points"
     },
     "(\\d-\\d) (.*) per (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points"
+    },
+    "(\\d-\\d) (\\w+)": {
+      "name_fr": "$1 $2"
     },
     "(\\d-\\d) or (.*)": {
       "name_fr": "$1 ou $2"
@@ -725,8 +734,11 @@
     "(\\d-\\d) per unit of (.*)": {
       "name_fr": "$1 par unité de $2"
     },
+    "(\\d\\+) (.*)": {
+      "name_fr": "$1 $2"
+    },
     "(\\w+ \\w+) and (\\w+ \\w+)": {
-      "name_fr": "$1 and $2"
+      "name_fr": "$1 et $2"
     },
     "Level (\\d) Wizard": {
       "name_fr": "Sorcier de Niveau $1"

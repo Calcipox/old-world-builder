@@ -1,5 +1,8 @@
 {
   "direct": {
+    "+remaining Wounds": {
+      "name_fr": "+PV restants"
+    },
     "Abyssal Howl": {
       "name_fr": "Hurlement Abyssal"
     },

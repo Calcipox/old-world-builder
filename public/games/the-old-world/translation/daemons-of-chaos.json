@@ -1,0 +1,321 @@
+{
+  "direct": {
+    "Alluress": {
+      "name_fr": "Tentatrice"
+    },
+    "Attention Seeker": {
+      "name_fr": "En Quête d'Attention"
+    },
+    "Baleful torrent": {
+      "name_fr": "Torrent de sang brûlant"
+    },
+    "Beasts of Nurgle": {
+      "name_fr": "Bêtes de Nurgle"
+    },
+    "Bilesword": {
+      "name_fr": "Épée bilieuse"
+    },
+    "Blood Throne of Khorne": {
+      "name_fr": "Trône de Sang de Khorne"
+    },
+    "Bloodcrushers": {
+      "name_fr": "Équarrisseurs"
+    },
+    "Bloodcrushers of Khorne": {
+      "name_fr": "Équarrisseurs de Khorne"
+    },
+    "Bloodflail": {
+      "name_fr": "Fléau de Sang"
+    },
+    "Bloodletters of Khorne": {
+      "name_fr": "Sanguinaires de Khorne"
+    },
+    "Bloodreaper": {
+      "name_fr": "Massacreur"
+    },
+    "Bloodthirster": {
+      "name_fr": "Buveur de Sang"
+    },
+    "Blue Horrors of Tzeentch": {
+      "name_fr": "Horreurs Bleues de Tzeentch"
+    },
+    "Brass bound hooves": {
+      "name_fr": "Sabots sertis d'airain"
+    },
+    "Brazen Wheels": {
+      "name_fr": "Roues d'airain"
+    },
+    "Brazen wheels": {
+      "name_fr": "Roues d'airain"
+    },
+    "Brimstone Horrors of Tzeentch": {
+      "name_fr": "Horreurs Sulfureuses de Tzeentch"
+    },
+    "Burning Chariot of Tzeentch": {
+      "name_fr": "Char Incendiaire de Tzeentch"
+    },
+    "Cannon of Khorne": {
+      "name_fr": "Canon de Khorne"
+    },
+    "Chaos Furies": {
+      "name_fr": "Gargouilles du Chaos"
+    },
+    "Chariot of Tzeentch": {
+      "name_fr": "Char de Tzeentch"
+    },
+    "Daemon Prince": {
+      "name_fr": "Prince Démon"
+    },
+    "Daemonettes of Slaanesh": {
+      "name_fr": "Démonettes de Slaanesh"
+    },
+    "Daemonic": {
+      "name_fr": "Démoniaque"
+    },
+    "Daemonic Charge": {
+      "name_fr": "Charge Démoniaque"
+    },
+    "Daemonic Gifts": {
+      "name_fr": "Dons Démoniaques"
+    },
+    "Daemonic Herald": {
+      "name_fr": "Héraut Démoniaque"
+    },
+    "Daemonic Locus": {
+      "name_fr": "Locus Démoniaque"
+    },
+    "Daemonic flesh": {
+      "name_fr": "Chair démoniaque"
+    },
+    "Daemonic talons": {
+      "name_fr": "Serres démoniaques"
+    },
+    "Death's heads": {
+      "name_fr": "Têtes de morts"
+    },
+    "Disc of Tzeentch": {
+      "name_fr": "Disque de Tzeentch"
+    },
+    "Ectoplasmic Horror": {
+      "name_fr": "Horreur Ectoplasmique"
+    },
+    "Ensorcelled weapon": {
+      "name_fr": "Arme ensorcelée"
+    },
+    "Exalted Flamer": {
+      "name_fr": "Incendiaire Exalté"
+    },
+    "Exalted Seeker Chariot of Slaanesh": {
+      "name_fr": "Char Traqueur Exalté"
+    },
+    "Fiends": {
+      "name_fr": "les Bêtes"
+    },
+    "Fiends of Slaanesh": {
+      "name_fr": "Bêtes de Slaanesh"
+    },
+    "Flamers": {
+      "name_fr": "Incendiaires"
+    },
+    "Flamers of Tzeentch": {
+      "name_fr": "Incendiaires de Tzeentch"
+    },
+    "Flames of Tzeentch": {
+      "name_fr": "Flammes de Tzeentch"
+    },
+    "Flesh Hounds of Khorne": {
+      "name_fr": "Chiens de Khorne"
+    },
+    "Great Unclean One": {
+      "name_fr": "Grand Immonde"
+    },
+    "Great axe": {
+      "name_fr": "Grande Hache"
+    },
+    "Harvester cannon": {
+      "name_fr": "Canon moissonneur"
+    },
+    "Heartseeker": {
+      "name_fr": "Accroche-cœur"
+    },
+    "Hellblade": {
+      "name_fr": "Lame Infernale"
+    },
+    "Hellblades": {
+      "name_fr": "Lames Infernales"
+    },
+    "Hellflayer of Slaanesh": {
+      "name_fr": "Char Écorcheur de Slaanesh"
+    },
+    "Hellflayers": {
+      "name_fr": "Chars Écorcheurs"
+    },
+    "Impaling claws": {
+      "name_fr": "Pinces empaleuses"
+    },
+    "Infernal Favour": {
+      "name_fr": "Faveur Infernale"
+    },
+    "Iridescent Horror": {
+      "name_fr": "Horreur Iridescente"
+    },
+    "Iron claw": {
+      "name_fr": "Griffe de fer"
+    },
+    "Juggernaut of Khorne": {
+      "name_fr": "Juggernaut de Khorne"
+    },
+    "Keeper of Secrets": {
+      "name_fr": "Gardien des Secrets"
+    },
+    "Lamprey's bite": {
+      "name_fr": "Morsure de lamproie"
+    },
+    "Lash of Khorne": {
+      "name_fr": "Fouet de Khorne"
+    },
+    "Lord of Change": {
+      "name_fr": "Duc du Changement"
+    },
+    "Lore of Daemons": {
+      "name_fr": "Domaine des Démons"
+    },
+    "Palanquin of Nurgle": {
+      "name_fr": "Palanquin de Nurgle"
+    },
+    "Piercing claws": {
+      "name_fr": "Pinces perforantes"
+    },
+    "Pink Horrors of Tzeentch": {
+      "name_fr": "Horreurs Roses de Tzeentch"
+    },
+    "Plague Drones": {
+      "name_fr": "Drones de la Peste"
+    },
+    "Plague Drones of Nurgle": {
+      "name_fr": "Drones de la Peste de Nurgle"
+    },
+    "Plague Proboscis": {
+      "name_fr": "Proboscis à pus"
+    },
+    "Plaguebearers of Nurgle": {
+      "name_fr": "Portepestes de Nurgle"
+    },
+    "Plagueflail": {
+      "name_fr": "Fléau pestilentiel"
+    },
+    "Plagueridden": {
+      "name_fr": "Pouacre"
+    },
+    "Plaguesword": {
+      "name_fr": "Épée pestilentielle"
+    },
+    "Plagueswords": {
+      "name_fr": "Épées pestilentielles"
+    },
+    "Pyroclaster": {
+      "name_fr": "Pyrobole"
+    },
+    "Rot Fly": {
+      "name_fr": "Mouche à Peste"
+    },
+    "Scintillating Sorcery": {
+      "name_fr": "Sorcellerie Scintillante"
+    },
+    "Screamers": {
+      "name_fr": "Hurleurs"
+    },
+    "Screamers of Tzeentch": {
+      "name_fr": "Hurleurs de Tzeentch"
+    },
+    "Seeker Chariot of Slaanesh": {
+      "name_fr": "Char Traqueur de Slaanesh"
+    },
+    "Seeker Chariots": {
+      "name_fr": "Chars Traqueurs"
+    },
+    "Seekers of Slaanesh": {
+      "name_fr": "Veneuses de Slaanesh"
+    },
+    "Skull Cannon of Khorne": {
+      "name_fr": "Canon à Crânes de Khorne"
+    },
+    "Slashing Attack": {
+      "name_fr": "Attaque au Passage"
+    },
+    "Slime Trail": {
+      "name_fr": "Trainée de bave"
+    },
+    "Soporific Musk": {
+      "name_fr": "Musc Soporifique"
+    },
+    "Soul Grinder": {
+      "name_fr": "Broyeur d'Âme"
+    },
+    "Staff of Tzeentch": {
+      "name_fr": "Bâton de Tzeentch"
+    },
+    "Steed of Slaanesh": {
+      "name_fr": "Monture de Slaanesh"
+    },
+    "Tzeentchian Wand": {
+      "name_fr": "Baguette de Tzeentch"
+    },
+    "Venom sting": {
+      "name_fr": "Dard venimeux"
+    },
+    "Venomous tail": {
+      "name_fr": "Queue venimeuse"
+    },
+    "Warp gaze": {
+      "name_fr": "Regard corrupteur"
+    },
+    "Warpflame": {
+      "name_fr": "Feu mutant"
+    },
+    "brazen hide": {
+      "name_fr": "peau d'airain"
+    },
+    "calloused hides": {
+      "name_fr": "cuir calleux"
+    },
+    "filth-encrusted claws": {
+      "name_fr": "griffes encroûtées de crasse"
+    },
+    "scything blades": {
+      "name_fr": "faux"
+    }
+  },
+  "regex": {
+    "([\\w\\s]+) and ([\\w\\s]+) may be taken as Special choices": {
+      "name_fr": "les $1 et les $2 peuvent être pris comme choix Spécial"
+    },
+    "([\\w\\s]+) may be taken as Special choices": {
+      "name_fr": "les $1 peuvent être pris comme choix Spécial"
+    },
+    "(\\d) - ([\\w\\s]+)": {
+      "name_fr": "$1 - $2"
+    },
+    "(\\d) - ([\\w\\s]+) only": {
+      "name_fr": "$1 - $2 uniquement"
+    },
+    "(\\d-\\d) ([\\w\\s]+) of ([\\w\\s]+) per unit with the same Daemonic Alignment": {
+      "name_fr": "$1 $2 de $3 par unité du même Alignement Démoniaque"
+    },
+    "(\\d-\\d) Greater Daemon \\(of Khorne, Nurgle, Slaanesh or Tzeentch\\)": {
+      "name_fr": "$1 Démon Majeur (de Khorne, Nurgle, Slaanesh ou Tzeentch)"
+    },
+    "Daemon of ([\\w\\s]+)": {
+      "name_fr": "Démon de $1"
+    },
+    "Daemonic Herald of ([\\w\\s]+)": {
+      "name_fr": "Héraut Démoniaque de $1"
+    },
+    "Daemons of ([\\w\\s]+)": {
+      "name_fr": "Démons de $1"
+    },
+    "If your General is a Daemon of ([\\w\\s]+)": {
+      "name_fr": "Si votre Général est un Démon de $1"
+    }
+  }
+}
