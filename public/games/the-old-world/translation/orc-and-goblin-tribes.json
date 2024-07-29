@@ -9,20 +9,11 @@
     "Bully": {
       "name_fr": "Brute"
     },
-    "Choppas": {
-      "name_fr": "Kikoup'"
-    },
-    "Da Boyz": {
-      "name_fr": "Lé Boyz"
-    },
     "Doom Diver": {
       "name_fr": "Plongeur de la Mort"
     },
     "Ignore Goblin Panic": {
       "name_fr": "Ignore la Panique des Gobelins"
-    },
-    "Ignore Panic": {
-      "name_fr": "Ignore la Panique"
     },
     "Ker-splat": {
       "name_fr": "Sproutch"
@@ -39,9 +30,6 @@
     "Netters": {
       "name_fr": "Rétiaires"
     },
-    "Quell Impetuosity": {
-      "name_fr": "Calme l'Impétuosité"
-    },
     "Release the Fanatics!": {
       "name_fr": "Lâchez les Fanatiques!"
     },
@@ -56,9 +44,6 @@
     },
     "Tusker Charge": {
       "name_fr": "Charge de Sanglier"
-    },
-    "Waaagh!": {
-      "name_fr": "Waaagh!"
     }
   },
   "regex": {}

@@ -1,13 +1,31 @@
 {
   "direct": {
+    "1 - Razorgor only": {
+      "name_fr": "1 - Razorgor seulement"
+    },
+    "Acidic vomit": {
+      "name_fr": "Vomi acide"
+    },
+    "Beastlord": {
+      "name_fr": "Seigneur des Bêtes"
+    },
     "Bestial Charge": {
       "name_fr": "Charge Bestiale"
+    },
+    "Bestigor Herd": {
+      "name_fr": "Harde de Bestigor"
     },
     "Blood Greed": {
       "name_fr": "Soif de Sang"
     },
     "Blood Rage": {
       "name_fr": "Rage Sanguinaire"
+    },
+    "Bloodkine": {
+      "name_fr": "Sangor"
+    },
+    "Bray-Shaman": {
+      "name_fr": "Braillechaman"
     },
     "Brayhorn": {
       "name_fr": "Braillecorne"
@@ -17,6 +35,27 @@
     },
     "Bull-gors": {
       "name_fr": "Taurogors"
+    },
+    "Centigor Herd": {
+      "name_fr": "Harde de Centigor"
+    },
+    "Cleaver-limbs": {
+      "name_fr": "Membres-hachoirs"
+    },
+    "Cockatrice": {
+      "name_fr": "Cockatrice"
+    },
+    "Cygor": {
+      "name_fr": "Cygor"
+    },
+    "Doombull": {
+      "name_fr": "Doombull"
+    },
+    "Dragon Ogre Shaggoth": {
+      "name_fr": "Shaggoth Dragon Ogre"
+    },
+    "Dragon Ogres": {
+      "name_fr": "Dragons Ogres"
     },
     "Drunken": {
       "name_fr": "Ivres"
@@ -30,8 +69,41 @@
     "Gaze of the Gods": {
       "name_fr": "Regard des Dieux"
     },
+    "Ghorgon": {
+      "name_fr": "Ghorgon"
+    },
     "Ghostsight": {
       "name_fr": "Vue Spirituelle"
+    },
+    "Giant's club": {
+      "name_fr": "Massue de Géant"
+    },
+    "Gor Herd": {
+      "name_fr": "Harde de Gor"
+    },
+    "Gorebull": {
+      "name_fr": "Gorebull"
+    },
+    "Gorehoof": {
+      "name_fr": "Éventreur"
+    },
+    "Gouge-horn": {
+      "name_fr": "Encorneur"
+    },
+    "Great Bray-Shaman": {
+      "name_fr": "Grand Braillechamane"
+    },
+    "Half-horn": {
+      "name_fr": "Mi-corne"
+    },
+    "Harpies": {
+      "name_fr": "Harpies"
+    },
+    "Hurl attack": {
+      "name_fr": "Jet de roc"
+    },
+    "Jabberslythe": {
+      "name_fr": "Jabberslythe"
     },
     "Lore of Beasts": {
       "name_fr": "Domaine des Bêtes"
@@ -42,11 +114,26 @@
     "Mark of Chaos Undivided": {
       "name_fr": "Marque du Chaos Universel"
     },
+    "Minotaur Herd": {
+      "name_fr": "Harde de Minotaure"
+    },
     "Primal Fury": {
       "name_fr": "Fureur Primale"
     },
     "Razor Tusks": {
       "name_fr": "Défenses Acérées"
+    },
+    "Razorgor Chariot": {
+      "name_fr": "Char à Razorgors"
+    },
+    "Razorgor Herd": {
+      "name_fr": "Harde de Razorgor"
+    },
+    "Razorgor only": {
+      "name_fr": "Razorgor seulement"
+    },
+    "Shartak": {
+      "name_fr": "Shartak"
     },
     "Slaughterer's Call": {
       "name_fr": "Appel du Massacreur"
@@ -65,11 +152,56 @@
     },
     "Swallow Whole": {
       "name_fr": "Avaler Tout Rond"
+    },
+    "True-horn": {
+      "name_fr": "Pure-corne"
+    },
+    "Tuskgor": {
+      "name_fr": "Sanglebouc"
+    },
+    "Tuskgor Chariot": {
+      "name_fr": "Char à Sangleboucs"
+    },
+    "Ungor Herd": {
+      "name_fr": "Harde d'Ungor"
+    },
+    "Wargor": {
+      "name_fr": "Wargor"
+    },
+    "Warhoof": {
+      "name_fr": "Sabot-guerrier"
+    },
+    "Wicked claws and slythey tongue": {
+      "name_fr": "Griffes cruelles et langue protractile"
+    },
+    "for Shartak": {
+      "name_fr": "pour Shartak"
     }
   },
   "regex": {
+    "(.*) Crew x 1 - (.*)": {
+      "name_fr": "Aurige $1 x 1 - $2"
+    },
+    "(.*) Crew x 1 - (.*) and (.*)": {
+      "name_fr": "Aurige $1 x 1 - $2 et $3"
+    },
+    "(.*) x 2 - (.*)": {
+      "name_fr": "$1 x 2 - $2"
+    },
+    "(\\d-\\d) if General is (.*) or (.*)": {
+      "name_fr": "$1 si votre général est un $2 ou un $3"
+    },
     "Mark of (\\w+)": {
       "name_fr": "Marque de $1"
+    },
+    "Razorgor x 1 - (.*)": {
+      "name_fr": "Razorgor x 1 - $1"
+    },
+    "Replace (.*) with (.*)": {
+      "name_fr": "Remplacer $1 par $2"
+    },
+    "excludes (.*)": {
+      "name_fr": "à la place des $1"
     }
   }
 }

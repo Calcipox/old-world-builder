@@ -27,8 +27,26 @@
     "Beguiling Aura": {
       "name_fr": "Aura Envoûtante"
     },
+    "Black Orc Bigboss": {
+      "name_fr": "Grand Chef Orque Noir"
+    },
+    "Black Orc Mob": {
+      "name_fr": "Bandes d'Orques Noirs"
+    },
+    "Black Orc Warboss": {
+      "name_fr": "Chef de Guerre Orque Noir"
+    },
+    "Boar Chariot": {
+      "name_fr": "Char à Sangliers"
+    },
     "Bolt Thrower": {
       "name_fr": "Baliste"
+    },
+    "Bolt thrower": {
+      "name_fr": "Baliste"
+    },
+    "Boss": {
+      "name_fr": "Chef"
     },
     "Brace of Pistols": {
       "name_fr": "Plusieurs Pistolets"
@@ -42,6 +60,9 @@
     "Breath Weapon": {
       "name_fr": "Arme à Souffle"
     },
+    "Caged Fury": {
+      "name_fr": "Fureur Entravée"
+    },
     "Calloused hide": {
       "name_fr": "Peau calleuse"
     },
@@ -52,19 +73,49 @@
       "name_fr": "Canon"
     },
     "Cavalry spear": {
-      "name_fr": "Lance de Cavalerie"
+      "name_fr": "Lance de cavalerie"
     },
     "Cavalry spears": {
-      "name_fr": "Lances de Cavalerie"
+      "name_fr": "Lances de cavalerie"
+    },
+    "Champion": {
+      "name_fr": "Champion"
     },
     "Chaos Armour": {
       "name_fr": "Armure du Chaos"
     },
+    "Chaos Giant": {
+      "name_fr": "Géant du Chaos"
+    },
+    "Chaos Mutations": {
+      "name_fr": "Mutations du Chaos"
+    },
+    "Chaos Ogres": {
+      "name_fr": "Ogres du Chaos"
+    },
+    "Chaos Spawn": {
+      "name_fr": "Rejetons du Chaos"
+    },
+    "Chaos Trolls": {
+      "name_fr": "Trolls du Chaos"
+    },
+    "Chaos Warhounds": {
+      "name_fr": "Chiens du Chaos"
+    },
     "Chariot Runners": {
       "name_fr": "Escorteurs de Chars"
     },
+    "Choppas": {
+      "name_fr": "Kikoup'"
+    },
     "Claws": {
       "name_fr": "Griffes"
+    },
+    "Claws and fangs": {
+      "name_fr": "Griffes et crocs"
+    },
+    "Claws and teeth": {
+      "name_fr": "Griffes et crocs"
     },
     "Cleaving Blow": {
       "name_fr": "Coup de Fendoir"
@@ -84,6 +135,9 @@
     "Cumbersome": {
       "name_fr": "Encombrant"
     },
+    "Da Boyz": {
+      "name_fr": "Lé Boyz"
+    },
     "Daemonology": {
       "name_fr": "Démonisme"
     },
@@ -92,6 +146,9 @@
     },
     "Detachment": {
       "name_fr": "Détachement"
+    },
+    "Doomfire": {
+      "name_fr": "Feu Infernal"
     },
     "Dragged Along": {
       "name_fr": "Tracté"
@@ -110,6 +167,9 @@
     },
     "Elves": {
       "name_fr": "Elfes"
+    },
+    "Ensorcelled Weapons": {
+      "name_fr": "Armes Ensorcelées"
     },
     "Ethereal": {
       "name_fr": "Ethéré"
@@ -174,6 +234,9 @@
     "General": {
       "name_fr": "Général"
     },
+    "General Only": {
+      "name_fr": "Général Uniquement"
+    },
     "Giant Attacks": {
       "name_fr": "Attaques de Géant"
     },
@@ -210,6 +273,9 @@
     "Heavy armour": {
       "name_fr": "Armure lourde"
     },
+    "Hellcannon": {
+      "name_fr": "Canon Apocalypse"
+    },
     "Hidden": {
       "name_fr": "Caché"
     },
@@ -227,6 +293,9 @@
     },
     "Howdah": {
       "name_fr": "Howdah"
+    },
+    "Ignore Panic": {
+      "name_fr": "Ignore la Panique"
     },
     "Ignores Cover": {
       "name_fr": "Ignore les Couverts"
@@ -345,6 +414,9 @@
     "No armour": {
       "name_fr": "Pas d'Armure"
     },
+    "Ogre Charge": {
+      "name_fr": "Charge Ogre"
+    },
     "On foot": {
       "name_fr": "À Pied"
     },
@@ -353,6 +425,9 @@
     },
     "Orcs & Goblins": {
       "name_fr": "Orques & Gobelins"
+    },
+    "Petrifying gaze": {
+      "name_fr": "Regard pétrificateur"
     },
     "Pick Up And...": {
       "name_fr": "Ramassage"
@@ -365,6 +440,9 @@
     },
     "Ponderous": {
       "name_fr": "Incommode"
+    },
+    "Quell Impetuosity": {
+      "name_fr": "Calme l'Impétuosité"
     },
     "Quick Shot": {
       "name_fr": "Tir Rapide"
@@ -404,6 +482,12 @@
     },
     "Reserve Move": {
       "name_fr": "Mouvement de Réserve"
+    },
+    "Resolute": {
+      "name_fr": "Résolu"
+    },
+    "Scaly skin": {
+      "name_fr": "Peau écailleuse"
     },
     "Scouts": {
       "name_fr": "Éclaireurs"
@@ -465,20 +549,20 @@
     "The Quickening Storm": {
       "name_fr": "Orage Revitalisant"
     },
-    "Throwing Axe": {
-      "name_fr": "Hache de lancer"
-    },
-    "Throwing Axes": {
-      "name_fr": "Haches de lancer"
-    },
-    "Throwing Spear": {
-      "name_fr": "Javelot"
+    "Third Orc crew member": {
+      "name_fr": "Troisième Aurige Orque"
     },
     "Throwing axe": {
       "name_fr": "Hache de lancer"
     },
     "Throwing axes": {
       "name_fr": "Haches de lancer"
+    },
+    "Throwing spear": {
+      "name_fr": "Javelot"
+    },
+    "Throwing spears": {
+      "name_fr": "Javelots"
     },
     "Throwing weapon": {
       "name_fr": "Arme de lancer"
@@ -501,11 +585,17 @@
     "Timmm-berrr!": {
       "name_fr": "Timmm-berrr!"
     },
+    "Tusks": {
+      "name_fr": "Défenses"
+    },
     "Two hand weapons": {
       "name_fr": "Deux armes de base"
     },
     "Unbreakable": {
       "name_fr": "Indémoralisable"
+    },
+    "Undivided": {
+      "name_fr": "Universel"
     },
     "Unstable": {
       "name_fr": "Instables"
@@ -519,8 +609,14 @@
     "Volley Fire": {
       "name_fr": "Tir de Volée"
     },
+    "Waaagh!": {
+      "name_fr": "Waaagh!"
+    },
     "Waaagh! Magic": {
       "name_fr": "Magie Waaagh!"
+    },
+    "War Boar": {
+      "name_fr": "Sanglier"
     },
     "Warband": {
       "name_fr": "Bande de Guerre"
@@ -549,20 +645,32 @@
     "Writhing tentacles": {
       "name_fr": "Tentacules sinueux"
     },
+    "Wyvern": {
+      "name_fr": "Vouivre"
+    },
+    "calloused hide": {
+      "name_fr": "peau calleuse"
+    },
+    "cavalry spear": {
+      "name_fr": "lance de cavalerie"
+    },
     "champion": {
       "name_fr": "champion"
     },
-    "claws and fangs": {
-      "name_fr": "griffes et crocs"
+    "claws": {
+      "name_fr": "griffes"
     },
-    "claws and teeth": {
-      "name_fr": "griffes et crocs"
+    "flailing appendages": {
+      "name_fr": "appendices fouettards"
     },
     "if appropriately mounted": {
       "name_fr": "si monté"
     },
     "if frenzied": {
       "name_fr": "si frénétique"
+    },
+    "javelins": {
+      "name_fr": "javelines"
     },
     "light Armour": {
       "name_fr": "Armure légère"
@@ -572,6 +680,21 @@
     },
     "musician": {
       "name_fr": "musicien"
+    },
+    "only select one": {
+      "name_fr": "sélectionnez-en un seul"
+    },
+    "scaly skin": {
+      "name_fr": "peau écailleuse"
+    },
+    "throwing axes": {
+      "name_fr": "haches de lancer"
+    },
+    "tusks": {
+      "name_fr": "défenses"
+    },
+    "unit": {
+      "name_fr": "unité"
     },
     "war machine": {
       "name_fr": "machine de guerre"
@@ -587,20 +710,32 @@
     }
   },
   "regex": {
+    "(\\d-\\d) (.*) or (.*) per (\\d+) points": {
+      "name_fr": "$1 $2 ou $3 par tranche de $4 points"
+    },
     "(\\d-\\d) (.*) per (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points"
+    },
+    "(\\d-\\d) or (.*)": {
+      "name_fr": "$1 ou $2"
     },
     "(\\d-\\d) per (\\d+) points": {
       "name_fr": "$1 par tranche de $2 points"
     },
-    "(\\d-\\d) unit per (\\d+) points": {
-      "name_fr": "$1 unité par tranche de $2 points"
+    "(\\d-\\d) per unit of (.*)": {
+      "name_fr": "$1 par unité de $2"
+    },
+    "(\\w+ \\w+) and (\\w+ \\w+)": {
+      "name_fr": "$1 and $2"
     },
     "Level (\\d) Wizard": {
       "name_fr": "Sorcier de Niveau $1"
     },
     "Level (\\d) \\(or (\\d)\\) Wizard": {
       "name_fr": "Sorcier de Niveau $1 (ou $2)"
+    },
+    "Spawn of (\\w+)": {
+      "name_fr": "Rejeton de $1"
     }
   }
 }

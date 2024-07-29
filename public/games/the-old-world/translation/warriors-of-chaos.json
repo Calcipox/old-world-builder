@@ -1,11 +1,5 @@
 {
   "direct": {
-    "Caged Fury": {
-      "name_fr": "Fureur Entravée"
-    },
-    "Ensorcelled Weapons": {
-      "name_fr": "Armes Ensorcelées"
-    },
     "Gaze of the Gods": {
       "name_fr": "Regard des Dieux"
     },
@@ -31,9 +25,6 @@
   "regex": {
     "Mark of (\\w+)": {
       "name_fr": "Marque de $1"
-    },
-    "Spawn of (\\w+)": {
-      "name_fr": "Rejeton de $1"
     }
   }
 }

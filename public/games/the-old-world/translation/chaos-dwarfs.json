@@ -1,0 +1,180 @@
+{
+  "direct": {
+    "Ba'hal": {
+      "name_fr": "Ba'hal"
+    },
+    "Backstab": {
+      "name_fr": "Coup en Traître"
+    },
+    "Bale Taurus": {
+      "name_fr": "Sombre Taurus"
+    },
+    "Blackshard Armour": {
+      "name_fr": "Armure Sombréclat"
+    },
+    "Blazing Body": {
+      "name_fr": "Corps Embrasé"
+    },
+    "Blood of Hashut": {
+      "name_fr": "Sang d’Hashut"
+    },
+    "Bull Centaur Renders": {
+      "name_fr": "Hacheurs Centaures-Taureaux"
+    },
+    "Bull Centaur Taur'ruk": {
+      "name_fr": "Taur’ruk Centaure-Taureau"
+    },
+    "Carriage Hauler": {
+      "name_fr": "Train d’Artillerie"
+    },
+    "Daemonsmith Sorcerer": {
+      "name_fr": "Forgeron-Démoniste"
+    },
+    "Darkforged weapon": {
+      "name_fr": "Arme de Sombreforge"
+    },
+    "Deathmask": {
+      "name_fr": "Masque de Mort"
+    },
+    "Deathshrieker Rocket Launcher": {
+      "name_fr": "Lance-Fusées Hurlemort"
+    },
+    "Demolition Rockets": {
+      "name_fr": "Fusées de Démolition"
+    },
+    "Dreadquake Mortar": {
+      "name_fr": "Mortier Trembleffroi"
+    },
+    "Fire thrower": {
+      "name_fr": "Lance-flamme"
+    },
+    "Fireglaive": {
+      "name_fr": "Glaive Ardent"
+    },
+    "Fireglaives": {
+      "name_fr": "Glaive Ardents"
+    },
+    "Giant Wolf": {
+      "name_fr": "Loup Géant"
+    },
+    "Great Taurus": {
+      "name_fr": "Grand Taurus"
+    },
+    "Grinding Wheels": {
+      "name_fr": "Roues de Broyage"
+    },
+    "Hailshot blunderbuss": {
+      "name_fr": "Tromblon Grêle-de-Tir"
+    },
+    "Hellbound": {
+      "name_fr": "Possédé"
+    },
+    "Hobgoblin Bolt Thrower": {
+      "name_fr": "Baliste Hobgobeline"
+    },
+    "Hobgoblin Cutthroats": {
+      "name_fr": "Coupe-jarrets Hobgobelins"
+    },
+    "Hobgoblin Khan": {
+      "name_fr": "Khan Hobgobelin"
+    },
+    "Hobgoblin Wolf Riders": {
+      "name_fr": "Chevaucheurs de Loups Hobgobelins"
+    },
+    "Infernal Castellan": {
+      "name_fr": "Châtelain Infernal"
+    },
+    "Infernal Engineer": {
+      "name_fr": "Ingénieur Infernal"
+    },
+    "Infernal Guard": {
+      "name_fr": "Garde Infernale"
+    },
+    "Infernal Incendiaries": {
+      "name_fr": "Fusées Incendiaires Infernales"
+    },
+    "Infernal Ironsworn": {
+      "name_fr": "Jurefers Infernaux"
+    },
+    "Infernal Seneschal": {
+      "name_fr": "Sénéchal Infernal"
+    },
+    "Iron Daemon": {
+      "name_fr": "Démon d’Acier"
+    },
+    "K'daai Fireborn": {
+      "name_fr": "K'daai Rejetons de Feu"
+    },
+    "Lammasu": {
+      "name_fr": "Lammasu"
+    },
+    "Lore of Hashut": {
+      "name_fr": "Domaine d’Hashut"
+    },
+    "Lumbering Destruction": {
+      "name_fr": "Destruction Inexorable"
+    },
+    "Mace tail": {
+      "name_fr": "Masse Caudale"
+    },
+    "Magma Cannon": {
+      "name_fr": "Canon à Magma"
+    },
+    "Manburner": {
+      "name_fr": "Brûleur d’Hommes"
+    },
+    "Murder Boss": {
+      "name_fr": "Chef Meurtrier"
+    },
+    "Naptha bombs": {
+      "name_fr": "Bombes au Naptha"
+    },
+    "Ogre Loader": {
+      "name_fr": "Pourvoyeur Ogre"
+    },
+    "Overseer": {
+      "name_fr": "Superviseur"
+    },
+    "Quell Panic": {
+      "name_fr": "Calme la Panique"
+    },
+    "Skullcracker": {
+      "name_fr": "Briseur de Crânes"
+    },
+    "Sneaky Gits": {
+      "name_fr": "Assassins Hobgobelins"
+    },
+    "Sorcerer's Curse": {
+      "name_fr": "Malédiction du Sorcier"
+    },
+    "Sorcerer-Prophet": {
+      "name_fr": "Sorcier-Prophète"
+    },
+    "Sorcerous Exhalation": {
+      "name_fr": "Exhalaison Occulte"
+    },
+    "Stampede": {
+      "name_fr": "Ruée"
+    },
+    "Steam Cannonade": {
+      "name_fr": "Canonnade à Vapeur"
+    },
+    "Steam Carriage": {
+      "name_fr": "Attelage à Vapeur"
+    }
+  },
+  "regex": {
+    "if (\\d) crew members": {
+      "name_fr": "si $1 membres d'équipage"
+    },
+    "instead (.*)": {
+      "name_fr": "à la place des $1"
+    },
+    "not (.*)": {
+      "name_fr": "sans $1"
+    },
+    "or (.*)": {
+      "name_fr": "ou $1"
+    }
+  }
+}
