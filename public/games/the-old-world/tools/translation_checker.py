@@ -12,7 +12,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 
-def construct_translation(to_translate, translation_data, language, current_translation, debug_prefix=""):
+def construct_translation(to_translate, translation_data, language, current_translation, debug_prefix="", new_data={}):
     if not to_translate:
         return to_translate
     nested_debug_prefix = debug_prefix + "__"
@@ -29,7 +29,8 @@ def construct_translation(to_translate, translation_data, language, current_tran
 
     # Ugly fix to avoid translating again all champions names:
     if "(champion)" in to_translate and current_translation is not None and current_translation and "(champion)" not in current_translation:
-        return "{} ({})".format(current_translation, construct_translation("champion", translation_data, language, None, nested_debug_prefix))
+        return "{} ({})".format(current_translation, construct_translation("champion", translation_data, language, None,
+                                                                           nested_debug_prefix, new_data))
 
     # Translate list of string separated by ',':
     if "," in to_translate:
@@ -37,12 +38,12 @@ def construct_translation(to_translate, translation_data, language, current_tran
         if current_translation is None or not current_translation \
                 or len(to_translate.split(",")) != len(current_translation.split(",")):
             final = ",".join(
-                [construct_translation(elt, translation_data, language, None, nested_debug_prefix) for elt in
+                [construct_translation(elt, translation_data, language, None, nested_debug_prefix, new_data) for elt in
                  to_translate.split(",")])
         else:
             final = ",".join(
                 [construct_translation(to_translate.split(",")[i], translation_data, language,
-                                       current_translation.split(",")[i], nested_debug_prefix)
+                                       current_translation.split(",")[i], nested_debug_prefix, new_data)
                  for i in range(0, len(to_translate.split(",")))])
         logger.debug("{}LIST: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
@@ -56,7 +57,9 @@ def construct_translation(to_translate, translation_data, language, current_tran
             final = translation_data.get("regex").get(regex).get(language)
             if final is not None:
                 for i in range(1, len(val.groups()) + 1):
-                    final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language, None if curr is None else curr.group(i), nested_debug_prefix))
+                    final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language,
+                                                                           None if curr is None else curr.group(i),
+                                                                           nested_debug_prefix, new_data))
                 final = to_translate.replace(to_translate.strip(), final)
                 logger.debug("{}REGEX: '{}'->'{}'".format(debug_prefix, to_translate, final))
                 return final
@@ -66,8 +69,10 @@ def construct_translation(to_translate, translation_data, language, current_tran
     curr = None if current_translation is None else re.match(r'(.*)\*(.*)', current_translation)
     if val is not None:
         final = "*".join(
-            [construct_translation(val.group(1), translation_data, language, None if curr is None else curr.group(1), nested_debug_prefix),
-             construct_translation(val.group(2), translation_data, language, None if curr is None else curr.group(2), nested_debug_prefix)])
+            [construct_translation(val.group(1), translation_data, language, None if curr is None else curr.group(1),
+                                   nested_debug_prefix, new_data),
+             construct_translation(val.group(2), translation_data, language, None if curr is None else curr.group(2),
+                                   nested_debug_prefix, new_data)])
         logger.debug("{}STAR: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
@@ -76,11 +81,11 @@ def construct_translation(to_translate, translation_data, language, current_tran
     curr = None if current_translation is None else re.match(r'(.*)\((.*)\)(.*)', current_translation)
     if val is not None:
         final = "".join([construct_translation(val.group(1), translation_data, language,
-                                               None if curr is None else curr.group(1), nested_debug_prefix), "(",
+                                               None if curr is None else curr.group(1), nested_debug_prefix, new_data), "(",
                          construct_translation(val.group(2), translation_data, language,
-                                               None if curr is None else curr.group(2), nested_debug_prefix), ")",
+                                               None if curr is None else curr.group(2), nested_debug_prefix, new_data), ")",
                          construct_translation(val.group(3), translation_data, language,
-                                               None if curr is None else curr.group(3), nested_debug_prefix)])
+                                               None if curr is None else curr.group(3), nested_debug_prefix, new_data)])
         logger.debug("{}PARENTHESES: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
@@ -89,35 +94,45 @@ def construct_translation(to_translate, translation_data, language, current_tran
     curr = None if current_translation is None else re.match(r'(.*)(\{.*\})(.*)', current_translation)
     if val is not None:
         final = "".join([construct_translation(val.group(1), translation_data, language,
-                                               None if curr is None else curr.group(1), nested_debug_prefix),
+                                               None if curr is None else curr.group(1), nested_debug_prefix, new_data),
                          val.group(2),
                          construct_translation(val.group(3), translation_data, language,
-                                               None if curr is None else curr.group(3), nested_debug_prefix)])
+                                               None if curr is None else curr.group(3), nested_debug_prefix, new_data)])
         logger.debug("{}BRACES: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
     if current_translation is not None and current_translation:
         logger.debug("{}USE CURRENT: '{}'->'{}'".format(debug_prefix, to_translate, current_translation))
+
+        if current_translation == to_translate:
+            trans = {language: ""}
+            new_data[to_translate.strip()] = trans
+        else:
+            trans = {language: current_translation.strip()}
+            new_data[to_translate.strip()] = trans
         return current_translation
 
     logger.debug("{}NOT TRANSLATED: '{}'".format(debug_prefix, to_translate))
+    if to_translate.strip():
+        trans = {language: ""}
+        new_data[to_translate.strip()] = trans
     return to_translate
 
 
-def add_missing_translations(json_obj, translation_data, language):
+def add_missing_translations(json_obj, translation_data, language, new_data):
     if isinstance(json_obj, dict):
         # If there is a "name_en" key, then something need to be translated:
         if "name_en" in json_obj:
             translation = construct_translation(json_obj.get("name_en"), translation_data, language,
-                                                json_obj.get(language))
+                                                json_obj.get(language), new_data=new_data)
             # if translation != json_obj.get("name_en") or "name_fr" not in json_obj:
             json_obj[language] = translation
 
         for value in json_obj.values():
-            add_missing_translations(value, translation_data, language)
+            add_missing_translations(value, translation_data, language, new_data=new_data)
     elif isinstance(json_obj, list):
         for value in json_obj:
-            add_missing_translations(value, translation_data, language)
+            add_missing_translations(value, translation_data, language, new_data=new_data)
 
 
 def get_and_sort_translations_data(file_path):
@@ -190,6 +205,7 @@ def main():
     for file in os.listdir(args.json_directory_path):
         if file.endswith(".json"):
             if not args.filter or args.filter in file:
+                new_data = {}
                 logger.info("Check: {} using {}".format(file, common_data_path))
                 with open(os.path.join(args.json_directory_path, file), "r", encoding='utf8') as read_file:
                     json_file_content = json.load(read_file)
@@ -204,19 +220,24 @@ def main():
                     merged_translation_data["regex"] = {**common_translation_data.get("regex"),
                                                         **army_translation_data.get("regex")}
 
-                add_missing_translations(json_file_content, merged_translation_data, language)
+                add_missing_translations(json_file_content, merged_translation_data, language, new_data)
 
                 if not args.dry_run:
                     # Write the file with all new translations added:
                     with open(os.path.join(args.json_directory_path, file), "w", encoding='utf8') as write_file:
                         json.dump(json_file_content, write_file, indent=2, ensure_ascii=False)
                         write_file.write("\n")
+                main_data = {"direct": new_data, "regex": {}}
+                # if not os.path.exists(army_translation_path):
+                with open(army_translation_path.replace(".json", "-dump.json"), "w", encoding='utf8') as new_write_file:
+                    json.dump(main_data, new_write_file, indent=2, ensure_ascii=False, sort_keys=True)
+                    new_write_file.write("\n")
 
     if args.prettify:
-        cmd = "npx prettier . --write"
-        logging.debug(cmd)
-        subprocess.call(cmd, shell=True, cwd=args.json_directory_path, stdout=subprocess.DEVNULL,
-                        stderr=subprocess.STDOUT)
+        cmd = "npx prettier {} --write".format(args.json_directory_path)
+        logger.debug(cmd)
+        subprocess.check_call(cmd, shell=True, stdout=subprocess.PIPE,
+                              stderr=subprocess.STDOUT)
 
 
 if __name__ == "__main__":
