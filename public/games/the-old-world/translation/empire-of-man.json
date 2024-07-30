@@ -3,8 +3,59 @@
     "\"Hold the Line!\"": {
       "name_fr": "\"Tenez la Ligne!\""
     },
+    "Barded Warhorse": {
+      "name_fr": "Destrier Caparaçonné"
+    },
+    "Captain of the Empire": {
+      "name_fr": "Capitaine de l'Empire"
+    },
+    "Chapter Master": {
+      "name_fr": "Maître de Chapitre"
+    },
     "Clouds of Soot & Smoke": {
       "name_fr": "Nuages de Suie et de Fumée"
+    },
+    "Count's Champion": {
+      "name_fr": "Champion du Comte"
+    },
+    "Demigryph": {
+      "name_fr": "Demigriffon"
+    },
+    "Demigryph Knights": {
+      "name_fr": "Chevaliers Demigriffons"
+    },
+    "Demigryph Preceptor": {
+      "name_fr": "Précepteur Demigriffon"
+    },
+    "Don't take brace of pistols": {
+      "name_fr": "Ne peut pas prendre de paire de pistolets"
+    },
+    "Don't take crossbow": {
+      "name_fr": "Ne peut pas prendre d'arbalète"
+    },
+    "Don't take handgun": {
+      "name_fr": "Ne peut pas prendre d'arquebuse"
+    },
+    "Don't take pistol": {
+      "name_fr": "Ne peut pas prendre de pistolet"
+    },
+    "Empire Archers": {
+      "name_fr": "Archers de l'Empire"
+    },
+    "Empire Engineer": {
+      "name_fr": "Ingénieur de l'Empire"
+    },
+    "Empire Greatswords": {
+      "name_fr": "Joueurs d'Épées de l'Empire"
+    },
+    "Empire Knights": {
+      "name_fr": "Chevaliers de l'Empire"
+    },
+    "Empire Warhorse": {
+      "name_fr": "Destrier de l'Empire"
+    },
+    "Empire warhorse": {
+      "name_fr": "Destrier de l'Empire"
     },
     "Fanatical Zeal": {
       "name_fr": "Zèle Fanatique"
@@ -12,11 +63,29 @@
     "Feel No Pain": {
       "name_fr": "Insensibles à la Douleur"
     },
+    "Free Company Militia": {
+      "name_fr": "Milice des Franches Compagnies"
+    },
+    "General of the Empire": {
+      "name_fr": "Général de l'Empire"
+    },
+    "Grand Master": {
+      "name_fr": "Grand Maître"
+    },
+    "Great cannon": {
+      "name_fr": "Grand canon"
+    },
     "Grenade Launching Blunderbuss": {
       "name_fr": "Tromblon à Grenades"
     },
+    "Grenade launching blunderbuss": {
+      "name_fr": "Tromblon à grenades"
+    },
     "Grinding Wheels": {
       "name_fr": "Roues Broyeuses"
+    },
+    "Helblaster Volley Gun": {
+      "name_fr": "Canon à Répétition Feu d'Enfer"
     },
     "Hellblaster": {
       "name_fr": "Feu d'Enfer"
@@ -24,14 +93,41 @@
     "Hellstorm": {
       "name_fr": "Tonnerre de Feu"
     },
+    "Helstorm Rocket Battery": {
+      "name_fr": "Batterie Tonnerre de Feu"
+    },
+    "High Priest of Ulric": {
+      "name_fr": "Grand Prêtre d'Ulric"
+    },
     "Hochland Long Rifle": {
       "name_fr": "Long Fusil du Hochland"
+    },
+    "Hochland long rifle": {
+      "name_fr": "Long fusil de Hochland"
     },
     "Holy Fervour": {
       "name_fr": "Ferveur Sacrée"
     },
+    "Imperial Griffon": {
+      "name_fr": "Griffon Impérial"
+    },
     "Inner Circle": {
       "name_fr": "Cercle Intérieur"
+    },
+    "Inner Circle Knights": {
+      "name_fr": "Chevaliers du Cercle Intérieur"
+    },
+    "Inner Circle Preceptor": {
+      "name_fr": "Précepteur du Cercle Intérieur"
+    },
+    "Lector of Sigmar": {
+      "name_fr": "Archidiacre de Sigmar"
+    },
+    "Marksman": {
+      "name_fr": "Tireur d'Élite"
+    },
+    "Master Mage": {
+      "name_fr": "Maître Mage"
     },
     "Master of Ballistics": {
       "name_fr": "Maître en Balistique"
@@ -39,14 +135,53 @@
     "Master of Battle": {
       "name_fr": "Maître des Batailles"
     },
+    "Militia leader": {
+      "name_fr": "Chef de Milice"
+    },
+    "Outriders": {
+      "name_fr": "Escorteurs"
+    },
+    "Pegasus": {
+      "name_fr": "Pégase"
+    },
     "Pigeon Bombs": {
       "name_fr": "Pigeons Grenadiers"
+    },
+    "Pigeon bombs": {
+      "name_fr": "Pigeons grenadiers"
     },
     "Prayers of Sigmar": {
       "name_fr": "Prières de Sigmar"
     },
     "Prayers of Ulric": {
       "name_fr": "Prières d'Ulric"
+    },
+    "Preceptor": {
+      "name_fr": "Précepteur"
+    },
+    "Priest of Sigmar": {
+      "name_fr": "Prêtre de Sigmar"
+    },
+    "Priest of Ulric": {
+      "name_fr": "Prêtre d'Ulric"
+    },
+    "Prophet of Doom": {
+      "name_fr": "Prophète"
+    },
+    "Repeater handguns": {
+      "name_fr": "Arquebuses à répétition"
+    },
+    "Sergeant": {
+      "name_fr": "Sergent"
+    },
+    "Sharpshooter": {
+      "name_fr": "Mitrailleur"
+    },
+    "State Missile Troops": {
+      "name_fr": "Troupes de Tir de l'Empire"
+    },
+    "State Troops": {
+      "name_fr": "Troupes Régulières"
     },
     "Steam Cannon": {
       "name_fr": "Canon à Vapeur"
@@ -57,6 +192,9 @@
     "Steam Power": {
       "name_fr": "Propulsion à Vapeur"
     },
+    "Steam Tank": {
+      "name_fr": "Tank à Vapeur"
+    },
     "Steam gun": {
       "name_fr": "Couleuvrine à Vapeur"
     },
@@ -66,12 +204,37 @@
     "Symbol of Might": {
       "name_fr": "Symbole de Puissance"
     },
+    "Temperamental": {
+      "name_fr": "Susceptible"
+    },
     "Two Heads": {
       "name_fr": "Bicéphale"
     },
+    "Veteran Sergeant": {
+      "name_fr": "Sergent Vétéran"
+    },
+    "Veteran State Troops": {
+      "name_fr": "Vétérans des Troupes Régulières"
+    },
+    "War Altar of Sigmar": {
+      "name_fr": "Autel de Guerre de Sigmar"
+    },
     "Witch Bane": {
       "name_fr": "Fléau des Sorciers"
+    },
+    "Witch Hunter": {
+      "name_fr": "Répurgateur"
+    },
+    "Wizard Lord": {
+      "name_fr": "Seigneur Sorcier"
+    },
+    "mixed weapons": {
+      "name_fr": "armes mixtes"
     }
   },
-  "regex": {}
+  "regex": {
+    "taken as a mount for a ([a-zA-Z\\s]+)": {
+      "name_fr": "pris comme monture pour un $1"
+    }
+  }
 }
