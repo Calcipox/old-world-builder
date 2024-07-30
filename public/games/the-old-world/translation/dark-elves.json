@@ -42,6 +42,9 @@
     "Cold One Chariot": {
       "name_fr": "Char à Sangs-froids"
     },
+    "Cold One Chariots": {
+      "name_fr": "Chars à Sangs-froids"
+    },
     "Cold One Knights": {
       "name_fr": "Chevaliers sur Sang-froid"
     },
@@ -56,6 +59,9 @@
     },
     "Dark Elf Master": {
       "name_fr": "Maître Elfe Noir"
+    },
+    "Dark Elf Noble": {
+      "name_fr": "Noble Elfe Noir"
     },
     "Dark Elf Shades": {
       "name_fr": "Ombres Elfes Noirs"
@@ -77,6 +83,9 @@
     },
     "Death Hag": {
       "name_fr": "Matriarche"
+    },
+    "Death Hags": {
+      "name_fr": "Matriarches"
     },
     "Doomfire Warlocks": {
       "name_fr": "Conjurateurs du Feu Maudit"
@@ -141,8 +150,8 @@
     "Manticore": {
       "name_fr": "Manticore"
     },
-    "Master (champion)": {
-      "name_fr": "Maître Conjurateur (champion)"
+    "Master": {
+      "name_fr": "Maître Conjurateur"
     },
     "Murderous": {
       "name_fr": "Meurtriers"
@@ -212,7 +221,23 @@
     },
     "Witch Elves": {
       "name_fr": "Furies"
+    },
+    "one of the Beastmaster Crew may fire this weapon instead of their repeater crossbow": {
+      "name_fr": "l'un des membres de l'équipage Maitre des bêtes peut tirer avec cette arme au lieu de son arbalète à répétition"
+    },
+    "the charge target suffers a -1 modifier to its Maximum Rank Bonus until the end of the Combat phase of that turn. A model equipped with a lash & buckler improves its armour value by 1.": {
+      "name_fr": "la cible de charge subit un modificateur de -1 à son Bonus de Rang Maximum jusqu'à la fin de la phase de Combat de ce tour. Une figurine équipée de lanières et d’un bocle améliore sa valeur d'armure de 1."
     }
   },
-  "regex": {}
+  "regex": {
+    "(\\d-\\d) Core choice if your army includes one or more ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 en choix de Base si votre armée comprend une ou plusieurs $2"
+    },
+    "taken as a mount for a ([a-zA-Z\\s]+)": {
+      "name_fr": "pris comme monture pour une $1"
+    },
+    "([a-zA-Z\\s&-]+): If this unit makes a successful charge move": {
+      "name_fr": "$1: Si cette unité réussit un mouvement de charge"
+    }
+  }
 }

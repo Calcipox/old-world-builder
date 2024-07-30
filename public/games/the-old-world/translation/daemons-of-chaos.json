@@ -287,18 +287,6 @@
     }
   },
   "regex": {
-    "([\\w\\s]+) and ([\\w\\s]+) may be taken as Special choices": {
-      "name_fr": "les $1 et les $2 peuvent être pris comme choix Spécial"
-    },
-    "([\\w\\s]+) may be taken as Special choices": {
-      "name_fr": "les $1 peuvent être pris comme choix Spécial"
-    },
-    "(\\d) - ([\\w\\s]+)": {
-      "name_fr": "$1 - $2"
-    },
-    "(\\d) - ([\\w\\s]+) only": {
-      "name_fr": "$1 - $2 uniquement"
-    },
     "(\\d-\\d) ([\\w\\s]+) of ([\\w\\s]+) per unit with the same Daemonic Alignment": {
       "name_fr": "$1 $2 de $3 par unité du même Alignement Démoniaque"
     },

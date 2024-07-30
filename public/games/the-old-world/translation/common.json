@@ -156,6 +156,9 @@
     "Drilled": {
       "name_fr": "Bien Entraînés"
     },
+    "During the Shooting phase": {
+      "name_fr": "Pendant la phase de Tir"
+    },
     "Dwarfs": {
       "name_fr": "Nains"
     },
@@ -549,6 +552,9 @@
     "The Quickening Storm": {
       "name_fr": "Orage Revitalisant"
     },
+    "These special rules do not apply to this model's mount": {
+      "name_fr": "Ces règles spéciales ne s'appliquent pas à la monture de cette figurine"
+    },
     "Third Orc crew member": {
       "name_fr": "Troisième Aurige Orque"
     },
@@ -648,6 +654,9 @@
     "Wyvern": {
       "name_fr": "Vouivre"
     },
+    "all enemies": {
+      "name_fr": "tous les ennemis"
+    },
     "calloused hide": {
       "name_fr": "peau calleuse"
     },
@@ -687,6 +696,9 @@
     "scaly skin": {
       "name_fr": "peau écailleuse"
     },
+    "should it have one": {
+      "name_fr": "si elle en a une"
+    },
     "throwing axes": {
       "name_fr": "haches de lancer"
     },
@@ -710,35 +722,56 @@
     }
   },
   "regex": {
-    "([\\w\\s-]+) only": {
-      "name_fr": "$1 uniquement"
+    "(\\d-\\d) Special choice ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) if your general is a ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 $2 ou $3 en choix Spécial si votre général est un $4"
     },
-    "([\\w\\s-]+) or ([\\w\\s-]+) per (\\d+) points(.*)": {
+    "([a-zA-Z\\s]+) and ([a-zA-Z\\s]+) may be taken as Special choices": {
+      "name_fr": "les $1 et les $2 peuvent être pris comme choix Spécial"
+    },
+    "([a-zA-Z\\s]+) may be taken as Special choices": {
+      "name_fr": "les $1 peuvent être pris comme choix Spécial"
+    },
+    "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+) per (\\d+) points(.*)": {
       "name_fr": "$1 ou $2 par tranche de $3 points$4"
     },
-    "(\\d-\\d) (.*) or (.*) per (\\d+) points": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points:": {
+      "name_fr": "$1 $2 ou $3 par tranche de $4 points:"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 par tranche de $4 points"
     },
-    "(\\d-\\d) (.*) per (\\d+) points": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points"
     },
-    "(\\d-\\d) (\\w+)": {
-      "name_fr": "$1 $2"
+    "(\\d) - ([a-zA-Z\\s]+) only": {
+      "name_fr": "$1 - $2 uniquement"
     },
-    "(\\d-\\d) or (.*)": {
-      "name_fr": "$1 ou $2"
+    "([a-zA-Z\\s-]+) only": {
+      "name_fr": "$1 uniquement"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) and ([a-zA-Z\\s]+) per (\\d+) points may have ([a-zA-Z\\s&-]+)": {
+      "name_fr": "$1 $2 et $3 par tranche de $4 points peuvent avoir $5"
+    },
+    "(\\d-\\d) per (\\d+) points may have ([a-zA-Z\\s&-]+)": {
+      "name_fr": "$1 par tranche de $2 points peuvent avoir $3"
+    },
+    "(\\d-\\d) per (\\d+) points may purchase a magic standard worth up to (\\d+) points": {
+      "name_fr": "$1 par tranche de $2 points peuvent acheter une bannière magique d'une valeur maximale de $3 points"
+    },
+    "(\\d-\\d) may have ([a-zA-Z\\s&-]+) and/or ([a-zA-Z\\s&-]+) and/or ([a-zA-Z\\s&-]+)": {
+      "name_fr": "$1 peuvent avoir $2 et/ou $3 et/ou $4"
     },
     "(\\d-\\d) per (\\d+) points": {
       "name_fr": "$1 par tranche de $2 points"
     },
-    "(\\d-\\d) per unit of (.*)": {
+    "(\\d-\\d) per unit of ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par unité de $2"
     },
-    "(\\d\\+) (.*)": {
-      "name_fr": "$1 $2"
-    },
-    "(\\w+ \\w+) and (\\w+ \\w+)": {
+    "(a-zA-Z+ a-zA-Z+) and (a-zA-Z+ a-zA-Z+)": {
       "name_fr": "$1 et $2"
+    },
+    "if your general is a ([a-zA-Z\\s]+)": {
+      "name_fr": "si votre général est un $1"
     },
     "Level (\\d) Wizard": {
       "name_fr": "Sorcier de Niveau $1"
@@ -746,8 +779,23 @@
     "Level (\\d) \\(or (\\d)\\) Wizard": {
       "name_fr": "Sorcier de Niveau $1 (ou $2)"
     },
-    "Spawn of (\\w+)": {
+    "Spawn of (a-zA-Z+)": {
       "name_fr": "Rejeton de $1"
+    },
+    "([a-zA-Z\\s]+) and ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 et $2"
+    },
+    "(\\d-\\d) or ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 ou $2"
+    },
+    "(\\d-\\d) per ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 par $2"
+    },
+    "(\\d) - ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 - $2"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 $2"
     }
   }
 }
