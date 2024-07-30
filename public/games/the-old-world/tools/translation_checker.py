@@ -32,6 +32,22 @@ def construct_translation(to_translate, translation_data, language, current_tran
         return "{} ({})".format(current_translation, construct_translation("champion", translation_data, language, None,
                                                                            nested_debug_prefix, new_data))
 
+    # Try to match any regex (containing a number or special characters, like "Level 4 Wizard"):
+    for regex in translation_data.get("regex"):
+        val = re.fullmatch(regex, to_translate.strip())
+        curr = None if current_translation is None else re.fullmatch(regex, current_translation.strip())
+
+        if val is not None:
+            final = translation_data.get("regex").get(regex).get(language)
+            if final is not None:
+                for i in range(1, len(val.groups()) + 1):
+                    final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language,
+                                                                           None if curr is None else curr.group(i),
+                                                                           nested_debug_prefix, new_data))
+                final = to_translate.replace(to_translate.strip(), final)
+                logger.debug("{}REGEX({}): '{}'->'{}'".format(debug_prefix, regex ,to_translate, final))
+                return final
+
     # Translate list of string separated by ',':
     if "," in to_translate:
         final = ""
@@ -47,22 +63,6 @@ def construct_translation(to_translate, translation_data, language, current_tran
                  for i in range(0, len(to_translate.split(",")))])
         logger.debug("{}LIST: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
-
-    # Try to match any regex (containing a number or special characters, like "Level 4 Wizard"):
-    for regex in translation_data.get("regex"):
-        val = re.fullmatch(regex, to_translate.strip())
-        curr = None if current_translation is None else re.fullmatch(regex, current_translation.strip())
-
-        if val is not None:
-            final = translation_data.get("regex").get(regex).get(language)
-            if final is not None:
-                for i in range(1, len(val.groups()) + 1):
-                    final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language,
-                                                                           None if curr is None else curr.group(i),
-                                                                           nested_debug_prefix, new_data))
-                final = to_translate.replace(to_translate.strip(), final)
-                logger.debug("{}REGEX: '{}'->'{}'".format(debug_prefix, to_translate, final))
-                return final
 
     # Try to match any string starting and/or ending with a '*'
     val = re.match(r'(.*)\*(.*)', to_translate)
@@ -81,23 +81,25 @@ def construct_translation(to_translate, translation_data, language, current_tran
     curr = None if current_translation is None else re.match(r'(.*)\((.*)\)(.*)', current_translation)
     if val is not None:
         final = "".join([construct_translation(val.group(1), translation_data, language,
-                                               None if curr is None else curr.group(1), nested_debug_prefix, new_data), "(",
+                                               None if curr is None else curr.group(1), nested_debug_prefix, new_data),
+                         "(",
                          construct_translation(val.group(2), translation_data, language,
-                                               None if curr is None else curr.group(2), nested_debug_prefix, new_data), ")",
+                                               None if curr is None else curr.group(2), nested_debug_prefix, new_data),
+                         ")",
                          construct_translation(val.group(3), translation_data, language,
                                                None if curr is None else curr.group(3), nested_debug_prefix, new_data)])
         logger.debug("{}PARENTHESES: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
     # Check string containing {}:
-    val = re.match(r'(.*)(\{.*\})(.*)', to_translate)
-    curr = None if current_translation is None else re.match(r'(.*)(\{.*\})(.*)', current_translation)
+    val = re.match(r'(.*)\{.*\}(.*)', to_translate)
+    curr = None if current_translation is None else re.match(r'(.*)\{.*\}(.*)', current_translation)
     if val is not None:
         final = "".join([construct_translation(val.group(1), translation_data, language,
                                                None if curr is None else curr.group(1), nested_debug_prefix, new_data),
-                         val.group(2),
-                         construct_translation(val.group(3), translation_data, language,
-                                               None if curr is None else curr.group(3), nested_debug_prefix, new_data)])
+                         construct_translation(val.group(2), translation_data, language,
+                                               None if curr is None else curr.group(2), nested_debug_prefix,
+                                               new_data)]).rstrip()
         logger.debug("{}BRACES: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
@@ -139,10 +141,11 @@ def get_and_sort_translations_data(file_path):
     with open(file_path, "r", encoding='utf8') as read_file:
         translation_data = json.load(read_file)
 
-    # Re-order keys in translation files:
+    # Re-order "direct" keys in translation files:
+    translation_data["direct"] = dict(sorted(translation_data["direct"].items()))
     if translation_data is not None:
         with open(file_path, "w", encoding='utf8') as write_file:
-            json.dump(translation_data, write_file, indent=2, ensure_ascii=False, sort_keys=True)
+            json.dump(translation_data, write_file, indent=2, ensure_ascii=False)
             write_file.write("\n")
     return translation_data
 
@@ -215,10 +218,10 @@ def main():
                 if os.path.exists(army_translation_path):
                     logger.info("Check: {} using {}".format(file, army_translation_path))
                     army_translation_data = get_and_sort_translations_data(army_translation_path)
-                    merged_translation_data["direct"] = {**common_translation_data.get("direct"),
-                                                         **army_translation_data.get("direct")}
-                    merged_translation_data["regex"] = {**common_translation_data.get("regex"),
-                                                        **army_translation_data.get("regex")}
+                    merged_translation_data["direct"] = {**army_translation_data.get("direct"),
+                                                         **common_translation_data.get("direct")}
+                    merged_translation_data["regex"] = {**army_translation_data.get("regex"),
+                                                        **common_translation_data.get("regex")}
 
                 add_missing_translations(json_file_content, merged_translation_data, language, new_data)
 
