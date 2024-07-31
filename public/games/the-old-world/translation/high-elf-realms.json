@@ -36,6 +36,9 @@
     "Chracian Great Blades": {
       "name_fr": "Grandes Lames de Chrace"
     },
+    "Chracian Hunter": {
+      "name_fr": "Chasseur Chracien"
+    },
     "Chracian Warriors": {
       "name_fr": "Guerriers de Chrace"
     },
@@ -50,6 +53,9 @@
     },
     "Dragon Princes": {
       "name_fr": "Princes Dragons"
+    },
+    "Dragon Princes of Caledor": {
+      "name_fr": "Princes Dragons de Caledor"
     },
     "Drakemaster": {
       "name_fr": "Maître Dragon"
@@ -159,6 +165,12 @@
     "Prince": {
       "name_fr": "Prince"
     },
+    "Sea Guard": {
+      "name_fr": "Garde Maritime"
+    },
+    "Sea Guard Crew": {
+      "name_fr": "Équipage Garde Maritime"
+    },
     "Sea Master": {
       "name_fr": "Maître Maritime"
     },
@@ -217,5 +229,12 @@
       "name_fr": "Témoins du Destin"
     }
   },
-  "regex": {}
+  "regex": {
+    "If your General has the ([a-zA-Z\\s]+) Elven Honour": {
+      "name_fr": "Si votre Général a l'Honneur Elfique $1"
+    },
+    "(\\d-\\d) Core choice if your General is a ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 en choix de Base si votre Général est une $2"
+    }
+  }
 }

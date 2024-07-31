@@ -734,8 +734,17 @@
     "([a-zA-Z\\s]+) and ([a-zA-Z\\s]+) may be taken as Special choices": {
       "name_fr": "les $1 et les $2 peuvent être pris comme choix Spécial"
     },
+    "\\s?(\\d-\\d) ([a-zA-Z\\s]+) may be taken as a Special choice per (\\d+) points": {
+      "name_fr": "$1 $2 peut être pris comme choix Spécial par tranche de $3 points"
+    },
+    "\\s?(\\d-\\d) ([a-zA-Z\\s]+) may be taken as a Special choice": {
+      "name_fr": "$1 $2 peut être pris comme choix Spécial"
+    },
     "([a-zA-Z\\s]+) may be taken as Special choices": {
       "name_fr": "les $1 peuvent être pris comme choix Spécial"
+    },
+    "([a-zA-Z\\s]+) may be taken as a Special choice": {
+      "name_fr": "les $1 peut être pris comme choix Spécial"
     },
     "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+) per (\\d+) points(.*)": {
       "name_fr": "$1 ou $2 par tranche de $3 points$4"
@@ -754,6 +763,12 @@
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 unité de $2 par tranche de $3 points"
+    },
+    "Replace the ([a-zA-Z\\s]+) special rule with ([a-zA-Z\\s]+)": {
+      "name_fr": "Remplacer la règle spéciale $1 par $2"
+    },
+    "Replace ([a-zA-Z\\s]+) with ([a-zA-Z\\s]+)": {
+      "name_fr": "Remplacer les $1 par des $2"
     },
     "(\\d) - ([a-zA-Z\\s]+) only": {
       "name_fr": "$1 - $2 uniquement"
