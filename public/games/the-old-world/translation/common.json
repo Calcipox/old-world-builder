@@ -746,6 +746,9 @@
     "([a-zA-Z\\s]+) may be taken as a Special choice": {
       "name_fr": "les $1 peut être pris comme choix Spécial"
     },
+    "(\\d-\\d) unit of ([a-zA-Z\\s-]+) may be taken as a Core choice": {
+      "name_fr": "$1 unité de $2 peut être prise comme choix de Base"
+    },
     "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+) per (\\d+) points(.*)": {
       "name_fr": "$1 ou $2 par tranche de $3 points$4"
     },
@@ -764,6 +767,9 @@
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 unité de $2 par tranche de $3 points"
     },
+    "(\\d-\\d) units of ([a-zA-Z\\s]+) per (\\d+) points": {
+      "name_fr": "$1 unités de $2 par tranche de $3 points"
+    },
     "Replace the ([a-zA-Z\\s]+) special rule with ([a-zA-Z\\s]+)": {
       "name_fr": "Remplacer la règle spéciale $1 par $2"
     },
@@ -772,6 +778,9 @@
     },
     "(\\d) - ([a-zA-Z\\s]+) only": {
       "name_fr": "$1 - $2 uniquement"
+    },
+    "([a-zA-Z\\s-]+) & ([a-zA-Z\\s-]+) only": {
+      "name_fr": "$1 & $2 uniquement"
     },
     "([a-zA-Z\\s-]+) only": {
       "name_fr": "$1 uniquement"
@@ -796,6 +805,9 @@
     },
     "(\\d-\\d) per unit of ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par unité de $2"
+    },
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) taken": {
+      "name_fr": "$1 unité de $2 par unité de $3 ou de $4 prise"
     },
     "(a-zA-Z+ a-zA-Z+) and (a-zA-Z+ a-zA-Z+)": {
       "name_fr": "$1 et $2"

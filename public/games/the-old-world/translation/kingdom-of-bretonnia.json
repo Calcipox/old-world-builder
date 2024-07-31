@@ -1,7 +1,22 @@
 {
   "direct": {
+    "Arcane Backlash": {
+      "name_fr": "Contrecoup Arcanique"
+    },
+    "Aura of the Fay": {
+      "name_fr": "Aura Féérique"
+    },
     "Aura of the Lady": {
       "name_fr": "Aura de la Dame"
+    },
+    "Barded Pegasus": {
+      "name_fr": "Pégase Caparaçonné"
+    },
+    "Battle Pilgrims": {
+      "name_fr": "Pélerins du Graal"
+    },
+    "Blessed Knight": {
+      "name_fr": "Chevalier Béni"
     },
     "Blessed Triptych": {
       "name_fr": "Triptyque Béni"
@@ -9,8 +24,26 @@
     "Blessings of the Lady": {
       "name_fr": "Bénédiction de la Dame"
     },
+    "Blunderbusses": {
+      "name_fr": "Tromblons"
+    },
+    "Border Princes Bombard": {
+      "name_fr": "Bombarde des Principautés Frontalières"
+    },
+    "Border Princes Brigands": {
+      "name_fr": "Brigands des Principautés Frontalières"
+    },
+    "Bretonnian Warhorse": {
+      "name_fr": "Destrier Bretonnien"
+    },
     "Burning Braziers": {
       "name_fr": "Braséros"
+    },
+    "Chalice of Brionne": {
+      "name_fr": "Calice de Brionne"
+    },
+    "Damsel": {
+      "name_fr": "Damoiselle"
     },
     "Defensive Stakes": {
       "name_fr": "Pieux de Défense"
@@ -18,20 +51,62 @@
     "Dispersed Formation": {
       "name_fr": "Formation Éparse"
     },
+    "Dragonhide Cloak": {
+      "name_fr": "Cape en Peau de Dragon"
+    },
+    "Duke": {
+      "name_fr": "Duc"
+    },
     "Esquire": {
       "name_fr": "Escuyer"
+    },
+    "Field Trebuchet": {
+      "name_fr": "Trébuchet de Campagne"
     },
     "Finest Warhorses": {
       "name_fr": "Destriers Supérieurs"
     },
+    "First Knight": {
+      "name_fr": "Champion Pégase"
+    },
+    "First Knight (champion)": {
+      "name_fr": "Champion du Royaume (champion)"
+    },
     "Gallant": {
       "name_fr": "Preux Chevalier"
+    },
+    "Grail Guardian": {
+      "name_fr": "Gardien du Graal"
+    },
+    "Grail Guardian's Knightly Virtues": {
+      "name_fr": "Vertu Chevaleresque du Gardien du Graal"
+    },
+    "Grail Knights": {
+      "name_fr": "Chevaliers du Graal"
     },
     "Grail Monk": {
       "name_fr": "Moine du Graal"
     },
     "Grail Reliquae": {
       "name_fr": "Reliquaire du Graal"
+    },
+    "Guardian of the Sacred Sites": {
+      "name_fr": "Gardien des Sites Sacrés"
+    },
+    "Hippogryph": {
+      "name_fr": "Hippogriffe"
+    },
+    "Knightly Virtues": {
+      "name_fr": "Vertus Chevaleresques"
+    },
+    "Knights Errant": {
+      "name_fr": "Chevaliers Errants"
+    },
+    "Knights of the Realm on Foot": {
+      "name_fr": "Chevaliers du Royaume à Pied"
+    },
+    "Lady Élisse Duchaard": {
+      "name_fr": "Dame Élisse Duchaard"
     },
     "Lance Formation": {
       "name_fr": "Formation en Fer de Lance"
@@ -42,8 +117,23 @@
     "Lore of the Lady": {
       "name_fr": "Domaine de la Dame"
     },
+    "Men-at-Arms": {
+      "name_fr": "Hommes d'Armes"
+    },
+    "Mounted Knights of the Realm": {
+      "name_fr": "Chevaliers du Royaume Montés"
+    },
+    "Mounted Yeomen": {
+      "name_fr": "Sergents montés"
+    },
+    "Outcast Wizard": {
+      "name_fr": "Mage Proscrit"
+    },
     "Paragon": {
       "name_fr": "Champion de la Quête"
+    },
+    "Peasant Bowmen": {
+      "name_fr": "Paysans Archers"
     },
     "Peasant's Duty": {
       "name_fr": "Devoir du Paysan"
@@ -51,14 +141,47 @@
     "Peasantry": {
       "name_fr": "Paysannerie"
     },
+    "Pegasus Knights": {
+      "name_fr": "Chevaliers Pégases"
+    },
+    "Polearms": {
+      "name_fr": "Armes d'hast"
+    },
+    "Prophetess": {
+      "name_fr": "Prophétesse"
+    },
+    "Questing Knights": {
+      "name_fr": "Chevaliers de la Quête"
+    },
     "Retinue of the Saints": {
       "name_fr": "Suite des Saints"
+    },
+    "Royal Pegasus": {
+      "name_fr": "Pégase Royal"
+    },
+    "Sergeant-at-Arms": {
+      "name_fr": "Sergent d'Armes"
     },
     "Shield of the Lady": {
       "name_fr": "Bouclier de la Dame"
     },
+    "Sorrow's End": {
+      "name_fr": "Consolatrice"
+    },
+    "Squires": {
+      "name_fr": "Écuyers"
+    },
+    "The Dolorous Blade": {
+      "name_fr": "La Lame de Douleur"
+    },
+    "The Exile's Vow": {
+      "name_fr": "Le Vœu de l'Exilé"
+    },
     "The Grail Vow": {
       "name_fr": "Le Vœu du Graal"
+    },
+    "The Green Knight": {
+      "name_fr": "Le Chevalier de Sinople"
     },
     "The Knight's Vow": {
       "name_fr": "Le Vœu du Chevalier"
@@ -66,14 +189,32 @@
     "The Questing Vow": {
       "name_fr": "Le Vœu de la Quête"
     },
+    "The Staff of the Elements": {
+      "name_fr": "Le Bâton des Éléments"
+    },
+    "The Wyrm Slayer": {
+      "name_fr": "Le Sauroctone"
+    },
+    "Unicorn": {
+      "name_fr": "Licorne"
+    },
+    "Untutored Arcanist": {
+      "name_fr": "Arcaniste Autodidacte"
+    },
     "Villein": {
       "name_fr": "Maître Archer"
     },
     "Warden": {
       "name_fr": "Prévôt"
     },
+    "Warhorse": {
+      "name_fr": "Destrier"
+    },
     "Yeoman": {
       "name_fr": "Prévôt"
+    },
+    "Yeomen Guard": {
+      "name_fr": "Gardes Roturiers"
     },
     "the Grail Vow": {
       "name_fr": "le Vœu du Graal"
@@ -85,5 +226,24 @@
       "name_fr": "le Vœu de la Quête"
     }
   },
-  "regex": {}
+  "regex": {
+    "([a-zA-Z\\s]+)'s Knightly Virtues": {
+      "name_fr": "Vertu Chevaleresque du $1"
+    },
+    "if ([a-zA-Z]+)": {
+      "name_fr": "si $1"
+    },
+    "(\\d)\\+ unit of ([a-zA-Z\\s-]+) per (\\d+) points": {
+      "name_fr": "$1+ unité de $2 et/ou $3 par tranche de $4 points"
+    },
+    "(\\d)\\+ unit of (Men-at-Arms) and/or ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1+ unité d'$2 et/ou de $3"
+    },
+    "(\\d)\\+ unit of ([a-zA-Z\\s-]+) and/or ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1+ unité de $2 et/ou de $3"
+    },
+    "(\\d)\\+ ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1+ $2"
+    }
+  }
 }
