@@ -1,0 +1,195 @@
+{
+  "direct": {
+    "Ancient": {
+      "name_fr": "Ancestral"
+    },
+    "Ancient Stegadon": {
+      "name_fr": "Stégadon Ancestral"
+    },
+    "Aquatic": {
+      "name_fr": "Aquatique"
+    },
+    "Arcane Shield": {
+      "name_fr": "Bouclier Arcanique"
+    },
+    "Arcane Vassal": {
+      "name_fr": "Vassal Magique"
+    },
+    "Ark of Sotek": {
+      "name_fr": "Arche de Sotek"
+    },
+    "Beast Handlers": {
+      "name_fr": "Maître des Bêtes"
+    },
+    "Blowpipe": {
+      "name_fr": "Sarbacane"
+    },
+    "Blowpipes": {
+      "name_fr": "Sarbacanes"
+    },
+    "Burning Alignment": {
+      "name_fr": "Alignement Ardent"
+    },
+    "Carnosaur": {
+      "name_fr": "Carnosaure"
+    },
+    "Chameleon Skinks": {
+      "name_fr": "Skinks Caméléons"
+    },
+    "Cold Blooded": {
+      "name_fr": "Sang Froid"
+    },
+    "Cold One Riders": {
+      "name_fr": "Monteurs de Sang-froid"
+    },
+    "Disciplines of the Old Ones": {
+      "name_fr": "Disciplines Ancestrales"
+    },
+    "Drop Rocks": {
+      "name_fr": "Rochers"
+    },
+    "Engine of the Gods": {
+      "name_fr": "Machine des Dieux"
+    },
+    "Fireleech bolas": {
+      "name_fr": "Bolas à pyrosangsues"
+    },
+    "Fourth Skink crew member": {
+      "name_fr": "Quatrième membre d'équipage Skink"
+    },
+    "Giant blowpipes": {
+      "name_fr": "Sarbacanes géantes"
+    },
+    "Giant bow": {
+      "name_fr": "Arc géant"
+    },
+    "Great horns": {
+      "name_fr": "Grandes cornes"
+    },
+    "Guardians": {
+      "name_fr": "Gardiens"
+    },
+    "Impervious Defence": {
+      "name_fr": "Défense Impénétrable"
+    },
+    "Jungle Swarms": {
+      "name_fr": "Nuées de la Jungle"
+    },
+    "Lore of Lustria": {
+      "name_fr": "Domaine de Lustrie"
+    },
+    "Obsidian Blades": {
+      "name_fr": "Lames Obsidienne"
+    },
+    "Pack Leader": {
+      "name_fr": "Chef de Meute"
+    },
+    "Patrol Leader": {
+      "name_fr": "Chef de Patrouille"
+    },
+    "Primeval Roar": {
+      "name_fr": "Rugissement Primal"
+    },
+    "Razor barbs": {
+      "name_fr": "Épines acérées"
+    },
+    "Razordon Pack": {
+      "name_fr": "Meute de Razordon"
+    },
+    "Revered Guardian": {
+      "name_fr": "Gardien Révéré"
+    },
+    "Ripperdactyl": {
+      "name_fr": "Entérodactyle"
+    },
+    "Ripperdactyl Champion": {
+      "name_fr": "Champion Entérodactyle"
+    },
+    "Ripperdactyl Riders": {
+      "name_fr": "Monteurs d'Entérodactyle"
+    },
+    "Salamander": {
+      "name_fr": "Salamandre"
+    },
+    "Salamander Pack": {
+      "name_fr": "Meute de Salamandre"
+    },
+    "Saurus Oldblood": {
+      "name_fr": "Sang Ancien Saurus"
+    },
+    "Saurus Scar-Veteran": {
+      "name_fr": "Vétéran Scarifié Saurus"
+    },
+    "Saurus Warriors": {
+      "name_fr": "Guerriers Saurus"
+    },
+    "Skink Chief": {
+      "name_fr": "Chef Skink"
+    },
+    "Skink Handlers": {
+      "name_fr": "Coureurs Skinks"
+    },
+    "Skink Hero": {
+      "name_fr": "Héros Skink"
+    },
+    "Skink Oracle": {
+      "name_fr": "Oracle Skink"
+    },
+    "Skink Priest": {
+      "name_fr": "Prêtre Skink"
+    },
+    "Skink Skirmishers": {
+      "name_fr": "Tirailleurs Skinks"
+    },
+    "Skirmish Screen": {
+      "name_fr": "Écran de Tirailleurs"
+    },
+    "Sky Leader": {
+      "name_fr": "Chef Céleste"
+    },
+    "Slann Mage-Priest": {
+      "name_fr": "Prêtre-mage Slann"
+    },
+    "Solar Engine": {
+      "name_fr": "Machine Solaire"
+    },
+    "Spawn Leader": {
+      "name_fr": "Premier de Couvée"
+    },
+    "Stegadon": {
+      "name_fr": "Stégadon"
+    },
+    "Temple Guard": {
+      "name_fr": "Gardien du Temple"
+    },
+    "Terradon": {
+      "name_fr": "Téradon"
+    },
+    "Terradon Riders": {
+      "name_fr": "Monteurs de Téradon"
+    },
+    "Thunderous bludgeon": {
+      "name_fr": "Balayage furieux"
+    },
+    "Toad Rage": {
+      "name_fr": "Crapauds"
+    },
+    "Venom spray": {
+      "name_fr": "Crachat de venin"
+    },
+    "Venomous talons": {
+      "name_fr": "Griffes venimeuses"
+    }
+  },
+  "regex": {
+    "([a-zA-Z\\s]+) with ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 avec $2"
+    },
+    "a ([a-zA-Z\\s]+) must contain at least three ([a-zA-Z\\s]+) for every one ([a-zA-Z\\s]+).": {
+      "name_fr": "une $1 doit contenir au moins trois $2 pour chaque $3"
+    },
+    "gains ([a-zA-Z\\s]+) special rule when choosing ([a-zA-Z\\s]+) weapon option": {
+      "name_fr": "gagne la règle spéciale $1 si l'option d'arme $2 est choisie"
+    }
+  }
+}

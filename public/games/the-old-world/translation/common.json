@@ -423,6 +423,9 @@
     "No armour": {
       "name_fr": "Pas d'Armure"
     },
+    "Note that this special rule does not apply to this model's mount": {
+      "name_fr": "Notez que cette règle spéciale ne s'applique pas à la monture de cette figurine"
+    },
     "Ogre Charge": {
       "name_fr": "Charge Ogre"
     },
@@ -645,11 +648,17 @@
     "Warpaint": {
       "name_fr": "Peintures de Guerre"
     },
+    "When writing your muster list": {
+      "name_fr": "Quand vous rédigez votre liste de mobilisation"
+    },
     "Whip": {
       "name_fr": "Fouet"
     },
     "Whips": {
       "name_fr": "Fouets"
+    },
+    "Wicked claws": {
+      "name_fr": "Griffes mortelles"
     },
     "Wilful Beast": {
       "name_fr": "Bête Capricieuse"
@@ -770,8 +779,14 @@
     "(\\d-\\d) units of ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 unités de $2 par tranche de $3 points"
     },
+    "(\\d-\\d) unit per (\\d+) points may have the ([a-zA-Z\\s-]+) special rule": {
+      "name_fr": "$1 unité par tranche de $2 points peut avoir la règle spéciale $3"
+    },
     "Replace the ([a-zA-Z\\s]+) special rule with ([a-zA-Z\\s]+)": {
       "name_fr": "Remplacer la règle spéciale $1 par $2"
+    },
+    "(\\d-\\d) unit per (\\d+) points may have one of the following: The ([a-zA-Z\\s-]+) special rule": {
+      "name_fr": "$1 unité par tranche de $2 points peut avoir l'une des options suivantes: La règle spéciale $3"
     },
     "Replace ([a-zA-Z\\s]+) with ([a-zA-Z\\s]+)": {
       "name_fr": "Remplacer les $1 par des $2"
@@ -809,6 +824,9 @@
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 unité de $2 par unité de $3 ou de $4 prise"
     },
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) taken": {
+      "name_fr": "$1 unité de $2 par $3 pris"
+    },
     "(a-zA-Z+ a-zA-Z+) and (a-zA-Z+ a-zA-Z+)": {
       "name_fr": "$1 et $2"
     },
@@ -820,6 +838,9 @@
     },
     "Level (\\d) \\(or (\\d)\\) Wizard": {
       "name_fr": "Sorcier de Niveau $1 (ou $2)"
+    },
+    "The ([a-zA-Z\\s-]+) special rule": {
+      "name_fr": "La règle spéciale $1"
     },
     "Spawn of (a-zA-Z+)": {
       "name_fr": "Rejeton de $1"
