@@ -1,0 +1,203 @@
+{
+  "direct": {
+    "Bellower": {
+      "name_fr": "Beugleur"
+    },
+    "Big Name": {
+      "name_fr": "Grand Nom"
+    },
+    "Blessings of the Volcano God": {
+      "name_fr": "Bénédictions du Dieu Volcan"
+    },
+    "Blood vulture": {
+      "name_fr": "Vautour de sang"
+    },
+    "Brace of Ogre pistols": {
+      "name_fr": "Paire de pistolets Ogres"
+    },
+    "Bruiser": {
+      "name_fr": "Cogneur"
+    },
+    "Bull Charge": {
+      "name_fr": "Charge Buffle"
+    },
+    "Butcher": {
+      "name_fr": "Boucher"
+    },
+    "Butcher's Cauldron": {
+      "name_fr": "Chaudron de Boucher"
+    },
+    "Cannon of the Sky-titans": {
+      "name_fr": "Canon des Titans Célestes"
+    },
+    "Chaintrap": {
+      "name_fr": "Croque-monsieur"
+    },
+    "Chill breath": {
+      "name_fr": "Souffle glacial"
+    },
+    "Crusher": {
+      "name_fr": "Broyeur"
+    },
+    "Distensible jaw": {
+      "name_fr": "Mâchoire extensible"
+    },
+    "Firebelly": {
+      "name_fr": "Ventre-feu"
+    },
+    "Flaming breath": {
+      "name_fr": "Souffle enflammé"
+    },
+    "Giant": {
+      "name_fr": "Géants"
+    },
+    "Giant's club": {
+      "name_fr": "Massue de Géant"
+    },
+    "Gnoblar Fighters": {
+      "name_fr": "Guerriers Gnoblars"
+    },
+    "Gnoblar Scraplauncher": {
+      "name_fr": "Lance-ferraille Gnoblar"
+    },
+    "Gnoblar Trappers": {
+      "name_fr": "Trappeurs Gnoblars"
+    },
+    "Gorger": {
+      "name_fr": "Cannibales"
+    },
+    "Great tusks": {
+      "name_fr": "Grandes défenses"
+    },
+    "Greyback": {
+      "name_fr": "Dos-gris"
+    },
+    "Grimfrost weapons": {
+      "name_fr": "Arme de Sinistregivre"
+    },
+    "Groinbiter": {
+      "name_fr": "Mord-nez"
+    },
+    "Gutlord": {
+      "name_fr": "Ventre de fer"
+    },
+    "Harpoon launcher": {
+      "name_fr": "Lance-harpon"
+    },
+    "Horns of stone": {
+      "name_fr": "Cornes de pierre"
+    },
+    "Hunter": {
+      "name_fr": "Chasseur"
+    },
+    "Iron Guts": {
+      "name_fr": "Ventres-durs"
+    },
+    "Ironblaster": {
+      "name_fr": "Boute-fer"
+    },
+    "Ironfist": {
+      "name_fr": "Poing d'Acier"
+    },
+    "Ironfists": {
+      "name_fr": "Poings d'Acier"
+    },
+    "Leadbelcher guns": {
+      "name_fr": "Crache-plomb"
+    },
+    "Leadbelchers": {
+      "name_fr": "Crache-plomb"
+    },
+    "Look-out Gnoblar": {
+      "name_fr": "Gnoblar Longue-vue"
+    },
+    "Lore of the Great Maw": {
+      "name_fr": "Domaine de La Gueule"
+    },
+    "Maneater Captain": {
+      "name_fr": "Capitaine Mangeur d'Hommes"
+    },
+    "Maneaters": {
+      "name_fr": "Mangeurs d'Hommes"
+    },
+    "Mournfang Cavalry": {
+      "name_fr": "Cavalerie Férox"
+    },
+    "Mournfang Charge": {
+      "name_fr": "Charge Férox"
+    },
+    "Numbing Chill": {
+      "name_fr": "Frisson Paralysant"
+    },
+    "Ogre Beast Rider": {
+      "name_fr": "Chevaucheur Ogre"
+    },
+    "Ogre Bulls": {
+      "name_fr": "Buffles Ogres"
+    },
+    "Ogre Crew": {
+      "name_fr": "Servant Ogre"
+    },
+    "Ogre pistol": {
+      "name_fr": "Pistolet Ogre"
+    },
+    "Ogre pistols": {
+      "name_fr": "Pistolets Ogres"
+    },
+    "Ravenous Hunger": {
+      "name_fr": "Faim Dévorante"
+    },
+    "Running with the Pack": {
+      "name_fr": "Courir avec la Meute"
+    },
+    "Sabretusk Pack": {
+      "name_fr": "Meutes de Crocs de Sabre"
+    },
+    "Scraplauncher catapult": {
+      "name_fr": "Catapulte Lance-ferraille"
+    },
+    "Sharp stuff": {
+      "name_fr": "Trucs pointus"
+    },
+    "Slaughtermaster": {
+      "name_fr": "Désosseur"
+    },
+    "Snarefinger": {
+      "name_fr": "Braconnier"
+    },
+    "Stone Skeleton": {
+      "name_fr": "Squelette de Pierre"
+    },
+    "Stonehorn": {
+      "name_fr": "Mastauroc"
+    },
+    "Stonehorn Riders": {
+      "name_fr": "Chevaucheurs de Mastauroc"
+    },
+    "Thunderfist": {
+      "name_fr": "Crache-tonnerre"
+    },
+    "Thunderous Charge": {
+      "name_fr": "Charge Tonnerre"
+    },
+    "Thundertusk": {
+      "name_fr": "Mégastodonte"
+    },
+    "Thundertusk Riders": {
+      "name_fr": "Chevaucheurs de Mégastodonte"
+    },
+    "Traps & Snares": {
+      "name_fr": "Pièges & Collets"
+    },
+    "Tyrant": {
+      "name_fr": "Tyran"
+    },
+    "Wicked claws": {
+      "name_fr": "Griffes vicieuses"
+    },
+    "Yhetees": {
+      "name_fr": "Yétis"
+    }
+  },
+  "regex": {}
+}

@@ -785,8 +785,14 @@
     "Replace the ([a-zA-Z\\s]+) special rule with ([a-zA-Z\\s]+)": {
       "name_fr": "Remplacer la règle spéciale $1 par $2"
     },
+    "Any unit may have (\\d-\\d) of the following special rules: ([a-zA-Z\\s-]+)": {
+      "name_fr": "Toute unité peut avoir $1 des règles spéciales suivantes: $2"
+    },
     "(\\d-\\d) unit per (\\d+) points may have one of the following: The ([a-zA-Z\\s-]+) special rule": {
       "name_fr": "$1 unité par tranche de $2 points peut avoir l'une des options suivantes: La règle spéciale $3"
+    },
+    "(\\d-\\d) unit per (\\d+) points may purchase a magic standard worth up to (\\d+) points": {
+      "name_fr": "$1 unité par tranche de $2 points peut acheter une bannière magique pour une valeur maximale de $3 points"
     },
     "Replace ([a-zA-Z\\s]+) with ([a-zA-Z\\s]+)": {
       "name_fr": "Remplacer les $1 par des $2"
