@@ -6,6 +6,21 @@
     "Assassin": {
       "name_fr": "Assassin"
     },
+    "Clan Eshin Master Assassin": {
+      "name_fr": "Maître Assassin du Clan Eshin"
+    },
+    "Clan Pestilens Plague Priest": {
+      "name_fr": "Prêtre de la Peste du Clan Pestilens"
+    },
+    "Clan Pestilens Plague Priests": {
+      "name_fr": "Prêtres de la Peste du Clan Pestilens"
+    },
+    "Clan Skryre Warlock Engineer": {
+      "name_fr": "Technomage du Clan Skryre"
+    },
+    "Clan Skryre Warlock Engineers": {
+      "name_fr": "Technomages du Clan Skryre"
+    },
     "Clanrats": {
       "name_fr": "Guerriers des clans"
     },
@@ -49,7 +64,7 @@
       "name_fr": "Maître Assassin"
     },
     "Master Moulder": {
-      "name_fr": "Maîtres corrupteurs"
+      "name_fr": "Maître corrupteur"
     },
     "Night Runners": {
       "name_fr": "Coureurs Nocturnes"
@@ -115,7 +130,7 @@
       "name_fr": "Cloche Hurlante"
     },
     "Scurry Away": {
-      "name_fr": "Sauve qui Peut !"
+      "name_fr": "Sauve qui Peut!"
     },
     "Skaven Chieftain": {
       "name_fr": "Chef Skaven"
@@ -125,6 +140,9 @@
     },
     "Stormvermin": {
       "name_fr": "Vermines de choc"
+    },
+    "Things-catcher": {
+      "name_fr": "Attrape-choses"
     },
     "Too Horrible to Die": {
       "name_fr": "Trop Horrible pour Mourir"
@@ -170,7 +188,17 @@
     },
     "Zzzzap!": {
       "name_fr": "Zzzzap!"
+    },
+    "mutated hides": {
+      "name_fr": "peaux mutées"
     }
   },
-  "regex": {}
+  "regex": {
+    "([a-zA-Z\\s-]+) - (\\d) per (\\d) ([a-zA-Z\\s]+)": {
+      "name_fr": "$1, $2 tous les $3 $4"
+    },
+    "Upgrade for one ([a-zA-Z\\s-]+)": {
+      "name_fr": "Amélioration pour un $1"
+    }
+  }
 }

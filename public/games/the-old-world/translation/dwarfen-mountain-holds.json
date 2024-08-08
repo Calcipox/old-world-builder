@@ -1,5 +1,8 @@
 {
   "direct": {
+    "\"Dig In!\"": {
+      "name_fr": "\"Creusez!\""
+    },
     "\"Fight Me!\"": {
       "name_fr": "\"Affronte-moi!\""
     },
@@ -12,8 +15,14 @@
     "Ancestral Shield": {
       "name_fr": "Bouclier Ancestral"
     },
+    "Anvil of Doom": {
+      "name_fr": "Enclume du Destin"
+    },
     "Artillery Master": {
       "name_fr": "Maître de l'Artillerie"
+    },
+    "Blasting Charges": {
+      "name_fr": "Charges de démolition"
     },
     "Bombing Run": {
       "name_fr": "Bombardement"
@@ -21,20 +30,113 @@
     "Borne Aloft": {
       "name_fr": "Porté"
     },
+    "Brace of drakefire pistols": {
+      "name_fr": "Paire de pistolets drac de feu"
+    },
+    "Brimstone gun": {
+      "name_fr": "Canon à soufre"
+    },
+    "Brimstone guns": {
+      "name_fr": "Canon à soufre"
+    },
+    "Bugman's Cart": {
+      "name_fr": "Chariot de Bugman"
+    },
+    "Cinderblast bombs": {
+      "name_fr": "Grenades à cendrée"
+    },
+    "Clattergun": {
+      "name_fr": "Canon crépiteur"
+    },
+    "Clatterguns": {
+      "name_fr": "Canon crépiteur"
+    },
+    "Daemon Slayer": {
+      "name_fr": "Tueur de Démons"
+    },
     "Deathblow": {
       "name_fr": "Ultime Attaque"
     },
     "Dive Bomb": {
       "name_fr": "Largage en Piqué"
     },
+    "Doomseeker": {
+      "name_fr": "Cherche-mort"
+    },
+    "Dragon Slayer": {
+      "name_fr": "Tueur de Dragons"
+    },
+    "Drakegun": {
+      "name_fr": "Canon drac de feu"
+    },
+    "Drakeguns": {
+      "name_fr": "Canons dracs de feu"
+    },
+    "Dwarf Cart": {
+      "name_fr": "Chariot Nain"
+    },
     "Dwarf Crafted": {
       "name_fr": "Facture Naine"
+    },
+    "Dwarf Warriors": {
+      "name_fr": "Guerriers Nains"
+    },
+    "Elder": {
+      "name_fr": "Vieille-barbe"
+    },
+    "Engineer": {
+      "name_fr": "Ingénieur"
+    },
+    "Engineer Sapper": {
+      "name_fr": "Ingénieur Sapeur"
+    },
+    "Engineering Runes": {
+      "name_fr": "Runes d'Ingéniérie"
     },
     "Entrenchment": {
       "name_fr": "Retranchement"
     },
+    "Expeditionary Force": {
+      "name_fr": "Corps Expéditionnaires"
+    },
+    "Expeditionary Marksmen": {
+      "name_fr": "Tireurs d'Élite Expéditionnaires"
+    },
+    "Extended Formation": {
+      "name_fr": "Formation Étendue"
+    },
+    "Fire thrower": {
+      "name_fr": "Lance-flammes"
+    },
+    "First to the Fray": {
+      "name_fr": "Premier au Combat"
+    },
+    "Flame Cannon": {
+      "name_fr": "Canon à Flammes"
+    },
+    "Flame Cannons": {
+      "name_fr": "Canons à Flammes"
+    },
     "Forgefire": {
       "name_fr": "Forgefeu"
+    },
+    "Furnace hammer": {
+      "name_fr": "Marteau fournaise"
+    },
+    "Giant Slayer": {
+      "name_fr": "Tueur de Géant"
+    },
+    "Giant Slayers": {
+      "name_fr": "Tueurs de Géants"
+    },
+    "Goblin-Hewer": {
+      "name_fr": "Faucheuse de Gobelins"
+    },
+    "Goblin-hewer": {
+      "name_fr": "Faucheuse de Gobelins"
+    },
+    "Great hammers": {
+      "name_fr": "Grands marteaux"
     },
     "Gromril Armour": {
       "name_fr": "Armure en Gromril"
@@ -42,8 +144,95 @@
     "Gromril Weapons": {
       "name_fr": "Armes en Gromril"
     },
+    "Gromril great axes": {
+      "name_fr": "Grandes haches de gromril"
+    },
+    "Grudge Thrower": {
+      "name_fr": "Catapulte à Rancunes"
+    },
+    "Grudge-settler": {
+      "name_fr": "Solde-Rancunes"
+    },
+    "Grudgelore": {
+      "name_fr": "Science des Rancunes"
+    },
+    "Gyrobomber": {
+      "name_fr": "Gyrobombardiers"
+    },
+    "Gyrocopters": {
+      "name_fr": "Gyrocoptères"
+    },
+    "Hammerers": {
+      "name_fr": "Marteliers"
+    },
+    "Immovable Object": {
+      "name_fr": "Objet Inamovible"
+    },
+    "Imperial Dwarf Mercenaries": {
+      "name_fr": "Mercenaires Nains Impériaux"
+    },
+    "Ironbeard": {
+      "name_fr": "Barbe de fer"
+    },
+    "Ironbreakers": {
+      "name_fr": "Brise-fer"
+    },
+    "Irondrakes": {
+      "name_fr": "Dracs de Fer"
+    },
+    "Ironwarden": {
+      "name_fr": "Gardien de Fer"
+    },
+    "King": {
+      "name_fr": "Roi"
+    },
+    "King of the Slayer Hold": {
+      "name_fr": "Roi de la Forteresse des Tueurs"
+    },
+    "Longbeards": {
+      "name_fr": "Longues-barbes"
+    },
+    "Miner's Cart": {
+      "name_fr": "Chariot de Mineur"
+    },
+    "Miners": {
+      "name_fr": "Mineurs"
+    },
     "Oathstone": {
       "name_fr": "Pierre de Serment"
+    },
+    "Ol' Deadeye": {
+      "name_fr": "Baroudeur"
+    },
+    "Organ Gun": {
+      "name_fr": "Canon-orgue"
+    },
+    "Organ Guns": {
+      "name_fr": "Canons-orgue"
+    },
+    "Organ gun": {
+      "name_fr": "Canon-orgue"
+    },
+    "Prepared Positions": {
+      "name_fr": "Positions Préparées"
+    },
+    "Prospector": {
+      "name_fr": "Prospecteur"
+    },
+    "Quarrellers": {
+      "name_fr": "Arbalétriers"
+    },
+    "Range Finding Optics": {
+      "name_fr": "Instruments de Télémétrie"
+    },
+    "Rivet gun": {
+      "name_fr": "Pistolet à rivets"
+    },
+    "Royal Champion": {
+      "name_fr": "Champion Royal"
+    },
+    "Royal Clan Veteran": {
+      "name_fr": "Vétéran des Clans Royaux"
     },
     "Royal Guard": {
       "name_fr": "Garde Royale"
@@ -51,11 +240,23 @@
     "Rune Lore": {
       "name_fr": "Savoir Runique"
     },
+    "Runelord": {
+      "name_fr": "Seigneur Forgerune"
+    },
     "Runes of Protection": {
       "name_fr": "Runes de Protection"
     },
     "Runes of Warding": {
       "name_fr": "Runes de Sauvegarde"
+    },
+    "Runesmith": {
+      "name_fr": "Forgerune"
+    },
+    "Runic Tattoos": {
+      "name_fr": "Tatouages Runiques"
+    },
+    "Scout Gyrocopters": {
+      "name_fr": "Gyrocoptères de Reconnaissance"
     },
     "Shieldbearers": {
       "name_fr": "Porteurs de Bouclier"
@@ -63,27 +264,91 @@
     "Slayer": {
       "name_fr": "Tueur"
     },
-    "Steam gun": {
-      "name_fr": "Canon à vapeur"
-    },
     "Slayer of Daemons": {
       "name_fr": "Tueur de Démons"
     },
     "Slayer of Dragons": {
       "name_fr": "Tueur de Dragons"
     },
+    "Slayer of Legend": {
+      "name_fr": "Tueur de Légende"
+    },
+    "Slayers": {
+      "name_fr": "Tueurs"
+    },
+    "Standard runes": {
+      "name_fr": "runes de Bannière"
+    },
+    "Steam drill": {
+      "name_fr": "Foreuse à vapeur"
+    },
+    "Steam gun": {
+      "name_fr": "Canon à vapeur"
+    },
     "Stoic Defenders": {
       "name_fr": "Défenseurs Stoïques"
     },
+    "Stone thrower": {
+      "name_fr": "Catapulte"
+    },
     "Strike the Runes": {
       "name_fr": "Frapper les Runes"
+    },
+    "Talismanic Runes": {
+      "name_fr": "Runes de Talisman"
+    },
+    "The Armour of Skaldour": {
+      "name_fr": "L'Armure de Skaldor"
+    },
+    "The Axe of Dargo": {
+      "name_fr": "La Hache de Dargo"
+    },
+    "The Grudgestone": {
+      "name_fr": "La Pierre de Rancune"
+    },
+    "The Slayer Crown": {
+      "name_fr": "La Couronne du Tueur"
+    },
+    "Thunderers": {
+      "name_fr": "Arquebusiers"
+    },
+    "Trollhammer torpedo": {
+      "name_fr": "Torpille à troll"
+    },
+    "Ungrim Ironfist": {
+      "name_fr": "Ungrim Poing-de-Fer"
     },
     "Venerable": {
       "name_fr": "Vénérables"
     },
     "Veteran (champion)": {
       "name_fr": "Vétéran (champion)"
+    },
+    "Weapon Runes": {
+      "name_fr": "Runes d'Arme"
+    },
+    "Whirling blades of death": {
+      "name_fr": "Lames de mort tourbillonnantes"
+    },
+    "Whirlwind of Death": {
+      "name_fr": "Tourbillon de Mort"
+    },
+    "armoured fuselage": {
+      "name_fr": "fuselage blindé"
     }
   },
-  "regex": {}
+  "regex": {
+    "Up to (\\d+) points of each rune type": {
+      "name_fr": "Jusqu'à $1 points de chaque type de rune"
+    },
+    "(\\d-\\d) unit per (\\d+) points can have ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 unité par tranche de $2 points peut acheter des $3"
+    },
+    "([a-zA-Z\\s]+) \\((\\d-\\d) unit per (\\d+) points, ([a-zA-Z\\s]+) only\\)": {
+      "name_fr": "$1 ($2 unité par tranche de $3 points, $4 uniquement)"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+), ([a-zA-Z\\s]+), or ([a-zA-Z\\s]+) per (\\d+) points": {
+      "name_fr": "$1 $2, $3, ou $4 par tranche de $5 points"
+    }
+  }
 }
