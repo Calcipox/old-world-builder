@@ -336,6 +336,9 @@
     "Javelins": {
       "name_fr": "Javelines"
     },
+    "Khorne": {
+      "name_fr": "Khorne"
+    },
     "Killing Blow": {
       "name_fr": "Coup Fatal"
     },
@@ -434,6 +437,9 @@
     },
     "Note that this special rule does not apply to this model's mount": {
       "name_fr": "Notez que cette règle spéciale ne s'applique pas à la monture de cette figurine"
+    },
+    "Nurgle": {
+      "name_fr": "Nurgle"
     },
     "Ogre Charge": {
       "name_fr": "Charge Ogre"
@@ -546,6 +552,9 @@
     "Skirmishers": {
       "name_fr": "Tirailleurs"
     },
+    "Slaanesh": {
+      "name_fr": "Slaanesh"
+    },
     "Sling": {
       "name_fr": "Fronde"
     },
@@ -620,6 +629,9 @@
     },
     "Two hand weapons": {
       "name_fr": "Deux armes de base"
+    },
+    "Tzeentch": {
+      "name_fr": "Tzeentch"
     },
     "Unbreakable": {
       "name_fr": "Indémoralisable"
@@ -755,6 +767,9 @@
     }
   },
   "regex": {
+    "Spawn of ([a-zA-Z\\s]+)": {
+      "name_fr": "Rejeton de $1"
+    },
     "(\\d-\\d) Special choice ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) if your general is a ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 ou $3 en choix Spécial si votre général est un $4"
     },
@@ -775,6 +790,9 @@
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) may be taken as a Core choice": {
       "name_fr": "$1 unité de $2 peut être prise comme choix de Base"
+    },
+    "(\\d-\\d) or ([a-zA-Z\\s-]+) per (\\d+) points": {
+      "name_fr": "$1 ou $2 par tranche de $3 points"
     },
     "(\\d-\\d) ([a-zA-Z\\s-]+) or unit of ([a-zA-Z\\s-]+) may be taken per (\\d+) points": {
       "name_fr": "$1 $2 ou unité d'$3 peut être prise par tranche de $4 points"
@@ -916,6 +934,9 @@
     },
     "(\\d)\\+ ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
       "name_fr": "$1+ $2 ou $3"
+    },
+    "(\\d)\\+ ([a-zA-Z\\s]+)": {
+      "name_fr": "$1+ $2"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2"

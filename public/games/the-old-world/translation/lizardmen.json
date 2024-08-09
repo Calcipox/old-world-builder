@@ -18,6 +18,12 @@
     "Ark of Sotek": {
       "name_fr": "Arche de Sotek"
     },
+    "Bastiladon": {
+      "name_fr": "Bastiladon"
+    },
+    "Bastiladons": {
+      "name_fr": "Bastiladons"
+    },
     "Beast Handlers": {
       "name_fr": "Maître des Bêtes"
     },
@@ -75,6 +81,9 @@
     "Jungle Swarms": {
       "name_fr": "Nuées de la Jungle"
     },
+    "Kroxigors": {
+      "name_fr": "Kroxigors"
+    },
     "Lore of Lustria": {
       "name_fr": "Domaine de Lustrie"
     },
@@ -92,6 +101,9 @@
     },
     "Razor barbs": {
       "name_fr": "Épines acérées"
+    },
+    "Razordon": {
+      "name_fr": "Razordon"
     },
     "Razordon Pack": {
       "name_fr": "Meute de Razordon"
@@ -173,6 +185,9 @@
     },
     "Toad Rage": {
       "name_fr": "Crapauds"
+    },
+    "Troglodon": {
+      "name_fr": ""
     },
     "Venom spray": {
       "name_fr": "Crachat de venin"

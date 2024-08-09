@@ -1,5 +1,8 @@
 {
   "direct": {
+    "+1 Initiative": {
+      "name_fr": "+1 Initiative"
+    },
     "Alluress": {
       "name_fr": "Tentatrice"
     },
@@ -179,6 +182,9 @@
     },
     "Lore of Daemons": {
       "name_fr": "Domaine des Démons"
+    },
+    "Nurglings": {
+      "name_fr": "Nurglings"
     },
     "Palanquin of Nurgle": {
       "name_fr": "Palanquin de Nurgle"

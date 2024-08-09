@@ -42,6 +42,9 @@
     "Bugman's Cart": {
       "name_fr": "Chariot de Bugman"
     },
+    "Burlok Damminson": {
+      "name_fr": "Burlok Damminson"
+    },
     "Cinderblast bombs": {
       "name_fr": "Grenades à cendrée"
     },
@@ -228,6 +231,9 @@
     "Range Finding Optics": {
       "name_fr": "Instruments de Télémétrie"
     },
+    "Rangers": {
+      "name_fr": "Rangers"
+    },
     "Rivet gun": {
       "name_fr": "Pistolet à rivets"
     },
@@ -245,6 +251,9 @@
     },
     "Runelord": {
       "name_fr": "Seigneur Forgerune"
+    },
+    "Runes": {
+      "name_fr": "Runes"
     },
     "Runes of Protection": {
       "name_fr": "Runes de Protection"
@@ -300,6 +309,9 @@
     "Talismanic Runes": {
       "name_fr": "Runes de Talisman"
     },
+    "Thane": {
+      "name_fr": "Thane"
+    },
     "The Armour of Skaldour": {
       "name_fr": "L'Armure de Skaldor"
     },
@@ -311,6 +323,9 @@
     },
     "The Slayer Crown": {
       "name_fr": "La Couronne du Tueur"
+    },
+    "Thorgrim Ullekson": {
+      "name_fr": "Thorgrim Ullekson"
     },
     "Thunderers": {
       "name_fr": "Arquebusiers"
@@ -352,6 +367,9 @@
     },
     "(\\d-\\d) ([a-zA-Z\\s]+), ([a-zA-Z\\s]+), or ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 $2, $3, ou $4 par tranche de $5 points"
+    },
+    "Max (\\d)": {
+      "name_fr": "Max $1"
     }
   }
 }
