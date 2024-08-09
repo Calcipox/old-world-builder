@@ -1,0 +1,47 @@
+{
+  "direct": {
+    "Virtue of Audacity": {
+      "name_fr": "Vertu de Témérité"
+    },
+    "Virtue of Confidence": {
+      "name_fr": "Vertu de Confiance"
+    },
+    "Virtue of Discipline": {
+      "name_fr": "Vertu de Discipline"
+    },
+    "Virtue of Duty": {
+      "name_fr": "Vertu du Devoir"
+    },
+    "Virtue of Empathy": {
+      "name_fr": "Vertu de Sollicitude"
+    },
+    "Virtue of Heroism": {
+      "name_fr": "Vertu d'Héroïsme"
+    },
+    "Virtue of Knightly Temper": {
+      "name_fr": "Vertu du Tempérament Chevaleresque"
+    },
+    "Virtue of Noble Disdain": {
+      "name_fr": "Vertu de Noble Dédain"
+    },
+    "Virtue of Purity": {
+      "name_fr": "Vertu de Pureté"
+    },
+    "Virtue of Stoicism": {
+      "name_fr": "Vertu de Stoïcisme"
+    },
+    "Virtue of the Ideal": {
+      "name_fr": "Vertu de l'Idéal"
+    },
+    "Virtue of the Impetuous Knight": {
+      "name_fr": "Vertu du Chevalier Impétueux"
+    },
+    "Virtue of the Joust": {
+      "name_fr": "Vertu de la Joute"
+    },
+    "Virtue of the Penitent": {
+      "name_fr": "Vertu du Pénitent"
+    }
+  },
+  "regex": {}
+}

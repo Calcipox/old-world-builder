@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Bloodcleaver": {
+      "name_fr": "Tranche-sang"
+    },
+    "Bull Standard": {
+      "name_fr": "Étendard du Buffle"
+    },
+    "Cannibal Totem": {
+      "name_fr": "Totem Cannibale"
+    },
+    "Cathayan Jet Pendant": {
+      "name_fr": "Pendentif de Jais Cathayen"
+    },
+    "Daemon-Slayer Scars": {
+      "name_fr": "Scarifications Démoniaques"
+    },
+    "Dragonhide Banner": {
+      "name_fr": "Bannière en Peau de Dragon"
+    },
+    "Fistful Of Laurels": {
+      "name_fr": "Couronne de Lauriers"
+    },
+    "Grut's Sickle": {
+      "name_fr": "Serpe de Grut"
+    },
+    "Gut Maw": {
+      "name_fr": "Plaque Ventrale de La Gueule"
+    },
+    "Halfling Cookbook": {
+      "name_fr": "Livre de Recettes Halfling"
+    },
+    "Hellheart": {
+      "name_fr": "Cœur Infernal"
+    },
+    "Jade Lion": {
+      "name_fr": "Lion de Jade"
+    },
+    "Mastodon Armour": {
+      "name_fr": "Armure Mastodonte"
+    },
+    "Rune Maw": {
+      "name_fr": "Rune de La Gueule"
+    },
+    "Skullplucker": {
+      "name_fr": "Vide-crâne"
+    },
+    "Spangleshard": {
+      "name_fr": "Éclat Scintillant"
+    },
+    "Tenderiser": {
+      "name_fr": "Attendrisseur"
+    },
+    "Thundermace": {
+      "name_fr": "Masse-tonnerre"
+    }
+  },
+  "regex": {}
+}

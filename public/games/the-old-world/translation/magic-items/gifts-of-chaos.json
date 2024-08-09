@@ -1,0 +1,32 @@
+{
+  "direct": {
+    "Acid Ichor": {
+      "name_fr": "Ichor Acide"
+    },
+    "Aura of Pain": {
+      "name_fr": "Aura de Douleur"
+    },
+    "Daemon-Flesh": {
+      "name_fr": "Chair Démoniaque"
+    },
+    "Dark Majesty": {
+      "name_fr": "Sombre Majesté"
+    },
+    "Diabolic Splendour": {
+      "name_fr": "Splendeur Diabolique"
+    },
+    "Enchanting Aura": {
+      "name_fr": "Aura Enchanteresse"
+    },
+    "Extra Arm": {
+      "name_fr": "Bras Supplémentaire"
+    },
+    "Master of Mortals": {
+      "name_fr": "Maître des Mortels"
+    },
+    "Poisonous Slime": {
+      "name_fr": "Mucus Empoisonné"
+    }
+  },
+  "regex": {}
+}

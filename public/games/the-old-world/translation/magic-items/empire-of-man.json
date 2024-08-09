@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Armour of Fortune": {
+      "name_fr": "Armure de Bonne Fortune"
+    },
+    "Armour of Tarnus": {
+      "name_fr": "Armure de Tarnus"
+    },
+    "Banner of Duty": {
+      "name_fr": "Bannière du Devoir"
+    },
+    "Book of Ashur": {
+      "name_fr": "Livre d'Ashur"
+    },
+    "Dragon Bow": {
+      "name_fr": "Arc Dragon"
+    },
+    "Griffon Standard": {
+      "name_fr": "Bannière du Griffon"
+    },
+    "Imperial Banner": {
+      "name_fr": "Bannière Impériale"
+    },
+    "Jade Amulet": {
+      "name_fr": "Amulette de Jade"
+    },
+    "Laurels of Victory": {
+      "name_fr": "Lauriers de la Victoire"
+    },
+    "Mace of Helsturm": {
+      "name_fr": "Masse de Helsturm"
+    },
+    "Runefang": {
+      "name_fr": "Croc Runique"
+    },
+    "Shroud of Iron": {
+      "name_fr": "Linceul de Fer"
+    },
+    "Sword of Justice": {
+      "name_fr": "Épée de Justice"
+    },
+    "The Gleaming Pennant": {
+      "name_fr": "Le Fanion Étincelant"
+    },
+    "The Silver Horn": {
+      "name_fr": "Le Cor d'Argent"
+    },
+    "The White Cloak": {
+      "name_fr": "La Cape Blanche"
+    },
+    "Wizard's Familiar": {
+      "name_fr": "Familier de Sorcier"
+    },
+    "Wizard's Staff": {
+      "name_fr": "Bâton de Sorcier"
+    }
+  },
+  "regex": {}
+}

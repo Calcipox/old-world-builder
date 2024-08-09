@@ -1,0 +1,56 @@
+{
+  "direct": {
+    "Banner Of Verminous Scurrying": {
+      "name_fr": "Bannière de Vivacité Vermineuse"
+    },
+    "Blade Of Nurglitch": {
+      "name_fr": "Lame de Nurglitch"
+    },
+    "Brass Orb": {
+      "name_fr": "Orbe d'Airain"
+    },
+    "Cautious Shield": {
+      "name_fr": "Bouclier de Couardise"
+    },
+    "Death Globe": {
+      "name_fr": "Sphère de Mort"
+    },
+    "Dwarf Hide Banner": {
+      "name_fr": "Bannière en Peau de Nain"
+    },
+    "Grand Banner Of Superiority": {
+      "name_fr": "Bannière de Supériorité"
+    },
+    "Shadow Magnet": {
+      "name_fr": "Breloque d'Obscurité Magnétique"
+    },
+    "Skalm": {
+      "name_fr": "Skataplasme"
+    },
+    "Skavenbrew": {
+      "name_fr": "Breuvage Skaven"
+    },
+    "Storm Banner": {
+      "name_fr": "Bannière d'Orage"
+    },
+    "Storm Daemon": {
+      "name_fr": "Orbe des Tempêtes"
+    },
+    "The Fellblade": {
+      "name_fr": "Lame Fatale"
+    },
+    "Warp Condenser": {
+      "name_fr": "Condensateur d'Énergie Magique"
+    },
+    "Warpstone Amulet": {
+      "name_fr": "Amulette de Malepierre"
+    },
+    "Warpstone Armour": {
+      "name_fr": "Armure d'Éclats de Malepierre"
+    },
+    "Weeping Blade": {
+      "name_fr": "Lame Suintante"
+    }
+  },
+  "regex": {}
+}

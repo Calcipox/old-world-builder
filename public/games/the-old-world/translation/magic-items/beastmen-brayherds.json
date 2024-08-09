@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Axe of Men": {
+      "name_fr": "Hache des Hommes"
+    },
+    "Banner of Outrage": {
+      "name_fr": "Bannière de l'Outrage"
+    },
+    "Dark Heart": {
+      "name_fr": "Cœur Noir"
+    },
+    "Hagtree Fetish": {
+      "name_fr": "Fétiche d'Arbres aux Pendus"
+    },
+    "Horn of the First Beast": {
+      "name_fr": "Cor de la Première Bête"
+    },
+    "Hunter's Spear": {
+      "name_fr": "Lance du Chasseur"
+    },
+    "Jagged Dagger": {
+      "name_fr": "Dague Dentelée"
+    },
+    "Manbane Standard": {
+      "name_fr": "Le Fléau des Hommes"
+    },
+    "Mangelder": {
+      "name_fr": "Émasculateur"
+    },
+    "Pelt of the Dark Young": {
+      "name_fr": "Pelisse de l'Enfant Noir"
+    },
+    "Primeval Club": {
+      "name_fr": "Massue Primordiale"
+    },
+    "Rune of the True Beast": {
+      "name_fr": "Rune de la Vraie Bête"
+    },
+    "Skin of Man": {
+      "name_fr": "Peau d'Homme"
+    },
+    "Stone of Spite": {
+      "name_fr": "Pierre de Rancœur"
+    },
+    "The Blackened Plate": {
+      "name_fr": "L'Armure Noircie"
+    },
+    "The Plague Chalice": {
+      "name_fr": "Le Calice Pestilentiel"
+    },
+    "Totem of Rust": {
+      "name_fr": "Totem de Rouille"
+    },
+    "Vitriolic Totem": {
+      "name_fr": "Totem Vitriol"
+    }
+  },
+  "regex": {}
+}

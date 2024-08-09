@@ -1,0 +1,149 @@
+{
+  "direct": {
+    "Arcane Familiar": {
+      "name_fr": "Familier des Arcanes"
+    },
+    "Armour of Destiny": {
+      "name_fr": "Armure du Destin"
+    },
+    "Armour of Meteoric Iron": {
+      "name_fr": "Armure de Fer Météorique"
+    },
+    "Armour of Silvered Steel": {
+      "name_fr": "Armure de Fer-argent"
+    },
+    "Banner of Iron Resolve": {
+      "name_fr": "Bannière de Détermination"
+    },
+    "Bedazzling Helm": {
+      "name_fr": "Heaume du Trompeur"
+    },
+    "Berserker Blade": {
+      "name_fr": "Lame Berserk"
+    },
+    "Biting Blade": {
+      "name_fr": "Lame de Morsure"
+    },
+    "Burning Blade": {
+      "name_fr": "Lame Ardente"
+    },
+    "Charmed Shield": {
+      "name_fr": "Bouclier Ensorcelé"
+    },
+    "Dawnstone": {
+      "name_fr": "Pierre de l'Aube"
+    },
+    "Dispel Scroll": {
+      "name_fr": "Parchemin de Dissipation"
+    },
+    "Dragon Slaying Sword": {
+      "name_fr": "Épée Tueuse de Dragons"
+    },
+    "Duellist's Blades": {
+      "name_fr": "Lames d'Escrimeur"
+    },
+    "Earthing Rod": {
+      "name_fr": "Bâton Catalyseur"
+    },
+    "Enchanted Shield": {
+      "name_fr": "Bouclier Enchanté"
+    },
+    "Feedback Scroll": {
+      "name_fr": "Parchemin de Rebond"
+    },
+    "Flying Carpet": {
+      "name_fr": "Tapis Volant"
+    },
+    "Giant Blade": {
+      "name_fr": "Lame de Géant"
+    },
+    "Glittering Scales": {
+      "name_fr": "Écailles Étincelantes"
+    },
+    "Headsman's Axe": {
+      "name_fr": "Hache de Bourreau"
+    },
+    "Healing Potion": {
+      "name_fr": "Potion de Soin"
+    },
+    "Lore Familiar": {
+      "name_fr": "Familier de Savoir"
+    },
+    "Luckstone": {
+      "name_fr": "Pierre de Chance"
+    },
+    "Obsidian Lodestone": {
+      "name_fr": "Magnétite d'Obsidienne"
+    },
+    "Ogre Blade": {
+      "name_fr": "Lame Ogre"
+    },
+    "Paymaster's Coin": {
+      "name_fr": "Pièce du Trésorier"
+    },
+    "Potion of Foolhardiness": {
+      "name_fr": "Potion d'Impétuosité"
+    },
+    "Potion of Speed": {
+      "name_fr": "Potion de Célérité"
+    },
+    "Potion of Strength": {
+      "name_fr": "Potion de Force"
+    },
+    "Potion of Toughness": {
+      "name_fr": "Potion d'Endurance"
+    },
+    "Power Scroll": {
+      "name_fr": "Parchemin de Pouvoir"
+    },
+    "Rampaging Banner": {
+      "name_fr": "Bannière du Carnage"
+    },
+    "Razor Standard": {
+      "name_fr": "Étendard Tranchant"
+    },
+    "Ruby Ring of Ruin": {
+      "name_fr": "Anneau Rubis de Ruine"
+    },
+    "Scroll of Transmogrification": {
+      "name_fr": "Parchemin de Transmutation"
+    },
+    "Shield of the Warrior True": {
+      "name_fr": "Bouclier du Guerrier Véritable"
+    },
+    "Spelleater Axe": {
+      "name_fr": "Hache Mange-sorts"
+    },
+    "Spellshield": {
+      "name_fr": "Bouclier d'Anti-magie"
+    },
+    "Sword of Battle": {
+      "name_fr": "Épée de Bataille"
+    },
+    "Sword of Might": {
+      "name_fr": "Épée de Puissance"
+    },
+    "Sword of Striking": {
+      "name_fr": "Épée de Frappe"
+    },
+    "Sword of Swiftness": {
+      "name_fr": "Épée de Vivacité"
+    },
+    "Talisman of Protection": {
+      "name_fr": "Talisman de Protection"
+    },
+    "The Blazing Banner": {
+      "name_fr": "Bannière Incandescente"
+    },
+    "Wand of Jet": {
+      "name_fr": "Baguette de Jais"
+    },
+    "War Banner": {
+      "name_fr": "Bannière de Guerre"
+    },
+    "Wizarding Hat": {
+      "name_fr": "Chapeau de Magicien"
+    }
+  },
+  "regex": {}
+}

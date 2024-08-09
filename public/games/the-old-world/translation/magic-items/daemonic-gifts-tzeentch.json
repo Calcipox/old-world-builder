@@ -1,0 +1,20 @@
+{
+  "direct": {
+    "Iridescent Corona": {
+      "name_fr": "Couronne Irisée"
+    },
+    "Power Vortex": {
+      "name_fr": "Vortex de Puissance"
+    },
+    "Staff Of Change": {
+      "name_fr": "Bâton du Changement"
+    },
+    "Twin Heads": {
+      "name_fr": "Têtes Jumelles"
+    },
+    "Will Of Tzeentch": {
+      "name_fr": "Volonté de Tzeentch"
+    }
+  },
+  "regex": {}
+}

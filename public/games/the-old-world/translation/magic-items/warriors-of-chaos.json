@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Armour of the Damned": {
+      "name_fr": "Armure des Damnés"
+    },
+    "Banner of Rage": {
+      "name_fr": "Bannière de Rage"
+    },
+    "Banner of the Gods": {
+      "name_fr": "Bannière des Dieux"
+    },
+    "Blasted Standard": {
+      "name_fr": "Étendard de Fournaise"
+    },
+    "Brazen Collar": {
+      "name_fr": "Collier d'Airain"
+    },
+    "Chaos Runesword": {
+      "name_fr": "Épée Runique du Chaos"
+    },
+    "Crimson Armour of Dargan": {
+      "name_fr": "Armure Pourpre de Dargan"
+    },
+    "Crown of Everlasting Conquest": {
+      "name_fr": "Couronne de Conquête Éternelle"
+    },
+    "Daemonsword": {
+      "name_fr": "Épée-démon"
+    },
+    "Doom Totem": {
+      "name_fr": "Totem Funeste"
+    },
+    "Favour of the Gods": {
+      "name_fr": "Faveur des Dieux"
+    },
+    "Filth Mace": {
+      "name_fr": "Masse d'Infection"
+    },
+    "Helm of Many Eyes": {
+      "name_fr": "Heaume aux Yeux Innombrables"
+    },
+    "Infernal Puppet": {
+      "name_fr": "Marionnette Infernale"
+    },
+    "Pendant of Damnation": {
+      "name_fr": "Pendentif de Damnation"
+    },
+    "Skull of Katam": {
+      "name_fr": "Crâne de Katam"
+    },
+    "Spell Familiar": {
+      "name_fr": "Familier de Sort"
+    },
+    "Spellthieving Sword": {
+      "name_fr": "Épée Voleuse de Sorts"
+    }
+  },
+  "regex": {}
+}

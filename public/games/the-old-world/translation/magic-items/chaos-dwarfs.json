@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Armour of Bazherak The Cruel": {
+      "name_fr": "Armure de Bazherak le Cruel"
+    },
+    "Ashen Banner": {
+      "name_fr": "Bannière Cendrée"
+    },
+    "Black Hammer of Hashut": {
+      "name_fr": "Marteau Noir d'Hashut"
+    },
+    "Breath of Hashut": {
+      "name_fr": "Souffle d'Hashut"
+    },
+    "Daemon Flask": {
+      "name_fr": "Flasque Démoniaque"
+    },
+    "Daemonic Familiar": {
+      "name_fr": "Familier Démoniaque"
+    },
+    "Dagger of Malice": {
+      "name_fr": "Dague de Malice"
+    },
+    "Dark Maul": {
+      "name_fr": "Masse des Ténèbres"
+    },
+    "Hellshard": {
+      "name_fr": "Éclat Infernal"
+    },
+    "Mantle of Stone": {
+      "name_fr": "Manteau de Pierre"
+    },
+    "Obsidian Vambraces": {
+      "name_fr": "Crispins d'Obsidienne"
+    },
+    "Overseer's Sigil": {
+      "name_fr": "Sceau des Contremaîtres"
+    },
+    "Scroll of Binding": {
+      "name_fr": "Parchemin d'Asservissement"
+    },
+    "Shroud Of The Ancestor": {
+      "name_fr": "Suaire de l'Ancêtre"
+    },
+    "The Graven Sceptre": {
+      "name_fr": "Le Sceptre Gravé"
+    },
+    "The Lammasu's Beard": {
+      "name_fr": "Barbe du Lammasu"
+    },
+    "The Mask Of The Furnace": {
+      "name_fr": "Le Masque de Fournaise"
+    },
+    "Vial of Lammasu Blood": {
+      "name_fr": "Fiole de Sang de Lammasu"
+    }
+  },
+  "regex": {}
+}

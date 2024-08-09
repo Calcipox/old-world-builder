@@ -1,0 +1,26 @@
+{
+  "direct": {
+    "A Befuddlement Of Mischiefs": {
+      "name_fr": "Foule de Malicieux"
+    },
+    "A Blight Of Terrors": {
+      "name_fr": "Bande de Terreurs"
+    },
+    "A Lamentation Of Despairs": {
+      "name_fr": "Troupe de Désespoirs"
+    },
+    "A Murder Of Spites": {
+      "name_fr": "Troupe de Tranchants"
+    },
+    "A Muster Of Malevolents": {
+      "name_fr": "Nuée de Piquants"
+    },
+    "A Resplendence Of Luminescents": {
+      "name_fr": "Cénacle de Lumineux"
+    },
+    "An Annoyance Of Netlings": {
+      "name_fr": "Pléiade de Tisseurs"
+    }
+  },
+  "regex": {}
+}

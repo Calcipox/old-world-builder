@@ -1,0 +1,20 @@
+{
+  "direct": {
+    "Allure Of Slaanesh": {
+      "name_fr": "Beauté de Slaanesh"
+    },
+    "Enrapturing Gaze": {
+      "name_fr": "Regard Envoûtant"
+    },
+    "Infernal Enrapturess": {
+      "name_fr": "Enchantement Infernal"
+    },
+    "Siren Song": {
+      "name_fr": "Chant de la Sirène"
+    },
+    "Soporific Musk": {
+      "name_fr": "Musc Soporifique"
+    }
+  },
+  "regex": {}
+}

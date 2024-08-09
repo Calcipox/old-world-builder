@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Asyendi's Bane": {
+      "name_fr": "Fléau d'Asyendi"
+    },
+    "Banner Of Midsummer's Eve": {
+      "name_fr": "Bannière du Solstice d'Été"
+    },
+    "Banner Of The Eternal Queen": {
+      "name_fr": "Bannière de la Reine Éternelle"
+    },
+    "Banner Of The Hunter King": {
+      "name_fr": "Bannière du Roi Chasseur"
+    },
+    "Banner Of The Wildwood": {
+      "name_fr": "Bannière du Bois Sauvage"
+    },
+    "Blades of Loec": {
+      "name_fr": "Lames de Loec"
+    },
+    "Bow of Loren": {
+      "name_fr": "Arc de Loren"
+    },
+    "Deepwood Sphere": {
+      "name_fr": "Sphère des Bois Profonds"
+    },
+    "Glamourweave": {
+      "name_fr": "Écheveau Féérique"
+    },
+    "Hail of Doom Arrow": {
+      "name_fr": "Grêle de Mort"
+    },
+    "Helm Of The Hunt": {
+      "name_fr": "Coiffe de la Chasse"
+    },
+    "Merciw's Locus": {
+      "name_fr": "Gemme de Merciw"
+    },
+    "Oaken Stave": {
+      "name_fr": "Bâton de Chêne"
+    },
+    "Railarian's Mantle": {
+      "name_fr": "Cape de Railarian"
+    },
+    "Spear of Twilight": {
+      "name_fr": "Lance du Crépuscule"
+    },
+    "Wailing Arrow": {
+      "name_fr": "Flèche Hurlante"
+    },
+    "Wand of Wych Elm": {
+      "name_fr": "Baguette d'Orme Blanc"
+    },
+    "Wraithstone": {
+      "name_fr": "Pierre Spectrale"
+    }
+  },
+  "regex": {}
+}

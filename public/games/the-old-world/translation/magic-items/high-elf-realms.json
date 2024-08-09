@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Annulian Crystal": {
+      "name_fr": "Cristal des Annulii"
+    },
+    "Armour of Caledor": {
+      "name_fr": "Armure de Caledor"
+    },
+    "Banner of Arcane Protection": {
+      "name_fr": "Bannière de Protection Magique"
+    },
+    "Banner of Ellyrion": {
+      "name_fr": "Bannière d'Ellyrion"
+    },
+    "Battle Banner": {
+      "name_fr": "Bannière de Bataille"
+    },
+    "Dragon Helm": {
+      "name_fr": "Heaume Dragon"
+    },
+    "Foe Bane": {
+      "name_fr": "Épée du Bannissement"
+    },
+    "Lion Standard": {
+      "name_fr": "Étendard du Lion"
+    },
+    "Null Stone": {
+      "name_fr": "Pierre de Nuit"
+    },
+    "Opal Amulet": {
+      "name_fr": "Amulette d'Opale"
+    },
+    "Reaver Bow": {
+      "name_fr": "Arc du Patrouilleur"
+    },
+    "Seed of Rebirth": {
+      "name_fr": "Graine de Renaissance"
+    },
+    "Sigil of Asuryan": {
+      "name_fr": "Signe d'Asuryan"
+    },
+    "Silvery Wand": {
+      "name_fr": "Baguette d'Argent"
+    },
+    "The Blade of Leaping Gold": {
+      "name_fr": "Lame d'Or Bondissant"
+    },
+    "The Cloak of Beards": {
+      "name_fr": "Cape de Barbes"
+    },
+    "The Loremaster's Cloak": {
+      "name_fr": "Cape du Maître du Savoir"
+    },
+    "The White Sword": {
+      "name_fr": "Épée Blanche"
+    }
+  },
+  "regex": {}
+}

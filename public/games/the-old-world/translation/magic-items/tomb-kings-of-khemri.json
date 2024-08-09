@@ -1,0 +1,110 @@
+{
+  "direct": {
+    "Amulet Of The Serpent": {
+      "name_fr": "Amulette du Serpent"
+    },
+    "Armour of the Ages": {
+      "name_fr": "Armure des Âges"
+    },
+    "Banner Of The Desert Winds": {
+      "name_fr": "Bannière des Vents du Désert"
+    },
+    "Blade Of Antarhak": {
+      "name_fr": "Lame d'Antharak"
+    },
+    "Cloak of the Dunes": {
+      "name_fr": "Cape des Dunes"
+    },
+    "Collar of Shapesh": {
+      "name_fr": "Collier de Shapesh"
+    },
+    "Crook & Flail of Radiance": {
+      "name_fr": "Crosse & Flagellum de Majesté"
+    },
+    "Crown of Kings": {
+      "name_fr": "Couronne des Rois"
+    },
+    "Curse-Weaver Wand": {
+      "name_fr": "Baguette Tisse-Malheur"
+    },
+    "Death Mask of Kharnutt": {
+      "name_fr": "Masque Mortuaire de Kharnutt"
+    },
+    "Destroyer of Eternities": {
+      "name_fr": "Destructeur d'Éternité"
+    },
+    "Enkhil's Kanopi": {
+      "name_fr": "Canope d'Enkhil"
+    },
+    "Flail of Skulls": {
+      "name_fr": "Fléau de Crânes"
+    },
+    "Hieratic Jar": {
+      "name_fr": "Jarre Hiératique"
+    },
+    "Icon of Rakaph": {
+      "name_fr": "Icône de Rakaph"
+    },
+    "Icon of Rulership": {
+      "name_fr": "Enseigne Royale"
+    },
+    "Icon of the Sacred Eye": {
+      "name_fr": "Icône de l'Œil Sacré"
+    },
+    "Mirage Banner": {
+      "name_fr": "Bannière du Mirage"
+    },
+    "Orb Of Ptra": {
+      "name_fr": "Orbe de Ptra"
+    },
+    "Phakth's Blades Of Justice": {
+      "name_fr": "Lames de Justice de Phakth"
+    },
+    "Phâzerakt's Kanopi": {
+      "name_fr": "Canope de Phâzerakt"
+    },
+    "Relic Of The Desert Sun": {
+      "name_fr": "Relique du Soleil du Désert"
+    },
+    "Royal Mantle": {
+      "name_fr": "Manteau Royal"
+    },
+    "Royal Standard Of Settra": {
+      "name_fr": "Bannière Royale de Settra"
+    },
+    "Scarab Brooch": {
+      "name_fr": "Broche du Scarabée"
+    },
+    "Serpent Staff": {
+      "name_fr": "Bâton Serpent"
+    },
+    "Shield of Ptra": {
+      "name_fr": "Bouclier de Ptra"
+    },
+    "Sigil Of Centuries": {
+      "name_fr": "Icône des Siècles"
+    },
+    "Staff Of Aeons": {
+      "name_fr": "Bâton des Éons"
+    },
+    "Staff Of Awakening": {
+      "name_fr": "Bâton d'Éveil"
+    },
+    "Standard of the Cursing Word": {
+      "name_fr": "Étendard de Malédiction"
+    },
+    "Tablets Of Tahoth": {
+      "name_fr": "Tablettes de Tahoth"
+    },
+    "Tapestry Of Conquered Lands": {
+      "name_fr": "Tapisserie des Terres Conquises"
+    },
+    "The Conqueror's Blade": {
+      "name_fr": "La Lame du Conquérant"
+    },
+    "Warding Splint": {
+      "name_fr": "Éclisse Protectrice"
+    }
+  },
+  "regex": {}
+}

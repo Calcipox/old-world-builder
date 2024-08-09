@@ -1,0 +1,29 @@
+{
+  "direct": {
+    "Anointed of Asuryan": {
+      "name_fr": "Élu d'Asuryan"
+    },
+    "Blood of Caledor": {
+      "name_fr": "Sang de Caledor"
+    },
+    "Chracian Hunter": {
+      "name_fr": "Chasseur Chracien"
+    },
+    "Loremaster": {
+      "name_fr": "Maître du Savoir"
+    },
+    "Pure of Heart": {
+      "name_fr": "Pur de Coeur"
+    },
+    "Sea Guard": {
+      "name_fr": "Garde Maritime"
+    },
+    "Shadow Stalker": {
+      "name_fr": "Rôdeur des Ombres"
+    },
+    "Warden of Saphery": {
+      "name_fr": "Gardien de Saphery"
+    }
+  },
+  "regex": {}
+}

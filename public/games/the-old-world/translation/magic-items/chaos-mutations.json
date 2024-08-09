@@ -1,0 +1,32 @@
+{
+  "direct": {
+    "Crown of Horns": {
+      "name_fr": "Couronne de Cornes"
+    },
+    "Gnarled Hide": {
+      "name_fr": "Peau Noueuse"
+    },
+    "Gouge-tusks": {
+      "name_fr": "Défenses Déchiqueteuses"
+    },
+    "Many-limbed Fiend": {
+      "name_fr": "Monstre aux Membres Multiples"
+    },
+    "Muscular Monstrosity": {
+      "name_fr": "Musculature Monstrueuse"
+    },
+    "Pelt of Midnight": {
+      "name_fr": "Fourrure de la Nuit"
+    },
+    "Rune of the Beast Ascendant": {
+      "name_fr": "Rune de la Bête Ascendante"
+    },
+    "Slug-skin": {
+      "name_fr": "Peau de Limace"
+    },
+    "Uncanny Senses": {
+      "name_fr": "Perception Surnaturelle"
+    }
+  },
+  "regex": {}
+}

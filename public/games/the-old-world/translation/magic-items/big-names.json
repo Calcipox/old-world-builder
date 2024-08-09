@@ -1,0 +1,26 @@
+{
+  "direct": {
+    "Beastkiller": {
+      "name_fr": "Trucide-fauve"
+    },
+    "Deathcheater": {
+      "name_fr": "Trompe-la-mort"
+    },
+    "Giantbreaker": {
+      "name_fr": "Brise-géant"
+    },
+    "Kineater": {
+      "name_fr": "Mâche-frère"
+    },
+    "Longstrider": {
+      "name_fr": "Longues-jambes"
+    },
+    "Mawseeker": {
+      "name_fr": "Cherche-gueule"
+    },
+    "Mountaineater": {
+      "name_fr": "Mange-montagne"
+    }
+  },
+  "regex": {}
+}

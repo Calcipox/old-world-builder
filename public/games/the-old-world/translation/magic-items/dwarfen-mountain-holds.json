@@ -1,0 +1,194 @@
+{
+  "direct": {
+    "Enchanted Rune": {
+      "name_fr": "Rune Enchantée"
+    },
+    "Grudge Rune": {
+      "name_fr": "Rune de Rancune"
+    },
+    "Master Rune of Adamant": {
+      "name_fr": "Rune Majeure d'Inflexibilité"
+    },
+    "Master Rune of Alaric the Mad": {
+      "name_fr": "Rune Majeure d'Alaric le Fou"
+    },
+    "Master Rune of Balance": {
+      "name_fr": "Rune Majeure d'Équilibre"
+    },
+    "Master Rune of Breaking": {
+      "name_fr": "Rune Majeure Brisante"
+    },
+    "Master Rune of Bursting Flame": {
+      "name_fr": "Rune Majeure d'Embrasement"
+    },
+    "Master Rune of Calm": {
+      "name_fr": "Rune Majeure de Calme"
+    },
+    "Master Rune of Disguise": {
+      "name_fr": "Rune Majeure de Camouflage"
+    },
+    "Master Rune of Dragon Slaying": {
+      "name_fr": "Rune Majeure Dracocide"
+    },
+    "Master Rune of Flight": {
+      "name_fr": "Rune Majeure de Vol"
+    },
+    "Master Rune of Gromril": {
+      "name_fr": "Rune Majeure de Gromril"
+    },
+    "Master Rune of Grungni": {
+      "name_fr": "Rune Majeure de Grungni"
+    },
+    "Master Rune of Hesitation": {
+      "name_fr": "Rune Majeure d'Hésitation"
+    },
+    "Master Rune of Immolation": {
+      "name_fr": "Rune Majeure d'Immolation"
+    },
+    "Master Rune of Piercing": {
+      "name_fr": "Rune Majeure de Perforation"
+    },
+    "Master Rune of Skalf Blackhammer": {
+      "name_fr": "Rune Majeure de Skalf Marteau Noir"
+    },
+    "Master Rune of Slaying": {
+      "name_fr": "Rune Majeure de Tuerie"
+    },
+    "Master Rune of Smiting": {
+      "name_fr": "Rune Majeure de Frappe"
+    },
+    "Master Rune of Spite": {
+      "name_fr": "Rune Majeure d'Insulte"
+    },
+    "Master Rune of Stromni Redbeard": {
+      "name_fr": "Rune Majeure de Stomni Barberouge"
+    },
+    "Master Rune of Swiftness": {
+      "name_fr": "Rune Majeure de Rapidité"
+    },
+    "Rune of Accuracy": {
+      "name_fr": "Rune de Précision"
+    },
+    "Rune of Banishment": {
+      "name_fr": "Rune de Bannissement"
+    },
+    "Rune of Battle": {
+      "name_fr": "Rune de Bataille"
+    },
+    "Rune of Blazing Fury": {
+      "name_fr": "Rune de Fureur Incandescente"
+    },
+    "Rune of Burning": {
+      "name_fr": "Rune d'Incanescence"
+    },
+    "Rune of Cleaving": {
+      "name_fr": "Rune de Perforation"
+    },
+    "Rune of Concussive Force": {
+      "name_fr": "Rune de Force Percutante"
+    },
+    "Rune of Confusion": {
+      "name_fr": "Rune de Confusion"
+    },
+    "Rune of Courage": {
+      "name_fr": "Rune de Courage"
+    },
+    "Rune of Endless Battle": {
+      "name_fr": "Rune des Batailles Éternelles"
+    },
+    "Rune of Fear": {
+      "name_fr": "Rune de Peur"
+    },
+    "Rune of Fire": {
+      "name_fr": "Rune de Feu"
+    },
+    "Rune of Forging": {
+      "name_fr": "Rune de Forge"
+    },
+    "Rune of Fortitude": {
+      "name_fr": "Rune de Robustesse"
+    },
+    "Rune of Fury": {
+      "name_fr": "Rune de Fureur"
+    },
+    "Rune of Grit": {
+      "name_fr": "Rune de Granit"
+    },
+    "Rune of Iron": {
+      "name_fr": "Rune de Fer"
+    },
+    "Rune of Luck": {
+      "name_fr": "Rune de Chance"
+    },
+    "Rune of Might": {
+      "name_fr": "Rune de Force"
+    },
+    "Rune of Molten Steel": {
+      "name_fr": "Rune d'Acier en Fusion"
+    },
+    "Rune of Parrying": {
+      "name_fr": "Rune de Parade"
+    },
+    "Rune of Passage": {
+      "name_fr": "Rune de Passage"
+    },
+    "Rune of Preservation": {
+      "name_fr": "Rune de Préservation"
+    },
+    "Rune of Rapid Fire": {
+      "name_fr": "Rune de Tir Rapide"
+    },
+    "Rune of Reloading": {
+      "name_fr": "Rune de Rechargement"
+    },
+    "Rune of Shielding": {
+      "name_fr": "Rune de Protection"
+    },
+    "Rune of Skewering": {
+      "name_fr": "Rune de Pénétration"
+    },
+    "Rune of Speed": {
+      "name_fr": "Rune de Vitesse"
+    },
+    "Rune of Spellbreaking": {
+      "name_fr": "Rune Tueuse de Sort"
+    },
+    "Rune of Stone": {
+      "name_fr": "Rune de Pierre"
+    },
+    "Rune of Striking": {
+      "name_fr": "Rune de Frappe"
+    },
+    "Rune of Warding": {
+      "name_fr": "Rune d'Invulnérabilité"
+    },
+    "Rune of Wrath": {
+      "name_fr": "Rune de Rage"
+    },
+    "Rune of the Dauntless": {
+      "name_fr": "Rune de l'Intrépide"
+    },
+    "Rune of the Dishonoured": {
+      "name_fr": "Rune du Déshonoré"
+    },
+    "Rune of the Furnace": {
+      "name_fr": "Rune du Fourneau"
+    },
+    "Rune of the Hateful": {
+      "name_fr": "Rune du Haineux"
+    },
+    "Rune of the Reckless": {
+      "name_fr": "Rune du Téméraire"
+    },
+    "Stalwart Rune": {
+      "name_fr": "Rune d'Obstination"
+    },
+    "Strollaz' Rune": {
+      "name_fr": "Rune de Strollaz"
+    },
+    "Warrior's Rune": {
+      "name_fr": "Rune du Guerrier"
+    }
+  },
+  "regex": {}
+}

@@ -1,0 +1,17 @@
+{
+  "direct": {
+    "Daemonic Robes": {
+      "name_fr": "Robes Démoniaques"
+    },
+    "Many Arms": {
+      "name_fr": "Bras Multiples"
+    },
+    "Winged Horror": {
+      "name_fr": "Horreur Ailée"
+    },
+    "Æther Blade": {
+      "name_fr": "Lame d'Éther"
+    }
+  },
+  "regex": {}
+}

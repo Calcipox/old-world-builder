@@ -1,0 +1,14 @@
+{
+  "direct": {
+    "Banner Of Change": {
+      "name_fr": "Bannière du Changement"
+    },
+    "Banner Of Discord": {
+      "name_fr": "Bannière de Discorde"
+    },
+    "Icon Of Sorcery": {
+      "name_fr": "Icône de Sorcellerie"
+    }
+  },
+  "regex": {}
+}

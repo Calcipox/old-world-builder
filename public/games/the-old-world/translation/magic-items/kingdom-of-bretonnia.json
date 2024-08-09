@@ -1,0 +1,113 @@
+{
+  "direct": {
+    "Anointed Armour": {
+      "name_fr": "Armure Consacrée"
+    },
+    "Antlers of the Great Hunt": {
+      "name_fr": "Bois de la Grande Chasse"
+    },
+    "Banner Of Honourable Warfare": {
+      "name_fr": "Bannière de la Guerre Honorable"
+    },
+    "Banner Of The Lady's Grace": {
+      "name_fr": "Bannière de la Grâce de la Dame"
+    },
+    "Banner Of The Zealous Knight": {
+      "name_fr": "Bannière du Chevalier Zélé"
+    },
+    "Banner of Châlons": {
+      "name_fr": "Bannière de Châlons"
+    },
+    "Conqueror's Tapestry": {
+      "name_fr": "Tapisserie du Conquérant"
+    },
+    "Crusader's Clarion": {
+      "name_fr": "Clairon du Croisé"
+    },
+    "Crusader's Lance": {
+      "name_fr": "Lance du Croisé"
+    },
+    "Crusader's Tapestry": {
+      "name_fr": "Tapisserie du Croisé"
+    },
+    "Diadem Of Power": {
+      "name_fr": "Diadème de Pouvoir"
+    },
+    "Errantry Banner": {
+      "name_fr": "Bannière d'Errance"
+    },
+    "Falcon-horn of Fredemund": {
+      "name_fr": "Le Cor de Fredemund"
+    },
+    "Flamestrike Wand": {
+      "name_fr": "Baguette de Frappe Incandescente"
+    },
+    "Foebreaker": {
+      "name_fr": "Brise-ennemis"
+    },
+    "Frontier Axe": {
+      "name_fr": "Hache Frontalière"
+    },
+    "Gauntlet of the Duel": {
+      "name_fr": "Gantelet de Duel"
+    },
+    "Gilded Cuirass": {
+      "name_fr": "Cuirasse Dorée"
+    },
+    "Grail Pendant": {
+      "name_fr": "Pendentif du Graal"
+    },
+    "Gromril Great Helm": {
+      "name_fr": "Grand Heaume de Gromril"
+    },
+    "Heart Of The Wilds": {
+      "name_fr": "Cœur des Terres Sauvages"
+    },
+    "Heartwood Lance": {
+      "name_fr": "Lance du Chêne Sacré"
+    },
+    "Ironspike Shield": {
+      "name_fr": "Bouclier Hérissé"
+    },
+    "Lucky Heirloom": {
+      "name_fr": "Charme Porte-bonheur"
+    },
+    "Mantle of the Damsel Elena": {
+      "name_fr": "Manteau de Damoiselle Elena"
+    },
+    "Morning Star of Fracasse": {
+      "name_fr": "Fléau de Fracasse"
+    },
+    "Prayer Icon of Quenelles": {
+      "name_fr": "Icône de Quenelles"
+    },
+    "Sacrament of the Lady": {
+      "name_fr": "Sacrement de la Dame"
+    },
+    "Silver Mirror": {
+      "name_fr": "Miroir d'Argent"
+    },
+    "Sirienne's Locket": {
+      "name_fr": "Médaillon de Sirienne"
+    },
+    "Sword Of The Stout Hearted": {
+      "name_fr": "Épée du Cœur Vaillant"
+    },
+    "Sword of Heroes": {
+      "name_fr": "Épée des Héros"
+    },
+    "Sword of the Quest": {
+      "name_fr": "Épée de la Quête"
+    },
+    "The Seal Of Parravon": {
+      "name_fr": "Le Sceau de Parravon"
+    },
+    "Valorous Standard": {
+      "name_fr": "Étendard de Bravoure"
+    },
+    "Wyrmbreath Vial": {
+      "name_fr": "Fiole de Souffle Ardent"
+    }
+  },
+  "regex": {}
+}
