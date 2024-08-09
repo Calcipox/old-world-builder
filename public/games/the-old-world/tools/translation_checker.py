@@ -7,6 +7,7 @@ import argparse
 import logging
 import subprocess
 import sys
+import copy
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -45,7 +46,7 @@ def construct_translation(to_translate, translation_data, language, current_tran
                                                                            None if curr is None else curr.group(i),
                                                                            nested_debug_prefix, new_data))
                 final = to_translate.replace(to_translate.strip(), final)
-                logger.debug("{}REGEX({}): '{}'->'{}'".format(debug_prefix, regex ,to_translate, final))
+                logger.debug("{}REGEX({}): '{}'->'{}'".format(debug_prefix, regex, to_translate, final))
                 return final
 
     # Translate list of string separated by ',':
@@ -127,7 +128,6 @@ def add_missing_translations(json_obj, translation_data, language, new_data):
         if "name_en" in json_obj:
             translation = construct_translation(json_obj.get("name_en"), translation_data, language,
                                                 json_obj.get(language), new_data=new_data)
-            # if translation != json_obj.get("name_en") or "name_fr" not in json_obj:
             json_obj[language] = translation
 
         for value in json_obj.values():
@@ -148,6 +148,20 @@ def get_and_sort_translations_data(file_path):
             json.dump(translation_data, write_file, indent=2, ensure_ascii=False)
             write_file.write("\n")
     return translation_data
+
+
+def translate_and_write(json_obj, translation_data, language, new_data, dump_path):
+    add_missing_translations(json_obj, translation_data, language, new_data)
+
+    main_data = {"direct": new_data, "regex": {}}
+    # if not os.path.exists(army_translation_path):
+    if new_data:
+        with open(dump_path, "w", encoding='utf8') as new_write_file:
+            json.dump(main_data, new_write_file, indent=2, ensure_ascii=False, sort_keys=True)
+            new_write_file.write("\n")
+    elif os.path.exists(dump_path):
+        os.remove(dump_path)
+
 
 
 def main():
@@ -208,33 +222,60 @@ def main():
     for file in os.listdir(args.json_directory_path):
         if file.endswith(".json"):
             if not args.filter or args.filter in file:
-                new_data = {}
-                logger.info("Check: {} using {}".format(file, common_data_path))
                 with open(os.path.join(args.json_directory_path, file), "r", encoding='utf8') as read_file:
                     json_file_content = json.load(read_file)
 
-                army_translation_path = os.path.join(common_data_directory, file)
-                merged_translation_data = common_translation_data.copy()
-                if os.path.exists(army_translation_path):
-                    logger.info("Check: {} using {}".format(file, army_translation_path))
-                    army_translation_data = get_and_sort_translations_data(army_translation_path)
+                if "magic-items" not in file:
+                    logger.info("\nCheck '{}' using:\n\t{}".format(file, common_data_path))
+                    merged_translation_data = {}
+                    new_data = {}
+                    army_translation_path = os.path.join(common_data_directory, file)
+                    army_translation_data = {"direct": {}, "regex": {}}
+
+                    if os.path.exists(army_translation_path):
+                        logger.info("\t{}".format(army_translation_path))
+                        army_translation_data = get_and_sort_translations_data(army_translation_path)
+
                     merged_translation_data["direct"] = {**army_translation_data.get("direct"),
                                                          **common_translation_data.get("direct")}
                     merged_translation_data["regex"] = {**army_translation_data.get("regex"),
                                                         **common_translation_data.get("regex")}
 
-                add_missing_translations(json_file_content, merged_translation_data, language, new_data)
+                    translate_and_write(json_file_content, merged_translation_data, language, new_data,
+                                        army_translation_path.replace(".json", "-dump.json"))
+
+                else:
+                    logger.info("\nCheck '{}':".format(file))
+                    for key in json_file_content.keys():
+                        logger.info("\t'{}' using:\n\t\t{}".format(key, common_data_path))
+                        merged_translation_data = copy.deepcopy(common_translation_data)
+                        new_data = {}
+                        army_translation_path = os.path.join(common_data_directory, "{}.json".format(key))
+                        if key == "chaos-mutations":
+                            army_translation_path = os.path.join(common_data_directory, "beastmen-brayherds.json")
+
+                        if os.path.exists(army_translation_path):
+                            logger.info("\t\t{}".format(army_translation_path))
+                            army_translation_data = get_and_sort_translations_data(army_translation_path)
+                            merged_translation_data["direct"].update(army_translation_data.get("direct"))
+                            merged_translation_data["regex"].update(army_translation_data.get("regex"))
+
+                        items_translation_path = os.path.join(common_data_directory, "magic-items",
+                                                              "{}.json".format(key))
+                        if os.path.exists(items_translation_path):
+                            logger.info("\t\t{}".format(items_translation_path))
+                            items_translation_data = get_and_sort_translations_data(items_translation_path)
+                            merged_translation_data["direct"].update(items_translation_data.get("direct"))
+                            merged_translation_data["regex"].update(items_translation_data.get("regex"))
+
+                        translate_and_write(json_file_content.get(key), merged_translation_data, language, new_data,
+                                            items_translation_path.replace(".json", "-dump.json"))
 
                 if not args.dry_run:
                     # Write the file with all new translations added:
                     with open(os.path.join(args.json_directory_path, file), "w", encoding='utf8') as write_file:
                         json.dump(json_file_content, write_file, indent=2, ensure_ascii=False)
                         write_file.write("\n")
-                main_data = {"direct": new_data, "regex": {}}
-                # if not os.path.exists(army_translation_path):
-                with open(army_translation_path.replace(".json", "-dump.json"), "w", encoding='utf8') as new_write_file:
-                    json.dump(main_data, new_write_file, indent=2, ensure_ascii=False, sort_keys=True)
-                    new_write_file.write("\n")
 
     if args.prettify:
         cmd = "npx prettier {} --write".format(args.json_directory_path)
