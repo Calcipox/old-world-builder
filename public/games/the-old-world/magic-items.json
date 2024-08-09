@@ -1967,10 +1967,10 @@
       "type": "enchanted-item"
     },
     {
-      "name_de": "Skin of Man (Infantry Chieftains and Shamans only)",
-      "name_en": "Skin of Man (Infantry Chieftains and Shamans only)",
-      "name_fr": "Peau d'Homme (Chefs et Chamanes de type 'infanterie' uniquement)",
-      "name_it": "Skin of Man (Infantry Chieftains and Shamans only)",
+      "name_de": "Skin of Man",
+      "name_en": "Skin of Man",
+      "name_fr": "Peau d'Homme",
+      "name_it": "Skin of Man",
       "points": 15,
       "type": "enchanted-item"
     },
@@ -2090,10 +2090,10 @@
       "type": "weapon"
     },
     {
-      "name_de": "Serpent Staff (Liche Priests only)",
-      "name_en": "Serpent Staff (Liche Priests only)",
-      "name_fr": "Bâton Serpent (Prêtres Liches uniquement)",
-      "name_it": "Serpent Bastone (Liche Priests only)",
+      "name_de": "Serpent Staff",
+      "name_en": "Serpent Staff",
+      "name_fr": "Bâton Serpent",
+      "name_it": "Serpent Bastone",
       "points": 20,
       "type": "weapon"
     },
@@ -2605,10 +2605,10 @@
       "type": "chaos-mutation"
     },
     {
-      "name_de": "Crown of Horns (Characters only)",
-      "name_en": "Crown of Horns (Characters only)",
-      "name_fr": "Couronne de Cornes (Personnages uniquement)",
-      "name_it": "Crown of Horns (Characters only)",
+      "name_de": "Crown of Horns",
+      "name_en": "Crown of Horns",
+      "name_fr": "Couronne de Cornes",
+      "name_it": "Crown of Horns",
       "nonExclusive": true,
       "points": 45,
       "type": "chaos-mutation"
@@ -2623,10 +2623,10 @@
       "type": "chaos-mutation"
     },
     {
-      "name_de": "Pelt of Midnight (Characters only)",
-      "name_en": "Pelt of Midnight (Characters only)",
-      "name_fr": "Fourrure de la Nuit (Personnages uniquement)",
-      "name_it": "Pelt of Midnight (Characters only)",
+      "name_de": "Pelt of Midnight",
+      "name_en": "Pelt of Midnight",
+      "name_fr": "Fourrure de la Nuit",
+      "name_it": "Pelt of Midnight",
       "nonExclusive": true,
       "points": 35,
       "type": "chaos-mutation"
@@ -2641,10 +2641,10 @@
       "type": "chaos-mutation"
     },
     {
-      "name_de": "Rune of the Beast Ascendant (Beastman Chieftains only)",
-      "name_en": "Rune of the Beast Ascendant (Beastman Chieftains only)",
-      "name_fr": "Rune de la Bête Ascendante (Chefs Hommes-bêtes uniquement)",
-      "name_it": "Rune of the Beast Ascendant (Beastman Chieftains only)",
+      "name_de": "Rune of the Beast Ascendant",
+      "name_en": "Rune of the Beast Ascendant",
+      "name_fr": "Rune de la Bête Ascendante",
+      "name_it": "Rune of the Beast Ascendant",
       "nonExclusive": true,
       "points": 25,
       "type": "chaos-mutation"
