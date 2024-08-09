@@ -27,11 +27,17 @@
     "From Beneath the Sands": {
       "name_fr": "Surgis de Sous les Sables"
     },
+    "Immovable Object": {
+      "name_fr": "Objet Inébranlable"
+    },
     "Indomitable": {
       "name_fr": "Indomptable"
     },
     "Khopesh": {
       "name_fr": "Khopesh"
+    },
+    "Liche Priests": {
+      "name_fr": "Prêtres Liches"
     },
     "Lore of Nehekara": {
       "name_fr": "Domaine de Nehekara"
@@ -56,9 +62,6 @@
     },
     "Soul Reaper": {
       "name_fr": "Faucheur d'Âmes"
-    },
-    "Immovable Object": {
-      "name_fr": "Objet Inébranlable"
     },
     "Sworn Protector": {
       "name_fr": "Protecteur Assermenté"

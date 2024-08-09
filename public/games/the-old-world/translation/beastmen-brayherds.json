@@ -9,6 +9,9 @@
     "Beastlord": {
       "name_fr": "Seigneur des Bêtes"
     },
+    "Beastman Chieftains": {
+      "name_fr": "Chefs Hommes-bêtes"
+    },
     "Bestial Charge": {
       "name_fr": "Charge Bestiale"
     },
@@ -25,7 +28,7 @@
       "name_fr": "Sangor"
     },
     "Bray-Shaman": {
-      "name_fr": "Braillechaman"
+      "name_fr": "Braillechamane"
     },
     "Brayhorn": {
       "name_fr": "Braillecorne"
@@ -101,6 +104,9 @@
     },
     "Hurl attack": {
       "name_fr": "Jet de roc"
+    },
+    "Infantry Chieftains and Shamans": {
+      "name_fr": "Chefs et Chamanes de type 'infanterie'"
     },
     "Jabberslythe": {
       "name_fr": "Jabberslythe"
