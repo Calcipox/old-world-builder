@@ -2073,10 +2073,10 @@
       "type": "weapon"
     },
     {
-      "name_de": "Serpent Staff (Liche only)",
-      "name_en": "Serpent Staff (Liche only)",
+      "name_de": "Serpent Staff (Liche Priests only)",
+      "name_en": "Serpent Staff (Liche Priests only)",
       "name_fr": "Bâton Serpent (Prêtres liches seulement)",
-      "name_it": "Serpent Bastone (Liche only)",
+      "name_it": "Serpent Bastone (Liche Priests only)",
       "points": 20,
       "type": "weapon"
     },
@@ -2302,10 +2302,10 @@
       "type": "arcane-item"
     },
     {
-      "name_de": "Hieratic Jar",
-      "name_en": "Hieratic Jar",
+      "name_de": "Hieratic Jar*",
+      "name_en": "Hieratic Jar*",
       "name_fr": "Jarre Hiératique*",
-      "name_it": "Hieratic Jar",
+      "name_it": "Hieratic Jar*",
       "points": 25,
       "stackable": true,
       "type": "arcane-item"
@@ -2588,10 +2588,10 @@
       "type": "chaos-mutation"
     },
     {
-      "name_de": "Crown of Horns (Characters Only)",
-      "name_en": "Crown of Horns (Characters Only)",
+      "name_de": "Crown of Horns (Characters only)",
+      "name_en": "Crown of Horns (Characters only)",
       "name_fr": "Couronne de Cornes (Personnage seulement)",
-      "name_it": "Crown of Horns (Characters Only)",
+      "name_it": "Crown of Horns (Characters only)",
       "nonExclusive": true,
       "points": 45,
       "type": "chaos-mutation"
@@ -2606,10 +2606,10 @@
       "type": "chaos-mutation"
     },
     {
-      "name_de": "Pelt of Midnight (Characters Only)",
-      "name_en": "Pelt of Midnight (Characters Only)",
+      "name_de": "Pelt of Midnight (Characters only)",
+      "name_en": "Pelt of Midnight (Characters only)",
       "name_fr": "Foururre de Minuit (Personnage seulement)",
-      "name_it": "Pelt of Midnight (Characters Only)",
+      "name_it": "Pelt of Midnight (Characters only)",
       "nonExclusive": true,
       "points": 35,
       "type": "chaos-mutation"
@@ -2624,10 +2624,10 @@
       "type": "chaos-mutation"
     },
     {
-      "name_de": "Rune of the Beast Ascendant (Beastmen Cheiftains Only)",
-      "name_en": "Rune of the Beast Ascendant (Beastmen Cheiftains Only)",
+      "name_de": "Rune of the Beast Ascendant (Beastman Chieftains only)",
+      "name_en": "Rune of the Beast Ascendant (Beastman Chieftains only)",
       "name_fr": "Rune de la Bête Ascendante (Chefs Homme-Bêtes seulement)",
-      "name_it": "Rune of the Beast Ascendant (Beastmen Cheiftains Only)",
+      "name_it": "Rune of the Beast Ascendant (Beastman Chieftains only)",
       "nonExclusive": true,
       "points": 25,
       "type": "chaos-mutation"
