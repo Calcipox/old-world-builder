@@ -104,21 +104,29 @@ def construct_translation(to_translate, translation_data, language, current_tran
         logger.debug("{}BRACES: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
+    ignore_regex = ["\\.", "\\d+", "D\\d", "\\d\\+", "\\d-\\d", "D\\d\\+\\d", "-\\d", "\\dD\\d\\+\\d"]
+    found = False
+    for regex in ignore_regex:
+        val = re.fullmatch(regex, to_translate.strip())
+        if val is not None:
+            found = True
+            break
     if current_translation is not None and current_translation:
         logger.debug("{}USE CURRENT: '{}'->'{}'".format(debug_prefix, to_translate, current_translation))
-
-        if current_translation == to_translate:
-            trans = {language: ""}
-            new_data[to_translate.strip()] = trans
-        else:
-            trans = {language: current_translation.strip()}
-            new_data[to_translate.strip()] = trans
+        if not found and to_translate.strip():
+            if current_translation == to_translate:
+                trans = {language: ""}
+                new_data[to_translate.strip()] = trans
+            else:
+                trans = {language: current_translation.strip()}
+                new_data[to_translate.strip()] = trans
         return current_translation
 
     logger.debug("{}NOT TRANSLATED: '{}'".format(debug_prefix, to_translate))
     if to_translate.strip():
-        trans = {language: ""}
-        new_data[to_translate.strip()] = trans
+        if not found:
+            trans = {language: ""}
+            new_data[to_translate.strip()] = trans
     return to_translate
 
 
