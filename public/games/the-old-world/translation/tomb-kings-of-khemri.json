@@ -1,5 +1,20 @@
 {
   "direct": {
+    "Additional Tomb Guard Crew #1": {
+      "name_fr": "Gardiens des Tombes supplémentaire #1"
+    },
+    "Additional Tomb Guard Crew #2": {
+      "name_fr": "Gardiens des Tombes supplémentaire #2"
+    },
+    "Ancient": {
+      "name_fr": "Ancien"
+    },
+    "Arch Necrotect": {
+      "name_fr": "Archi-Nécrotecte"
+    },
+    "Archers": {
+      "name_fr": "Archers"
+    },
     "Arise!": {
       "name_fr": "Levez-vous!"
     },
@@ -9,8 +24,26 @@
     "Banner of the King": {
       "name_fr": "Bannière du Roi"
     },
+    "Beaks": {
+      "name_fr": "Becs"
+    },
+    "Bone carapace": {
+      "name_fr": "Carapace osseuse"
+    },
+    "Carrion": {
+      "name_fr": "Charognards"
+    },
+    "Casket of Souls": {
+      "name_fr": "Arche des Âmes Damnées"
+    },
+    "Cleaving blades": {
+      "name_fr": "Lames fendoirs"
+    },
     "Cloud of Dust": {
       "name_fr": "Nuage de Poussière"
+    },
+    "Commander of Legions": {
+      "name_fr": "Commandeur des Légions"
     },
     "Covenant of Power": {
       "name_fr": "Alliance de Pouvoir"
@@ -18,14 +51,47 @@
     "Curse of the Necropolis": {
       "name_fr": "Malédiction de la Nécropole"
     },
+    "Decapitating claws": {
+      "name_fr": "Pinces décapitantes"
+    },
+    "Decapitating strike": {
+      "name_fr": "Frappe de décapitation"
+    },
     "Dry as Dust": {
       "name_fr": "Desséchés"
+    },
+    "Envenomed sting": {
+      "name_fr": "Dard venimeux"
     },
     "Eternal Taskmaster": {
       "name_fr": "Éternel Contremaître"
     },
+    "Fiery roar": {
+      "name_fr": "Rugissement ardent"
+    },
     "From Beneath the Sands": {
       "name_fr": "Surgis de Sous les Sables"
+    },
+    "Great weapon for Captain": {
+      "name_fr": "Arme lourde pour le Capitaine"
+    },
+    "Greatbows": {
+      "name_fr": "Grands arcs"
+    },
+    "Herald of Despair": {
+      "name_fr": "Héraut du Désespoir"
+    },
+    "High Priest": {
+      "name_fr": "Grand Prêtre"
+    },
+    "Horse Archers": {
+      "name_fr": "Archers à Cheval"
+    },
+    "Horsemen": {
+      "name_fr": "Cavaliers"
+    },
+    "Immortal Overseer": {
+      "name_fr": "Contremaître Immortel"
     },
     "Immovable Object": {
       "name_fr": "Objet Inébranlable"
@@ -33,8 +99,14 @@
     "Indomitable": {
       "name_fr": "Indomptable"
     },
+    "Khemrian Warsphinx": {
+      "name_fr": "Sphinx de Guerre de Khemri"
+    },
     "Khopesh": {
       "name_fr": "Khopesh"
+    },
+    "Lashing tails": {
+      "name_fr": "Queues fouettardes"
     },
     "Liche Priests": {
       "name_fr": "Prêtres Liches"
@@ -42,20 +114,143 @@
     "Lore of Nehekara": {
       "name_fr": "Domaine de Nehekara"
     },
+    "Lore of Nehekhara": {
+      "name_fr": "Domaine de Nehekhara"
+    },
+    "Master Charioteer": {
+      "name_fr": "Maître Aurige"
+    },
+    "Master of Arms": {
+      "name_fr": "Maître d'Armes"
+    },
+    "Master of Arrows": {
+      "name_fr": "Maître des Flèches"
+    },
+    "Master of Horse": {
+      "name_fr": "Maître des Chevaux"
+    },
+    "May add up to two additional Tomb Guard Crew": {
+      "name_fr": "Peut ajouter jusqu'à deux Gardiens des Tombes supplémentaires"
+    },
+    "Mortuary Cult": {
+      "name_fr": "Culte Mortuaire"
+    },
+    "Mortuary Priest": {
+      "name_fr": "Prêtre Mortuaire"
+    },
     "My Will Be Done": {
       "name_fr": "Que Ma Volonté Soit Faite"
+    },
+    "Necrolith Bone Dragon": {
+      "name_fr": "Dragon d'Os Nécrolithe"
+    },
+    "Necrolith Colossus": {
+      "name_fr": "Colosse Nécrolithe"
+    },
+    "Necropolis Captain": {
+      "name_fr": "Capitaine de la Nécropole"
+    },
+    "Necropolis Knights": {
+      "name_fr": "Chevaliers de la Nécropole"
+    },
+    "Necroserpents": {
+      "name_fr": "Nécroserpents"
+    },
+    "Necrosphinx": {
+      "name_fr": "Nécrosphinx"
+    },
+    "Necrotect": {
+      "name_fr": "Nécrotecte"
     },
     "Nehekharan Phalanx": {
       "name_fr": "Phalange de Nehekhara"
     },
+    "Nehekharan Royal Host": {
+      "name_fr": "Ost Royal de Nehekhara"
+    },
     "Nehekharan Undead": {
       "name_fr": "Morts-vivants de Nehekhara"
+    },
+    "Nekaph": {
+      "name_fr": "Nekaph"
+    },
+    "Paired great khopeshes": {
+      "name_fr": "Paire de grands khopeshs"
+    },
+    "Prince Apophas": {
+      "name_fr": "Prince Apophas"
     },
     "Resurrecting the Fallen": {
       "name_fr": "Ressusciter les Défunts"
     },
+    "Ritual blades": {
+      "name_fr": "Lames rituelles"
+    },
+    "Royal Herald": {
+      "name_fr": "Héraut Royal"
+    },
+    "Royal Host Archers": {
+      "name_fr": "Archers de l'Ost Royal"
+    },
+    "Royal Host Horse Archers": {
+      "name_fr": "Archers à Cheval de l'Ost Royal"
+    },
+    "Royal Host Horsemen": {
+      "name_fr": "Cavaliers de l'Ost Royal"
+    },
+    "Royal Host Warriors": {
+      "name_fr": "Guerriers de l'Ost Royal"
+    },
+    "Scarab Prince": {
+      "name_fr": "Prince Scarabée"
+    },
+    "Screaming Skull Catapult": {
+      "name_fr": "Catapulte à Crânes Hurlants"
+    },
+    "Screaming Skull Catapults": {
+      "name_fr": "Catapultes à Crânes Hurlants"
+    },
     "Screaming Skulls": {
       "name_fr": "Crânes Hurlants"
+    },
+    "Sepulchral Stalkers": {
+      "name_fr": "Rôdeurs Sépulcraux"
+    },
+    "Settra Does Not Kneel!": {
+      "name_fr": "Settra Ne s'Agenouille Pas!"
+    },
+    "Settra the Great": {
+      "name_fr": "Settra le Grand"
+    },
+    "Settra the Imperishable": {
+      "name_fr": "Settra l'Impérissable"
+    },
+    "Settra's Champion": {
+      "name_fr": "Champion de Settra"
+    },
+    "Skeleton Archers": {
+      "name_fr": "Archers Squelettes"
+    },
+    "Skeleton Cavalry Cohort": {
+      "name_fr": "Cohorte de Cavalerie Squelette"
+    },
+    "Skeleton Chariot": {
+      "name_fr": "Char Squelette"
+    },
+    "Skeleton Chariots": {
+      "name_fr": "Chars Squelettes"
+    },
+    "Skeleton Horse Archers": {
+      "name_fr": "Archers Squelettes à Cheval"
+    },
+    "Skeleton Horsemen": {
+      "name_fr": "Cavaliers Squelettes"
+    },
+    "Skeleton Infantry Cohort": {
+      "name_fr": "Cohorte d'Infanterie Squelette"
+    },
+    "Skeleton Skirmishers": {
+      "name_fr": "Tirailleurs Squelettes"
     },
     "Skulls of the Foe": {
       "name_fr": "Crânes de l'Ennemi"
@@ -63,8 +258,62 @@
     "Soul Reaper": {
       "name_fr": "Faucheur d'Âmes"
     },
+    "Steadfast Discipline": {
+      "name_fr": "Discipline Inébranlable"
+    },
+    "Stone Shaper": {
+      "name_fr": "Tailleur de Pierre"
+    },
+    "Swarming Mass": {
+      "name_fr": "Masse Grouillante"
+    },
     "Sworn Protector": {
       "name_fr": "Protecteur Assermenté"
+    },
+    "The Blessed Blade of Ptra": {
+      "name_fr": "La Lame Bénie de Ptra"
+    },
+    "The Chariot of the Gods": {
+      "name_fr": "Le Char des Dieux"
+    },
+    "The Crown of Nehekhara": {
+      "name_fr": "La Couronne de Nehekhara"
+    },
+    "The Flail of Conquered Kings": {
+      "name_fr": "Le Fléau des Rois Conquis"
+    },
+    "The Scarab Brooch of Usirian": {
+      "name_fr": "La Broche-Scarabée d'Usirian"
+    },
+    "The Terrors Below": {
+      "name_fr": "Les Horreurs d'En dessous"
+    },
+    "Tomb Captain": {
+      "name_fr": "Capitaine des Tombes"
+    },
+    "Tomb Guard": {
+      "name_fr": "Gardien des Tombes"
+    },
+    "Tomb Guard Chariots": {
+      "name_fr": "Chars Gardien des Tombes"
+    },
+    "Tomb Guard Crew": {
+      "name_fr": "Aurige Gardien des Tombes"
+    },
+    "Tomb King": {
+      "name_fr": "Roi des Tombes"
+    },
+    "Tomb Prince": {
+      "name_fr": "Prince des Tombes"
+    },
+    "Tomb Scorpion": {
+      "name_fr": "Scorpion des Tombes"
+    },
+    "Tomb Scorpions": {
+      "name_fr": "Scorpions des Tombes"
+    },
+    "Tomb Swarms": {
+      "name_fr": "Nuées des Tombes"
     },
     "Unbound Spirits": {
       "name_fr": "Esprits Déchaînés"
@@ -72,8 +321,44 @@
     "Unstoppable Assault": {
       "name_fr": "Assaut Inexorable"
     },
+    "Ushabti": {
+      "name_fr": "Ushabti"
+    },
+    "Usirian's Reaper": {
+      "name_fr": "Faucheur d'Usirian"
+    },
+    "Venerable Ancient": {
+      "name_fr": "Ancien Vénérable"
+    },
+    "Venerable Ushabti": {
+      "name_fr": "Ushabti Vénérables"
+    },
+    "Venomous bites": {
+      "name_fr": "Morsures venimeuses"
+    },
     "Vortex of Souls": {
       "name_fr": "Vortex des Âmes"
+    },
+    "Warriors": {
+      "name_fr": "Guerriers"
+    },
+    "Warsphinx": {
+      "name_fr": "Sphinx de Guerre"
+    },
+    "Writhing tail": {
+      "name_fr": "Queue sinueuse"
+    },
+    "Writhing tails": {
+      "name_fr": "Queues sinueuses"
+    },
+    "stings": {
+      "name_fr": "dards"
+    },
+    "talons": {
+      "name_fr": "serres"
+    },
+    "venomous fangs": {
+      "name_fr": "crocs venimeux"
     }
   },
   "regex": {}

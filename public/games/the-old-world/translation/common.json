@@ -699,6 +699,9 @@
     "all enemies": {
       "name_fr": "Tous les ennemis"
     },
+    "both": {
+      "name_fr": "les deux"
+    },
     "calloused hide": {
       "name_fr": "peau calleuse"
     },
@@ -731,6 +734,9 @@
     },
     "musician": {
       "name_fr": "musicien"
+    },
+    "not counting character mounts": {
+      "name_fr": "sans compter les montures des personnages"
     },
     "not for the mount": {
       "name_fr": "ne s'applique pas à la monture"
@@ -788,8 +794,14 @@
     "([a-zA-Z\\s]+) may be taken as a Special choice": {
       "name_fr": "les $1 peut être pris comme choix Spécial"
     },
+    "(\\d)\\+ unit of ([a-zA-Z\\s-]+) and/or ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1+ unité de $2 et/ou $3"
+    },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) may be taken as a Core choice": {
       "name_fr": "$1 unité de $2 peut être prise comme choix de Base"
+    },
+    "(\\d)\\+ unit of ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1+ unité de $2"
     },
     "(\\d-\\d) or ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 ou $2 par tranche de $3 points"
@@ -881,6 +893,9 @@
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 unité de $2 par $3 pris"
     },
+    "([a-zA-Z\\s]+) only - (\\d-\\d) per (\\d+) points": {
+      "name_fr": "$1 uniquement - $2 par tranche de $3 points"
+    },
     "(a-zA-Z+ a-zA-Z+) and (a-zA-Z+ a-zA-Z+)": {
       "name_fr": "$1 et $2"
     },
@@ -935,11 +950,20 @@
     "(\\d)\\+ ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
       "name_fr": "$1+ $2 ou $3"
     },
+    "(\\d)\\+ ([a-zA-Z\\s]+) per (\\d+) points": {
+      "name_fr": "$1+ $2 par tranche de $3 points"
+    },
     "(\\d)\\+ ([a-zA-Z\\s]+)": {
       "name_fr": "$1+ $2"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2"
+    },
+    "([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 ou $2"
+    },
+    "per (\\d+) points": {
+      "name_fr": "par tranche de $1 points"
     }
   }
 }
