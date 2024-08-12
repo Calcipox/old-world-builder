@@ -15,6 +15,15 @@
     "Asrai Spears": {
       "name_fr": "Lances Asrai"
     },
+    "Blackbriar javelins": {
+      "name_fr": "Javelines de bruyère noire"
+    },
+    "Bladesinger": {
+      "name_fr": "Chantelame"
+    },
+    "Branchwraith": {
+      "name_fr": "Branchimère"
+    },
     "Crown of Antlers": {
       "name_fr": "Grande Ramure"
     },
@@ -27,8 +36,50 @@
     "Deepwood Coven": {
       "name_fr": "Sabbat du Grand-bois"
     },
+    "Deepwood Scouts": {
+      "name_fr": "Éclaireurs du Grand-bois"
+    },
+    "Dryads": {
+      "name_fr": "Dryades"
+    },
+    "Elder": {
+      "name_fr": "Ancien"
+    },
+    "Elven Steed": {
+      "name_fr": "Coursier Elfique"
+    },
     "Enchanted Arrows": {
       "name_fr": "Flèches Enchantées"
+    },
+    "Eternal Guard": {
+      "name_fr": "Garde Éternelle"
+    },
+    "Eternal Warden": {
+      "name_fr": "Gardien Éternel"
+    },
+    "Forest Dragon": {
+      "name_fr": "Dragon des Forêts"
+    },
+    "Forest Spites": {
+      "name_fr": "Fiel-follets des Forêts"
+    },
+    "Glade Captain": {
+      "name_fr": "Capitaine Sylvain"
+    },
+    "Glade Guard": {
+      "name_fr": "Gardes Sylvains"
+    },
+    "Glade Knight": {
+      "name_fr": "Chevalier Sylvain"
+    },
+    "Glade Lord": {
+      "name_fr": "Seigneur Sylvain"
+    },
+    "Glade Riders": {
+      "name_fr": "Cavaliers Sylvains"
+    },
+    "Great Stag": {
+      "name_fr": "Grand Cerf"
     },
     "Guardians of the Wildwood": {
       "name_fr": "Gardiens du Bois Sauvage"
@@ -36,14 +87,53 @@
     "Hagbane Tips": {
       "name_fr": "Flèches de Fléau des Furies"
     },
+    "Handmaiden of the Thorn": {
+      "name_fr": "Suivante de l'Épine"
+    },
+    "Hardwood flesh": {
+      "name_fr": "Peau de chêne"
+    },
     "Hawk-eyed Archer": {
       "name_fr": "Archer à l'Œil de Faucon"
+    },
+    "Hunting spear": {
+      "name_fr": "Lance de chasse"
+    },
+    "Lord's Bowmen": {
+      "name_fr": "Féal"
     },
     "Lore of Athel Loren": {
       "name_fr": "Domaine d'Athel Loren"
     },
     "Moonfire Shot": {
       "name_fr": "Traits de Feu Lunaire"
+    },
+    "Nymph": {
+      "name_fr": "Nymphe"
+    },
+    "Ranger's glaive": {
+      "name_fr": "Vouge de patrouilleurs"
+    },
+    "Sapwood flesh": {
+      "name_fr": "Chair d'aubier"
+    },
+    "Sentinel": {
+      "name_fr": "Sentinelle"
+    },
+    "Shadowdancer": {
+      "name_fr": "Danseur des Ombres"
+    },
+    "Sisters of the Thorn": {
+      "name_fr": "Sœurs de l'Épine"
+    },
+    "Spear of Loec": {
+      "name_fr": "Lance de Loec"
+    },
+    "Spellsinger": {
+      "name_fr": "Chanteur de Sorts"
+    },
+    "Spellweaver": {
+      "name_fr": "Tisseur de Charmes"
     },
     "Swiftshiver Shards": {
       "name_fr": "Échardes d'Archère Hâtive"
@@ -54,17 +144,62 @@
     "The Arrow of Kurnous": {
       "name_fr": "La Flèche de Kurnous"
     },
+    "Tree Kin": {
+      "name_fr": "Lémures"
+    },
     "Tree Spirit": {
       "name_fr": "Esprit des Forêts"
     },
     "Tree Whack": {
       "name_fr": "Abattage"
     },
+    "Treeman": {
+      "name_fr": "Homme-arbre"
+    },
+    "Treeman Ancient": {
+      "name_fr": "Homme-arbre Vénérable"
+    },
+    "Trickster's Blades": {
+      "name_fr": "Lames du Trompeur"
+    },
     "Troubadour of Loec": {
       "name_fr": "Troubadour de Loec"
     },
     "Trueflight Arrows": {
       "name_fr": "Pointes de Parabole Pure"
+    },
+    "Unicorn": {
+      "name_fr": "Licorne"
+    },
+    "Wardancers": {
+      "name_fr": "Danseurs de Guerre"
+    },
+    "Warhawk": {
+      "name_fr": "Faucon de Guerre"
+    },
+    "Warhawk Riders": {
+      "name_fr": "Guerriers Faucons"
+    },
+    "Waystalker": {
+      "name_fr": "Rôdeur Sylvain"
+    },
+    "Waywatchers": {
+      "name_fr": "Forestiers"
+    },
+    "Wild Hunter": {
+      "name_fr": "Chasseur Sauvage"
+    },
+    "Wild Riders": {
+      "name_fr": "Cavaliers Sauvages"
+    },
+    "Wildwood Rangers": {
+      "name_fr": "Patrouilleurs du Bois Sauvage"
+    },
+    "Wildwood Warden": {
+      "name_fr": "Garde du Bois Sauvage"
+    },
+    "Wind Rider": {
+      "name_fr": "Cavalier du Vent"
     },
     "Woodland Ambush": {
       "name_fr": "Embuscade dans les Bois"
