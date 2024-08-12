@@ -104,7 +104,7 @@ def construct_translation(to_translate, translation_data, language, current_tran
         logger.debug("{}BRACES: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
-    ignore_regex = ["\\.", "\\d+", "D\\d", "\\d\\+", "\\d-\\d", "D\\d\\+\\d", "-\\d", "\\dD\\d\\+\\d"]
+    ignore_regex = ["\\.", "\\d+", "D\\d", "\\d\\+", "\\d-\\d", "D\\d\\+\\d", "-\\d", "\\dD\\d\\+\\d", "\\dD\\d"]
     found = False
     for regex in ignore_regex:
         val = re.fullmatch(regex, to_translate.strip())
