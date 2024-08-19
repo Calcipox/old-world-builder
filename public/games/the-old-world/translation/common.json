@@ -42,6 +42,9 @@
     "Bolt Thrower": {
       "name_fr": "Baliste"
     },
+    "Bolt Throwers": {
+      "name_fr": "Balistes"
+    },
     "Bolt thrower": {
       "name_fr": "Baliste"
     },
@@ -71,6 +74,9 @@
     },
     "Cannon": {
       "name_fr": "Canon"
+    },
+    "Cannons": {
+      "name_fr": "Canons"
     },
     "Cavalry spear": {
       "name_fr": "Lance de cavalerie"
@@ -818,14 +824,11 @@
     "(\\d)\\+ unit of ([a-zA-Z\\s-]+) and/or ([a-zA-Z\\s-]+)": {
       "name_fr": "$1+ unité de $2 et/ou $3"
     },
+    "(\\d-\\d) unit of ([a-zA-Z\\s-]+) per (\\d+) points may be taken as a Core choice": {
+      "name_fr": "$1 unité de $2 par tranche de $3 points peut être prise comme choix d'Unité de Base"
+    },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) may be taken as a Core choice": {
-      "name_fr": "$1 unité de $2 peut être prise comme choix de Base"
-    },
-    "(\\d)\\+ unit of ([a-zA-Z\\s-]+)": {
-      "name_fr": "$1+ unité de $2"
-    },
-    "(\\d-\\d) unit of ([a-zA-Z\\s-]+)": {
-      "name_fr": "$1 unité de $2"
+      "name_fr": "$1 unité de $2 peut être prise comme choix d'Unité de Base"
     },
     "(\\d-\\d) unit in your army": {
       "name_fr": "$1 unité de votre armée"
@@ -866,6 +869,9 @@
     "Replace the ([a-zA-Z\\s]+) special rule with ([a-zA-Z\\s]+)": {
       "name_fr": "Remplacer la règle spéciale $1 par $2"
     },
+    "Replaces the ([a-zA-Z\\s]+) special rule": {
+      "name_fr": "Remplace la règle spéciale $1"
+    },
     "Any unit may have (\\d-\\d) of the following special rules: ([a-zA-Z\\s-]+)": {
       "name_fr": "Toute unité peut avoir $1 des règles spéciales suivantes: $2"
     },
@@ -874,6 +880,9 @@
     },
     "(\\d-\\d) unit per (\\d+) points may purchase a magic standard worth up to (\\d+) points": {
       "name_fr": "$1 unité par tranche de $2 points peut acheter une bannière magique pour une valeur maximale de $3 points"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s-]+) per (\\d+) points if your army includes (\\d\\+) ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 $2 par tranche de $3 points si votre armée inclut $4 $5"
     },
     "(\\d-\\d) per (\\d+) points if your army includes (\\d\\+) ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par tranche de $2 points si votre armée inclut $3 $4"
@@ -908,7 +917,7 @@
     "(\\d-\\d) per (\\d+) points": {
       "name_fr": "$1 par tranche de $2 points"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) per (\\d+) points": {
+    "(\\d-\\d) ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points"
     },
     "(\\d-\\d) per unit of ([a-zA-Z\\s]+)": {
@@ -932,11 +941,20 @@
     "if your general is a ([a-zA-Z\\s]+)": {
       "name_fr": "si votre général est un $1"
     },
+    "If your General is a ([a-zA-Z\\s]+)": {
+      "name_fr": "Si votre Général est un $1"
+    },
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) per (\\d+) points if your general is ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 unité de $2 par tranche de $3 points si votre général est $4"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) per (\\d+) points if your general is ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 $2 par tranche de $3 points si votre général est $4"
+    },
     "(\\d-\\d) per (\\d+) points if your general is ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par tranche de $2 points si votre général est $3"
     },
     "May only be taken as a character choice if your general is ([a-zA-Z\\s]+)": {
-      "name_fr": "Peut être pris comme choix de Personnage si votre général est $1"
+      "name_fr": "Ne peut être pris comme choix de Personnage que si votre général est $1"
     },
     "Level (\\d) Wizard": {
       "name_fr": "Sorcier de Niveau $1"
@@ -950,6 +968,9 @@
     "Spawn of (a-zA-Z+)": {
       "name_fr": "Rejeton de $1"
     },
+    "Maximum (\\d)": {
+      "name_fr": "Maximum $1"
+    },
     "([a-zA-Z\\s]+) and ([a-zA-Z\\s]+)": {
       "name_fr": "$1 et $2"
     },
@@ -958,6 +979,18 @@
     },
     "(\\d-\\d) per ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par $2 ou $3"
+    },
+    "(\\d-\\d) unit of ([a-zA-Z\\s-]+) per army": {
+      "name_fr": "$1 unité de $2 par armée"
+    },
+    "(\\d)\\+ unit of ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1+ unité de $2"
+    },
+    "(\\d-\\d) unit of ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1 unité de $2"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) per army": {
+      "name_fr": "$1 $2 par armée"
     },
     "(\\d-\\d) per army": {
       "name_fr": "$1 par armée"

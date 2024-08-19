@@ -18,6 +18,9 @@
     "Anvil of Doom": {
       "name_fr": "Enclume du Destin"
     },
+    "Armoured fuselage": {
+      "name_fr": "Fuselage blindé"
+    },
     "Artillery Master": {
       "name_fr": "Maître de l'Artillerie"
     },
@@ -83,6 +86,9 @@
     },
     "Dwarf Cart": {
       "name_fr": "Chariot Nain"
+    },
+    "Dwarf Carts": {
+      "name_fr": "Chariots Nains"
     },
     "Dwarf Crafted": {
       "name_fr": "Facture Naine"
@@ -161,6 +167,9 @@
     },
     "Grudge Thrower": {
       "name_fr": "Catapulte à Rancunes"
+    },
+    "Grudge Throwers": {
+      "name_fr": "Catapultes à Rancunes"
     },
     "Grudge-settler": {
       "name_fr": "Solde-Rancunes"
@@ -362,12 +371,12 @@
     },
     "Whirlwind of Death": {
       "name_fr": "Tourbillon de Mort"
-    },
-    "armoured fuselage": {
-      "name_fr": "fuselage blindé"
     }
   },
   "regex": {
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) per (\\d+) points may purchase ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 unité de $2 par tranche de $3 points peut acheter des $4"
+    },
     "Up to (\\d+) points of each rune type": {
       "name_fr": "Jusqu'à $1 points de chaque type de rune"
     },
