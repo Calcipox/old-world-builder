@@ -101,6 +101,9 @@ def construct_translation(to_translate, translation_data, language, current_tran
                          construct_translation(val.group(2), translation_data, language,
                                                None if curr is None else curr.group(2), nested_debug_prefix,
                                                new_data)]).rstrip()
+        # Fix for Armour of Chaos (X+)
+        if to_translate.endswith(" "):
+            final = final + " "
         logger.debug("{}BRACES: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
