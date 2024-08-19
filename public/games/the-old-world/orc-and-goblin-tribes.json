@@ -1469,7 +1469,7 @@
             }
           ],
           "specialRules": {
-            "name_en": "Close Order, Howdah, Immune to Psychology, Large Target, Move through Cover, Poisoned Attacks, Stomp Attacks (D6), Stubborn, Swiftstride, Terror",
+            "name_en": "Close Order, Howdah, Immune to Psychology, Large Target, Move Through Cover, Poisoned Attacks, Stomp Attacks (D6), Stubborn, Swiftstride, Terror",
             "name_fr": "Ordre Serré, Howdah, Immunisé à la Psychologie, Grande Cible, Mouvement à Couvert, Attaques Empoisonnées, Attaques de Piétinement (D6), Obstiné, Rapide, Terreur"
           }
         }
@@ -2113,7 +2113,7 @@
         "orc-and-goblin-tribes": {
           "category": "rare",
           "notes": {
-            "name_en": "Any army made using the Orc & Goblin Tribes Grand Army composition list that includes one or more Troll Mob may include 0-1 Troll Hag as a Rare choice.",
+            "name_en": "Any army made using the Orc & Goblin Tribes Grand Army composition list that includes one or more Troll Mobs may include 0-1 Troll Hag as a Rare choice.",
             "name_fr": "Toute armée utilisant la liste de composition de grande armée des Tribus d'Orques & Gobelins qui inclut au moins une Bande de Trolls peut inclure 0-1 Mégère Trollesse comme choix d'Unité Rare"
           }
         },
@@ -2192,8 +2192,8 @@
   ],
   "core": [
     {
-      "name_en": "Common Troll Mob",
-      "name_de": "Common Troll Mob",
+      "name_en": "Common Troll Mobs",
+      "name_de": "Common Troll Mobs",
       "name_fr": "Bande de Trolls",
       "id": "common-troll-mob",
       "points": 41,
@@ -2257,8 +2257,8 @@
       }
     },
     {
-      "name_en": "River Troll Mob",
-      "name_de": "River Troll Mob",
+      "name_en": "River Troll Mobs",
+      "name_de": "River Troll Mobs",
       "name_fr": "Bande de Trolls d'Eau",
       "id": "river-troll-mob",
       "points": 49,
@@ -2322,8 +2322,8 @@
       }
     },
     {
-      "name_en": "Stone Troll Mob",
-      "name_de": "Stone Troll Mob",
+      "name_en": "Stone Troll Mobs",
+      "name_de": "Stone Troll Mobs",
       "name_fr": "Bande de Trolls de Pierre",
       "id": "stone-troll-mob",
       "points": 45,
@@ -2387,8 +2387,8 @@
       }
     },
     {
-      "name_en": "Orc Mob",
-      "name_de": "Orc Mob",
+      "name_en": "Orc Mobs",
+      "name_de": "Orc Mobs",
       "name_fr": "Bande d'Orques",
       "id": "orc-mob",
       "points": 5,
@@ -2403,8 +2403,8 @@
         }
       },
       "notes": {
-        "name_de": "0-1 Orc Mob per 1000 points may purchase a magic standard",
-        "name_en": "0-1 Orc Mob per 1000 points may purchase a magic standard",
+        "name_de": "0-1 Orc Mob per 1000 points may purchase a magic standard worth up to 50 points",
+        "name_en": "0-1 Orc Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_fr": "0-1 Bande d'Orques par tranche de 1000 points peut acheter une bannière magique"
       },
       "command": [
@@ -2562,8 +2562,8 @@
       }
     },
     {
-      "name_en": "Black Orc Mob",
-      "name_de": "Black Orc Mob",
+      "name_en": "Black Orc Mobs",
+      "name_de": "Black Orc Mobs",
       "name_fr": "Bande d'Orques Noirs",
       "id": "black-orc-mob",
       "points": 12,
@@ -2671,9 +2671,9 @@
       ],
       "mounts": [],
       "notes": {
-        "name_en": "If your General is a Black Orc Boss, 0-1 Black Orc Mob may be taken as a Core choice",
-        "name_de": "If your General is a Black Orc Boss, 0-1 Black Orc Mob may be taken as a Core choice",
-        "name_es": "If your General is a Black Orc Boss, 0-1 Black Orc Mob may be taken as a Core choice",
+        "name_en": "0-1 Black Orc Mob may be taken as a Core choice if your General is a Black Orc Boss",
+        "name_de": "0-1 Black Orc Mob may be taken as a Core choice if your General is a Black Orc Boss",
+        "name_es": "0-1 Black Orc Mob may be taken as a Core choice if your General is a Black Orc Boss",
         "name_fr": "Si votre Général est un Chef Orque Noir, 0-1 Bande d'Orques Noirs peut être prise comme choix de base"
       },
       "specialRules": {
@@ -2684,8 +2684,8 @@
       }
     },
     {
-      "name_en": "Goblin Mob",
-      "name_de": "Goblin Mob",
+      "name_en": "Goblin Mobs",
+      "name_de": "Goblin Mobs",
       "name_fr": "Bande de Gobelins",
       "id": "goblin-mob",
       "points": 3,
@@ -2786,7 +2786,7 @@
       ],
       "mounts": [],
       "notes": {
-        "name_en": "0-1 unit per 1000 points may purchase a magic standard",
+        "name_en": "0-1 unit per 1000 points may purchase a magic standard worth up to 50 points",
         "name_fr": "0-1 Bande de Gobelins par tranche de 1000 points peut acheter une banière magique"
       },
       "specialRules": {
@@ -2797,8 +2797,8 @@
       }
     },
     {
-      "name_en": "Snotling Mob",
-      "name_de": "Snotling Mob",
+      "name_en": "Snotling Mobs",
+      "name_de": "Snotling Mobs",
       "name_fr": "Bande de Snotlings",
       "id": "snotling-mob",
       "points": 35,
@@ -2831,8 +2831,8 @@
       }
     },
     {
-      "name_en": "Night Goblin Mob",
-      "name_de": "Night Goblin Mob",
+      "name_en": "Night Goblin Mobs",
+      "name_de": "Night Goblin Mobs",
       "name_fr": "Bande de Gobelins de la Nuit",
       "id": "night-goblin-mob",
       "points": 3,
@@ -2910,16 +2910,16 @@
           "minimum": 0,
           "maximum": 3,
           "notes": {
-            "name_en": "0-1 Fanatic per 10 Night Goblins",
+            "name_en": "0-1 Fanatic per 10 Night Goblins, to a maximum of 3",
             "name_fr": "0-1 Fanatique par tranche de 10 Gobelins de la Nuit"
           }
         }
       ],
       "mounts": [],
       "notes": {
-        "name_en": "0-1 Night Goblin Mobs per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mobs per 1000 points may purchase a magic standard",
-        "name_de": "0-1 Night Goblin Mobs per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mobs per 1000 points may purchase a magic standard",
-        "name_es": "0-1 Night Goblin Mobs per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mobs per 1000 points may purchase a magic standard",
+        "name_en": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
+        "name_de": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
+        "name_es": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_fr": "0-1 Bande de Gobelins de la Nuit par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné, 0-1 Bande de Gobelins de la Nuit par tranche de 1000 points peut acheter une bannière magique"
       },
       "specialRules": {
@@ -2930,15 +2930,15 @@
       }
     },
     {
-      "name_en": "Goblin Spider Rider Mob",
-      "name_de": "Goblin Spider Rider Mob",
+      "name_en": "Goblin Spider Rider Mobs",
+      "name_de": "Goblin Spider Rider Mobs",
       "name_fr": "Bande de Gobelins sur Araignée",
       "id": "goblin-spider-rider-mob",
       "points": 12,
       "minimum": 5,
       "maximum": 0,
       "notes": {
-        "name_en": "0-1 Goblin Spider Rider Mob per 1000 points may purchase a magic standard",
+        "name_en": "0-1 Goblin Spider Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_fr": "0-1 Bande de Gobelins sur Araignée par tranche de 1000 points peut acheter une bannière magique"
       },
       "armyComposition": {
@@ -3016,15 +3016,15 @@
       }
     },
     {
-      "name_en": "Goblin Wolf Rider Mob",
-      "name_de": "Goblin Wolf Rider Mob",
+      "name_en": "Goblin Wolf Rider Mobs",
+      "name_de": "Goblin Wolf Rider Mobs",
       "name_fr": "Bande de Gobelins sur Loup",
       "id": "goblin-wolf-rider-mob",
       "points": 10,
       "minimum": 5,
       "maximum": 0,
       "notes": {
-        "name_en": "0-1 Goblin Wolf Rider Mob per 1000 points may purchase a magic standard",
+        "name_en": "0-1 Goblin Wolf Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_fr": "0-1 Bande de Gobelins sur Loups par tranche de 1000 points peut acheter une bannière magique"
       },
       "command": [
@@ -3131,8 +3131,8 @@
       }
     },
     {
-      "name_en": "Orc Boar Boy Mob",
-      "name_de": "Orc Boar Boy Mob",
+      "name_en": "Orc Boar Boy Mobs",
+      "name_de": "Orc Boar Boy Mobs",
       "name_fr": "Bande d'Orques sur Sangliers",
       "id": "orc-boar-boy-mob",
       "points": 15,
@@ -3142,7 +3142,7 @@
         "nomadic-waaagh": {
           "category": "core",
           "notes": {
-            "name_en": "If your General is an Orc Boss, 0-1 Orc Boar Boy Mob may be taken as a Core choice. 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard",
+            "name_en": "0-1 Orc Boar Boy Mob may be taken as a Core choice if your General is an Orc Boss , 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_fr": "Si votre Général est un Chef Orque, 0-1 Bande d'Orques sur Sangliers peut être prise comme choix de Base. 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         }
@@ -3340,7 +3340,7 @@
         "nomadic-waaagh": {
           "category": "core",
           "notes": {
-            "name_en": "If your General is a Black Orc Boss, 0-1 Black Orc Boar Chariot may be taken as a Core choice",
+            "name_en": "0-1 Black Orc Boar Chariot may be taken as a Core choice if your General is a Black Orc Boss",
             "name_fr": "Si votre Général est un Chef Orque Noir, 0-1 Char à Sangliers Orque Noir peut être pris comme choix de Base"
           }
         }
@@ -3405,8 +3405,8 @@
   ],
   "special": [
     {
-      "name_en": "Black Orc Mob",
-      "name_de": "Black Orc Mob",
+      "name_en": "Black Orc Mobs",
+      "name_de": "Black Orc Mobs",
       "name_fr": "Bande d'Orques Noirs",
       "id": "black-orc-mob",
       "points": 12,
@@ -3521,8 +3521,8 @@
       }
     },
     {
-      "name_en": "Orc Boar Boy Mob",
-      "name_de": "Orc Boar Boy Mob",
+      "name_en": "Orc Boar Boy Mobs",
+      "name_de": "Orc Boar Boy Mobs",
       "name_fr": "Bande d'Orques sur Sangliers",
       "id": "orc-boar-boy-mob",
       "points": 15,
@@ -3532,23 +3532,23 @@
         "orc-and-goblin-tribes": {
           "category": "special",
           "notes": {
-            "name_de": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard",
-            "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard",
+            "name_de": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
+            "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         },
         "troll-horde": {
           "category": "special",
           "notes": {
-            "name_en": "0-1 Orc Boar Boy Mob per 1000 points. 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points. 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
+            "name_en": "0-1 Orc Boar Boy Mob per 1000 points, 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
+            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points, 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         },
         "nomadic-waaagh": {
           "category": "special",
           "notes": {
-            "name_de": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard",
-            "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard",
+            "name_de": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
+            "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         }
@@ -3678,8 +3678,8 @@
       }
     },
     {
-      "name_en": "Night Goblin Squig Hopper Mob",
-      "name_de": "Night Goblin Squig Hopper Mob",
+      "name_en": "Night Goblin Squig Hopper Mobs",
+      "name_de": "Night Goblin Squig Hopper Mobs",
       "name_fr": "Bande de Gobelins de la Nuit sur Squigs",
       "id": "night-goblin-squig-hopper-mob",
       "points": 12,
@@ -3763,7 +3763,7 @@
         "troll-horde": {
           "category": "special",
           "notes": {
-            "name_en": "0-1 Orc Boar Chariots per 1000 points",
+            "name_en": "0-1 Orc Boar Chariot per 1000 points",
             "name_fr": "0-1 Char à Sangliers Orque par tranche de 1000 points"
           }
         },
@@ -3848,8 +3848,8 @@
       }
     },
     {
-      "name_en": "Common Troll Mob",
-      "name_de": "Common Troll Mob",
+      "name_en": "Common Troll Mobs",
+      "name_de": "Common Troll Mobs",
       "name_fr": "Bande de Trolls",
       "id": "common-troll-mob",
       "points": 41,
@@ -3912,8 +3912,8 @@
       }
     },
     {
-      "name_en": "River Troll Mob",
-      "name_de": "River Troll Mob",
+      "name_en": "River Troll Mobs",
+      "name_de": "River Troll Mobs",
       "name_fr": "Bande de Trolls d'Eau",
       "id": "river-troll-mob",
       "points": 49,
@@ -3976,8 +3976,8 @@
       }
     },
     {
-      "name_en": "Stone Troll Mob",
-      "name_de": "Stone Troll Mob",
+      "name_en": "Stone Troll Mobs",
+      "name_de": "Stone Troll Mobs",
       "name_fr": "Bande de Trolls de Pierre",
       "id": "stone-troll-mob",
       "points": 45,
