@@ -30,6 +30,9 @@
     "Borne Aloft": {
       "name_fr": "Porté"
     },
+    "Borri Forkbeard": {
+      "name_fr": "Borri Forkbeard"
+    },
     "Brace of drakefire pistols": {
       "name_fr": "Paire de pistolets drac de feu"
     },
@@ -68,6 +71,9 @@
     },
     "Dragon Slayer": {
       "name_fr": "Tueur de Dragons"
+    },
+    "Dragonblade": {
+      "name_fr": "Lame Dragon"
     },
     "Drakegun": {
       "name_fr": "Canon drac de feu"
@@ -222,6 +228,12 @@
     "Prepared Positions": {
       "name_fr": "Positions Préparées"
     },
+    "Prince Ulther": {
+      "name_fr": "Prince Ulther"
+    },
+    "Prince Ulther's Dragon Company": {
+      "name_fr": "Compagnie Dragon du Prince Ulther"
+    },
     "Prospector": {
       "name_fr": "Prospecteur"
     },
@@ -324,8 +336,8 @@
     "The Slayer Crown": {
       "name_fr": "La Couronne du Tueur"
     },
-    "Thorgrim Ullekson": {
-      "name_fr": "Thorgrim Ullekson"
+    "Thorgrim Ulleksson": {
+      "name_fr": "Thorgrim Ulleksson"
     },
     "Thunderers": {
       "name_fr": "Arquebusiers"
