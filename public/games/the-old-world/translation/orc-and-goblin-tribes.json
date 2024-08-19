@@ -1,22 +1,142 @@
 {
   "direct": {
+    "'It & Run": {
+      "name_fr": "’Arrcèlement"
+    },
+    "All Sneaky Like": {
+      "name_fr": "En Tapinois"
+    },
+    "Arachnarok Spider": {
+      "name_fr": "Arachnarok"
+    },
+    "Badlands Ogre Bulls": {
+      "name_fr": "Buffles Ogres des Terres Arides"
+    },
     "Big 'Uns": {
       "name_fr": "Kostos"
     },
     "Big Stabbas": {
       "name_fr": "Grands Kitrou"
     },
+    "Black Orc Boar Chariot": {
+      "name_fr": "Char à Sangliers Orque Noir"
+    },
+    "Black Orc Boss": {
+      "name_fr": "Chef Orque Noir"
+    },
+    "Black Orc Crew": {
+      "name_fr": "Auriges Orques Noirs"
+    },
+    "Bog-wood staff": {
+      "name_fr": "Bâton en Morta"
+    },
+    "Bonegrinder Giant": {
+      "name_fr": "Géant Broyeur d'Os"
+    },
+    "Bonegrinder Giant Attacks": {
+      "name_fr": "Attaques de Géant Broyeur d'Os"
+    },
+    "Bonegrinders Giant's club": {
+      "name_fr": "Massue de Géant Broyeur d'Os"
+    },
     "Bully": {
       "name_fr": "Brute"
+    },
+    "Chompa": {
+      "name_fr": "Mâchoir'"
+    },
+    "Colossal fang-filled gob": {
+      "name_fr": "Colossale gueule garnie de crocs"
+    },
+    "Common Troll Mobs": {
+      "name_fr": "Bandes de Trolls Communs"
+    },
+    "Da Boss's Trophy Rack": {
+      "name_fr": "Râtelier à Trophées du Chef"
+    },
+    "Da Skull Smasha": {
+      "name_fr": "Frakass' Crânes"
+    },
+    "Da Troll Calla": {
+      "name_fr": "Eul' Maître des Trolls"
     },
     "Doom Diver": {
       "name_fr": "Plongeur de la Mort"
     },
+    "Doom Diver Catapult": {
+      "name_fr": "Catapulte à Plongeurs de la Mort"
+    },
+    "Fanatic": {
+      "name_fr": "Fanatique"
+    },
+    "Fanatics": {
+      "name_fr": "Fanatiques"
+    },
+    "Giant": {
+      "name_fr": "Géant"
+    },
+    "Giant Cave Squig": {
+      "name_fr": "Squig des Cavernes Géant"
+    },
+    "Giant Wolf": {
+      "name_fr": "Loup Géant"
+    },
+    "Gigantic Spider": {
+      "name_fr": "Araignée Géante"
+    },
+    "Gnarled stump": {
+      "name_fr": "Souche noueuse"
+    },
+    "Goblin Bigboss": {
+      "name_fr": "Grand Chef Gobelin"
+    },
+    "Goblin Bolt Throwa": {
+      "name_fr": "Baliste Gobeline"
+    },
+    "Goblin Bolt Throwas": {
+      "name_fr": "Balistes Gobelines"
+    },
+    "Goblin Mobs": {
+      "name_fr": "Bandes de Gobelins"
+    },
+    "Goblin Oddgit": {
+      "name_fr": "Zarbzig Gobelin"
+    },
+    "Goblin Oddnob": {
+      "name_fr": "Zarbnob Gobelin"
+    },
+    "Goblin Rock Lobber": {
+      "name_fr": "Lance-rocs Gobelin"
+    },
+    "Goblin Spider Rider Mob": {
+      "name_fr": "Bande de Gobelins sur Araignées"
+    },
+    "Goblin Spider Rider Mobs": {
+      "name_fr": "Bandes de Gobelins sur Araignées"
+    },
+    "Goblin Warboss": {
+      "name_fr": "Chef de Guerre Gobelin"
+    },
+    "Goblin Wolf Chariots": {
+      "name_fr": "Chars à Loups Gobelins"
+    },
+    "Goblin Wolf Rider Mob": {
+      "name_fr": "Bande de Gobelins sur Loups"
+    },
+    "Goblin Wolf Rider Mobs": {
+      "name_fr": "Bandes de Gobelins sur Loups"
+    },
     "Ignore Goblin Panic": {
       "name_fr": "Ignore la Panique des Gobelins"
     },
+    "Indiscriminate Hunger": {
+      "name_fr": "Faim Aveugle"
+    },
     "Ker-splat": {
       "name_fr": "Sproutch"
+    },
+    "Kiknik Toofsnatcha": {
+      "name_fr": "Kiknik Toofsnatcha"
     },
     "Lore of Gork": {
       "name_fr": "Domaine de Gork"
@@ -24,27 +144,187 @@
     "Lore of Mork": {
       "name_fr": "Domaine de Mork"
     },
+    "Mangler Squig": {
+      "name_fr": "Squig Broyeur"
+    },
+    "Mangler Squigs": {
+      "name_fr": "Squigs Broyeurs"
+    },
     "Mob Rule": {
       "name_fr": "La Loi du Nombre"
+    },
+    "Motherly Love": {
+      "name_fr": "Amour Maternel"
+    },
+    "Nasty Skulkers": {
+      "name_fr": "Zigouillards"
     },
     "Netters": {
       "name_fr": "Rétiaires"
     },
+    "Night Goblin Bigboss": {
+      "name_fr": "Grand Chef Gobelin de la Nuit"
+    },
+    "Night Goblin Chief": {
+      "name_fr": "Chef Gobelin de la Nuit"
+    },
+    "Night Goblin Mob": {
+      "name_fr": "Bande de Gobelins de la Nuit"
+    },
+    "Night Goblin Mobs": {
+      "name_fr": "Bandes de Gobelins de la Nuit"
+    },
+    "Night Goblin Oddgit": {
+      "name_fr": "Zarbzig Gobelin de la Nuit"
+    },
+    "Night Goblin Oddnob": {
+      "name_fr": "Zarbnob Gobelin de la Nuit"
+    },
+    "Night Goblin Shaman": {
+      "name_fr": "Chamane Gobelin de la Nuit"
+    },
+    "Night Goblin Squig Herd": {
+      "name_fr": "Troupeau de Squigs Gobelins de la Nuit"
+    },
+    "Night Goblin Squig Hopper Mob": {
+      "name_fr": "Bande de Gobelins de la Nuit sur Squigs"
+    },
+    "Night Goblin Squig Hopper Mobs": {
+      "name_fr": "Bandes de Gobelins de la Nuit sur Squigs"
+    },
+    "Night Goblin Warboss": {
+      "name_fr": "Chef de Guerre Gobelin de la Nuit"
+    },
+    "Night Goblins": {
+      "name_fr": "Gobelins de la Nuit"
+    },
+    "Ogdruz Swampdigga": {
+      "name_fr": "Ogdruz Swampdigga"
+    },
+    "Orc Bigboss": {
+      "name_fr": "Grand Chef Orque"
+    },
+    "Orc Boar Boy Mob": {
+      "name_fr": "Bande d'Orques sur Sangliers"
+    },
+    "Orc Boar Boy Mobs": {
+      "name_fr": "Bandes d'Orques sur Sangliers"
+    },
+    "Orc Boar Boys": {
+      "name_fr": "Orques sur Sangliers"
+    },
+    "Orc Boar Chariot": {
+      "name_fr": "Char à Sangliers Orque"
+    },
+    "Orc Boar Chariots": {
+      "name_fr": "Chars à Sangliers Orques"
+    },
+    "Orc Boss": {
+      "name_fr": "Chef Orque"
+    },
+    "Orc Bully": {
+      "name_fr": "Brute Orque"
+    },
+    "Orc Mob": {
+      "name_fr": "Bande d'Orques"
+    },
+    "Orc Mobs": {
+      "name_fr": "Bandes d'Orques"
+    },
+    "Orc Warboss": {
+      "name_fr": "Chef de Guerre Orque"
+    },
+    "Orc Weirdboy": {
+      "name_fr": "Bizarboy Orque"
+    },
+    "Orc Weirdnob": {
+      "name_fr": "Bizarnob Orque"
+    },
+    "Protect Da Boss": {
+      "name_fr": "Protégez l'Chef"
+    },
+    "Pump Wagon": {
+      "name_fr": "Chariot à Pompe"
+    },
     "Release the Fanatics!": {
       "name_fr": "Lâchez les Fanatiques!"
+    },
+    "River Troll Mobs": {
+      "name_fr": "Bandes de Trolls d'Eau"
     },
     "Skulking Menace": {
       "name_fr": "Menace Dissimulée"
     },
+    "Slimy Shanks": {
+      "name_fr": "Jarrets Visqueux"
+    },
+    "Snotling Mobs": {
+      "name_fr": "Bandes de Snotlings"
+    },
+    "Snotling Pump Wagons": {
+      "name_fr": "Chariots à Pompe Snotlings"
+    },
+    "Spidersilk lobber": {
+      "name_fr": "Catatoile"
+    },
     "Spiked Ball & Chains": {
       "name_fr": "Chaînes & Boulets"
+    },
+    "Squig Herder": {
+      "name_fr": "Berger Gobelin de la Nuit"
+    },
+    "Squigs": {
+      "name_fr": "Squigs"
     },
     "Squigs Go Wild": {
       "name_fr": "Squigs Sauvages"
     },
+    "Stone Troll Mobs": {
+      "name_fr": "Bandes de Trolls de Pierre"
+    },
+    "Swamp breath": {
+      "name_fr": "Souffle marécageux"
+    },
+    "Syphoned Strength": {
+      "name_fr": "Drain de Force"
+    },
+    "Third Giant Wolf": {
+      "name_fr": "Troisième Loup Géant"
+    },
+    "Troll Hag": {
+      "name_fr": "Mégère Trollesse"
+    },
+    "Troll Mob": {
+      "name_fr": "Bande de Trolls"
+    },
+    "Troll Mobs": {
+      "name_fr": "Bandes de Trolls"
+    },
+    "Troll vomit": {
+      "name_fr": "Vomi de troll"
+    },
+    "Trollhide shawl": {
+      "name_fr": "Châle en Peau de Troll"
+    },
     "Tusker Charge": {
       "name_fr": "Charge de Sanglier"
+    },
+    "Venom surge": {
+      "name_fr": "Injection de venin"
+    },
+    "Wolf Chariot": {
+      "name_fr": "Char à Loups"
+    },
+    "poisonous fangs": {
+      "name_fr": "crochets empoisonnés"
     }
   },
-  "regex": {}
+  "regex": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) per (\\d\\d) ([a-zA-Z\\s]+), to a maximum of (\\d)": {
+      "name_fr": "$1 $2 par tranche de $3 $4, jusqu'à un maximum de $5"
+    },
+    "Any army made using the Orc & Goblin Tribes Grand Army composition list that includes one or more ([a-zA-Z\\s]+)s may include (\\d-\\d) ([a-zA-Z\\s]+) as a Rare choice.": {
+      "name_fr": "Toute armée utilisant la liste de composition de grande armée des Tribus d'Orques & Gobelins qui inclut au moins une $1 peut inclure $2 $3 comme choix d'Unité Rare"
+    }
+  }
 }

@@ -1,8 +1,5 @@
 {
   "direct": {
-    "Bellower": {
-      "name_fr": "Beugleur"
-    },
     "Big Name": {
       "name_fr": "Grand Nom"
     },
@@ -35,9 +32,6 @@
     },
     "Chill breath": {
       "name_fr": "Souffle glacial"
-    },
-    "Crusher": {
-      "name_fr": "Broyeur"
     },
     "Distensible jaw": {
       "name_fr": "Mâchoire extensible"
@@ -95,9 +89,6 @@
     },
     "Ironfist": {
       "name_fr": "Poing d'Acier"
-    },
-    "Ironfists": {
-      "name_fr": "Poings d'Acier"
     },
     "Leadbelcher guns": {
       "name_fr": "Crache-plomb"
