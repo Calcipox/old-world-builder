@@ -2192,8 +2192,8 @@
   ],
   "core": [
     {
-      "name_en": "Common Troll Mobs",
-      "name_de": "Common Troll Mobs",
+      "name_en": "Common Troll Mob",
+      "name_de": "Common Troll Mob",
       "name_fr": "Bande de Trolls",
       "id": "common-troll-mob",
       "points": 41,
@@ -2257,8 +2257,8 @@
       }
     },
     {
-      "name_en": "River Troll Mobs",
-      "name_de": "River Troll Mobs",
+      "name_en": "River Troll Mob",
+      "name_de": "River Troll Mob",
       "name_fr": "Bande de Trolls d'Eau",
       "id": "river-troll-mob",
       "points": 49,
@@ -2322,8 +2322,8 @@
       }
     },
     {
-      "name_en": "Stone Troll Mobs",
-      "name_de": "Stone Troll Mobs",
+      "name_en": "Stone Troll Mob",
+      "name_de": "Stone Troll Mob",
       "name_fr": "Bande de Trolls de Pierre",
       "id": "stone-troll-mob",
       "points": 45,
@@ -2387,8 +2387,8 @@
       }
     },
     {
-      "name_en": "Orc Mobs",
-      "name_de": "Orc Mobs",
+      "name_en": "Orc Mob",
+      "name_de": "Orc Mob",
       "name_fr": "Bande d'Orques",
       "id": "orc-mob",
       "points": 5,
@@ -2562,8 +2562,8 @@
       }
     },
     {
-      "name_en": "Black Orc Mobs",
-      "name_de": "Black Orc Mobs",
+      "name_en": "Black Orc Mob",
+      "name_de": "Black Orc Mob",
       "name_fr": "Bande d'Orques Noirs",
       "id": "black-orc-mob",
       "points": 12,
@@ -2684,8 +2684,8 @@
       }
     },
     {
-      "name_en": "Goblin Mobs",
-      "name_de": "Goblin Mobs",
+      "name_en": "Goblin Mob",
+      "name_de": "Goblin Mob",
       "name_fr": "Bande de Gobelins",
       "id": "goblin-mob",
       "points": 3,
@@ -2797,8 +2797,8 @@
       }
     },
     {
-      "name_en": "Snotling Mobs",
-      "name_de": "Snotling Mobs",
+      "name_en": "Snotling Mob",
+      "name_de": "Snotling Mob",
       "name_fr": "Bande de Snotlings",
       "id": "snotling-mob",
       "points": 35,
@@ -2831,8 +2831,8 @@
       }
     },
     {
-      "name_en": "Night Goblin Mobs",
-      "name_de": "Night Goblin Mobs",
+      "name_en": "Night Goblin Mob",
+      "name_de": "Night Goblin Mob",
       "name_fr": "Bande de Gobelins de la Nuit",
       "id": "night-goblin-mob",
       "points": 3,
@@ -2930,8 +2930,8 @@
       }
     },
     {
-      "name_en": "Goblin Spider Rider Mobs",
-      "name_de": "Goblin Spider Rider Mobs",
+      "name_en": "Goblin Spider Rider Mob",
+      "name_de": "Goblin Spider Rider Mob",
       "name_fr": "Bande de Gobelins sur Araignée",
       "id": "goblin-spider-rider-mob",
       "points": 12,
@@ -3016,8 +3016,8 @@
       }
     },
     {
-      "name_en": "Goblin Wolf Rider Mobs",
-      "name_de": "Goblin Wolf Rider Mobs",
+      "name_en": "Goblin Wolf Rider Mob",
+      "name_de": "Goblin Wolf Rider Mob",
       "name_fr": "Bande de Gobelins sur Loup",
       "id": "goblin-wolf-rider-mob",
       "points": 10,
@@ -3131,8 +3131,8 @@
       }
     },
     {
-      "name_en": "Orc Boar Boy Mobs",
-      "name_de": "Orc Boar Boy Mobs",
+      "name_en": "Orc Boar Boy Mob",
+      "name_de": "Orc Boar Boy Mob",
       "name_fr": "Bande d'Orques sur Sangliers",
       "id": "orc-boar-boy-mob",
       "points": 15,
@@ -3405,8 +3405,8 @@
   ],
   "special": [
     {
-      "name_en": "Black Orc Mobs",
-      "name_de": "Black Orc Mobs",
+      "name_en": "Black Orc Mob",
+      "name_de": "Black Orc Mob",
       "name_fr": "Bande d'Orques Noirs",
       "id": "black-orc-mob",
       "points": 12,
@@ -3521,8 +3521,8 @@
       }
     },
     {
-      "name_en": "Orc Boar Boy Mobs",
-      "name_de": "Orc Boar Boy Mobs",
+      "name_en": "Orc Boar Boy Mob",
+      "name_de": "Orc Boar Boy Mob",
       "name_fr": "Bande d'Orques sur Sangliers",
       "id": "orc-boar-boy-mob",
       "points": 15,
@@ -3678,8 +3678,8 @@
       }
     },
     {
-      "name_en": "Night Goblin Squig Hopper Mobs",
-      "name_de": "Night Goblin Squig Hopper Mobs",
+      "name_en": "Night Goblin Squig Hopper Mob",
+      "name_de": "Night Goblin Squig Hopper Mob",
       "name_fr": "Bande de Gobelins de la Nuit sur Squigs",
       "id": "night-goblin-squig-hopper-mob",
       "points": 12,
@@ -3848,8 +3848,8 @@
       }
     },
     {
-      "name_en": "Common Troll Mobs",
-      "name_de": "Common Troll Mobs",
+      "name_en": "Common Troll Mob",
+      "name_de": "Common Troll Mob",
       "name_fr": "Bande de Trolls",
       "id": "common-troll-mob",
       "points": 41,
@@ -3912,8 +3912,8 @@
       }
     },
     {
-      "name_en": "River Troll Mobs",
-      "name_de": "River Troll Mobs",
+      "name_en": "River Troll Mob",
+      "name_de": "River Troll Mob",
       "name_fr": "Bande de Trolls d'Eau",
       "id": "river-troll-mob",
       "points": 49,
@@ -3976,8 +3976,8 @@
       }
     },
     {
-      "name_en": "Stone Troll Mobs",
-      "name_de": "Stone Troll Mobs",
+      "name_en": "Stone Troll Mob",
+      "name_de": "Stone Troll Mob",
       "name_fr": "Bande de Trolls de Pierre",
       "id": "stone-troll-mob",
       "points": 45,
