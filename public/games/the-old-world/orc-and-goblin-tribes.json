@@ -2022,7 +2022,7 @@
         "name_en": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband",
         "name_de": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband",
         "name_es": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband",
-        "name_fr": "En Tapinois, Embusqueurs, Arme Perforante (1 - Mâchoir' uniquement), Peau Blindée (1), Escorteurs de Chars, Cavalerie Rapide, Peur des Elfes, Impétueux, ’Arrcèlement, Cri de Ralliement, Rapide, Bande de Guerre",
+        "name_fr": "En Tapinois, Embusqueur, Arme Perforante (1 - Mâchoir' uniquement), Peau Blindée (1), Escorteurs de Chars, Cavalerie Rapide, Peur des Elfes, Impétueux, ’Arrcèlement, Cri de Ralliement, Rapide, Bande de Guerre",
         "name_it": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband",
         "name_pl": "All Sneaky Like, Ambushers, Armour Bane (1 - Chompa only), Armoured Hide (1), Chariot Runners, Fast Cavalry, Fear of Elves, Impetuous, 'It & Run, Rallying Cry, Swiftstride, Warband"
       }
@@ -2194,7 +2194,7 @@
     {
       "name_en": "Common Troll Mobs",
       "name_de": "Common Troll Mobs",
-      "name_fr": "Bandes de Trolls Communs",
+      "name_fr": "Bande de Trolls",
       "id": "common-troll-mob",
       "points": 41,
       "minimum": 1,
@@ -2204,7 +2204,7 @@
           "category": "core",
           "notes": {
             "name_en": "1 Troll Mob per 1000 points, 0-1 additional Troll Mob may be taken as a Core choice per Troll Hag taken",
-            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise"
+            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix de Base par Mégère Troll prise"
           }
         }
       },
@@ -2259,7 +2259,7 @@
     {
       "name_en": "River Troll Mobs",
       "name_de": "River Troll Mobs",
-      "name_fr": "Bandes de Trolls d'Eau",
+      "name_fr": "Bande de Trolls d'Eau",
       "id": "river-troll-mob",
       "points": 49,
       "minimum": 1,
@@ -2269,7 +2269,7 @@
           "category": "core",
           "notes": {
             "name_en": "1 Troll Mob per 1000 points, 0-1 additional Troll Mob may be taken as a Core choice per Troll Hag taken",
-            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise"
+            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix de Base par Mégère Troll prise"
           }
         }
       },
@@ -2324,7 +2324,7 @@
     {
       "name_en": "Stone Troll Mobs",
       "name_de": "Stone Troll Mobs",
-      "name_fr": "Bandes de Trolls de Pierre",
+      "name_fr": "Bande de Trolls de Pierre",
       "id": "stone-troll-mob",
       "points": 45,
       "minimum": 1,
@@ -2334,7 +2334,7 @@
           "category": "core",
           "notes": {
             "name_en": "1 Troll Mob per 1000 points, 0-1 additional Troll Mob may be taken as a Core choice per Troll Hag taken",
-            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix d'Unité de Base par Mégère Trollesse prise"
+            "name_fr": "1 Bande de Trolls par tranche de 1000 points, 0-1 Bande de Trolls additionnelle peut être prise comme choix de Base par Mégère Troll prise"
           }
         }
       },
@@ -2389,7 +2389,7 @@
     {
       "name_en": "Orc Mobs",
       "name_de": "Orc Mobs",
-      "name_fr": "Bandes d'Orques",
+      "name_fr": "Bande d'Orques",
       "id": "orc-mob",
       "points": 5,
       "minimum": 5,
@@ -2405,7 +2405,7 @@
       "notes": {
         "name_de": "0-1 Orc Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_en": "0-1 Orc Mob per 1000 points may purchase a magic standard worth up to 50 points",
-        "name_fr": "0-1 Bande d'Orques par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande d'Orques par tranche de 1000 points peut acheter une bannière magique"
       },
       "command": [
         {
@@ -2564,7 +2564,7 @@
     {
       "name_en": "Black Orc Mobs",
       "name_de": "Black Orc Mobs",
-      "name_fr": "Bandes d'Orques Noirs",
+      "name_fr": "Bande d'Orques Noirs",
       "id": "black-orc-mob",
       "points": 12,
       "minimum": 5,
@@ -2674,7 +2674,7 @@
         "name_en": "0-1 Black Orc Mob may be taken as a Core choice if your General is a Black Orc Boss",
         "name_de": "0-1 Black Orc Mob may be taken as a Core choice if your General is a Black Orc Boss",
         "name_es": "0-1 Black Orc Mob may be taken as a Core choice if your General is a Black Orc Boss",
-        "name_fr": "0-1 Bande d'Orques Noirs peut être prise comme Unité de Base si votre Général est un Chef Orque Noir"
+        "name_fr": "Si votre Général est un Chef Orque Noir, 0-1 Bande d'Orques Noirs peut être prise comme choix de base"
       },
       "specialRules": {
         "name_en": "Choppas, Close Order, Da Boyz, Furious Charge, Ignore Panic, Motley Crew, Quell Impetuosity",
@@ -2686,7 +2686,7 @@
     {
       "name_en": "Goblin Mobs",
       "name_de": "Goblin Mobs",
-      "name_fr": "Bandes de Gobelins",
+      "name_fr": "Bande de Gobelins",
       "id": "goblin-mob",
       "points": 3,
       "minimum": 10,
@@ -2787,7 +2787,7 @@
       "mounts": [],
       "notes": {
         "name_en": "0-1 unit per 1000 points may purchase a magic standard worth up to 50 points",
-        "name_fr": "0-1 unité par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande de Gobelins par tranche de 1000 points peut acheter une banière magique"
       },
       "specialRules": {
         "name_en": "Close Order, Fear of Elves, Horde, Impetuous, Warband",
@@ -2799,7 +2799,7 @@
     {
       "name_en": "Snotling Mobs",
       "name_de": "Snotling Mobs",
-      "name_fr": "Bandes de Snotlings",
+      "name_fr": "Bande de Snotlings",
       "id": "snotling-mob",
       "points": 35,
       "minimum": 2,
@@ -2833,7 +2833,7 @@
     {
       "name_en": "Night Goblin Mobs",
       "name_de": "Night Goblin Mobs",
-      "name_fr": "Bandes de Gobelins de la Nuit",
+      "name_fr": "Bande de Gobelins de la Nuit",
       "id": "night-goblin-mob",
       "points": 3,
       "minimum": 10,
@@ -2911,7 +2911,7 @@
           "maximum": 3,
           "notes": {
             "name_en": "0-1 Fanatic per 10 Night Goblins, to a maximum of 3",
-            "name_fr": "0-1 Fanatique par tranche de 10 Gobelins de la Nuit, jusqu'à un maximum de 3"
+            "name_fr": "0-1 Fanatique par tranche de 10 Gobelins de la Nuit"
           }
         }
       ],
@@ -2920,7 +2920,7 @@
         "name_en": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_de": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
         "name_es": "0-1 Night Goblin Mob per Night Goblin Chief or Night Goblin Shaman taken, 0-1 Night Goblin Mob per 1000 points may purchase a magic standard worth up to 50 points",
-        "name_fr": "0-1 Bande de Gobelins de la Nuit par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné, 0-1 Bande de Gobelins de la Nuit par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande de Gobelins de la Nuit par Chef Gobelin de la Nuit ou Chamane Gobelin de la Nuit sélectionné, 0-1 Bande de Gobelins de la Nuit par tranche de 1000 points peut acheter une bannière magique"
       },
       "specialRules": {
         "name_en": "Close Order, Fear of Elves, Hatred (Dwarfs), Horde, Warband",
@@ -2932,14 +2932,14 @@
     {
       "name_en": "Goblin Spider Rider Mobs",
       "name_de": "Goblin Spider Rider Mobs",
-      "name_fr": "Bandes de Gobelins sur Araignées",
+      "name_fr": "Bande de Gobelins sur Araignée",
       "id": "goblin-spider-rider-mob",
       "points": 12,
       "minimum": 5,
       "maximum": 0,
       "notes": {
         "name_en": "0-1 Goblin Spider Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
-        "name_fr": "0-1 Bande de Gobelins sur Araignées par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande de Gobelins sur Araignée par tranche de 1000 points peut acheter une bannière magique"
       },
       "armyComposition": {
         "orc-and-goblin-tribes": {
@@ -3018,14 +3018,14 @@
     {
       "name_en": "Goblin Wolf Rider Mobs",
       "name_de": "Goblin Wolf Rider Mobs",
-      "name_fr": "Bandes de Gobelins sur Loups",
+      "name_fr": "Bande de Gobelins sur Loup",
       "id": "goblin-wolf-rider-mob",
       "points": 10,
       "minimum": 5,
       "maximum": 0,
       "notes": {
         "name_en": "0-1 Goblin Wolf Rider Mob per 1000 points may purchase a magic standard worth up to 50 points",
-        "name_fr": "0-1 Bande de Gobelins sur Loups par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+        "name_fr": "0-1 Bande de Gobelins sur Loups par tranche de 1000 points peut acheter une bannière magique"
       },
       "command": [
         {
@@ -3133,7 +3133,7 @@
     {
       "name_en": "Orc Boar Boy Mobs",
       "name_de": "Orc Boar Boy Mobs",
-      "name_fr": "Bandes d'Orques sur Sangliers",
+      "name_fr": "Bande d'Orques sur Sangliers",
       "id": "orc-boar-boy-mob",
       "points": 15,
       "minimum": 4,
@@ -3143,7 +3143,7 @@
           "category": "core",
           "notes": {
             "name_en": "0-1 Orc Boar Boy Mob may be taken as a Core choice if your General is an Orc Boss , 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers peut être prise comme Unité de Base si votre Général est un Chef Orque , 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "Si votre Général est un Chef Orque, 0-1 Bande d'Orques sur Sangliers peut être prise comme choix de Base. 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         }
       },
@@ -3270,7 +3270,7 @@
         "name_en": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
         "name_de": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
         "name_es": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
-        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques sur Sangliers & Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre"
+        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques et Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre"
       }
     },
     {
@@ -3312,7 +3312,7 @@
         {
           "name_en": "Thrusting spears for Squig Herder",
           "name_de": "Thrusting spears for Squig Herder",
-          "name_fr": "Lances d'infanterie pour Berger Gobelin de la Nuit",
+          "name_fr": "Lances d'infanterie pour Berger",
           "points": 1,
           "stackable": true,
           "minimum": 0,
@@ -3341,7 +3341,7 @@
           "category": "core",
           "notes": {
             "name_en": "0-1 Black Orc Boar Chariot may be taken as a Core choice if your General is a Black Orc Boss",
-            "name_fr": "0-1 Char à Sangliers Orque Noir peut être pris comme Unité de Base si votre Général est un Chef Orque Noir"
+            "name_fr": "Si votre Général est un Chef Orque Noir, 0-1 Char à Sangliers Orque Noir peut être pris comme choix de Base"
           }
         }
       },
@@ -3386,8 +3386,7 @@
         {
           "name_en": "3+",
           "points": 0,
-          "active": true,
-          "name_fr": "3+"
+          "active": true
         }
       ],
       "options": [],
@@ -3408,7 +3407,7 @@
     {
       "name_en": "Black Orc Mobs",
       "name_de": "Black Orc Mobs",
-      "name_fr": "Bandes d'Orques Noirs",
+      "name_fr": "Bande d'Orques Noirs",
       "id": "black-orc-mob",
       "points": 12,
       "minimum": 5,
@@ -3524,7 +3523,7 @@
     {
       "name_en": "Orc Boar Boy Mobs",
       "name_de": "Orc Boar Boy Mobs",
-      "name_fr": "Bandes d'Orques sur Sangliers",
+      "name_fr": "Bande d'Orques sur Sangliers",
       "id": "orc-boar-boy-mob",
       "points": 15,
       "minimum": 4,
@@ -3535,14 +3534,14 @@
           "notes": {
             "name_de": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         },
         "troll-horde": {
           "category": "special",
           "notes": {
             "name_en": "0-1 Orc Boar Boy Mob per 1000 points, 0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points, 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points, 0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         },
         "nomadic-waaagh": {
@@ -3550,7 +3549,7 @@
           "notes": {
             "name_de": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
             "name_en": "0-1 Orc Boar Boy Mob per 1000 points may purchase a magic standard worth up to 50 points",
-            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique pour une valeur maximale de 50 points"
+            "name_fr": "0-1 Bande d'Orques sur Sangliers par tranche de 1000 points peut acheter une bannière magique"
           }
         }
       },
@@ -3675,13 +3674,13 @@
         "name_en": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
         "name_de": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
         "name_es": "Armoured Hide (1), Choppas, Close Order, Counter Charge, Furious Charge (Orc Boar Boys & Boss only), Ignore Goblin Panic, Impetuous, Swiftstride, Tusker Charge, Warband",
-        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques sur Sangliers & Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre"
+        "name_fr": "Peau Blindée (1), Kikoup', Ordre Serré, Contre-charge, Charge Dévastatrice (Orques et Chef uniquement), Ignore la Panique des Gobelins, Impétueux, Rapide, Charge de Sanglier, Bande de Guerre"
       }
     },
     {
       "name_en": "Night Goblin Squig Hopper Mobs",
       "name_de": "Night Goblin Squig Hopper Mobs",
-      "name_fr": "Bandes de Gobelins de la Nuit sur Squigs",
+      "name_fr": "Bande de Gobelins de la Nuit sur Squigs",
       "id": "night-goblin-squig-hopper-mob",
       "points": 12,
       "minimum": 5,
@@ -3787,8 +3786,7 @@
         {
           "name_en": "4+",
           "points": 0,
-          "active": true,
-          "name_fr": "4+"
+          "active": true
         }
       ],
       "options": [
@@ -3852,7 +3850,7 @@
     {
       "name_en": "Common Troll Mobs",
       "name_de": "Common Troll Mobs",
-      "name_fr": "Bandes de Trolls Communs",
+      "name_fr": "Bande de Trolls",
       "id": "common-troll-mob",
       "points": 41,
       "minimum": 1,
@@ -3916,7 +3914,7 @@
     {
       "name_en": "River Troll Mobs",
       "name_de": "River Troll Mobs",
-      "name_fr": "Bandes de Trolls d'Eau",
+      "name_fr": "Bande de Trolls d'Eau",
       "id": "river-troll-mob",
       "points": 49,
       "minimum": 1,
@@ -3980,7 +3978,7 @@
     {
       "name_en": "Stone Troll Mobs",
       "name_de": "Stone Troll Mobs",
-      "name_fr": "Bandes de Trolls de Pierre",
+      "name_fr": "Bande de Trolls de Pierre",
       "id": "stone-troll-mob",
       "points": 45,
       "minimum": 1,
@@ -4044,7 +4042,7 @@
     {
       "name_en": "Goblin Wolf Chariots",
       "name_de": "Goblin Wolf Chariots",
-      "name_fr": "Chars à Loups Gobelins",
+      "name_fr": "Chars à Loups Gobelin",
       "id": "goblin-wolf-chariot",
       "points": 53,
       "minimum": 1,
@@ -4082,8 +4080,7 @@
         {
           "name_en": "5+",
           "points": 0,
-          "active": true,
-          "name_fr": "5+"
+          "active": true
         }
       ],
       "options": [
@@ -4260,7 +4257,7 @@
     {
       "name_en": "Goblin Rock Lobber",
       "name_de": "Goblin Rock Lobber",
-      "name_fr": "Lance-rocs Gobelin",
+      "name_fr": "Lance-Rocs Gobelins",
       "id": "goblin-rock-lobber",
       "points": 75,
       "armyComposition": {
@@ -4284,7 +4281,7 @@
         "name_en": "0-1 Goblin Rock Lobber per 1000 points",
         "name_de": "0-1 Goblin Rock Lobber per 1000 points",
         "name_es": "0-1 Goblin Rock Lobber per 1000 points",
-        "name_fr": "0-1 Lance-rocs Gobelin par tranche de 1000 points"
+        "name_fr": "0-1 Lance-Rocs Gobelins par tranche de 1000 points"
       },
       "specialRules": {
         "name_en": "Fear of Elves, Skirmishers",
@@ -4338,7 +4335,7 @@
     {
       "name_en": "Mangler Squigs",
       "name_de": "Mangler Squigs",
-      "name_fr": "Squigs Broyeurs",
+      "name_fr": "Squigs Broyeur",
       "id": "mangler-squigs",
       "points": 95,
       "armyComposition": {
@@ -4441,8 +4438,7 @@
         {
           "name_en": "3+",
           "points": 0,
-          "active": true,
-          "name_fr": "3+"
+          "active": true
         }
       ],
       "options": [],
@@ -4593,7 +4589,7 @@
       "name_en": "Bonegrinder Giant",
       "name_de": "Bonegrinder Giant",
       "name_es": "Bonegrinder Giant",
-      "name_fr": "Géant Broyeur d'Os",
+      "name_fr": "Géants Broyeurs d'Os",
       "name_it": "Bonegrinder Giant",
       "name_pl": "Bonegrinder Giant",
       "id": "bonegrinder-giant",
