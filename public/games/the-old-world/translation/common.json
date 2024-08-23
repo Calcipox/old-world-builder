@@ -971,14 +971,14 @@
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 unité de $2 par unité de $3 ou de $4 prise"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) taken": {
-      "name_fr": "$1 $2 par $3 ou $4 sélectionné"
-    },
     "(\\d-\\d) ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 par unité de $3"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 unité de $2 par $3 pris"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) taken": {
+      "name_fr": "$1 $2 par $3 ou $4 sélectionné"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 ou $3 par $4"
