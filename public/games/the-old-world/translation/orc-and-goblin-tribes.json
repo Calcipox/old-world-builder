@@ -48,6 +48,9 @@
     "Colossal fang-filled gob": {
       "name_fr": "Colossale gueule garnie de crocs"
     },
+    "Common Troll Mob": {
+      "name_fr": "Bande de Trolls"
+    },
     "Common Troll Mobs": {
       "name_fr": "Bandes de Trolls Communs"
     },
@@ -95,6 +98,9 @@
     },
     "Goblin Bolt Throwas": {
       "name_fr": "Balistes Gobelines"
+    },
+    "Goblin Mob": {
+      "name_fr": "Bande de Gobelins"
     },
     "Goblin Mobs": {
       "name_fr": "Bandes de Gobelins"
@@ -249,6 +255,9 @@
     "Release the Fanatics!": {
       "name_fr": "Lâchez les Fanatiques!"
     },
+    "River Troll Mob": {
+      "name_fr": "Bande de Trolls d'Eau"
+    },
     "River Troll Mobs": {
       "name_fr": "Bandes de Trolls d'Eau"
     },
@@ -257,6 +266,9 @@
     },
     "Slimy Shanks": {
       "name_fr": "Jarrets Visqueux"
+    },
+    "Snotling Mob": {
+      "name_fr": "Bande de Snotlings"
     },
     "Snotling Mobs": {
       "name_fr": "Bandes de Snotlings"
@@ -278,6 +290,9 @@
     },
     "Squigs Go Wild": {
       "name_fr": "Squigs Sauvages"
+    },
+    "Stone Troll Mob": {
+      "name_fr": "Bande de Trolls de Pierre"
     },
     "Stone Troll Mobs": {
       "name_fr": "Bandes de Trolls de Pierre"
