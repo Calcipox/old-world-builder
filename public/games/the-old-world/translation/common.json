@@ -93,6 +93,9 @@
     "Champion": {
       "name_fr": "Champion"
     },
+    "Chaos": {
+      "name_fr": "Chaos"
+    },
     "Chaos Armour": {
       "name_fr": "Armure du Chaos"
     },
@@ -116,6 +119,9 @@
     },
     "Characters only": {
       "name_fr": "Personnages uniquement"
+    },
+    "Chariot": {
+      "name_fr": "Char"
     },
     "Chariot Runners": {
       "name_fr": "Escorteurs de Chars"
@@ -272,6 +278,9 @@
     },
     "Giant's club": {
       "name_fr": "Massue de Géant"
+    },
+    "Gnashing maws": {
+      "name_fr": "Gueules avides"
     },
     "Great Cannon": {
       "name_fr": "Grand Canon"
@@ -597,6 +606,9 @@
     "Slaanesh": {
       "name_fr": "Slaanesh"
     },
+    "Slashing talons": {
+      "name_fr": "Serres déchiqueteuses"
+    },
     "Sling": {
       "name_fr": "Fronde"
     },
@@ -753,6 +765,9 @@
     "calloused hide": {
       "name_fr": "peau calleuse"
     },
+    "cavalry": {
+      "name_fr": "cavalerie"
+    },
     "cavalry spear": {
       "name_fr": "lance de cavalerie"
     },
@@ -773,6 +788,9 @@
     },
     "if frenzied": {
       "name_fr": "si frénétique"
+    },
+    "infantry": {
+      "name_fr": "infanterie"
     },
     "javelins": {
       "name_fr": "javelines"
@@ -824,6 +842,12 @@
     }
   },
   "regex": {
+    "Gigantic Spawn of (C[a-zA-Z\\s]+)": {
+      "name_fr": "Rejeton Gigantesque du $1"
+    },
+    "Gigantic Spawn of ([a-zA-Z\\s]+)": {
+      "name_fr": "Rejeton Gigantesque de $1"
+    },
     "Spawn of ([a-zA-Z\\s]+)": {
       "name_fr": "Rejeton de $1"
     },
@@ -940,6 +964,9 @@
     },
     "([a-zA-Z\\s-]+) & ([a-zA-Z\\s-]+) only": {
       "name_fr": "$1 & $2 uniquement"
+    },
+    "([a-zA-Z\\s]+) army only": {
+      "name_fr": "Armée de $1 uniquement"
     },
     "([a-zA-Z\\s-]+) only": {
       "name_fr": "$1 uniquement"

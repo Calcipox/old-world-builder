@@ -3,6 +3,15 @@
     "Aspiring Champion": {
       "name_fr": "Aspirant Champion"
     },
+    "Blood Rage": {
+      "name_fr": "Soif de Sang"
+    },
+    "Breath of Change": {
+      "name_fr": "Souffle du Changement"
+    },
+    "Chainmaker": {
+      "name_fr": "Forgechaîne"
+    },
     "Chaos Chariot": {
       "name_fr": "Char du Chaos"
     },
@@ -27,11 +36,17 @@
     "Chimera": {
       "name_fr": "Chimère"
     },
+    "Chosen Chaos Chariot": {
+      "name_fr": "Char du Chaos Élu"
+    },
     "Chosen Chaos Knights": {
       "name_fr": "Chevaliers du Chaos Élus"
     },
     "Chosen Chaos Warriors": {
       "name_fr": "Guerriers du Chaos Élus"
+    },
+    "Commander & Captain": {
+      "name_fr": "Commandante & Capitaine"
     },
     "Daemon Prince": {
       "name_fr": "Prince Démon"
@@ -39,20 +54,44 @@
     "Daemonic Mount": {
       "name_fr": "Monture Démoniaque"
     },
+    "Dark Fire of Chaos": {
+      "name_fr": "Feu Sombre du Chaos"
+    },
+    "Draconic scales": {
+      "name_fr": "Écailles de Dragon"
+    },
     "Exalted Champion": {
       "name_fr": "Champion Exalté"
     },
     "Exalted Sorcerer": {
       "name_fr": "Sorcier Exalté"
     },
+    "Explosive Demise": {
+      "name_fr": "Fin Explosive"
+    },
     "Fiend tail": {
       "name_fr": "Queue de démon"
+    },
+    "Fire & Chaos": {
+      "name_fr": "Feu & Chaos"
+    },
+    "First Sword": {
+      "name_fr": "Première Lame"
     },
     "Flailing appendages": {
       "name_fr": "Appendices fouettards"
     },
     "Forsaken": {
       "name_fr": "Déchus"
+    },
+    "Frydaal the Chainmaker": {
+      "name_fr": "Frydaal la Forgechaîne"
+    },
+    "Fumes of Contagion": {
+      "name_fr": "Vapeurs de Contagion"
+    },
+    "Galrauch": {
+      "name_fr": "Galrauch, Le Grand Dragon"
     },
     "Gaze of the Gods": {
       "name_fr": "Regard des Dieux"
@@ -69,6 +108,9 @@
     "Handler": {
       "name_fr": "Dresseur"
     },
+    "Headtaker": {
+      "name_fr": "Décapiteur"
+    },
     "Lore of Chaos": {
       "name_fr": "Domaine du Chaos"
     },
@@ -84,6 +126,15 @@
     "Marauder Horsemen": {
       "name_fr": "Cavaliers Maraudeurs"
     },
+    "Marauder Tribe Berserkers": {
+      "name_fr": "Berserkers Maraudeurs"
+    },
+    "Marauder Tribe Chieftain": {
+      "name_fr": "Chef de Tribu Maraudeur"
+    },
+    "Marauder Tribe Huscarls": {
+      "name_fr": "Housecarls de Tribu Maraudeurs"
+    },
     "Mark of Chaos": {
       "name_fr": "Marque du Chaos"
     },
@@ -96,14 +147,53 @@
     "Ogre Charge": {
       "name_fr": "Charge d'Ogre"
     },
+    "Peerless Raider": {
+      "name_fr": "Pillarde Inégalée"
+    },
+    "Primal Fury": {
+      "name_fr": "Fureur Primale"
+    },
     "Rampant Mutation": {
       "name_fr": "Mutations Étranges"
+    },
+    "Relentless Warriors": {
+      "name_fr": "Implacables Guerriers"
+    },
+    "Skin Wolves": {
+      "name_fr": "Loups Écorcheurs"
     },
     "Sorcerer Lord": {
       "name_fr": "Seigneur Sorcier"
     },
+    "Spirit of Galrauch": {
+      "name_fr": "Esprit de Galrauch"
+    },
+    "Storm's Wrath": {
+      "name_fr": "Courroux de la Tempête"
+    },
     "Two-headed Dragon": {
       "name_fr": "Dragon Bicéphale"
+    },
+    "Warhorse": {
+      "name_fr": "Cheval de Guerre"
+    },
+    "Warped Form": {
+      "name_fr": "Forme Pervertie"
+    },
+    "Warpfire Aura": {
+      "name_fr": "Aura de Maleflamme"
+    },
+    "Warpfire Blast": {
+      "name_fr": "Explosion de Maleflamme"
+    },
+    "Warpfire Dragon": {
+      "name_fr": "Dragon de Maleflamme"
+    },
+    "Wicked Claws": {
+      "name_fr": "Griffes cruelles"
+    },
+    "Wolves of the Sea": {
+      "name_fr": "Loups des Mers"
     }
   },
   "regex": {
@@ -115,6 +205,9 @@
     },
     "([a-zA-Z\\s]+)'s ([a-zA-Z\\s]+)": {
       "name_fr": "$2 du $1"
+    },
+    "D6\\+1 - ([a-zA-Z\\s]+) only": {
+      "name_fr": "D6+1 - $1 uniquement"
     }
   }
 }
