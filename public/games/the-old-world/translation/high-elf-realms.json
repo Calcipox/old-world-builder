@@ -1,5 +1,8 @@
 {
   "direct": {
+    "Anointed of Asuryan": {
+      "name_fr": "Élu d'Asuryan"
+    },
     "Archmage": {
       "name_fr": "Archimage"
     },
@@ -18,29 +21,32 @@
     "Blizzard Aura": {
       "name_fr": "Aura de Blizzard"
     },
+    "Blood of Caledor": {
+      "name_fr": "Sang de Caledor"
+    },
     "Bow of Avelorn": {
       "name_fr": "Arc d'Avelorn"
     },
     "Bows of Avelorn": {
       "name_fr": "Arcs d'Avelorn"
     },
-    "Ceremonial Halberd": {
-      "name_fr": "Hallebarde de Cérémonie"
+    "Ceremonial halberd": {
+      "name_fr": "Hallebarde de cérémonie"
     },
-    "Ceremonial Halberds": {
-      "name_fr": "Hallebardes de Cérémonie"
-    },
-    "Chracian Great Blade": {
-      "name_fr": "Grande Lame de Chrace"
-    },
-    "Chracian Great Blades": {
-      "name_fr": "Grandes Lames de Chrace"
+    "Ceremonial halberds": {
+      "name_fr": "Hallebardes de cérémonie"
     },
     "Chracian Hunter": {
       "name_fr": "Chasseur Chracien"
     },
     "Chracian Warriors": {
       "name_fr": "Guerriers de Chrace"
+    },
+    "Chracian great blade": {
+      "name_fr": "Grande lame de Chrace"
+    },
+    "Chracian great blades": {
+      "name_fr": "Grandes lames de Chrace"
     },
     "Deflect Shots": {
       "name_fr": "Tirs Déviés"
@@ -71,6 +77,9 @@
     },
     "Elven Archers": {
       "name_fr": "Archers Elfiques"
+    },
+    "Elven Honour": {
+      "name_fr": "Honneur Elfique"
     },
     "Elven Honours": {
       "name_fr": "Honneurs Elfiques"
@@ -141,6 +150,9 @@
     "Lore of Saphery": {
       "name_fr": "Domaine de Saphery"
     },
+    "Loremaster": {
+      "name_fr": "Maître du Savoir"
+    },
     "Lothern Sea Guard": {
       "name_fr": "Garde Maritime de Lothern"
     },
@@ -165,6 +177,9 @@
     "Prince": {
       "name_fr": "Prince"
     },
+    "Pure of Heart": {
+      "name_fr": "Pur de Coeur"
+    },
     "Sea Guard": {
       "name_fr": "Garde Maritime"
     },
@@ -176,6 +191,9 @@
     },
     "Sentinel": {
       "name_fr": "Sentinelle"
+    },
+    "Shadow Stalker": {
+      "name_fr": "Rôdeur des Ombres"
     },
     "Shadow Walker": {
       "name_fr": "Arpenteur des Ombres"
@@ -204,6 +222,9 @@
     "Swordmasters of Hoeth": {
       "name_fr": "Maîtres des Épées de Hoeth"
     },
+    "Swords of Hoeth": {
+      "name_fr": "Épées de Hoeth"
+    },
     "Tiranoc Chariot": {
       "name_fr": "Char de Tiranoc"
     },
@@ -215,6 +236,9 @@
     },
     "Wake of Fire": {
       "name_fr": "Sillage de Feu"
+    },
+    "Warden of Saphery": {
+      "name_fr": "Gardien de Saphery"
     },
     "Warriors of Nagarythe": {
       "name_fr": "Guerriers de Nagarythe"
@@ -235,6 +259,9 @@
     },
     "(\\d-\\d) Core choice if your General is a ([a-zA-Z\\s]+)": {
       "name_fr": "$1 en choix de Base si votre Général est une $2"
+    },
+    "Requires (.*) (Elven Honour)": {
+      "name_fr": "Nécessite l'$2 $1"
     }
   }
 }

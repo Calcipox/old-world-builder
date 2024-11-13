@@ -846,7 +846,7 @@
       "name_fr": "les $1 peut être pris comme choix Spécial"
     },
     "(\\d)\\+ unit of ([a-zA-Z\\s-]+) and/or ([a-zA-Z\\s-]+)": {
-      "name_fr": "$1+ unité de $2 et/ou $3"
+      "name_fr": "$1+ unité de $2 et/ou de $3"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) per (\\d+) points may be taken as a Core choice": {
       "name_fr": "$1 unité de $2 par tranche de $3 points peut être prise comme choix d'Unité de Base"
@@ -913,6 +913,9 @@
     },
     "(\\d-\\d) unit per (\\d+) points may purchase a magic standard worth up to (\\d+) points": {
       "name_fr": "$1 unité par tranche de $2 points peut acheter une bannière magique pour une valeur maximale de $3 points"
+    },
+    "(\\d-\\d) unit per (\\d+) points may purchase a magic standard": {
+      "name_fr": "$1 unité par tranche de $2 points peut acheter une bannière magique"
     },
     "(\\d-\\d) ([a-zA-Z\\s-]+) per (\\d+) points if your army includes (\\d\\+) ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 par tranche de $3 points si votre armée inclut $4 $5"

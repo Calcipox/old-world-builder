@@ -188,6 +188,12 @@
     "(\\d-\\d) if General is (.*) or (.*)": {
       "name_fr": "$1 si votre général est un $2 ou un $3"
     },
+    "(\\d+) pts of (Magic Items)": {
+      "name_fr": "$1 points d'$2"
+    },
+    "(\\d+) pts of (Chaos Mutations)": {
+      "name_fr": "$1 points de $2"
+    },
     "Mark of (\\w+)": {
       "name_fr": "Marque de $1"
     },
