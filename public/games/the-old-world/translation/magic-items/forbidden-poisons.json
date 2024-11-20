@@ -1,0 +1,14 @@
+{
+  "direct": {
+    "Black Lotus": {
+      "name_fr": "Lotus Noir"
+    },
+    "Dark Venom": {
+      "name_fr": "Venin Fuligineux"
+    },
+    "Manbane": {
+      "name_fr": "Fléau des Hommes"
+    }
+  },
+  "regex": {}
+}

@@ -1,0 +1,14 @@
+{
+  "direct": {
+    "Cry of War": {
+      "name_fr": "Cri de Guerre"
+    },
+    "Rune of Khaine": {
+      "name_fr": "Rune de Khaine"
+    },
+    "Witchbrew": {
+      "name_fr": "Brouet de Sang"
+    }
+  },
+  "regex": {}
+}

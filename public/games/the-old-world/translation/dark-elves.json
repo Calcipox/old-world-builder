@@ -10,13 +10,13 @@
       "name_fr": "Corsaires des Arches Noires"
     },
     "Black Dragon": {
-      "name_fr": "Dragon noir"
+      "name_fr": "Dragon Noir"
     },
     "Black Guard of Naggarond": {
       "name_fr": "Garde Noire de Naggarond"
     },
     "Bloodshade": {
-      "name_fr": "Ombre sanglante"
+      "name_fr": "Ombre Sanglante"
     },
     "Bloodwrack Medusa": {
       "name_fr": "Méduse Incarnate"
@@ -40,10 +40,10 @@
       "name_fr": "Gueule caverneuse"
     },
     "Cold One Chariot": {
-      "name_fr": "Char à Sangs-froids"
+      "name_fr": "Char à Sang-froid"
     },
     "Cold One Chariots": {
-      "name_fr": "Chars à Sangs-froids"
+      "name_fr": "Chars à Sang-froid"
     },
     "Cold One Knights": {
       "name_fr": "Chevaliers sur Sang-froid"
@@ -52,7 +52,7 @@
       "name_fr": "Cabale Maudite"
     },
     "Dance of Death": {
-      "name_fr": "Danse de la Mort"
+      "name_fr": "Danse de Mort"
     },
     "Dark Elf Dreadlord": {
       "name_fr": "Despote Elfe Noir"
@@ -70,7 +70,7 @@
       "name_fr": "Guerriers Elfes Noirs"
     },
     "Dark Pegasus": {
-      "name_fr": "Pégase noir"
+      "name_fr": "Pégase Noir"
     },
     "Dark Riders": {
       "name_fr": "Cavaliers Noirs"
@@ -79,7 +79,7 @@
       "name_fr": "Runes Sombres"
     },
     "Dark Steed": {
-      "name_fr": "Coursier noir"
+      "name_fr": "Coursier Noir"
     },
     "Death Hag": {
       "name_fr": "Matriarche"
@@ -94,7 +94,7 @@
       "name_fr": "Maître du Draich"
     },
     "Dread Knight": {
-      "name_fr": "Chevalier d'effroi"
+      "name_fr": "Chevalier d'Effroi"
     },
     "Dread halberds": {
       "name_fr": "Hallebardes d'effroi"
@@ -139,7 +139,7 @@
       "name_fr": "Kharibdyss"
     },
     "Lash & buckler": {
-      "name_fr": "Lanières & bocles"
+      "name_fr": "Lanières & bocle"
     },
     "Lordling": {
       "name_fr": "Patricien"
@@ -160,10 +160,10 @@
       "name_fr": "Harpon ravageur"
     },
     "Reaper Bolt Thrower": {
-      "name_fr": "Baliste faucheuse"
+      "name_fr": "Baliste Faucheuse"
     },
     "Reaver": {
-      "name_fr": "Ravageur"
+      "name_fr": "Écumeur"
     },
     "Repeater Crossbowmen": {
       "name_fr": "Arbalétriers Elfes Noirs"
@@ -178,22 +178,22 @@
       "name_fr": "Arbalètes à répétition de poing"
     },
     "Scourgerunner Chariot": {
-      "name_fr": "Char à courre"
+      "name_fr": "Char à Courre"
     },
     "Scourgerunner Chariots": {
-      "name_fr": "Chars à courre"
+      "name_fr": "Chars à Courre"
     },
     "Sea Dragon Cloak": {
       "name_fr": "Cape en peau de Dragon des Mers"
     },
     "Serrated maws": {
-      "name_fr": "Mâchoires dentelées"
+      "name_fr": "Gueules dentelées"
     },
     "Shrinekeeper": {
-      "name_fr": "Gardienne du sanctuaire"
+      "name_fr": "Gardienne"
     },
     "Sisters of Slaughter": {
-      "name_fr": "Sœurs du massacre"
+      "name_fr": "Sœurs du Massacre"
     },
     "Sorceress": {
       "name_fr": "Sorcière"
@@ -205,25 +205,25 @@
       "name_fr": "Sorcière Suprême"
     },
     "Tower Master": {
-      "name_fr": "Maître de la tour"
+      "name_fr": "Maître de la Tour"
     },
     "War Hydra": {
-      "name_fr": "Hydre de guerre"
+      "name_fr": "Hydre de Guerre"
     },
     "Wicked claws": {
-      "name_fr": "Griffes acérées"
+      "name_fr": "Griffes mortelles"
     },
     "Witch Elf Crew": {
-      "name_fr": "Équipage de Furies"
+      "name_fr": "Furie Servante"
     },
     "Witch Elves": {
       "name_fr": "Furies"
     },
     "one of the Beastmaster Crew may fire this weapon instead of their repeater crossbow": {
-      "name_fr": "l'un des membres de l'équipage Maitre des bêtes peut tirer avec cette arme au lieu de son arbalète à répétition"
+      "name_fr": "l'un des membres de l'équipage Aurige Belluaire peut tirer avec cette arme au lieu de son arbalète à répétition"
     },
     "the charge target suffers a -1 modifier to its Maximum Rank Bonus until the end of the Combat phase of that turn. A model equipped with a lash & buckler improves its armour value by 1.": {
-      "name_fr": "la cible de charge subit un modificateur de -1 à son Bonus de Rang Maximum jusqu'à la fin de la phase de Combat de ce tour. Une figurine équipée de lanières et d’un bocle améliore sa valeur d'armure de 1."
+      "name_fr": "la cible de charge subit un modificateur de -1 à son Bonus de Rang Maximum jusqu'à la fin de la phase de Combat de ce tour. Une figurine équipée de lanières & bocle améliore sa valeur d'armure de 1."
     }
   },
   "regex": {

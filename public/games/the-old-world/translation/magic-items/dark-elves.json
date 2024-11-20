@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Banner Of Har Ganeth": {
+      "name_fr": "Bannière de Har Ganeth"
+    },
+    "Banner Of Nagarythe": {
+      "name_fr": "Bannière de Nagarythe"
+    },
+    "Black Dragon Egg": {
+      "name_fr": "Œuf de Dragon Noir"
+    },
+    "Black Staff": {
+      "name_fr": "Bâton Noir"
+    },
+    "Blood Armour": {
+      "name_fr": "Armure de Sang"
+    },
+    "Cold-Blooded Banner": {
+      "name_fr": "Bannière de Sang-froid"
+    },
+    "Executioner's Axe": {
+      "name_fr": "Hache du Bourreau"
+    },
+    "Focus Familiar": {
+      "name_fr": "Familier Espion"
+    },
+    "Hydra's Tooth": {
+      "name_fr": "Dent d'Hydre"
+    },
+    "Lifetaker": {
+      "name_fr": "Exécutrice"
+    },
+    "Pearl Of Infinite Bleakness": {
+      "name_fr": "Perle de l'Infinie Tristesse"
+    },
+    "Pendant Of Khaeleth": {
+      "name_fr": "Pendentif de Khaeleth"
+    },
+    "Shield Of Ghrond": {
+      "name_fr": "Bouclier de Ghrond"
+    },
+    "Standard Of Slaughter": {
+      "name_fr": "Étendard du Massacre"
+    },
+    "Sword Of Ruin": {
+      "name_fr": "Épée de la Ruine"
+    },
+    "The Guiding Eye": {
+      "name_fr": "Œil de Guidance"
+    },
+    "Tome Of Furion": {
+      "name_fr": "Livre de Furion"
+    },
+    "Whip Of Agony": {
+      "name_fr": "Fouet de l'Agonie"
+    }
+  },
+  "regex": {}
+}
