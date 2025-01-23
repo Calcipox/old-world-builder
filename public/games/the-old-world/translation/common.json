@@ -369,6 +369,9 @@
     "Impetuous": {
       "name_fr": "Impétueux"
     },
+    "Indomitable": {
+      "name_fr": "Indomptable"
+    },
     "Ironfists": {
       "name_fr": "Poings d'Acier"
     },
@@ -747,8 +750,23 @@
     "Wicked claws": {
       "name_fr": "Griffes mortelles"
     },
+    "Wight": {
+      "name_fr": "Revenant"
+    },
+    "Wight Banner": {
+      "name_fr": "Bannière du Revenant"
+    },
+    "Wight King": {
+      "name_fr": "Roi Revenant"
+    },
+    "Wight Lord": {
+      "name_fr": "Seigneur Revenant"
+    },
     "Wilful Beast": {
       "name_fr": "Bête Capricieuse"
+    },
+    "Wizard": {
+      "name_fr": "Sorcier"
     },
     "Writhing tentacles": {
       "name_fr": "Tentacules sinueux"
