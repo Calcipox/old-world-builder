@@ -24,6 +24,9 @@
     "Battle Standard Bearer": {
       "name_fr": "Porteur de la Grande Bannière"
     },
+    "Beastmen Brayherds": {
+      "name_fr": "Braillehardes Hommes-Bêtes"
+    },
     "Beguiling Aura": {
       "name_fr": "Aura Envoûtante"
     },
@@ -164,6 +167,9 @@
     },
     "Da Boyz": {
       "name_fr": "Lé Boyz"
+    },
+    "Daemonic": {
+      "name_fr": "Démoniaques"
     },
     "Daemonology": {
       "name_fr": "Démonisme"
@@ -738,6 +744,9 @@
     "Warpaint": {
       "name_fr": "Peintures de Guerre"
     },
+    "Warriors of Chaos": {
+      "name_fr": "Guerriers du Chaos"
+    },
     "When writing your muster list": {
       "name_fr": "Quand vous rédigez votre liste de mobilisation"
     },
@@ -905,6 +914,9 @@
     "(\\d-\\d) unit in your army": {
       "name_fr": "$1 unité de votre armée"
     },
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points": {
+      "name_fr": "$1 unité de $2 ou $3 par tranche de $4 points"
+    },
     "(\\d-\\d) or ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 ou $2 par tranche de $3 points"
     },
@@ -977,6 +989,9 @@
     "(\\d) - ([a-zA-Z]+ [a-zA-Z]+) ([a-zA-Z]+ [a-zA-Z]+) only": {
       "name_fr": "$1 - $3 du $2 uniquement"
     },
+    "D(\\d)\\+(\\d) - ([a-zA-Z\\s-]+) only": {
+      "name_fr": "D$1+$2 - $3 uniquement"
+    },
     "(\\d) - ([a-zA-Z\\s]+) only": {
       "name_fr": "$1 - $2 uniquement"
     },
@@ -1006,9 +1021,6 @@
     },
     "(\\d-\\d) per (\\d+) points": {
       "name_fr": "$1 par tranche de $2 points"
-    },
-    "(\\d-\\d) ([a-zA-Z\\s-]+) per (\\d+) points": {
-      "name_fr": "$1 $2 par tranche de $3 points"
     },
     "(\\d) ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points"
@@ -1060,6 +1072,12 @@
     },
     "May only be taken as a character choice if your general is ([a-zA-Z\\s]+)": {
       "name_fr": "Ne peut être pris comme choix de Personnage que si votre général est $1"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s-]+) as Character choices per (\\d+) points": {
+      "name_fr": "$1 $2 peuvent être pris comme choix de Personnage par tranche de $3 points"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s-]+) per (\\d+) points": {
+      "name_fr": "$1 $2 par tranche de $3 points"
     },
     "Level (\\d) Wizard": {
       "name_fr": "Sorcier de Niveau $1"

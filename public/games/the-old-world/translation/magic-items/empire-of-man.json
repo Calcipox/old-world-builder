@@ -6,17 +6,32 @@
     "Armour of Tarnus": {
       "name_fr": "Armure de Tarnus"
     },
+    "Banner Of The Knights Panther": {
+      "name_fr": "Bannière des Chevaliers Panthères"
+    },
     "Banner of Duty": {
       "name_fr": "Bannière du Devoir"
     },
+    "Blade Of Silvered Steel": {
+      "name_fr": "Lame d'Acier Argenté"
+    },
     "Book of Ashur": {
       "name_fr": "Livre d'Ashur"
+    },
+    "Crystal Ball": {
+      "name_fr": "Boule de Cristal"
     },
     "Dragon Bow": {
       "name_fr": "Arc Dragon"
     },
     "Griffon Standard": {
       "name_fr": "Bannière du Griffon"
+    },
+    "Hammer Of Righteousness": {
+      "name_fr": "Marteau de Droiture"
+    },
+    "Icon Of Morr": {
+      "name_fr": "Icône de Morr"
     },
     "Imperial Banner": {
       "name_fr": "Bannière Impériale"
@@ -30,14 +45,38 @@
     "Mace of Helsturm": {
       "name_fr": "Masse de Helsturm"
     },
+    "Pearl Daggers": {
+      "name_fr": "Dagues Nacrées"
+    },
+    "Ring Of Fortune": {
+      "name_fr": "Anneau de Fortune"
+    },
+    "Ring Of Taal": {
+      "name_fr": "Anneau de Taal"
+    },
     "Runefang": {
       "name_fr": "Croc Runique"
+    },
+    "Shield Of The Gorgon": {
+      "name_fr": "Bouclier de la Gorgone"
     },
     "Shroud of Iron": {
       "name_fr": "Linceul de Fer"
     },
+    "Slayer's Hourglass": {
+      "name_fr": "Sablier du Tueur"
+    },
+    "Squintsoffen's Marvellous Magnifier": {
+      "name_fr": "Merveilleux Télescope de Lorgnegraf"
+    },
     "Sword of Justice": {
       "name_fr": "Épée de Justice"
+    },
+    "Tapestry Of Sigmar's Triumph": {
+      "name_fr": "Tapisserie du Triomphe de Sigmar"
+    },
+    "The Banner Of The Free State Of Nuln": {
+      "name_fr": "Bannière de la Cité-État Franche de Nuln"
     },
     "The Gleaming Pennant": {
       "name_fr": "Le Fanion Étincelant"
@@ -47,6 +86,21 @@
     },
     "The White Cloak": {
       "name_fr": "La Cape Blanche"
+    },
+    "Tome Of Midnight": {
+      "name_fr": "Tome de Minuit"
+    },
+    "Twice-Blessed Armour": {
+      "name_fr": "Armure Deux Fois Bénie"
+    },
+    "Twin-Tailed Wand": {
+      "name_fr": "Baguette à Deux Queues"
+    },
+    "Von Trickschotte's Wondrous Arquebus": {
+      "name_fr": "Merveilleuse Arquebuse de Von Feymusch"
+    },
+    "Witch Hunter's Ward": {
+      "name_fr": "Amulette du Répurgateur"
     },
     "Wizard's Familiar": {
       "name_fr": "Familier de Sorcier"

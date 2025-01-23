@@ -3,8 +3,29 @@
     "\"Hold the Line!\"": {
       "name_fr": "\"Tenez la Ligne!\""
     },
+    "Assorted weapons": {
+      "name_fr": "Assortiment d'armes"
+    },
+    "Ball & chain": {
+      "name_fr": "Scorpion"
+    },
     "Barded Warhorse": {
       "name_fr": "Destrier Caparaçonné"
+    },
+    "Beast Reaver": {
+      "name_fr": "Perce-Bête"
+    },
+    "Blazing Sun": {
+      "name_fr": "Soleil"
+    },
+    "Blessings of Ulric": {
+      "name_fr": "Bénédiction d'Ulric"
+    },
+    "Blunderbuss": {
+      "name_fr": "Tromblon"
+    },
+    "Captain": {
+      "name_fr": "Capitaine"
     },
     "Captain of the Empire": {
       "name_fr": "Capitaine de l'Empire"
@@ -17,6 +38,9 @@
     },
     "Count's Champion": {
       "name_fr": "Champion du Comte"
+    },
+    "Crushing Weight": {
+      "name_fr": "Poids Écrasant"
     },
     "Demigryph": {
       "name_fr": "Demigriffon"
@@ -39,6 +63,9 @@
     "Don't take pistol": {
       "name_fr": "Ne peut pas prendre de pistolet"
     },
+    "Empire": {
+      "name_fr": "Empire"
+    },
     "Empire Archers": {
       "name_fr": "Archers de l'Empire"
     },
@@ -50,6 +77,9 @@
     },
     "Empire Knights": {
       "name_fr": "Chevaliers de l'Empire"
+    },
+    "Empire Road Wardens": {
+      "name_fr": "Patrouilleurs Ruraux de l'Empire"
     },
     "Empire Warhorse": {
       "name_fr": "Destrier de l'Empire"
@@ -63,17 +93,29 @@
     "Feel No Pain": {
       "name_fr": "Insensibles à la Douleur"
     },
+    "Fiery Heart": {
+      "name_fr": "Cœur Ardent"
+    },
+    "First Knight": {
+      "name_fr": "Premier Chevalier"
+    },
     "Flagellants": {
       "name_fr": "Flagellants"
     },
     "Free Company Militia": {
       "name_fr": "Milice des Franches Compagnies"
     },
+    "General Hans von Löwenhacke": {
+      "name_fr": "Général Hans von Löwenhacke"
+    },
     "General of the Empire": {
       "name_fr": "Général de l'Empire"
     },
     "Grand Master": {
       "name_fr": "Grand Maître"
+    },
+    "Grand Master of the Knights Panther": {
+      "name_fr": "Grand Maître des Chevaliers Panthères"
     },
     "Great cannon": {
       "name_fr": "Grand canon"
@@ -87,8 +129,20 @@
     "Griffon": {
       "name_fr": "Griffon"
     },
+    "Griffon Helm": {
+      "name_fr": "Heaume du Griffon"
+    },
     "Grinding Wheels": {
       "name_fr": "Roues Broyeuses"
+    },
+    "Guardians of the Temple": {
+      "name_fr": "Gardiens du Temple"
+    },
+    "Harald Gemunsen": {
+      "name_fr": "Harald Gemunsen"
+    },
+    "Harbinger of Doom": {
+      "name_fr": "Émissaire de la Fin"
     },
     "Helblaster Volley Gun": {
       "name_fr": "Canon à Répétition Feu d'Enfer"
@@ -114,8 +168,14 @@
     "Holy Fervour": {
       "name_fr": "Ferveur Sacrée"
     },
+    "Hooked halberd": {
+      "name_fr": "Guisarme"
+    },
     "Imperial Griffon": {
       "name_fr": "Griffon Impérial"
+    },
+    "Imperial Ogres": {
+      "name_fr": "Ogres Impériaux"
     },
     "Inner Circle": {
       "name_fr": "Cercle Intérieur"
@@ -126,8 +186,23 @@
     "Inner Circle Preceptor": {
       "name_fr": "Précepteur du Cercle Intérieur"
     },
+    "Judgement": {
+      "name_fr": "Jugement"
+    },
+    "Knights": {
+      "name_fr": "Chevaliers"
+    },
     "Lector of Sigmar": {
       "name_fr": "Archidiacre de Sigmar"
+    },
+    "Light cannons": {
+      "name_fr": "Canons légers"
+    },
+    "Long rifle": {
+      "name_fr": "Long fusil"
+    },
+    "Man-catcher": {
+      "name_fr": "Attrape-coquin"
     },
     "Marksman": {
       "name_fr": "Tireur d'Élite"
@@ -135,17 +210,41 @@
     "Master Mage": {
       "name_fr": "Maître Mage"
     },
+    "Master Mages": {
+      "name_fr": "Maîtres Mages"
+    },
     "Master of Ballistics": {
       "name_fr": "Maître en Balistique"
     },
     "Master of Battle": {
       "name_fr": "Maître des Batailles"
     },
+    "Mercenary Commander": {
+      "name_fr": "Commandant Mercenaire"
+    },
     "Militia leader": {
       "name_fr": "Chef de Milice"
     },
+    "Morning Stars": {
+      "name_fr": "Morgenstern"
+    },
+    "Morr": {
+      "name_fr": "Morr"
+    },
+    "Nuln State Troops": {
+      "name_fr": "Troupes Régulières de Nuln"
+    },
+    "Nuln Veteran State Troops": {
+      "name_fr": "Vétérans des Troupes Régulières de Nuln"
+    },
+    "Ogre pistols": {
+      "name_fr": "Pistolets Ogres"
+    },
     "Outriders": {
       "name_fr": "Escorteurs"
+    },
+    "Panther": {
+      "name_fr": "Panthères"
     },
     "Pegasus": {
       "name_fr": "Pégase"
@@ -158,6 +257,9 @@
     },
     "Pistoliers": {
       "name_fr": "Pistoliers"
+    },
+    "Prayer of the Damned": {
+      "name_fr": "Prière des Damnés"
     },
     "Prayers of Sigmar": {
       "name_fr": "Prières de Sigmar"
@@ -180,11 +282,20 @@
     "Repeater handguns": {
       "name_fr": "Arquebuses à répétition"
     },
+    "Repeating rifle": {
+      "name_fr": "Fusil à répétition"
+    },
     "Sergeant": {
       "name_fr": "Sergent"
     },
     "Sharpshooter": {
       "name_fr": "Mitrailleur"
+    },
+    "Skilled Duellist": {
+      "name_fr": "Duelliste Chevronné"
+    },
+    "Stable Firing Platform": {
+      "name_fr": "Plate-Forme de Tir Stable"
     },
     "State Missile Troops": {
       "name_fr": "Troupes de Tir de l'Empire"
@@ -207,6 +318,9 @@
     "Steam gun": {
       "name_fr": "Couleuvrine à Vapeur"
     },
+    "Strategic Mastery": {
+      "name_fr": "Maîtrise Stratégique"
+    },
     "Suffer Not...": {
       "name_fr": "Ne Tolérez Pas..."
     },
@@ -216,8 +330,26 @@
     "Temperamental": {
       "name_fr": "Susceptible"
     },
+    "Teutogen Guard": {
+      "name_fr": "Garde Teutogène"
+    },
+    "The Daemon": {
+      "name_fr": "Les Démons"
+    },
+    "The Mutant": {
+      "name_fr": "Les Mutants"
+    },
+    "The Revenant": {
+      "name_fr": "Les Revenants"
+    },
+    "The Witch": {
+      "name_fr": "Les Sorcières"
+    },
     "Two Heads": {
       "name_fr": "Bicéphale"
+    },
+    "Undead models": {
+      "name_fr": "figurines Mortes-vivantes)"
     },
     "Veteran Sergeant": {
       "name_fr": "Sergent Vétéran"
@@ -228,6 +360,15 @@
     "War Altar of Sigmar": {
       "name_fr": "Autel de Guerre de Sigmar"
     },
+    "War Wagon": {
+      "name_fr": "Chariot de Guerre"
+    },
+    "Warrior Priest of Ulric": {
+      "name_fr": "Prêtre-Guerrier d'Ulric"
+    },
+    "White Wolf": {
+      "name_fr": "Loup Blanc"
+    },
     "Witch Bane": {
       "name_fr": "Fléau des Sorciers"
     },
@@ -237,13 +378,88 @@
     "Wizard Lord": {
       "name_fr": "Seigneur Sorcier"
     },
+    "Wolf hammers": {
+      "name_fr": "Marteaux du loup"
+    },
+    "Zealot": {
+      "name_fr": "Zélote"
+    },
     "mixed weapons": {
       "name_fr": "armes mixtes"
+    },
+    "of Morr": {
+      "name_fr": "de Morr"
+    },
+    "the Blazing Sun": {
+      "name_fr": "Soleil"
+    },
+    "the Fiery Heart": {
+      "name_fr": "Cœur Ardent"
+    },
+    "the White Wolf": {
+      "name_fr": "Loup Blanc"
     }
   },
   "regex": {
+    "(\\d-\\d) unit of ([a-zA-Z\\s-]+) may be taken as a Special choice per ([a-zA-Z\\s-]+) in your army": {
+      "name_fr": "$1 unité de $2 peut être prise comme choix Spécial pour chaque $3 dans votre armée"
+    },
+    "([a-zA-Z\\s]+) in your army may be upgraded to belong to your chosen Knightly Order": {
+      "name_fr": "$1 de votre armée peut être promu pour appartenir à l'Ordre de Chevalerie de votre choix"
+    },
     "taken as a mount for a ([a-zA-Z\\s]+)": {
       "name_fr": "pris comme monture pour un $1"
+    },
+    "Order of the Knights ([a-zA-Z\\s]+)": {
+      "name_fr": "Ordre des Chevaliers $1"
+    },
+    "Order of the ([a-zA-Z\\s]+)": {
+      "name_fr": "Ordre du $1"
+    },
+    "(Demigryph) (Knights) (of Morr)": {
+      "name_fr": "$2 $3 $1"
+    },
+    "(Demigryph) (Knights) of ([a-zA-Z\\s]+)": {
+      "name_fr": "$2 du $3 $1"
+    },
+    "(Demigryph) (Knights) ([a-zA-Z\\s]+)": {
+      "name_fr": "$2 $3 $1"
+    },
+    "Empire (Knights) (of Morr)": {
+      "name_fr": "$1 $2"
+    },
+    "Empire (Knights) of ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 du $2"
+    },
+    "Empire (Knights) ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 $2"
+    },
+    "(Inner Circle) (Knights) (of Morr)": {
+      "name_fr": "$2 $3 du $1"
+    },
+    "(Inner Circle) (Knights) of ([a-zA-Z\\s]+)": {
+      "name_fr": "$2 du $3 du $1"
+    },
+    "(Inner Circle) (Knights) ([a-zA-Z\\s]+)": {
+      "name_fr": "$2 $3 du $1"
+    },
+    "(\\d-\\d) detachments of ([a-zA-Z\\s]+) and/or ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 détachements de $2 et/ou $3"
+    },
+    "regiment of ([a-zA-Z\\s]+)": {
+      "name_fr": "régiment de $1"
+    },
+    "([a-zA-Z\\s]+) may be taken as ([a-zA-Z]+)": {
+      "name_fr": "$1 peuvent être pris comme $2"
+    },
+    "([a-zA-Z\\s]+) \\+ ([a-zA-Z\\s]+) \\+ ([a-zA-Z\\s]+) models": {
+      "name_fr": "figurines des $1, des $2 et $3"
+    },
+    "enemy Wizards \\+ ([a-zA-Z\\s&]+)": {
+      "name_fr": "Sorciers ennemis, $1"
+    },
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) belonging to the ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 unité de $2 ou de $3 appartenant à l'$4"
     }
   }
 }
