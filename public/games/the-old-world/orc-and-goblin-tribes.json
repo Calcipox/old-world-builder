@@ -169,7 +169,6 @@
           "name_de": "Black Orc Boar Chariot",
           "name_fr": "Char à Sangliers Orque Noir",
           "points": 130,
-          "armyComposition": ["nomadic-waaagh"],
           "options": [
             {
               "name_en": "Hand weapon, Additional hand weapon",
@@ -398,7 +397,6 @@
           "name_de": "Black Orc Boar Chariot",
           "name_fr": "Char à Sangliers Orque Noir",
           "points": 130,
-          "armyComposition": ["nomadic-waaagh"],
           "options": [
             {
               "name_en": "Hand weapon, Additional hand weapon",
@@ -4181,13 +4179,22 @@
         }
       },
       "command": [],
-      "equipment": [],
+      "equipment": [
+        {
+          "name_en": "Bolt thrower, Hand weapons",
+          "name_it": "Balista, Hand weapons",
+          "name_de": "Speerschleuder, Handwaffen",
+          "name_fr": "Baliste, Armes de base",
+          "points": 0,
+          "active": true
+        }
+      ],
       "armor": [],
       "options": [
         {
-          "name_en": "Orc Bully",
-          "name_de": "Orc Bully",
-          "name_fr": "Brute Orque",
+          "name_en": "Orc Bully, Whip",
+          "name_de": "Orc Bully, Whip",
+          "name_fr": "Brute Orque, Whip",
           "points": 10
         }
       ],
@@ -4263,9 +4270,9 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Orc Bully",
-          "name_de": "Orc Bully",
-          "name_fr": "Brute Orque",
+          "name_en": "Orc Bully, Whip",
+          "name_de": "Orc Bully, Whip",
+          "name_fr": "Brute Orque, Whip",
           "points": 10
         }
       ],
@@ -4295,13 +4302,21 @@
         }
       },
       "command": [],
-      "equipment": [],
+      "equipment": [
+        {
+          "name_en": "Stone thrower, Hand weapons",
+          "name_de": "Steinschleuder, Handwaffen",
+          "name_fr": "Catapulte, Armes de base",
+          "points": 0,
+          "active": true
+        }
+      ],
       "armor": [],
       "options": [
         {
-          "name_en": "Orc Bully",
-          "name_de": "Orc Bully",
-          "name_fr": "Brute Orque",
+          "name_en": "Orc Bully, Whip",
+          "name_de": "Orc Bully, Whip",
+          "name_fr": "Brute Orque, Whip",
           "points": 10
         }
       ],
