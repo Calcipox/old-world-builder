@@ -294,6 +294,9 @@
     "Great Eagle": {
       "name_fr": "Grand Aigle"
     },
+    "Great Eagles": {
+      "name_fr": "Grands Aigles"
+    },
     "Great weapon": {
       "name_fr": "Arme lourde"
     },
@@ -471,7 +474,7 @@
     "Move Or Shoot": {
       "name_fr": "Mouvement ou Tir"
     },
-    "Move Through Cover": {
+    "Move through Cover": {
       "name_fr": "Mouvement à Couvert"
     },
     "Multiple Shots": {
@@ -704,6 +707,9 @@
     },
     "Undivided": {
       "name_fr": "Universel"
+    },
+    "Unicorn": {
+      "name_fr": "Licorne"
     },
     "Unstable": {
       "name_fr": "Instables"

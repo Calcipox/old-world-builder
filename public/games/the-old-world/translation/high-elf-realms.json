@@ -1,5 +1,11 @@
 {
   "direct": {
+    "Abyssal Cloak": {
+      "name_fr": "Cape Abyssale"
+    },
+    "Accomplished Archers": {
+      "name_fr": "Archers Accomplis"
+    },
     "Anointed of Asuryan": {
       "name_fr": "Élu d'Asuryan"
     },
@@ -24,11 +30,17 @@
     "Blood of Caledor": {
       "name_fr": "Sang de Caledor"
     },
+    "Bosun": {
+      "name_fr": "Bosco"
+    },
     "Bow of Avelorn": {
       "name_fr": "Arc d'Avelorn"
     },
     "Bows of Avelorn": {
       "name_fr": "Arcs d'Avelorn"
+    },
+    "Briny breath": {
+      "name_fr": "Souffle saumâtre"
     },
     "Ceremonial halberd": {
       "name_fr": "Hallebarde de cérémonie"
@@ -36,17 +48,41 @@
     "Ceremonial halberds": {
       "name_fr": "Hallebardes de cérémonie"
     },
+    "Champions of Chrace": {
+      "name_fr": "Champions de Chrace"
+    },
+    "Chayal": {
+      "name_fr": "Chayal"
+    },
+    "Chieftain's Chariot": {
+      "name_fr": "Char de Chef de Guerre"
+    },
+    "Chracian Captain": {
+      "name_fr": "Capitaine Chracien"
+    },
+    "Chracian Chieftain": {
+      "name_fr": "Chef de Guerre Chracien"
+    },
     "Chracian Hunter": {
       "name_fr": "Chasseur Chracien"
     },
     "Chracian Warriors": {
       "name_fr": "Guerriers de Chrace"
     },
+    "Chracian Woodsmen": {
+      "name_fr": "Forestier Chracien"
+    },
     "Chracian great blade": {
       "name_fr": "Grande lame de Chrace"
     },
     "Chracian great blades": {
       "name_fr": "Grandes lames de Chrace"
+    },
+    "Chractian Hunter": {
+      "name_fr": "Chasseur Chracien"
+    },
+    "Commanding Voice": {
+      "name_fr": "Voix Autoritaire"
     },
     "Deflect Shots": {
       "name_fr": "Tirs Déviés"
@@ -72,6 +108,12 @@
     "Eagle-Eye Bolt Thrower": {
       "name_fr": "Baliste Œil-d'aigle"
     },
+    "Eagle-claw Bolt Thrower": {
+      "name_fr": "Baliste Serre d'Aigle"
+    },
+    "Eagle-claw Bolt Throwers": {
+      "name_fr": "Balistes Serre d'Aigle"
+    },
     "Ellyrian Reavers": {
       "name_fr": "Patrouilleurs Ellyriens"
     },
@@ -90,11 +132,20 @@
     "Elven Steed": {
       "name_fr": "Coursier Elfique"
     },
+    "Enfeebling Cold": {
+      "name_fr": "Froid Engourdissant"
+    },
+    "Flamespyre": {
+      "name_fr": "Spire-de-Feu"
+    },
     "Flamespyre Phoenix": {
       "name_fr": "Phénix Spire-de-feu"
     },
     "From the Ashes": {
       "name_fr": "Renaître des Cendres"
+    },
+    "Frostheart": {
+      "name_fr": "Cœur-de-Givre"
     },
     "Frostheart Phoenix": {
       "name_fr": "Phénix Cœur-de-Givre"
@@ -114,6 +165,15 @@
     "Harbinger": {
       "name_fr": "Émissaire"
     },
+    "High Elf Mage": {
+      "name_fr": "Mage Haut Elfe"
+    },
+    "High Elf Noble": {
+      "name_fr": "Noble Haut Elfe"
+    },
+    "High Elf Prince": {
+      "name_fr": "Prince Haut Elfe"
+    },
     "High Helm": {
       "name_fr": "Grand Heaume"
     },
@@ -122,6 +182,12 @@
     },
     "Horn of Isha": {
       "name_fr": "Cor d'Isha"
+    },
+    "Iridescent scales": {
+      "name_fr": "Écailles irisées"
+    },
+    "Ishaya Vess": {
+      "name_fr": "Ishaya Vess"
     },
     "Ithilmar Armour": {
       "name_fr": "Armure en Ithilmar"
@@ -138,6 +204,12 @@
     "King's Guard": {
       "name_fr": "Garde du Roi"
     },
+    "Korhil Lionmane": {
+      "name_fr": "Korhil Lionmane"
+    },
+    "Lashing talons": {
+      "name_fr": "Serres cinglantes"
+    },
     "Lileath's Blessing": {
       "name_fr": "Bienfait de Lileath"
     },
@@ -146,6 +218,12 @@
     },
     "Lion Cloak": {
       "name_fr": "Cape de Lion"
+    },
+    "Lion Guard": {
+      "name_fr": "Garde Lion"
+    },
+    "Lion Guard Captain": {
+      "name_fr": "Capitaine Garde Lion"
     },
     "Lore of Saphery": {
       "name_fr": "Domaine de Saphery"
@@ -162,6 +240,18 @@
     "Mage": {
       "name_fr": "Mage"
     },
+    "Mathlann's Ire": {
+      "name_fr": "Ire de Mathlann"
+    },
+    "Merwyrm": {
+      "name_fr": "Wyrm des Mers"
+    },
+    "Midshipman": {
+      "name_fr": "Aspirant"
+    },
+    "Mighty Constitution": {
+      "name_fr": "Puissante Constitution"
+    },
     "Moon Dragon": {
       "name_fr": "Dragon Lunaire"
     },
@@ -171,8 +261,14 @@
     "Noble": {
       "name_fr": "Noble"
     },
+    "Phoenix": {
+      "name_fr": "Phénix"
+    },
     "Phoenix Guard": {
       "name_fr": "Garde Phénix"
+    },
+    "Precision Strikes": {
+      "name_fr": "Frappe de Précision"
     },
     "Prince": {
       "name_fr": "Prince"
@@ -186,11 +282,17 @@
     "Sea Guard Crew": {
       "name_fr": "Équipage Garde Maritime"
     },
+    "Sea Guard Garrison Commander": {
+      "name_fr": "Commandant de Garnison de la Garde Maritime"
+    },
     "Sea Master": {
       "name_fr": "Maître Maritime"
     },
     "Sentinel": {
       "name_fr": "Sentinelle"
+    },
+    "Serpentine tail": {
+      "name_fr": "Queue de serpent"
     },
     "Shadow Stalker": {
       "name_fr": "Rôdeur des Ombres"
@@ -200,6 +302,9 @@
     },
     "Shadow Warriors": {
       "name_fr": "Guerriers Fantômes"
+    },
+    "Ship's Company": {
+      "name_fr": "Compagnie d’Équipage"
     },
     "Silver Helms": {
       "name_fr": "Heaumes d'Argent"
@@ -213,6 +318,9 @@
     "Star Dragon": {
       "name_fr": "Dragon Stellaire"
     },
+    "Storm Weaver": {
+      "name_fr": "Tisseur de Tempête"
+    },
     "Sun Dragon": {
       "name_fr": "Dragon Solaire"
     },
@@ -225,6 +333,9 @@
     "Swords of Hoeth": {
       "name_fr": "Épées de Hoeth"
     },
+    "The Pelt of Charandis": {
+      "name_fr": "Fourrure de Charandis"
+    },
     "Tiranoc Chariot": {
       "name_fr": "Char de Tiranoc"
     },
@@ -236,6 +347,9 @@
     },
     "Wake of Fire": {
       "name_fr": "Sillage de Feu"
+    },
+    "War Lions": {
+      "name_fr": "Lions de Guerre"
     },
     "Warden of Saphery": {
       "name_fr": "Gardien de Saphery"
@@ -262,6 +376,15 @@
     },
     "Requires (.*) (Elven Honour)": {
       "name_fr": "Nécessite l'$2 $1"
+    },
+    "Replaces ([a-zA-Z\\s]+)": {
+      "name_fr": "Remplace $1"
+    },
+    "(\\d-\\d) Rare choice if you include one or more ([a-zA-Z\\s]+) unit": {
+      "name_fr": "$1 en tant que choix d'unité Rare si l'armée inclut au moins une unité de $2"
+    },
+    "(\\d-\\d) ([a-zA-Z]+) or ([a-zA-Z]+) (Phoenix) per (\\d+) points": {
+      "name_fr": "$1 $4 $2 ou $3 par tranche de $5 points"
     }
   }
 }
