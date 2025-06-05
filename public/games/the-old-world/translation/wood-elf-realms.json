@@ -1,19 +1,34 @@
 {
   "direct": {
+    "Araloth": {
+      "name_fr": "Araloth"
+    },
     "Arcane Bodkins": {
       "name_fr": "Bodkins Cabalistiques"
     },
-    "Asrai Longbow": {
+    "Asrai longbow": {
       "name_fr": "Arc long Asrai"
     },
-    "Asrai Longbows": {
+    "Asrai longbows": {
       "name_fr": "Arcs longs Asrai"
     },
-    "Asrai Spear": {
+    "Asrai spear": {
       "name_fr": "Lance Asrai"
     },
-    "Asrai Spears": {
+    "Asrai spears": {
       "name_fr": "Lances Asrai"
+    },
+    "Bear of Loren": {
+      "name_fr": "Ours de Loren"
+    },
+    "Bears of Loren": {
+      "name_fr": "Ours de Loren"
+    },
+    "Beast Keeper": {
+      "name_fr": "Gardien des Bêtes"
+    },
+    "Beast Pack": {
+      "name_fr": "Meute de Bêtes"
     },
     "Blackbriar javelins": {
       "name_fr": "Javelines de bruyère noire"
@@ -21,8 +36,17 @@
     "Bladesinger": {
       "name_fr": "Chantelame"
     },
+    "Boldest of the Bold": {
+      "name_fr": "Intrépide Entre Tous"
+    },
     "Branchwraith": {
       "name_fr": "Branchimère"
+    },
+    "Cloak of Isha": {
+      "name_fr": "Cape d'Isha"
+    },
+    "Courage Beyond Compare": {
+      "name_fr": "Incomparable Courage"
     },
     "Crown of Antlers": {
       "name_fr": "Grande Ramure"
@@ -35,6 +59,9 @@
     },
     "Deepwood Coven": {
       "name_fr": "Sabbat du Grand-bois"
+    },
+    "Deepwood Hounds": {
+      "name_fr": "Chiens du Grand-bois"
     },
     "Deepwood Scouts": {
       "name_fr": "Éclaireurs du Grand-bois"
@@ -56,6 +83,15 @@
     },
     "Eternal Warden": {
       "name_fr": "Gardien Éternel"
+    },
+    "Favour of the Goddess": {
+      "name_fr": "Faveur de la Déesse"
+    },
+    "Forest Cat": {
+      "name_fr": "Chat des Forêts"
+    },
+    "Forest Cats": {
+      "name_fr": "Chats des Forêts"
     },
     "Forest Dragon": {
       "name_fr": "Dragon des Forêts"
@@ -81,6 +117,9 @@
     "Great Stag": {
       "name_fr": "Grand Cerf"
     },
+    "Guardians of Talsyn": {
+      "name_fr": "Gardiens de Talsyn"
+    },
     "Guardians of the Wildwood": {
       "name_fr": "Gardiens du Bois Sauvage"
     },
@@ -96,8 +135,20 @@
     "Hawk-eyed Archer": {
       "name_fr": "Archer à l'Œil de Faucon"
     },
+    "Hawks Talon": {
+      "name_fr": "Serre du Faucon"
+    },
+    "Horn of the Wild Hunt": {
+      "name_fr": "Cor de la Chasse Sauvage"
+    },
+    "Hound": {
+      "name_fr": "Chien"
+    },
     "Hunting spear": {
       "name_fr": "Lance de chasse"
+    },
+    "Kindreds": {
+      "name_fr": "Clans"
     },
     "Lord's Bowmen": {
       "name_fr": "Féal"
@@ -111,8 +162,20 @@
     "Nymph": {
       "name_fr": "Nymphe"
     },
+    "Orion": {
+      "name_fr": "Orion"
+    },
+    "Parry": {
+      "name_fr": "Parade"
+    },
     "Ranger's glaive": {
       "name_fr": "Vouge de patrouilleurs"
+    },
+    "Razor Tusks": {
+      "name_fr": "Défenses Acérées"
+    },
+    "Run with the Pack": {
+      "name_fr": "Courir avec la Meute"
     },
     "Sapwood flesh": {
       "name_fr": "Chair d'aubier"
@@ -126,8 +189,20 @@
     "Sisters of the Thorn": {
       "name_fr": "Sœurs de l'Épine"
     },
+    "Skaryn the Eye Thief": {
+      "name_fr": "Skaryn le Voleur d’Yeux"
+    },
+    "Spear of Kurnous": {
+      "name_fr": "Lance de Kurnous"
+    },
     "Spear of Loec": {
       "name_fr": "Lance de Loec"
+    },
+    "Spear of Talsyn": {
+      "name_fr": "Lance de Talsyn"
+    },
+    "Spectral Hounds": {
+      "name_fr": "Limiers Spectraux"
     },
     "Spellsinger": {
       "name_fr": "Chanteur de Sorts"
@@ -137,6 +212,12 @@
     },
     "Swiftshiver Shards": {
       "name_fr": "Échardes d'Archère Hâtive"
+    },
+    "Sylvan Boar": {
+      "name_fr": "Sanglier Sylvain"
+    },
+    "Sylvan Boars": {
+      "name_fr": "Sangliers Sylvains"
     },
     "Talismanic Tattoos": {
       "name_fr": "Tatouages Talismaniques"
@@ -171,11 +252,17 @@
     "Wardancers": {
       "name_fr": "Danseurs de Guerre"
     },
+    "Warden Of Talsyn": {
+      "name_fr": "Veilleur de Talsyn"
+    },
     "Warhawk": {
       "name_fr": "Faucon de Guerre"
     },
     "Warhawk Riders": {
       "name_fr": "Guerriers Faucons"
+    },
+    "Watchmaster": {
+      "name_fr": "Maître de Veille"
     },
     "Waystalker": {
       "name_fr": "Rôdeur Sylvain"
@@ -198,9 +285,34 @@
     "Wind Rider": {
       "name_fr": "Cavalier du Vent"
     },
+    "Wood Elf Beast Pack": {
+      "name_fr": "Meute de Bêtes des Elfes Sylvains"
+    },
+    "Wood Elf Beast Packs": {
+      "name_fr": "Meutes de Bêtes des Elfes Sylvains"
+    },
     "Woodland Ambush": {
       "name_fr": "Embuscade dans les Bois"
+    },
+    "fangs": {
+      "name_fr": "crocs"
+    },
+    "teeth": {
+      "name_fr": "dents"
     }
   },
-  "regex": {}
+  "regex": {
+    "1 ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+)": {
+      "name_fr": "1 $1 par $2"
+    },
+    "([a-zA-Z\\s]+) per ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 par $2"
+    },
+    "Note that each ([a-zA-Z\\s]+) within a ([a-zA-Z\\s]+) must take the same. In other words, a ([a-zA-Z\\s]+) can only contain ([a-zA-Z\\s]+), ([a-zA-Z\\s]+), ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+), not a mixture of different beasts.": {
+      "name_fr": "Notez que tous les $1 d’une $2 doivent prendre la même option. En d’autres termes, une $3 ne peut contenir que des $4, $5, $6 ou $7, et non un mélange de différentes bêtes."
+    },
+    "(Hand weapons) \\((.*)\\)": {
+      "name_fr": "$1 ($2)"
+    }
+  }
 }
