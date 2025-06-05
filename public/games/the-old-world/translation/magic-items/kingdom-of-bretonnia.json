@@ -6,17 +6,17 @@
     "Antlers of the Great Hunt": {
       "name_fr": "Bois de la Grande Chasse"
     },
-    "Banner Of Honourable Warfare": {
-      "name_fr": "Bannière de la Guerre Honorable"
-    },
-    "Banner Of The Lady's Grace": {
-      "name_fr": "Bannière de la Grâce de la Dame"
-    },
-    "Banner Of The Zealous Knight": {
-      "name_fr": "Bannière du Chevalier Zélé"
-    },
     "Banner of Châlons": {
       "name_fr": "Bannière de Châlons"
+    },
+    "Banner of Honourable Warfare": {
+      "name_fr": "Bannière de la Guerre Honorable"
+    },
+    "Banner of the Lady's Grace": {
+      "name_fr": "Bannière de la Grâce de la Dame"
+    },
+    "Banner of the Zealous Knight": {
+      "name_fr": "Bannière du Chevalier Zélé"
     },
     "Conqueror's Tapestry": {
       "name_fr": "Tapisserie du Conquérant"
@@ -30,7 +30,7 @@
     "Crusader's Tapestry": {
       "name_fr": "Tapisserie du Croisé"
     },
-    "Diadem Of Power": {
+    "Diadem of Power": {
       "name_fr": "Diadème de Pouvoir"
     },
     "Errantry Banner": {
@@ -60,7 +60,7 @@
     "Gromril Great Helm": {
       "name_fr": "Grand Heaume de Gromril"
     },
-    "Heart Of The Wilds": {
+    "Heart of the Wilds": {
       "name_fr": "Cœur des Terres Sauvages"
     },
     "Heartwood Lance": {
@@ -90,16 +90,16 @@
     "Sirienne's Locket": {
       "name_fr": "Médaillon de Sirienne"
     },
-    "Sword Of The Stout Hearted": {
-      "name_fr": "Épée du Cœur Vaillant"
-    },
     "Sword of Heroes": {
       "name_fr": "Épée des Héros"
     },
     "Sword of the Quest": {
       "name_fr": "Épée de la Quête"
     },
-    "The Seal Of Parravon": {
+    "Sword of the Stout Hearted": {
+      "name_fr": "Épée du Cœur Vaillant"
+    },
+    "The Seal of Parravon": {
       "name_fr": "Le Sceau de Parravon"
     },
     "Valorous Standard": {

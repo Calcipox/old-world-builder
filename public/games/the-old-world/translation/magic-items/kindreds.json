@@ -1,0 +1,29 @@
+{
+  "direct": {
+    "Aspect Of The Bear": {
+      "name_fr": "Aspect de l’Ours"
+    },
+    "Aspect Of The Boar": {
+      "name_fr": "Aspect du Sanglier"
+    },
+    "Aspect Of The Cat": {
+      "name_fr": "Aspect du Chat"
+    },
+    "Aspect Of The Hound": {
+      "name_fr": "Aspect du Chien de Chasse"
+    },
+    "Eternal Kindred": {
+      "name_fr": "Clan Éternel"
+    },
+    "Glamour Weave Kindred": {
+      "name_fr": "Clan des Tisserêves"
+    },
+    "Scout Kindred": {
+      "name_fr": "Clan d’Éclaireurs"
+    },
+    "Wild Rider Kindred": {
+      "name_fr": "Clan des Cavaliers Sauvages"
+    }
+  },
+  "regex": {}
+}

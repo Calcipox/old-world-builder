@@ -3,14 +3,14 @@
     "Armour of the Damned": {
       "name_fr": "Armure des Damnés"
     },
-    "Banner Of The Baying Hound": {
-      "name_fr": "Bannière du Molosse"
-    },
-    "Banner Of The Dark Powers": {
-      "name_fr": "Bannière des Puissances Obscures"
-    },
     "Banner of Rage": {
       "name_fr": "Bannière de Rage"
+    },
+    "Banner of the Baying Hound": {
+      "name_fr": "Bannière du Molosse"
+    },
+    "Banner of the Dark Powers": {
+      "name_fr": "Bannière des Puissances Obscures"
     },
     "Banner of the Gods": {
       "name_fr": "Bannière des Dieux"
@@ -45,7 +45,7 @@
     "Daemonsword": {
       "name_fr": "Épée-démon"
     },
-    "Dagger Of The Dark Pantheon": {
+    "Dagger of the Dark Pantheon": {
       "name_fr": "Dague du Sombre Panthéon"
     },
     "Doom Totem": {
@@ -57,13 +57,13 @@
     "Filth Mace": {
       "name_fr": "Masse d'Infection"
     },
-    "Grimoire Of Ogvold": {
+    "Grimoire of Ogvold": {
       "name_fr": "Grimoire d'Ogvold"
     },
     "Helm of Many Eyes": {
       "name_fr": "Heaume aux Yeux Innombrables"
     },
-    "Icon Of Darkness": {
+    "Icon of Darkness": {
       "name_fr": "Icône des Ténèbres"
     },
     "Infernal Puppet": {
@@ -78,10 +78,10 @@
     "Pendant of Damnation": {
       "name_fr": "Pendentif de Damnation"
     },
-    "Rod Of The Damned": {
+    "Rod of the Damned": {
       "name_fr": "Baguette des Damnés"
     },
-    "Sceptre Of Power": {
+    "Sceptre of Power": {
       "name_fr": "Sceptre de Puissance"
     },
     "Sea Raider's Crest": {
@@ -96,16 +96,16 @@
     "Spellthieving Sword": {
       "name_fr": "Épée Voleuse de Sorts"
     },
-    "Talisman Of The Carrion Crow": {
+    "Talisman of the Carrion Crow": {
       "name_fr": "Talisman du Corbeau Charognard"
     },
-    "Talisman Of The Soaring Eagle": {
+    "Talisman of the Soaring Eagle": {
       "name_fr": "Talisman de l'Aigle"
     },
     "Taskmaster's Scourge": {
       "name_fr": "Fouet du Garde-chiourme"
     },
-    "Tome Of The Dark Gods": {
+    "Tome of the Dark Gods": {
       "name_fr": "Tome des Dieux Sombres"
     }
   },
