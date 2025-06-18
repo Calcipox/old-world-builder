@@ -3,6 +3,9 @@
     "1 - Razorgor only": {
       "name_fr": "1 - Razorgor seulement"
     },
+    "A Tingle in the Air": {
+      "name_fr": "Un Picotement dans l’Air"
+    },
     "Acidic vomit": {
       "name_fr": "Vomi acide"
     },
@@ -15,11 +18,20 @@
     "Bestial Charge": {
       "name_fr": "Charge Bestiale"
     },
+    "Bestial Fury": {
+      "name_fr": "Fureur Bestiale"
+    },
     "Bestigor": {
       "name_fr": "Bestigor"
     },
+    "Bestigor Crew": {
+      "name_fr": "Aurige Bestigor"
+    },
     "Bestigor Herd": {
       "name_fr": "Harde de Bestigor"
+    },
+    "Blessing of Chaos": {
+      "name_fr": "Bénédictions du Chaos"
     },
     "Blood Greed": {
       "name_fr": "Soif de Sang"
@@ -42,6 +54,9 @@
     "Bull-gors": {
       "name_fr": "Taurogors"
     },
+    "Centigor Chieftain": {
+      "name_fr": "Chef Centigor"
+    },
     "Centigor Herd": {
       "name_fr": "Harde de Centigor"
     },
@@ -51,8 +66,14 @@
     "Cockatrice": {
       "name_fr": "Cockatrice"
     },
+    "Crown of Antlers": {
+      "name_fr": "Couronne de Bois"
+    },
     "Cygor": {
       "name_fr": "Cygor"
+    },
+    "Dark Sorcery": {
+      "name_fr": "Noire Sorcellerie"
     },
     "Doombull": {
       "name_fr": "Doombull"
@@ -60,11 +81,26 @@
     "Drunken": {
       "name_fr": "Ivres"
     },
+    "Endless Malice": {
+      "name_fr": "Malice Infinie"
+    },
     "Ensorcelled Weapons": {
       "name_fr": "Armes Ensorcelées"
     },
+    "Father of Beasts": {
+      "name_fr": "Père des Bêtes"
+    },
+    "Fearsome Edifice": {
+      "name_fr": "Édifice Effrayant"
+    },
     "Foe Render": {
       "name_fr": "Déchiqueteur"
+    },
+    "Foe-render": {
+      "name_fr": "Déchiqueteur"
+    },
+    "Future Sight": {
+      "name_fr": "Vision du Futur"
     },
     "Gaze of the Gods": {
       "name_fr": "Regard des Dieux"
@@ -72,11 +108,17 @@
     "Ghorgon": {
       "name_fr": "Ghorgon"
     },
+    "Ghorros": {
+      "name_fr": "Ghorros"
+    },
     "Ghostsight": {
       "name_fr": "Vue Spirituelle"
     },
     "Gor": {
       "name_fr": "Gor"
+    },
+    "Gor Crew": {
+      "name_fr": "Aurige Gor"
     },
     "Gor Herd": {
       "name_fr": "Harde de Gor"
@@ -87,11 +129,17 @@
     "Gorehoof": {
       "name_fr": "Éventreur"
     },
+    "Gors": {
+      "name_fr": "Gors"
+    },
     "Gouge-horn": {
       "name_fr": "Encorneur"
     },
     "Great Bray-Shaman": {
       "name_fr": "Grand Braillechamane"
+    },
+    "Grisly Totem": {
+      "name_fr": "Totem d’Épouvante"
     },
     "Half-horn": {
       "name_fr": "Mi-corne"
@@ -99,8 +147,14 @@
     "Harpies": {
       "name_fr": "Harpies"
     },
+    "Herdstone": {
+      "name_fr": "Pierre de Harde"
+    },
     "Hurl attack": {
       "name_fr": "Jet de roc"
+    },
+    "If selected, he must also be the general": {
+      "name_fr": "Si sélectionné, il doit être le général"
     },
     "Infantry Chieftains and Shamans": {
       "name_fr": "Chefs et Chamanes de type 'infanterie'"
@@ -108,11 +162,20 @@
     "Jabberslythe": {
       "name_fr": "Jabberslythe"
     },
+    "Kralmaw": {
+      "name_fr": "Kralmaw"
+    },
+    "Leering Spirit": {
+      "name_fr": "Esprit Malin"
+    },
     "Lore of Beasts": {
       "name_fr": "Domaine des Bêtes"
     },
     "Maddening Aura": {
       "name_fr": "Aura de Démence"
+    },
+    "Mansmasher": {
+      "name_fr": "Écrase-Hommes"
     },
     "Mark of Chaos Undivided": {
       "name_fr": "Marque du Chaos Universel"
@@ -120,8 +183,20 @@
     "Minotaur Herd": {
       "name_fr": "Harde de Minotaure"
     },
+    "Mixed Unit": {
+      "name_fr": "Unité Mixte"
+    },
+    "Preyton": {
+      "name_fr": "Preyton"
+    },
     "Primal Fury": {
       "name_fr": "Fureur Primale"
+    },
+    "Primal Warherd": {
+      "name_fr": "Harde de Guerre Primordiale"
+    },
+    "Primal Warhounds": {
+      "name_fr": "Chiens Primordiaux"
     },
     "Razor Tusks": {
       "name_fr": "Défenses Acérées"
@@ -135,11 +210,20 @@
     "Razorgor only": {
       "name_fr": "Razorgor seulement"
     },
+    "Skull of the Unicorn Lord": {
+      "name_fr": "Le Crâne du Seigneur Licorne"
+    },
     "Slaughterer's Call": {
       "name_fr": "Appel du Massacreur"
     },
+    "Slythey tongue": {
+      "name_fr": "Langue protractile"
+    },
     "Soul-eater": {
       "name_fr": "Mangeur d'Âmes"
+    },
+    "Splice-horn": {
+      "name_fr": "Impure-corne"
     },
     "Spurting Bile Blood": {
       "name_fr": "Giclée de Sang Bilieux"
@@ -150,6 +234,9 @@
     "Swallow Whole": {
       "name_fr": "Avaler Tout Rond"
     },
+    "The Sons of Ghorros": {
+      "name_fr": "Les Fils de Ghorros"
+    },
     "True-horn": {
       "name_fr": "Pure-corne"
     },
@@ -159,8 +246,20 @@
     "Tuskgor Chariot": {
       "name_fr": "Char à Sangleboucs"
     },
+    "Twisted antlers": {
+      "name_fr": "Ramure difforme"
+    },
     "Ungor Herd": {
       "name_fr": "Harde d'Ungor"
+    },
+    "Ungor Ravager": {
+      "name_fr": "Ravageur Ungor"
+    },
+    "Ungor Ravagers": {
+      "name_fr": "Ravageurs Ungors"
+    },
+    "Ungors": {
+      "name_fr": "Ungors"
     },
     "Wargor": {
       "name_fr": "Wargor"
@@ -168,14 +267,26 @@
     "Warhoof": {
       "name_fr": "Sabot-guerrier"
     },
-    "Wicked claws and slythey tongue": {
-      "name_fr": "Griffes cruelles et langue protractile"
+    "Warped Gors": {
+      "name_fr": "Gors Difformes"
+    },
+    "Wicked claws": {
+      "name_fr": "Griffes cruelles"
     },
     "for Shartak": {
       "name_fr": "pour Shartak"
     }
   },
   "regex": {
+    "May include one ([a-zA-Z\\s]+) for every three ([a-zA-Z\\s]+)": {
+      "name_fr": "Peut inclure 1 $1 par tranche de 3 $2"
+    },
+    "If selected, it must also be selected for ([a-zA-Z]+)": {
+      "name_fr": "Si sélectionné, doit être sélectionné également pour les $1"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+), ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points with a ([a-zA-Z\\s]+) of (\\d+) or less": {
+      "name_fr": "$1 $2, $3 ou $4 par tranche de $5 points avec une $6 de $7 ou moins"
+    },
     "(.*) Crew x 1 - (.*)": {
       "name_fr": "Aurige $1 x 1 - $2"
     },

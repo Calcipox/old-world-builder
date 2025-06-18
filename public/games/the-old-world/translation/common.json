@@ -285,6 +285,9 @@
     "Giant's club": {
       "name_fr": "Massue de Géant"
     },
+    "Gifts of Chaos": {
+      "name_fr": "Dons du Chaos"
+    },
     "Gnashing maws": {
       "name_fr": "Gueules avides"
     },
@@ -711,6 +714,9 @@
     "Unicorn": {
       "name_fr": "Licorne"
     },
+    "Unit Strength": {
+      "name_fr": "Puissance d'Unité"
+    },
     "Unstable": {
       "name_fr": "Instables"
     },
@@ -887,6 +893,9 @@
     "(\\d-\\d) Special choice ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) if your general is a ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 ou $3 en choix Spécial si votre général est un $4"
     },
+    "(\\d-\\d) ([a-zA-Z\\s]+) may be taken as Core choice per ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 $2 peut être prise comme choix d'Unité de Base par $3 choisi"
+    },
     "([a-zA-Z\\s]+) and ([a-zA-Z\\s]+) may be taken as Special choices": {
       "name_fr": "les $1 et les $2 peuvent être pris comme choix Spécial"
     },
@@ -923,6 +932,12 @@
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 unité de $2 ou $3 par tranche de $4 points"
     },
+    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s-]+) per (\\d+) points:": {
+      "name_fr": "$1 $2 ou $3 par tranche de $4 points:"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s-]+) per (\\d+) points": {
+      "name_fr": "$1 $2 ou $3 par tranche de $4 points"
+    },
     "(\\d-\\d) or ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 ou $2 par tranche de $3 points"
     },
@@ -934,9 +949,6 @@
     },
     "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+) per (\\d+) points(.*)": {
       "name_fr": "$1 ou $2 par tranche de $3 points$4"
-    },
-    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points:": {
-      "name_fr": "$1 $2 ou $3 par tranche de $4 points:"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 par tranche de $4 points"
