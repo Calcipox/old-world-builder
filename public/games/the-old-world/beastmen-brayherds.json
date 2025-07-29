@@ -441,14 +441,35 @@
           "name_fr": "Embusqueurs"
         },
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_de": "Level 4 Wizard",
-          "points": 30,
-          "minimum": 0,
-          "maximum": 0,
-          "name_es": "Hechicero de nivel 4",
-          "name_fr": "Sorcier de Niveau 4"
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -609,14 +630,35 @@
           "name_fr": "Embusqueurs"
         },
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Level 2 Wizard",
-          "points": 30,
-          "minimum": 0,
-          "maximum": 0,
-          "name_es": "Hechicero nivel 2",
-          "name_fr": "Sorcier de Niveau 2"
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -846,7 +888,27 @@
           "name_fr": "Objets Magiques",
           "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
-          "maxPoints": 100
+          "maxPoints": 100,
+          "armyComposition": "beastmen-brayherds"
+        },
+        {
+          "name_en": "Magic Items",
+          "name_cn": "魔法物品",
+          "name_de": "Magische Gegenstände",
+          "name_fr": "Objets Magiques",
+          "types": [
+            "enchanted-item",
+            "talisman",
+            "armor",
+            "weapon",
+            "arcane-item"
+          ],
+          "selected": [],
+          "maxPoints": 100,
+          "armyComposition": "minotaur-blood-herd",
+          "notes": {
+            "name_en": "Arcane items are only available if the Doombull is a wizard"
+          }
         },
         {
           "name_en": "Chaos Mutations",
@@ -903,7 +965,8 @@
             "name_de": "Armour Bane (1), Blood Greed, Blood Rage, Bull-gors, Fear, Foe Render, Gaze of the Gods, Impact Hits (1), Mark of Chaos Undivided, Primal Fury, Slaughterer's Call, Warband, Impetuous",
             "name_es": "Armour Bane (1), Blood Greed, Blood Rage, Bull-gors, Fear, Foe Render, Gaze of the Gods, Impact Hits (1), Mark of Chaos Undivided, Primal Fury, Slaughterer's Call, Warband, Impetuous",
             "name_fr": "Arme Perforante (1), Soif de Sang, Rage Sanguinaire, Taurogors, Peur, Déchiqueteur, Regard des Dieux, Touches d'Impact (1), Marque du Chaos Universel, Fureur Primale, Appel du Massacreur, Bande de Guerre, Impétueux"
-          }
+          },
+          "lores": ["battle-magic", "dark-magic"]
         }
       },
       "command": [
@@ -1022,7 +1085,27 @@
           "types": ["enchanted-item", "talisman", "armor", "weapon"],
           "selected": [],
           "maxPoints": 50,
-          "name_fr": "Objets Magiques"
+          "name_fr": "Objets Magiques",
+          "armyComposition": "beastmen-brayherds"
+        },
+        {
+          "name_en": "Magic Items",
+          "name_cn": "魔法物品",
+          "name_de": "Magische Gegenstände",
+          "types": [
+            "enchanted-item",
+            "talisman",
+            "armor",
+            "weapon",
+            "arcane-item"
+          ],
+          "selected": [],
+          "maxPoints": 50,
+          "name_fr": "Objets Magiques",
+          "armyComposition": "minotaur-blood-herd",
+          "notes": {
+            "name_en": "Arcane items are only available if the Gorebull is a wizard"
+          }
         },
         {
           "name_en": "Chaos Mutations",
@@ -1062,6 +1145,7 @@
       "name_fr": "Sabot-guerrier",
       "id": "centigore-chieftain",
       "points": 75,
+      "magicItemsArmy": "beastmen-brayherds",
       "command": [
         {
           "name_en": "General",
@@ -1210,6 +1294,7 @@
       "name_fr": "Kralmaw",
       "id": "kralmaw",
       "points": 245,
+      "named": true,
       "armyComposition": {
         "beastmen-brayherds": {
           "category": "characters"
@@ -1260,6 +1345,7 @@
       "name_fr": "Ghorros",
       "id": "ghorros",
       "points": 155,
+      "named": true,
       "command": [
         {
           "name_en": "General",
@@ -1273,9 +1359,9 @@
       ],
       "equipment": [
         {
-          "name_en": "Hand weapon, Mansmasher, Skull of the Unicorn Lord",
-          "name_cn": "单手武器, Mansmasher, Skull of the Unicorn Lord",
-          "name_de": "Hand weapon, Mansmasher, Skull of the Unicorn Lord",
+          "name_en": "Hand weapon, Mansmasher, The Skull of the Unicorn Lord",
+          "name_cn": "单手武器, Mansmasher, The Skull of the Unicorn Lord",
+          "name_de": "Hand weapon, Mansmasher, The Skull of the Unicorn Lord",
           "name_fr": "Arme de base, Écrase-Hommes, Le Crâne du Seigneur Licorne",
           "points": 0,
           "active": true
@@ -1355,37 +1441,7 @@
           "points": 5
         }
       ],
-      "equipment": [
-        {
-          "name_en": "Hand weapons",
-          "name_cn": "单手武器",
-          "name_de": "Hand weapons",
-          "name_es": "Hand weapons",
-          "name_fr": "Armes de base",
-          "points": 0,
-          "perModel": true,
-          "active": true,
-          "equippedDefault": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapons",
-          "points": 0,
-          "perModel": true,
-          "name_es": "Arma de mano adicional",
-          "name_fr": "Armes de base additionnelles"
-        },
-        {
-          "name_en": "Shields",
-          "name_cn": "盾牌",
-          "name_de": "Shields",
-          "points": 0,
-          "perModel": true,
-          "name_es": "Escudos",
-          "name_fr": "Boucliers"
-        }
-      ],
+      "equipment": [],
       "armor": [],
       "options": [],
       "mounts": [],
@@ -1401,16 +1457,6 @@
           "minDetachmentSize": 10,
           "equipment": [
             {
-              "name_en": "Hand weapons",
-              "name_cn": "单手武器",
-              "name_de": "Hand weapons",
-              "name_es": "Escudos",
-              "name_fr": "Armes de base",
-              "points": 0,
-              "active": true,
-              "id": 0
-            },
-            {
               "name_en": "Hand weapons, Shields",
               "name_cn": "单手武器, 盾牌",
               "name_de": "Hand weapons, Shields",
@@ -1418,7 +1464,11 @@
               "name_fr": "Armes de base, Boucliers",
               "points": 0,
               "id": 1,
-              "active": false
+              "stackable": true,
+              "stackableCount": 10,
+              "exclusive": true,
+              "minimum": 0,
+              "maximum": 0
             },
             {
               "name_en": "Additional hand weapons",
@@ -1428,7 +1478,10 @@
               "name_fr": "Armes de base additionnelles",
               "points": 0,
               "id": 2,
-              "active": false
+              "stackable": true,
+              "exclusive": true,
+              "minimum": 0,
+              "maximum": 0
             }
           ],
           "armor": [],
@@ -1441,6 +1494,7 @@
               "name_fr": "Embusqueurs",
               "points": 1,
               "perModel": true,
+              "id": 0,
               "notes": {
                 "name_en": "If selected, it must also be selected for Ungors",
                 "name_fr": "Si sélectionné, doit être sélectionné également pour les Ungors"
@@ -1459,23 +1513,18 @@
           "minDetachmentSize": 10,
           "equipment": [
             {
-              "name_en": "Hand weapons, Shields",
-              "name_cn": "单手武器, 盾牌",
-              "name_de": "Hand weapons, Shields",
-              "name_es": "Hand weapons, Shields",
-              "name_fr": "Armes de base, Boucliers",
-              "active": true,
-              "points": 0,
-              "id": 0
-            },
-            {
               "name_en": "Thrusting spears, Shields",
               "name_cn": "刺矛, 盾牌",
               "name_de": "Thrusting spears, Shields",
               "name_es": "Thrusting spears, Shields",
               "name_fr": "Lances d'infanterie, Boucliers",
               "points": 0,
-              "id": 1
+              "id": 1,
+              "stackable": true,
+              "stackableCount": 10,
+              "exclusive": true,
+              "minimum": 0,
+              "maximum": 0
             },
             {
               "name_en": "Throwing spears, Shields",
@@ -1484,7 +1533,11 @@
               "name_es": "Throwing spears, Shields",
               "name_fr": "Javelots, Boucliers",
               "points": 0,
-              "id": 2
+              "id": 2,
+              "stackable": true,
+              "exclusive": true,
+              "minimum": 0,
+              "maximum": 0
             }
           ],
           "armor": [],
@@ -1497,6 +1550,7 @@
               "name_fr": "Embusqueurs",
               "points": 1,
               "perModel": true,
+              "id": 0,
               "notes": {
                 "name_en": "If selected, it must also be selected for Gors",
                 "name_fr": "Si sélectionné, doit être sélectionné également pour les Gors"
@@ -2258,6 +2312,14 @@
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
             "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
           }
+        },
+        {
+          "name_en": "The Sons of Ghorros",
+          "points": 2,
+          "perModel": true,
+          "notes": {
+            "name_en": "0-1 Centigor herd in the same muster list as Ghorros"
+          }
         }
       ],
       "mounts": [],
@@ -2407,8 +2469,6 @@
           "name_de": "Additional hand weapon",
           "points": 3,
           "stackable": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Arme de base additionnelle"
         },
         {
@@ -2417,8 +2477,6 @@
           "name_de": "Great weapon",
           "points": 4,
           "stackable": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Arme lourde"
         },
         {
@@ -2427,8 +2485,6 @@
           "name_de": "Shield",
           "points": 2,
           "stackable": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Bouclier"
         },
         {
@@ -2437,8 +2493,6 @@
           "name_de": "Ambushers",
           "points": 3,
           "perModel": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Embusqueurs"
         }
       ],
@@ -2710,8 +2764,6 @@
           "name_de": "Additional hand weapon",
           "points": 3,
           "stackable": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Arme de base additionnelle"
         },
         {
@@ -2720,8 +2772,6 @@
           "name_de": "Great weapon",
           "points": 4,
           "stackable": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Arme lourde"
         },
         {
@@ -2730,8 +2780,6 @@
           "name_de": "Shield",
           "points": 2,
           "stackable": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Bouclier"
         },
         {
@@ -2740,8 +2788,6 @@
           "name_de": "Ambushers",
           "points": 3,
           "perModel": true,
-          "minimum": 0,
-          "maximum": 0,
           "name_fr": "Embusqueurs"
         }
       ],
@@ -2848,6 +2894,7 @@
       "points": 19,
       "minimum": 5,
       "maximum": 0,
+      "magicItemsArmy": "beastmen-brayherds",
       "command": [
         {
           "name_en": "Gorehoof",
@@ -2955,6 +3002,14 @@
             "name_en": "0-1 Gor Herd, Ungor Herd or Centigor Herd per 1000 points with a Unit Strength of 10 or less",
             "name_fr": "0-1 Harde de Gor, Harde d'Ungor ou Harde de Centigor par tranche de 1000 points avec une Puissance d'Unité de 10 ou moins"
           }
+        },
+        {
+          "name_en": "The Sons of Ghorros",
+          "points": 2,
+          "perModel": true,
+          "notes": {
+            "name_en": "0-1 Centigor herd in the same muster list as Ghorros"
+          }
         }
       ],
       "mounts": [],
@@ -2975,7 +3030,7 @@
       "name_es": "Dragon Ogres",
       "name_fr": "Dragons Ogres",
       "id": "dragon-ogres",
-      "points": 56,
+      "points": 59,
       "minimum": 1,
       "maximum": 9,
       "armyComposition": {
@@ -3984,22 +4039,6 @@
           "perModel": true,
           "active": true,
           "name_fr": "Armes de base"
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapons",
-          "points": 3,
-          "perModel": true,
-          "name_fr": "Armes de base additionnelles"
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Great weapons",
-          "points": 4,
-          "perModel": true,
-          "name_fr": "Armes lourdes"
         }
       ],
       "armor": [
@@ -4013,16 +4052,35 @@
           "name_fr": "Armure légère (peau calleuse)"
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Additional hand weapons",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Great weapons",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "lores": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨",
+        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
         "name_de": "",
         "name_es": "",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité"
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {

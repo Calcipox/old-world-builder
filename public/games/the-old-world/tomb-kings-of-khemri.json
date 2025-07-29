@@ -203,7 +203,28 @@
           "name_fr": "Objets Magiques",
           "types": ["weapon", "armor", "talisman", "enchanted-item"],
           "selected": [],
-          "maxPoints": 100
+          "maxPoints": 100,
+          "armyComposition": "tomb-kings-of-khemri"
+        },
+        {
+          "name_en": "Magic Items",
+          "name_cn": "魔法物品",
+          "name_it": "Oggetti Magici",
+          "name_de": "Magische Gegenstände",
+          "name_fr": "Objets Magiques",
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item",
+            "arcane-item"
+          ],
+          "selected": [],
+          "maxPoints": 100,
+          "armyComposition": "nehekharan-royal-hosts",
+          "notes": {
+            "name_en": "Arcane items are only available if the Tomb King is a wizard"
+          }
         }
       ],
       "lores": [],
@@ -404,7 +425,28 @@
           "name_fr": "Objets Magiques",
           "types": ["weapon", "armor", "talisman", "enchanted-item"],
           "selected": [],
-          "maxPoints": 50
+          "maxPoints": 50,
+          "armyComposition": ["tomb-kings-of-khemri", "mortuary-cults"]
+        },
+        {
+          "name_en": "Magic Items",
+          "name_cn": "魔法物品",
+          "name_it": "Oggetti Magici",
+          "name_de": "Magische Gegenstände",
+          "name_fr": "Objets Magiques",
+          "types": [
+            "weapon",
+            "armor",
+            "talisman",
+            "enchanted-item",
+            "arcane-item"
+          ],
+          "selected": [],
+          "maxPoints": 50,
+          "armyComposition": "nehekharan-royal-hosts",
+          "notes": {
+            "name_en": "Arcane items are only available if the Tomb Prince is a wizard"
+          }
         }
       ],
       "lores": [],
@@ -683,15 +725,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_it": "Mago di 4° Livello",
-          "name_de": "Stufe 4 Zauberer",
-          "name_fr": "Sorcier de Niveau 4",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -832,14 +894,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_it": "Mago di 2° Livello",
-          "name_de": "Stufe 2 Zauberer",
-          "name_fr": "Sorcier de Niveau 2",
-          "points": 30,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -1093,6 +1176,7 @@
       "name_fr": "Settra l'Impérissable",
       "id": "settra-the-imperishable-the-great-king-of-nehekhara",
       "points": 445,
+      "named": true,
       "armyComposition": {
         "tomb-kings-of-khemri": {
           "category": "characters"
@@ -1169,6 +1253,7 @@
       "name_fr": "Prince Apophas",
       "id": "prince-apophas-the-cursed-scarab-lord",
       "points": 130,
+      "named": true,
       "command": [],
       "equipment": [
         {
@@ -1216,6 +1301,7 @@
       "name_fr": "Nekaph",
       "id": "nekaph-emissary-of-settra",
       "points": 120,
+      "named": true,
       "armyComposition": {
         "tomb-kings-of-khemri": {
           "category": "characters"
@@ -1884,7 +1970,7 @@
       "name_fr": "Chars Squelettes",
       "name_it": "Carri Scheletrici",
       "id": "skeleton-chariots",
-      "points": 43,
+      "points": 41,
       "minimum": 1,
       "maximum": 0,
       "command": [

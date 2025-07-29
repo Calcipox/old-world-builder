@@ -71,20 +71,38 @@
           "name_fr": "Sang d’Hashut",
           "points": 20,
           "perModel": true,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_de": "Level 4 Wizard",
-          "name_es": "Level 4 Wizard",
-          "name_fr": "Sorcier de Niveau 4",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -246,20 +264,38 @@
           "name_fr": "Sang d’Hashut",
           "points": 20,
           "perModel": true,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Level 2 Wizard",
-          "name_es": "Level 2 Wizard",
-          "name_fr": "Sorcier de Niveau 2",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -1171,10 +1207,10 @@
       ],
       "lores": [],
       "specialRules": {
-        "name_en": "Choppas, Da Boyz, Furious Charge*, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_en": "Choppas, Da Boyz, Furious Charge, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_cn": "大砍刀, 大只佬, 狂怒冲锋*, 无视恐慌, 抑制鲁莽, 集结战吼, Waaagh!",
-        "name_de": "Choppas, Da Boyz, Furious Charge*, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
-        "name_es": "Choppas, Da Boyz, Furious Charge*, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_de": "Choppas, Da Boyz, Furious Charge, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_es": "Choppas, Da Boyz, Furious Charge, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice*, Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!"
       },
       "notes": {
@@ -1371,10 +1407,10 @@
       ],
       "lores": [],
       "specialRules": {
-        "name_en": "Choppas, Da Boyz, Furious Charge*, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_en": "Choppas, Da Boyz, Furious Charge, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_cn": "大砍刀, 大只佬, 狂怒冲锋*, 无视恐慌, 抑制鲁莽, 集结战吼, Waaagh!",
-        "name_de": "Choppas, Da Boyz, Furious Charge*, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
-        "name_es": "Choppas, Da Boyz, Furious Charge*, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_de": "Choppas, Da Boyz, Furious Charge, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_es": "Choppas, Da Boyz, Furious Charge, Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice*, Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!"
       },
       "notes": {
@@ -1766,9 +1802,7 @@
           "name_es": "Shields",
           "name_fr": "Boucliers",
           "points": 1,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
           "name_en": "Great weapon",
@@ -1777,9 +1811,7 @@
           "name_es": "Great weapon",
           "name_fr": "Arme lourde",
           "points": 2,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
           "name_en": "Additional hand weapon",
@@ -1788,9 +1820,7 @@
           "name_es": "Additional hand weapon",
           "name_fr": "Arme de base additionnelle",
           "points": 1,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         }
       ],
       "mounts": [],

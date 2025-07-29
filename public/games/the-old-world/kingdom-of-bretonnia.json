@@ -103,7 +103,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
-          "points": 60
+          "points": 70
         },
         {
           "name_en": "Hippogryph",
@@ -329,7 +329,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
-          "points": 60
+          "points": 70
         },
         {
           "name_de": "Hippogreif",
@@ -406,11 +406,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_de": "Zauberin Stufe 4",
-          "name_fr": "Sorcier de Niveau 4",
-          "points": 30
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -448,7 +472,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
-          "points": 60
+          "points": 70
         }
       ],
       "items": [
@@ -654,7 +678,7 @@
           "name_cn": "皇家飞马",
           "name_de": "Königspegasus",
           "name_fr": "Pégase Royal",
-          "points": 60
+          "points": 70
         }
       ],
       "items": [
@@ -732,11 +756,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Zauberin Stufe 2",
-          "name_fr": "Sorcier de Niveau 2",
-          "points": 30
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -930,20 +978,44 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Zauberer der Stufe 2",
-          "name_es": "Level 2 Wizard",
-          "name_fr": "Sorcier de Niveau 2",
-          "points": 30
-        },
-        {
-          "name_en": "Level 3 Wizard",
-          "name_cn": "3级法师",
-          "name_de": "Zauberer der Stufe 3",
-          "name_es": "Level 3 Wizard",
-          "name_fr": "Sorcier de Niveau 3",
-          "points": 60
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            },
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Zauberer der Stufe 3",
+              "name_es": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "points": 60,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -1010,6 +1082,7 @@
       "name_fr": "Le Chevalier de Sinople",
       "id": "the-green-knight",
       "points": 275,
+      "named": true,
       "command": [],
       "equipment": [
         {
@@ -1050,6 +1123,7 @@
       "name_fr": "Sir Cecil Gastonne",
       "id": "sir-cecil-gastonne-the-wyrm-slayer",
       "points": 165,
+      "named": true,
       "command": [
         {
           "name_en": "General",
@@ -1099,6 +1173,7 @@
       "name_fr": "Dame Élisse Duchaard",
       "id": "lady-élisse-duachaard",
       "points": 225,
+      "named": true,
       "command": [
         {
           "name_en": "General",
@@ -2001,7 +2076,7 @@
       "name_de": "Pegasusritter",
       "name_fr": "Chevaliers Pégases",
       "id": "pegasus-knights",
-      "points": 55,
+      "points": 59,
       "minimum": 3,
       "maximum": 0,
       "command": [
@@ -2073,10 +2148,10 @@
       ],
       "mounts": [],
       "specialRules": {
-        "name_en": "Blessings of the Lady, Counter Charge, Dispersed Formation, First Charge, Fly (10), Furious Charge (Pegasus Knights & First Knight only), Lance Formation, Skirmishers, Swiftstride, The Knight's Vow",
-        "name_cn": "女神祝福, 反制冲锋, 分散阵型, 先行冲锋, 飞行(10), 狂怒冲锋(仅限飞马骑士&首席骑士), 枪骑阵型, 散兵, 快速行进, 骑士誓言",
-        "name_de": "Blessings of the Lady, Counter Charge, Dispersed Formation, First Charge, Fly (10), Furious Charge (Pegasus Knights & First Knight only), Lance Formation, Skirmishers, Swiftstride, The Knight's Vow",
-        "name_fr": "Bénédiction de la Dame, Contre-charge, Formation Éparse, Première Charge, Vol (10), Charge Dévastatrice (Chevaliers Pégases & Champion Pégase uniquement), Formation en Fer de Lance, Tirailleurs, Rapide, le Vœu du Chevalier"
+        "name_en": "Blessings of the Lady, Counter Charge, Dispersed Formation, First Charge, Fly (10), Furious Charge (Pegasus Knights & First Knight only), Skirmishers, Swiftstride, The Knight's Vow",
+        "name_cn": "女神祝福, 反制冲锋, 分散阵型, 先行冲锋, 飞行(10), 狂怒冲锋(仅限飞马骑士&首席骑士), 散兵, 快速行进, 骑士誓言",
+        "name_de": "Blessings of the Lady, Counter Charge, Dispersed Formation, First Charge, Fly (10), Furious Charge (Pegasus Knights & First Knight only), Skirmishers, Swiftstride, The Knight's Vow",
+        "name_fr": "Bénédiction de la Dame, Contre-charge, Formation Éparse, Première Charge, Vol (10), Charge Dévastatrice (Chevaliers Pégases & Champion Pégase uniquement), Tirailleurs, Rapide, le Vœu du Chevalier"
       }
     },
     {

@@ -201,6 +201,7 @@
           "name_de": "Schwarzork-Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers Orque Noir",
           "points": 130,
+          "armyComposition": "nomadic-waaagh",
           "options": [
             {
               "name_en": "Hand weapons, Additional hand weapons",
@@ -1095,14 +1096,35 @@
       ],
       "options": [
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_de": "Stufe 4 Zauberer",
-          "name_fr": "Sorcier de Niveau 4",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         },
         {
           "name_en": "Warpaint",
@@ -1221,14 +1243,35 @@
       ],
       "options": [
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Stufe 2 Zauberer",
-          "name_fr": "Sorcier de Niveau 2",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         },
         {
           "name_en": "Warpaint",
@@ -1669,14 +1712,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_de": "Stufe 4 Zauberer",
-          "name_fr": "Sorcier de Niveau 4",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -1807,14 +1871,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Stufe 2 Zauberer",
-          "name_fr": "Sorcier de Niveau 2",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -2197,14 +2282,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_de": "Stufe 4 Zauberer",
-          "name_fr": "Sorcier de Niveau 4",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -2273,14 +2379,35 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Stufe 2 Zauberer",
-          "name_fr": "Sorcier de Niveau 2",
-          "points": 30,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -2323,6 +2450,7 @@
       "name_pl": "Kiknik Toofsnatcha",
       "id": "kiknik-toofsnatcha",
       "points": 105,
+      "named": true,
       "command": [
         {
           "name_en": "General",
@@ -2395,6 +2523,7 @@
       "name_pl": "Ogdruz Swampdigga",
       "id": "ogdruz-swampdigga",
       "points": 195,
+      "named": true,
       "armyComposition": {
         "orc-and-goblin-tribes": {
           "category": "characters"
@@ -2519,17 +2648,35 @@
       ],
       "options": [
         {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Stufe 2 Zauberer",
-          "name_es": "Level 2 Wizard",
-          "name_fr": "Sorcier de Niveau 2",
-          "name_it": "Level 2 Wizard",
-          "name_pl": "Level 2 Wizard",
-          "points": 35,
-          "stackable": false,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 1 Wizard",
+              "name_cn": "1级法师",
+              "name_de": "Level 1 Wizard",
+              "name_fr": "Sorcier de Niveau 1",
+              "name_es": "Hechicero de Nivel 1",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 2 Wizard",
+              "name_cn": "2级法师",
+              "name_de": "Level 2 Wizard",
+              "name_fr": "Sorcier de Niveau 2",
+              "name_es": "Hechicero de Nivel 2",
+              "points": 35,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [],
@@ -2597,22 +2744,6 @@
           "perModel": true,
           "active": true,
           "equippedDefault": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Zusätzliche Handwaffen",
-          "name_fr": "Armes de base additionnelles",
-          "points": 3,
-          "perModel": true
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Zweihandwaffen",
-          "name_fr": "Armes lourdes",
-          "points": 4,
-          "perModel": true
         }
       ],
       "armor": [
@@ -2630,15 +2761,34 @@
           }
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨",
-        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit",
-        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité"
+        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
+        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
+        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {
@@ -2672,22 +2822,6 @@
           "perModel": true,
           "active": true,
           "equippedDefault": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Zusätzliche Handwaffen",
-          "name_fr": "Armes de base additionnelles",
-          "points": 3,
-          "perModel": true
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Zweihandwaffen",
-          "name_fr": "Armes lourdes",
-          "points": 4,
-          "perModel": true
         }
       ],
       "armor": [
@@ -2706,15 +2840,34 @@
           }
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨",
-        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit",
-        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité"
+        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
+        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
+        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {
@@ -2748,22 +2901,6 @@
           "perModel": true,
           "active": true,
           "equippedDefault": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Zusätzliche Handwaffen",
-          "name_fr": "Armes de base additionnelles",
-          "points": 3,
-          "perModel": true
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Zweihandwaffen",
-          "name_fr": "Armes lourdes",
-          "points": 4,
-          "perModel": true
         }
       ],
       "armor": [
@@ -2782,15 +2919,34 @@
           }
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 坚硬皮肤(1), 紧密阵型, 恐惧, 易燃, 魔法抗性(-1), 重生(5+), 愚笨",
-        "name_de": "Rüstungsfluch (1), Zähe Haut (1), Geschlossen Ränge, Angst, Brennbar, Magieresistenz (-1), Regeneration (5+), Blödheit",
-        "name_es": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity",
-        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité"
+        "name_en": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 坚硬皮肤(1), 紧密阵型, 恐惧, 易燃, 魔法抗性(-1), 重生(5+), 愚笨, Motley Crew",
+        "name_de": "Rüstungsfluch (1), Zähe Haut (1), Geschlossen Ränge, Angst, Brennbar, Magieresistenz (-1), Regeneration (5+), Blödheit, Motley Crew",
+        "name_es": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity, Motley Crew",
+        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {
@@ -3071,9 +3227,7 @@
           "name_de": "Unnachgiebig",
           "name_fr": "Obstiné",
           "points": 1,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "perModel": true
         },
         {
           "name_en": "Veteran",
@@ -3081,9 +3235,7 @@
           "name_de": "Veteranen",
           "name_fr": "Vétérans",
           "points": 1,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0
+          "perModel": true
         },
         {
           "name_en": "Shields",
@@ -3091,9 +3243,7 @@
           "name_de": "Schilde",
           "name_fr": "Boucliers",
           "points": 1,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
           "name_en": "Great weapons",
@@ -3101,9 +3251,7 @@
           "name_de": "Zweihandwaffen",
           "name_fr": "Armes lourdes",
           "points": 2,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
           "name_en": "Additional hand weapons",
@@ -3111,9 +3259,7 @@
           "name_de": "Zusätzliche Handwaffen",
           "name_fr": "Armes de base additionnelles",
           "points": 1,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         }
       ],
       "mounts": [],
@@ -4096,9 +4242,7 @@
           "name_de": "Schilde",
           "name_fr": "Boucliers",
           "points": 1,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
           "name_en": "Great weapons",
@@ -4106,9 +4250,7 @@
           "name_de": "Zweihandwaffen",
           "name_fr": "Armes lourdes",
           "points": 2,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         },
         {
           "name_en": "Additional hand weapons",
@@ -4116,9 +4258,7 @@
           "name_de": "Zusätzliche Handwaffen",
           "name_fr": "Armes de base additionnelles",
           "points": 1,
-          "stackable": true,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": true
         }
       ],
       "mounts": [],
@@ -4533,22 +4673,6 @@
           "perModel": true,
           "active": true,
           "equippedDefault": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Zusätzliche Handwaffen",
-          "name_fr": "Armes de base additionnelles",
-          "points": 3,
-          "perModel": true
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Zweihandwaffen",
-          "name_fr": "Armes lourdes",
-          "points": 4,
-          "perModel": true
         }
       ],
       "armor": [
@@ -4567,15 +4691,34 @@
           }
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨",
-        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit",
-        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité"
+        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
+        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
+        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {
@@ -4606,22 +4749,6 @@
           "perModel": true,
           "active": true,
           "equippedDefault": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Zusätzliche Handwaffen",
-          "name_fr": "Armes de base additionnelles",
-          "points": 3,
-          "perModel": true
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Zweihandwaffen",
-          "name_fr": "Armes lourdes",
-          "points": 4,
-          "perModel": true
         }
       ],
       "armor": [
@@ -4639,15 +4766,34 @@
           }
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨",
-        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit",
-        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité"
+        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
+        "name_de": "Rüstungsfluch (1), Geschlossen Ränge, Angst, Brennbar, Regeneration (5+), Blödheit, Motley Crew",
+        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {
@@ -4678,22 +4824,6 @@
           "perModel": true,
           "active": true,
           "equippedDefault": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Zusätzliche Handwaffen",
-          "name_fr": "Armes de base additionnelles",
-          "points": 3,
-          "perModel": true
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Zweihandwaffen",
-          "name_fr": "Armes lourdes",
-          "points": 4,
-          "perModel": true
         }
       ],
       "armor": [
@@ -4712,15 +4842,34 @@
           }
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Zusätzliche Handwaffen",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Zweihandwaffen",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 坚硬皮肤(1), 紧密阵型, 恐惧, 易燃, 魔法抗性(-1), 重生(5+), 愚笨",
-        "name_de": "Rüstungsfluch (1), Zähe Haut (1), Geschlossen Ränge, Angst, Brennbar, Magieresistenz (-1), Regeneration (5+), Blödheit",
-        "name_es": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity",
-        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité"
+        "name_en": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 坚硬皮肤(1), 紧密阵型, 恐惧, 易燃, 魔法抗性(-1), 重生(5+), 愚笨, Motley Crew",
+        "name_de": "Rüstungsfluch (1), Zähe Haut (1), Geschlossen Ränge, Angst, Brennbar, Magieresistenz (-1), Regeneration (5+), Blödheit, Motley Crew",
+        "name_es": "Armour Bane (1), Armoured Hide (1), Close Order, Fear, Flammable, Magic Resistance (-1), Regeneration (5+), Stupidity, Motley Crew",
+        "name_fr": "Arme Perforante (1), Peau Blindée (1), Ordre Serré, Peur, Inflammable, Résistance à la Magie (-1), Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {

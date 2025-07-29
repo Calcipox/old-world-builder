@@ -365,7 +365,7 @@
           "maxPoints": 50
         }
       ],
-      "lores": ["none", "battle-magic", "daemonology", "dark-magic"],
+      "lores": ["battle-magic", "daemonology", "dark-magic"],
       "specialRules": {
         "name_en": "Chaos Armour {warriors of chaos} (4+), Ensorcelled Weapons, Fear, Gaze of the Gods, Immune to Psychology, Lore of Chaos, Regeneration (5+), Unbreakable, Unstable, Warp-spawned",
         "name_cn": "混沌甲 {warriors of chaos}(4+), 附魔武器, 恐惧, 诸神凝视, 心理免疫, 混沌法系, 重生(5+), 永不战败, 不稳定, 次元产物",
@@ -927,14 +927,35 @@
           "maximum": 0
         },
         {
-          "name_en": "Level 4 Wizard",
-          "name_cn": "4级法师",
-          "name_de": "Level 4 Wizard",
-          "name_es": "Level 4 Wizard",
-          "name_fr": "Sorcier de Niveau 4",
-          "points": 30,
-          "minimum": 0,
-          "maximum": 0
+          "name_en": "Wizard",
+          "name_cn": "法师",
+          "name_de": "Wizard",
+          "name_fr": "Sorcier",
+          "name_es": "Hechicero",
+          "points": 0,
+          "active": true,
+          "alwaysActive": true,
+          "options": [
+            {
+              "name_en": "Level 3 Wizard",
+              "name_cn": "3级法师",
+              "name_de": "Level 3 Wizard",
+              "name_fr": "Sorcier de Niveau 3",
+              "name_es": "Hechicero de Nivel 3",
+              "points": 0,
+              "exclusive": true,
+              "active": true
+            },
+            {
+              "name_en": "Level 4 Wizard",
+              "name_cn": "4级法师",
+              "name_de": "Level 4 Wizard",
+              "name_fr": "Sorcier de Niveau 4",
+              "name_es": "Hechicero de Nivel 4",
+              "points": 30,
+              "exclusive": true
+            }
+          ]
         }
       ],
       "mounts": [
@@ -1365,6 +1386,24 @@
           ]
         },
         {
+          "name_en": "Manticore {warriors of chaos}",
+          "name_cn": "蝎尾狮 {warriors of chaos}",
+          "name_de": "Manticore",
+          "name_es": "Manticore",
+          "name_fr": "Manticore",
+          "points": 120,
+          "options": [
+            {
+              "name_en": "Venomous tail",
+              "name_cn": "毒液尾刺",
+              "name_de": "Venomous tail",
+              "name_es": "Venomous tail",
+              "name_fr": "Queue venimeuse",
+              "points": 15
+            }
+          ]
+        },
+        {
           "name_en": "Gorebeast Chariot",
           "name_cn": "戈尔兽战车",
           "name_de": "Gorebeast Chariot",
@@ -1474,6 +1513,14 @@
               "exclusive": true
             }
           ]
+        },
+        {
+          "name_en": "Chaos Dragon",
+          "name_cn": "混沌龙",
+          "name_de": "Chaos Dragon",
+          "name_es": "Chaos Dragon",
+          "name_fr": "Dragon du Chaos",
+          "points": 285
         }
       ],
       "items": [
@@ -1947,6 +1994,14 @@
           "points": 16
         },
         {
+          "name_en": "Daemonic Mount",
+          "name_cn": "恶魔坐骑",
+          "name_de": "Daemonic Mount",
+          "name_es": "Daemonic Mount",
+          "name_fr": "Monture Démoniaque",
+          "points": 35
+        },
+        {
           "name_en": "Chaos Chariot",
           "name_cn": "混沌战车",
           "name_de": "Chaos Chariot",
@@ -2415,8 +2470,7 @@
       "name_pl": "Frydaal the Chainmaker",
       "id": "frydaal-the-chainmaker",
       "points": 235,
-      "minimum": 0,
-      "maximum": 0,
+      "named": true,
       "regimentalUnit": false,
       "detachment": false,
       "armyComposition": {
@@ -2498,8 +2552,7 @@
       "name_pl": "Galrauch",
       "id": "galrauch",
       "points": 465,
-      "minimum": 0,
-      "maximum": 0,
+      "named": true,
       "regimentalUnit": false,
       "detachment": false,
       "command": [
@@ -2903,11 +2956,11 @@
       "items": [],
       "lores": [],
       "specialRules": {
-        "name_en": "Close Order, Ensorcelled Weapons, First Charge, Swiftstride",
-        "name_cn": "紧密阵型, 附魔武器, 先行冲锋, 快速行进",
-        "name_de": "Close Order, Ensorcelled Weapons, First Charge, Swiftstride",
-        "name_es": "Close Order, Ensorcelled Weapons, First Charge, Swiftstride",
-        "name_fr": "Ordre Serré, Armes Ensorcelées, Première Charge, Rapide"
+        "name_en": "Close Order, Ensorcelled Weapons, First Charge, Swiftstride, Counter Charge",
+        "name_cn": "紧密阵型, 附魔武器, 先行冲锋, 快速行进, Counter Charge",
+        "name_de": "Close Order, Ensorcelled Weapons, First Charge, Swiftstride, Counter Charge",
+        "name_es": "Close Order, Ensorcelled Weapons, First Charge, Swiftstride, Counter Charge",
+        "name_fr": "Ordre Serré, Armes Ensorcelées, Première Charge, Rapide, Counter Charge"
       }
     },
     {
@@ -3680,7 +3733,17 @@
           "active": false
         }
       ],
-      "armor": [],
+      "armor": [
+        {
+          "name_en": "Light armour",
+          "name_cn": "轻甲",
+          "name_de": "Light armour",
+          "name_es": "Light armour",
+          "name_fr": "Armure légère",
+          "points": 0,
+          "active": true
+        }
+      ],
       "options": [
         {
           "name_en": "Throwing axes",
@@ -4625,24 +4688,6 @@
           "points": 0,
           "perModel": true,
           "active": true
-        },
-        {
-          "name_en": "Additional hand weapons",
-          "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapons",
-          "name_es": "Additional hand weapons",
-          "name_fr": "Armes de base additionnelles",
-          "points": 3,
-          "perModel": true
-        },
-        {
-          "name_en": "Great weapons",
-          "name_cn": "重型武器",
-          "name_de": "Great weapons",
-          "name_es": "Great weapons",
-          "name_fr": "Armes lourdes",
-          "points": 4,
-          "perModel": true
         }
       ],
       "armor": [
@@ -4657,16 +4702,37 @@
           "active": true
         }
       ],
-      "options": [],
+      "options": [
+        {
+          "name_en": "Additional hand weapons",
+          "name_cn": "额外单手武器",
+          "name_de": "Additional hand weapons",
+          "name_es": "Additional hand weapons",
+          "name_fr": "Armes de base additionnelles",
+          "points": 3,
+          "perModel": true,
+          "stackable": true
+        },
+        {
+          "name_en": "Great weapons",
+          "name_cn": "重型武器",
+          "name_de": "Great weapons",
+          "name_es": "Great weapons",
+          "name_fr": "Armes lourdes",
+          "points": 4,
+          "perModel": true,
+          "stackable": true
+        }
+      ],
       "mounts": [],
       "items": [],
       "lores": [],
       "specialRules": {
-        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨",
-        "name_de": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity",
-        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité"
+        "name_en": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_cn": "碎甲攻击(1), 紧密阵型, 恐惧, 易燃, 重生(5+), 愚笨, Motley Crew",
+        "name_de": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_es": "Armour Bane (1), Close Order, Fear, Flammable, Regeneration (5+), Stupidity, Motley Crew",
+        "name_fr": "Arme Perforante (1), Ordre Serré, Peur, Inflammable, Régénération (5+), Stupidité, Motley Crew"
       }
     },
     {
@@ -4780,7 +4846,7 @@
       "name_fr": "Dragons Ogres",
       "id": "dragon-ogres",
       "magicItemsArmy": "beastmen-brayherds",
-      "points": 56,
+      "points": 59,
       "minimum": 1,
       "maximum": 9,
       "armyComposition": {
@@ -5208,9 +5274,7 @@
           "name_pl": "Shields",
           "points": 1,
           "perModel": true,
-          "stackable": false,
-          "minimum": 0,
-          "maximum": 0
+          "stackable": false
         },
         {
           "name_en": "Drilled",
@@ -5814,7 +5878,7 @@
       ],
       "mounts": [],
       "items": [],
-      "lores": ["none", "battle-magic", "daemonology", "dark-magic"],
+      "lores": ["battle-magic", "daemonology", "dark-magic"],
       "specialRules": {
         "name_en": "Explosive Demise, Fire & Chaos, Fly (10), Large Target, Lore of Chaos, Magical Attacks, Magic Resistance (-2), Mark of Chaos Undivided, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Warpfire Aura, Close Order",
         "name_cn": "爆炸衰亡, 混沌之火, 飞行(10), 大型目标, 混沌法系, 魔法攻击, 魔法抗性(-2), 混沌无分之印, 重生(5+), 践踏攻击(D6), 快速行进, 惊骇, 次元火光环, 紧密阵型",
