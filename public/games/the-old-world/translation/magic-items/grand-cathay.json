@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Alchemist's Mask": {
+      "name_fr": "Masque de l'Alchimiste"
+    },
+    "Banner of the Bastion": {
+      "name_fr": "Bannière du Bastion"
+    },
+    "Cloak of Po Mei": {
+      "name_fr": "Cape de Po Mei"
+    },
+    "Crown of Jade": {
+      "name_fr": "Couronne de Jade"
+    },
+    "Crystal of Kunlan": {
+      "name_fr": "Cristal de Kunlan"
+    },
+    "Dragon's Eye Banner": {
+      "name_fr": "Bannière de l'Œil du Dragon"
+    },
+    "Guardian Feng Shi Bo": {
+      "name_fr": "Gardien Feng Shi Bo"
+    },
+    "Icon of Heavenly Fury": {
+      "name_fr": "Icône de Fureur Céleste"
+    },
+    "Jade Blade of the Great Fleet": {
+      "name_fr": "Lame de Jade de la Grande Flotte"
+    },
+    "Learned Feng Shi Bo": {
+      "name_fr": "Érudit Feng Shi Bo"
+    },
+    "Maw Shard": {
+      "name_fr": "Éclat de la Gueule"
+    },
+    "Shield of Nan-Gau": {
+      "name_fr": "Bouclier de Nan-Gau"
+    },
+    "Spirit Lantern": {
+      "name_fr": "Lanterne des Esprits"
+    },
+    "Spirit Longma Spear": {
+      "name_fr": "Lance de l'Esprit Longma"
+    },
+    "Standard of Wei-Jin": {
+      "name_fr": "Étendard de Wei-Jin"
+    },
+    "Sun & Moon Blades": {
+      "name_fr": "Lames du Soleil & de la Lune"
+    },
+    "The Armour of the Warbird": {
+      "name_fr": "L'Armure de l'Oiseau de Guerre"
+    },
+    "The Monkey King's Wisdom": {
+      "name_fr": "La Sagesse du Roi des Singes"
+    }
+  },
+  "regex": {}
+}

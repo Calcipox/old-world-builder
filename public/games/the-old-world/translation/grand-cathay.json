@@ -1,0 +1,210 @@
+{
+  "direct": {
+    "Cannot take shields": {
+      "name_fr": "Ne peut prendre de boucliers"
+    },
+    "Cathayan Cataphracts": {
+      "name_fr": "Cataphractaires Cathayens"
+    },
+    "Cathayan Grand Cannon": {
+      "name_fr": "Grand Canon Cathayen"
+    },
+    "Cathayan Sentinel": {
+      "name_fr": "Sentinelle Cathayenne"
+    },
+    "Cathayan Warhorse": {
+      "name_fr": "Destrier Cathayen"
+    },
+    "Cathayan lance": {
+      "name_fr": "Lance cathayennes"
+    },
+    "Cathayan lances": {
+      "name_fr": "Lances cathayennes"
+    },
+    "Celestial Dragon Guard": {
+      "name_fr": "Garde du Dragon Céleste"
+    },
+    "Celestial Forged Armour": {
+      "name_fr": "Armure Céleste"
+    },
+    "Celestial blade": {
+      "name_fr": "Lame Céleste"
+    },
+    "Crown of horns": {
+      "name_fr": "Couronne de Cornes"
+    },
+    "Defensive Stance": {
+      "name_fr": "Posture Défensive"
+    },
+    "Disdain of the Dragons": {
+      "name_fr": "Dédain des Dragons"
+    },
+    "Disengage": {
+      "name_fr": "Désengagement"
+    },
+    "Dragon Form": {
+      "name_fr": "Forme de Dragon"
+    },
+    "Dragon fire": {
+      "name_fr": "Feu de dragon"
+    },
+    "Dragon fire bombs": {
+      "name_fr": "Bombes de feu du dragon"
+    },
+    "Dragon fire pistol": {
+      "name_fr": "Pistolet feu de dragon"
+    },
+    "Eye of the Dragon": {
+      "name_fr": "Œil du Dragon"
+    },
+    "Fire Rain Rocket Battery": {
+      "name_fr": "Batterie de Fusées Pluie de Feu"
+    },
+    "Fire rain rocket": {
+      "name_fr": "Batterie Pluie de Feu"
+    },
+    "Gate Keeper": {
+      "name_fr": "Gardien des Portes"
+    },
+    "Gate Master": {
+      "name_fr": "Maître des Portes"
+    },
+    "Grand Strategist": {
+      "name_fr": "Stratège"
+    },
+    "Grand cannon": {
+      "name_fr": "Grand canon"
+    },
+    "Granite Sentinel": {
+      "name_fr": "Sentinelle de Granit"
+    },
+    "Great Spirit Longma": {
+      "name_fr": "Grand Esprit Longma"
+    },
+    "Great blade": {
+      "name_fr": "Grande lame"
+    },
+    "Gunpowder bombs": {
+      "name_fr": "Bombes de poudre à canon"
+    },
+    "Harmony of Stone & Steel": {
+      "name_fr": "Harmonie de la Pierre & de l'Acier"
+    },
+    "Heavenly Beacon": {
+      "name_fr": "Fanal Céleste"
+    },
+    "Human Form": {
+      "name_fr": "Forme Humaine"
+    },
+    "Implacable": {
+      "name_fr": "Implacable"
+    },
+    "Iron hail guns": {
+      "name_fr": "Canons grêle de fer"
+    },
+    "Iron talons": {
+      "name_fr": "Serres de fer"
+    },
+    "Jade Lancer Officer": {
+      "name_fr": "Officier Lancier de Jade"
+    },
+    "Jade Lancers": {
+      "name_fr": "Lanciers de Jade"
+    },
+    "Jade Officer": {
+      "name_fr": "Officier de Jade"
+    },
+    "Jade Sentinel": {
+      "name_fr": "Sentinelle de Jade"
+    },
+    "Jade Warriors": {
+      "name_fr": "Guerriers de Jade"
+    },
+    "Lord Magistrate": {
+      "name_fr": "Seigneur Magistrat"
+    },
+    "Lore of Yang": {
+      "name_fr": "Domaine du Yang"
+    },
+    "Lore of Yin": {
+      "name_fr": "Domaine du Yin"
+    },
+    "Mastery of the Elemental Winds": {
+      "name_fr": "Maîtrise des Vents Élémentaires"
+    },
+    "Mastery of the Storm Winds": {
+      "name_fr": "Maîtrise des Vents de la Tempête"
+    },
+    "Miao Ying": {
+      "name_fr": "Miao Ying"
+    },
+    "Obsidian Sentinel": {
+      "name_fr": "Sentinelle d'Obsidienne"
+    },
+    "Ogre Loader": {
+      "name_fr": "Chargeur Ogre"
+    },
+    "Shugengan": {
+      "name_fr": "Shugengan"
+    },
+    "Shugengan General": {
+      "name_fr": "Général Shugengan"
+    },
+    "Shugengan Lord": {
+      "name_fr": "Seigneur Shugengan"
+    },
+    "Sky Lantern": {
+      "name_fr": "Lanterne Céleste"
+    },
+    "Sky Lantern Crane Guns": {
+      "name_fr": "Canons Grues de Lanterne Céleste"
+    },
+    "Sky Lantern bombs": {
+      "name_fr": "Bombes de Lanterne Céleste"
+    },
+    "Strategist": {
+      "name_fr": "Stratège"
+    },
+    "Supreme Matriarch of Nan-Gau": {
+      "name_fr": "Matriarche Suprême de Nan-Gau"
+    },
+    "Talons of the Storm": {
+      "name_fr": "Serres de la Tempête"
+    },
+    "Terracotta Sentinel": {
+      "name_fr": "Sentinelle de Terre Cuite"
+    },
+    "Terracotta armour": {
+      "name_fr": "Armure de terre cuite"
+    },
+    "Transformation of the Dragon": {
+      "name_fr": "Transformation du Dragon"
+    },
+    "Warpstone Sentinel": {
+      "name_fr": "Sentinelle de Malepierre"
+    },
+    "Warriors of Chaos & Daemonic models": {
+      "name_fr": "Guerriers du Chaos & figurines Démoniaques"
+    },
+    "Will of the Dragons": {
+      "name_fr": "Volonté des Dragons"
+    },
+    "Wrath of the Storm": {
+      "name_fr": "Courroux de la Tempête"
+    }
+  },
+  "regex": {
+    "D(\\d) - ([a-zA-Z\\s-]+)": {
+      "name_fr": "D$1 - $2"
+    },
+    "(\\d-\\d) unit if ([a-zA-Z\\s-]+) is the army's General": {
+      "name_fr": "$1 unité si $2 est la Générale de l'armée"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s-]+) may be taken as a Special choice per (\\d+) points if your General is a ([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1 $2 peut être pris comme choix Spécial par tranche de $3 points si votre Général est un $4 ou un $5"
+    },
+    "Must choose ([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+)": {
+      "name_fr": "Doit choisir le $1 ou le $2"
+    }
+  }
+}
