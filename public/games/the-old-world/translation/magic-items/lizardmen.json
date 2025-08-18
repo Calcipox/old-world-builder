@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Aura of Quetzl": {
+      "name_fr": "Aura de Quetzl"
+    },
+    "Blade of Revered Tzunki": {
+      "name_fr": "Lame du Révéré Tzunki"
+    },
+    "Cloak of Feathers": {
+      "name_fr": "Manteau de Plumes"
+    },
+    "Cube of Darkness": {
+      "name_fr": "Cube de Ténèbres"
+    },
+    "Cupped Hands of the Old Ones": {
+      "name_fr": "Main des Anciens"
+    },
+    "Glyph Necklace": {
+      "name_fr": "Collier de Glyphes"
+    },
+    "Hide of the Cold Ones": {
+      "name_fr": "Peau de Sang-froid"
+    },
+    "Horned One": {
+      "name_fr": "Cornu"
+    },
+    "Itxi Grub": {
+      "name_fr": "Larve d'Itxi"
+    },
+    "Jaguar Standard": {
+      "name_fr": "Bannière du Jaguar"
+    },
+    "Piranha Blade": {
+      "name_fr": "Lame Piranha"
+    },
+    "Scimitar of the Sun Resplendent": {
+      "name_fr": "Cimeterre du Soleil Resplendissant"
+    },
+    "Shield of the Mirror Pool": {
+      "name_fr": "Bouclier du Bassin Miroitant"
+    },
+    "Skavenpelt Banner": {
+      "name_fr": "Bannière en Peau de skaven"
+    },
+    "Staff of the Lost Sun": {
+      "name_fr": "Bâton du Soleil Perdu"
+    },
+    "Sun Standard of Chotec": {
+      "name_fr": "Étendard du Soleil de Chotec"
+    },
+    "Totem of Prophecy": {
+      "name_fr": "Totem de Prophétie"
+    },
+    "Venom of the Firefly Frog": {
+      "name_fr": "Venin du Crapaud Luciole"
+    }
+  },
+  "regex": {}
+}

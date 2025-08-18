@@ -1,0 +1,26 @@
+{
+  "direct": {
+    "Becalming Cogitation": {
+      "name_fr": "Aphorisme Apaisant"
+    },
+    "Harrowing Scrutiny": {
+      "name_fr": "Regard Pénétrant"
+    },
+    "Higher State of Mind": {
+      "name_fr": "État Supérieur de Conscience"
+    },
+    "Sorcerous Void": {
+      "name_fr": "Présence Surnaturelle"
+    },
+    "Soul of Stone": {
+      "name_fr": "Âme de Marbre"
+    },
+    "Transcendent Healing": {
+      "name_fr": "Guérison Transcendantale"
+    },
+    "Wandering Deliberations": {
+      "name_fr": "Réflexions Vagabondes"
+    }
+  },
+  "regex": {}
+}

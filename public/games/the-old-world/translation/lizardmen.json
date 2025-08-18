@@ -88,10 +88,13 @@
       "name_fr": "Domaine de Lustrie"
     },
     "Obsidian Blades": {
-      "name_fr": "Lames Obsidienne"
+      "name_fr": "Lames d'Obsidienne"
     },
     "Pack Leader": {
       "name_fr": "Chef de Meute"
+    },
+    "Palanquin": {
+      "name_fr": "Palanquin"
     },
     "Patrol Leader": {
       "name_fr": "Chef de Patrouille"
@@ -106,7 +109,7 @@
       "name_fr": "Razordon"
     },
     "Razordon Pack": {
-      "name_fr": "Meute de Razordon"
+      "name_fr": "Meute de Razordons"
     },
     "Revered Guardian": {
       "name_fr": "Gardien Révéré"
@@ -124,7 +127,7 @@
       "name_fr": "Salamandre"
     },
     "Salamander Pack": {
-      "name_fr": "Meute de Salamandre"
+      "name_fr": "Meute de Salamandres"
     },
     "Saurus Oldblood": {
       "name_fr": "Sang Ancien Saurus"
@@ -160,7 +163,7 @@
       "name_fr": "Chef Céleste"
     },
     "Slann Mage-Priest": {
-      "name_fr": "Prêtre-mage Slann"
+      "name_fr": "Prêtre-Mage Slann"
     },
     "Solar Engine": {
       "name_fr": "Machine Solaire"
@@ -193,7 +196,10 @@
       "name_fr": "Crachat de venin"
     },
     "Venomous talons": {
-      "name_fr": "Griffes venimeuses"
+      "name_fr": "Serres venimeuses"
+    },
+    "Wisdom of the Old Ones": {
+      "name_fr": "Sagesse des Anciens"
     }
   },
   "regex": {
@@ -205,6 +211,9 @@
     },
     "gains ([a-zA-Z\\s]+) special rule when choosing ([a-zA-Z\\s]+) weapon option": {
       "name_fr": "gagne la règle spéciale $1 si l'option d'arme $2 est choisie"
+    },
+    "if your general is a ([a-zA-Z\\s-]+)": {
+      "name_fr": "si votre général est un $1"
     }
   }
 }
