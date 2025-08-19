@@ -1,0 +1,216 @@
+{
+  "direct": {
+    "Abyssal Terror": {
+      "name_fr": "Terreur des Abysses"
+    },
+    "Accursed Weapons": {
+      "name_fr": "Armes Maudites"
+    },
+    "Balefire Brazier": {
+      "name_fr": "Brasero Infernal"
+    },
+    "Banner of the Count": {
+      "name_fr": "Bannière du Comte"
+    },
+    "Bat Swarms": {
+      "name_fr": "Nuées de Chauves-souris"
+    },
+    "Bestial Fury": {
+      "name_fr": "Furie Bestiale"
+    },
+    "Black Coach": {
+      "name_fr": "Carrosse Noir"
+    },
+    "Black Knights": {
+      "name_fr": "Chevaliers Noirs"
+    },
+    "Blood Knights": {
+      "name_fr": "Chevaliers de Sang"
+    },
+    "Bound Spirits": {
+      "name_fr": "Esprits Liés"
+    },
+    "Cairn Wraith": {
+      "name_fr": "Spectres des Cairns"
+    },
+    "Corpse Cart": {
+      "name_fr": "Charrette Macabre"
+    },
+    "Corpsemaster": {
+      "name_fr": "Croque-mort"
+    },
+    "Coven Throne": {
+      "name_fr": "Trône de Sabbat"
+    },
+    "Crypt Ghast": {
+      "name_fr": "Nécrophage"
+    },
+    "Crypt Ghouls": {
+      "name_fr": "Goules"
+    },
+    "Crypt Haunter": {
+      "name_fr": "Hideur des Cryptes"
+    },
+    "Crypt Horrors": {
+      "name_fr": "Horreurs des Cryptes"
+    },
+    "Dark Vitality": {
+      "name_fr": "Sombre Vitalité"
+    },
+    "Dire Wolves": {
+      "name_fr": "Loup Funeste"
+    },
+    "Doom Wolf": {
+      "name_fr": "Loup de Sang"
+    },
+    "Fell Bats": {
+      "name_fr": "Chauves-Souris Géantes"
+    },
+    "Filth-encrusted claws": {
+      "name_fr": "Griffes crasseuses"
+    },
+    "Filth-encrusted talons": {
+      "name_fr": "Serres crasseuses"
+    },
+    "Grave Guard": {
+      "name_fr": "Garde des Cryptes"
+    },
+    "Hell Knight": {
+      "name_fr": "Chevalier Infernal"
+    },
+    "Hellwraith": {
+      "name_fr": "Émissaire Infernal"
+    },
+    "Hexwraiths": {
+      "name_fr": "Émissaires d’Outre-tombe"
+    },
+    "Implacable Defence": {
+      "name_fr": "Défense Implacable"
+    },
+    "Infested": {
+      "name_fr": "Infesté"
+    },
+    "Invocation of Nehek": {
+      "name_fr": "Invocation de Nehek"
+    },
+    "Iron-shod hooves": {
+      "name_fr": "Sabots ferrés"
+    },
+    "Kastellan": {
+      "name_fr": "Kasztellan"
+    },
+    "Lore of Undeath": {
+      "name_fr": "Domaine de la Non-vie"
+    },
+    "Martial Pride": {
+      "name_fr": "Fierté Martiale"
+    },
+    "Master Necromancer": {
+      "name_fr": "Maître Nécromancien"
+    },
+    "Mortis Engine": {
+      "name_fr": "Machine Mortis"
+    },
+    "Necromantic Acolyte": {
+      "name_fr": "Acolyte Nécromantique"
+    },
+    "Necromantic Undead": {
+      "name_fr": "Mort-vivant Nécromantique"
+    },
+    "Nightmare": {
+      "name_fr": "Cauchemar"
+    },
+    "Rancid maw": {
+      "name_fr": "Gueule pourrie"
+    },
+    "Seneschal": {
+      "name_fr": "Sénéchal"
+    },
+    "Skeletal hooves": {
+      "name_fr": "Sabots squelettiques"
+    },
+    "Skeleton Champion": {
+      "name_fr": "Champion Squelette"
+    },
+    "Slavering Charge": {
+      "name_fr": "Charge Écumante"
+    },
+    "Spectral Coach": {
+      "name_fr": "Spectre"
+    },
+    "Spectral Reapers": {
+      "name_fr": "Faucheurs Spectraux"
+    },
+    "Spectral scythe": {
+      "name_fr": "Faux spectrale"
+    },
+    "Spirit Hosts": {
+      "name_fr": "Nuée d’Esprits"
+    },
+    "Strigoi Ghoul King": {
+      "name_fr": "Roi Goule"
+    },
+    "Terrorgheist": {
+      "name_fr": "Terreurgheist"
+    },
+    "The Restless Dead": {
+      "name_fr": "Cortège Inapaisé"
+    },
+    "Tomb Banshee": {
+      "name_fr": "Banshee"
+    },
+    "Vampire Count": {
+      "name_fr": "Comte Vampire"
+    },
+    "Vampire Thrall": {
+      "name_fr": "Vampires Nouveau-né"
+    },
+    "Vampiric Powers": {
+      "name_fr": "Pouvoirs Vampiriques"
+    },
+    "Vargheists": {
+      "name_fr": "Vargheists"
+    },
+    "Varghulf": {
+      "name_fr": "Varghulf"
+    },
+    "Vargoyle": {
+      "name_fr": "Vargoyle"
+    },
+    "Wailing Dirge": {
+      "name_fr": "Gémissement Lugubre"
+    },
+    "Warped Tintinnabulation": {
+      "name_fr": "Tintinnabulation Dissonante"
+    },
+    "Wights": {
+      "name_fr": "Revenants"
+    },
+    "Zombie Dragon": {
+      "name_fr": "Dragon Zombie"
+    },
+    "Zombies": {
+      "name_fr": "Zombies"
+    },
+    "replace shields": {
+      "name_fr": "remplace les boucliers"
+    },
+    "the Hunger": {
+      "name_fr": "La Soif Rouge"
+    },
+    "the Newly Dead": {
+      "name_fr": "Cadavres Frais"
+    }
+  },
+  "regex": {
+    "mutually exclusive with (C[a-zA-Z\\s]+)": {
+      "name_fr": "mutuellement exclusif avec l'unité d'$1"
+    },
+    "mutually exclusive with ([a-zA-Z\\s]+)": {
+      "name_fr": "mutuellement exclusif avec l'unité de $1"
+    },
+    "([a-zA-Z\\s]+) chooses (\\d+) points ([a-zA-Z\\s]+) and (\\d+) points ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 peut prendre jusqu'à $2 points de $3 et jusqu'à $4 points de $5"
+    }
+  }
+}

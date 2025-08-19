@@ -1,0 +1,26 @@
+{
+  "direct": {
+    "Beguile": {
+      "name_fr": "Séduction"
+    },
+    "Curse of the Revenant": {
+      "name_fr": "Malédiction du Revenant"
+    },
+    "Dark Acolyte": {
+      "name_fr": "Sombre Acolyte"
+    },
+    "Flying Horror": {
+      "name_fr": "Créature Ailée"
+    },
+    "Lord of the Night": {
+      "name_fr": "Seigneur de la Nuit"
+    },
+    "Master of the Black Arts": {
+      "name_fr": "Maître des Arts Noirs"
+    },
+    "Supernatural Horror": {
+      "name_fr": "Horreur Surnaturelle"
+    }
+  },
+  "regex": {}
+}

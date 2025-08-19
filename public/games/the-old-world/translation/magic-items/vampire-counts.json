@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "Banner of the Barrows": {
+      "name_fr": "Bannière des Tertres"
+    },
+    "Blood Drinker": {
+      "name_fr": "Lame Vampire"
+    },
+    "Cloak of Mist & Shadows": {
+      "name_fr": "Manteau d'Ombres et de Brume"
+    },
+    "Crown of the Damned": {
+      "name_fr": "Couronne des Damnés"
+    },
+    "Drakenhof Banner": {
+      "name_fr": "Bannière de Drakenhof"
+    },
+    "Dreadlance": {
+      "name_fr": "Lance de Terreur"
+    },
+    "Frostblade": {
+      "name_fr": "Lame de Givre"
+    },
+    "Hand of Dust": {
+      "name_fr": "Main de Poussière"
+    },
+    "Helm of Commandment": {
+      "name_fr": "Heaume de Commandement"
+    },
+    "Sceptre of De Noirot": {
+      "name_fr": "Sceptre de De Noirot"
+    },
+    "Skull Staff": {
+      "name_fr": "Bâton du Crâne"
+    },
+    "Spell Familiar": {
+      "name_fr": "Familier de Sort"
+    },
+    "Standard of Hellish Vigour": {
+      "name_fr": "Étendard de Vigueur Infernale"
+    },
+    "Sword of Kings": {
+      "name_fr": "Épée des Rois"
+    },
+    "The Accursed Armour": {
+      "name_fr": "Cuirasse Maudite"
+    },
+    "The Flayed Hauberk": {
+      "name_fr": "Haubert de l'Écorché"
+    },
+    "The Screaming Banner": {
+      "name_fr": "Bannière Hurlante"
+    },
+    "Von Carstein Ring": {
+      "name_fr": "Anneau des Von Carstein"
+    }
+  },
+  "regex": {}
+}
