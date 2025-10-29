@@ -108,6 +108,9 @@
     "Headtaker": {
       "name_fr": "Décapiteur"
     },
+    "If Frydaal is in the army": {
+      "name_fr": "Si Frydaal est incluse dans l'armée"
+    },
     "Lore of Chaos": {
       "name_fr": "Domaine du Chaos"
     },
@@ -155,6 +158,12 @@
     },
     "Relentless Warriors": {
       "name_fr": "Implacables Guerriers"
+    },
+    "Requires Shartak": {
+      "name_fr": "Nécessite un Shartak"
+    },
+    "Skin Wolf Jarl": {
+      "name_fr": "Jarl Loup Écorcheur"
     },
     "Skin Wolves": {
       "name_fr": "Loups Écorcheurs"

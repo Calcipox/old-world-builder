@@ -33,6 +33,9 @@
     "Blunderbusses": {
       "name_fr": "Tromblons"
     },
+    "Bombard": {
+      "name_fr": "Bombarde"
+    },
     "Border Princes Bombard": {
       "name_fr": "Bombarde des Principautés Frontalières"
     },
@@ -186,6 +189,9 @@
     "Squires": {
       "name_fr": "Écuyers"
     },
+    "The Crusader's Vow": {
+      "name_fr": "Le Vœu du Croisé"
+    },
     "The Dolorous Blade": {
       "name_fr": "La Lame de Douleur"
     },
@@ -259,6 +265,15 @@
     },
     "(\\d)\\+ ([a-zA-Z\\s-]+)": {
       "name_fr": "$1+ $2"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s-]+) and (\\d-\\d) ([a-zA-Z\\s-]+) per (\\d+) points": {
+      "name_fr": "$1 $2 et $3 $4 par tranche de $5 points"
+    },
+    "replaces ([a-zA-Z\\s']+)": {
+      "name_fr": "remplace $1"
+    },
+    "If ([a-zA-Z]+)": {
+      "name_fr": "Si $1"
     }
   }
 }

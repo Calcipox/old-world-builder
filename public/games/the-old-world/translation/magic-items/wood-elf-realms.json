@@ -6,26 +6,11 @@
     "Asyendi's Bane": {
       "name_fr": "Fléau d'Asyendi"
     },
-    "Banner Of Midsummer's Eve": {
-      "name_fr": "Bannière du Solstice d'Été"
-    },
-    "Banner Of Springtide": {
-      "name_fr": "Bannière du Printemps"
-    },
-    "Banner Of The Eternal Queen": {
-      "name_fr": "Bannière de la Reine Éternelle"
-    },
-    "Banner Of The Hunter King": {
-      "name_fr": "Bannière du Roi Chasseur"
-    },
-    "Banner Of The Wild Hunt": {
-      "name_fr": "Bannière de la Chasse Sauvage"
-    },
-    "Banner Of The Wildwood": {
-      "name_fr": "Bannière du Bois Sauvage"
-    },
     "Banner of Midsummer's Eve": {
       "name_fr": "Bannière du Solstice d'Été"
+    },
+    "Banner of Springtide": {
+      "name_fr": "Bannière du Printemps"
     },
     "Banner of the Eternal Queen": {
       "name_fr": "Bannière de la Reine Éternelle"
@@ -33,10 +18,13 @@
     "Banner of the Hunter King": {
       "name_fr": "Bannière du Roi Chasseur"
     },
+    "Banner of the Wild Hunt": {
+      "name_fr": "Bannière de la Chasse Sauvage"
+    },
     "Banner of the Wildwood": {
       "name_fr": "Bannière du Bois Sauvage"
     },
-    "Blades Of Endless Flame": {
+    "Blades of Endless Flame": {
       "name_fr": "Lames de Feu Éternel"
     },
     "Blades of Loec": {
@@ -48,10 +36,10 @@
     "Bow of Loren": {
       "name_fr": "Arc de Loren"
     },
-    "Cloak Of Tumbling Leaves": {
+    "Cloak of Tumbling Leaves": {
       "name_fr": "Cape de Feuilles Virevoltantes"
     },
-    "Crown Of Antlers": {
+    "Crown of Antlers": {
       "name_fr": "Couronne de Ramure"
     },
     "Daith's Reaper": {
@@ -69,28 +57,25 @@
     "Heartwood Pendant": {
       "name_fr": "Pendentif du Chêne Sacré"
     },
-    "Helm Of The Hunt": {
-      "name_fr": "Coiffe de la Chasse"
-    },
     "Helm of the Hunt": {
       "name_fr": "Coiffe de la Chasse"
     },
     "Hunt Master's Pride": {
       "name_fr": "Fierté du Maître de Chasse"
     },
-    "Mantle Of Rebirth": {
+    "Mantle of Rebirth": {
       "name_fr": "Manteau du Renouveau"
     },
     "Merciw's Locus": {
       "name_fr": "Gemme de Merciw"
     },
-    "Moonstone Of The Hidden Ways": {
+    "Moonstone of the Hidden Ways": {
       "name_fr": "Pierre de Lune des Sentiers Cachés"
     },
     "Oaken Stave": {
       "name_fr": "Bâton de Chêne"
     },
-    "Orb Of Midsummer": {
+    "Orb of Midsummer": {
       "name_fr": "Orbe du Solstice d’Été"
     },
     "Orion's Favour": {
@@ -99,16 +84,16 @@
     "Railarian's Mantle": {
       "name_fr": "Cape de Railarian"
     },
-    "Sigil Of The Mage Queen": {
+    "Sigil of the Mage Queen": {
       "name_fr": "Sceau de la Reine-Mage"
     },
     "Spear of Twilight": {
       "name_fr": "Lance du Crépuscule"
     },
-    "Standard Of Morning's Chill": {
+    "Standard of Morning's Chill": {
       "name_fr": "Étendard du Froid Matinal"
     },
-    "Tapestry Of Talsyn": {
+    "Tapestry of Talsyn": {
       "name_fr": "Tapisserie de Talsyn"
     },
     "Vaul's Wrath": {

@@ -36,6 +36,9 @@
     "Black Orc Bigboss": {
       "name_fr": "Grand Chef Orque Noir"
     },
+    "Black Orc Boar Chariot": {
+      "name_fr": "Char à Sangliers Orque Noir"
+    },
     "Black Orc Mob": {
       "name_fr": "Bande d'Orques Noirs"
     },
@@ -44,6 +47,9 @@
     },
     "Black Orc Warboss": {
       "name_fr": "Chef de Guerre Orque Noir"
+    },
+    "Black Orcs": {
+      "name_fr": "Orques Noirs"
     },
     "Boar Chariot": {
       "name_fr": "Char à Sangliers"
@@ -168,9 +174,6 @@
     "Da Boyz": {
       "name_fr": "Lé Boyz"
     },
-    "Daemonic": {
-      "name_fr": "Démoniaques"
-    },
     "Daemonology": {
       "name_fr": "Démonisme"
     },
@@ -263,6 +266,9 @@
     },
     "Fly": {
       "name_fr": "Vol"
+    },
+    "Formation": {
+      "name_fr": "Formation"
     },
     "Frenzy": {
       "name_fr": "Frénésie"
@@ -384,6 +390,9 @@
     "Indomitable": {
       "name_fr": "Indomptable"
     },
+    "Infantry": {
+      "name_fr": "Infanterie"
+    },
     "Ironfists": {
       "name_fr": "Poings d'Acier"
     },
@@ -462,7 +471,7 @@
     "Monster Slayer": {
       "name_fr": "Tueur de Monstres"
     },
-    "Morning Star": {
+    "Morning star": {
       "name_fr": "Morgenstern"
     },
     "Mortar": {
@@ -632,6 +641,9 @@
     },
     "Stomp Attacks": {
       "name_fr": "Attaques de Piétinement"
+    },
+    "Stone thrower": {
+      "name_fr": "Catapulte"
     },
     "Storm Call": {
       "name_fr": "Appeler la Tempête"
@@ -926,31 +938,34 @@
     "(\\d-\\d) additional ([a-zA-Z\\s-]+) may be taken as a Core choice per ([a-zA-Z\\s-]+) taken": {
       "name_fr": "$1 $2 additionnelle peut être prise comme choix d'Unité de Base par $3 prise"
     },
+    "(\\d-\\d) unit of ([a-zA-Z\\s-]+) if army includes a ([a-zA-Z\\s-]+) OR (\\d-\\d) unit of ([a-zA-Z\\s-]+) if army includes a ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1 unité de $2 si votre armée inclut un $3 OU $4 unité de $5 si votre armée inclut un $6"
+    },
     "(\\d-\\d) unit in your army": {
       "name_fr": "$1 unité de votre armée"
     },
-    "(\\d-\\d) unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points": {
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 unité de $2 ou $3 par tranche de $4 points"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s-]+) per (\\d+) points:": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s-]+) per (\\d+) points:": {
       "name_fr": "$1 $2 ou $3 par tranche de $4 points:"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s-]+) per (\\d+) points": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 par tranche de $4 points"
     },
-    "(\\d-\\d) or ([a-zA-Z\\s-]+) per (\\d+) points": {
+    "(\\d-\\d) [oO][rR] ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 ou $2 par tranche de $3 points"
     },
-    "(\\d-\\d) ([a-zA-Z\\s-]+) or unit of ([a-zA-Z\\s-]+) may be taken per (\\d+) points": {
+    "(\\d-\\d) ([a-zA-Z\\s-]+) [oO][rR] unit of ([a-zA-Z\\s-]+) may be taken per (\\d+) points": {
       "name_fr": "$1 $2 ou unité d'$3 peut être prise par tranche de $4 points"
     },
-    "(\\d-\\d) ([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+) may be taken per (\\d+) points": {
+    "(\\d-\\d) ([a-zA-Z\\s-]+) [oO][rR] ([a-zA-Z\\s-]+) may be taken per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 peut être pris par tranche de $4 points"
     },
-    "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+) per (\\d+) points(.*)": {
+    "([a-zA-Z\\s-]+) [oO][rR] ([a-zA-Z\\s-]+) per (\\d+) points(.*)": {
       "name_fr": "$1 ou $2 par tranche de $3 points$4"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per (\\d+) points": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 par tranche de $4 points"
     },
     "0-1 ([a-zA-Z\\s]+) chosen from the following list per (\\d+) points: ([a-zA-Z\\s]+)": {
@@ -995,8 +1010,11 @@
     "(\\d-\\d) per (\\d+) points if your army includes (\\d\\+) ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par tranche de $2 points si votre armée inclut $3 $4"
     },
-    "If your army includes one or more ([a-zA-Z\\s]+)": {
+    "If your army includes one [oO][rR] more ([a-zA-Z\\s]+)": {
       "name_fr": "Si votre armée inclut un $1 ou plus"
+    },
+    "If your army includes a ([a-zA-Z\\s]+)": {
+      "name_fr": "Si votre armée inclut un $1"
     },
     "Replace ([a-zA-Z\\s]+) with ([a-zA-Z\\s]+)": {
       "name_fr": "Remplacer les $1 par des $2"
@@ -1046,7 +1064,7 @@
     "(\\d-\\d) per unit of ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par unité de $2"
     },
-    "(\\d-\\d) unit of ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) taken": {
+    "(\\d-\\d) unit of ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 unité de $2 par unité de $3 ou de $4 prise"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+)": {
@@ -1055,10 +1073,10 @@
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 unité de $2 par $3 pris"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) taken": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 $2 par $3 ou $4 sélectionné"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+)": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+) per ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 ou $3 par $4"
     },
     "([a-zA-Z\\s]+) only - (\\d-\\d) per (\\d+) points": {
@@ -1097,10 +1115,13 @@
     "(\\d-\\d) ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points"
     },
+    "Arcane items are only available if the ([a-zA-Z\\s]+) is a wizard": {
+      "name_fr": "Les objets cabalistiques ne sont disponibles que si le $1 est un sorcier."
+    },
     "Level (\\d) Wizard": {
       "name_fr": "Sorcier de Niveau $1"
     },
-    "Level (\\d) \\(or (\\d)\\) Wizard": {
+    "Level (\\d) \\([oO][rR] (\\d)\\) Wizard": {
       "name_fr": "Sorcier de Niveau $1 (ou $2)"
     },
     "The ([a-zA-Z\\s-]+) special rule": {
@@ -1112,16 +1133,22 @@
     "At least (\\d) per (\\d) ([a-zA-Z\\s]+)": {
       "name_fr": "Au moins $1 par tranche de $2 $3"
     },
+    "Max (\\d) per (\\d) ([a-zA-Z\\s]+)": {
+      "name_fr": "Max $1 tous les $2 $3"
+    },
     "Maximum (\\d)": {
       "name_fr": "Maximum $1"
+    },
+    "([a-zA-Z\\s]+) may be taken": {
+      "name_fr": "$1 peuvent être pris"
     },
     "([a-zA-Z\\s]+) and ([a-zA-Z\\s]+)": {
       "name_fr": "$1 et $2"
     },
-    "(\\d-\\d) or ([a-zA-Z\\s]+)": {
+    "(\\d-\\d) [oO][rR] ([a-zA-Z\\s]+)": {
       "name_fr": "$1 ou $2"
     },
-    "(\\d-\\d) per ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
+    "(\\d-\\d) per ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par $2 ou $3"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) per army": {
@@ -1151,10 +1178,10 @@
     "(\\d)\\+ per (\\d+) points": {
       "name_fr": "$1+ par tranche de $2 points"
     },
-    "(\\d-\\d) ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
+    "(\\d-\\d) ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 ou $3"
     },
-    "(\\d)\\+ ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
+    "(\\d)\\+ ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+)": {
       "name_fr": "$1+ $2 ou $3"
     },
     "(\\d)\\+ ([a-zA-Z\\s]+) per (\\d+) points": {
@@ -1166,7 +1193,7 @@
     "(\\d-\\d) ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2"
     },
-    "([a-zA-Z\\s]+) or ([a-zA-Z\\s]+)": {
+    "([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+)": {
       "name_fr": "$1 ou $2"
     },
     "per (\\d+) points": {
@@ -1174,6 +1201,15 @@
     },
     "([a-zA-Z\\s]+) for ([a-zA-Z\\s]+)": {
       "name_fr": "$1 pour $2"
+    },
+    "unit of ([a-zA-Z\\s]+)": {
+      "name_fr": "unité de $1"
+    },
+    "([a-zA-Z\\s]+) if ([a-zA-Z]+) is in the army": {
+      "name_fr": "$1 si $2 est dans l'armée"
+    },
+    "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+)": {
+      "name_fr": "$1 ou $2"
     }
   }
 }

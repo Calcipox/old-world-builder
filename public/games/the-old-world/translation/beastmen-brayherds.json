@@ -210,9 +210,6 @@
     "Razorgor only": {
       "name_fr": "Razorgor seulement"
     },
-    "Skull of the Unicorn Lord": {
-      "name_fr": "Le Crâne du Seigneur Licorne"
-    },
     "Slaughterer's Call": {
       "name_fr": "Appel du Massacreur"
     },
@@ -233,6 +230,9 @@
     },
     "Swallow Whole": {
       "name_fr": "Avaler Tout Rond"
+    },
+    "The Skull of the Unicorn Lord": {
+      "name_fr": "Le Crâne du Seigneur Licorne"
     },
     "The Sons of Ghorros": {
       "name_fr": "Les Fils de Ghorros"
@@ -278,6 +278,9 @@
     }
   },
   "regex": {
+    "([a-zA-Z\\s]+) in the same muster list as ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 dans la même liste d'armée que $2"
+    },
     "May include one ([a-zA-Z\\s]+) for every three ([a-zA-Z\\s]+)": {
       "name_fr": "Peut inclure 1 $1 par tranche de 3 $2"
     },

@@ -55,6 +55,9 @@
       "name_fr": "Trappeurs Gnoblars"
     },
     "Gorger": {
+      "name_fr": "Cannibale"
+    },
+    "Gorgers": {
       "name_fr": "Cannibales"
     },
     "Great tusks": {
@@ -81,14 +84,14 @@
     "Hunter": {
       "name_fr": "Chasseur"
     },
-    "Iron Guts": {
-      "name_fr": "Ventres-durs"
-    },
     "Ironblaster": {
       "name_fr": "Boute-fer"
     },
     "Ironfist": {
       "name_fr": "Poing d'Acier"
+    },
+    "Ironguts": {
+      "name_fr": "Ventres-durs"
     },
     "Leadbelcher guns": {
       "name_fr": "Crache-plomb"
@@ -107,6 +110,9 @@
     },
     "Maneaters": {
       "name_fr": "Mangeurs d'Hommes"
+    },
+    "Monstrous Ranks": {
+      "name_fr": "Rangs Monstrueux"
     },
     "Mournfang Cavalry": {
       "name_fr": "Cavalerie Férox"

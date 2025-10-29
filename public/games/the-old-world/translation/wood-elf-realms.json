@@ -60,6 +60,9 @@
     "Deepwood Coven": {
       "name_fr": "Sabbat du Grand-bois"
     },
+    "Deepwood Hound": {
+      "name_fr": "Chien du Grand-bois"
+    },
     "Deepwood Hounds": {
       "name_fr": "Chiens du Grand-bois"
     },
@@ -132,11 +135,11 @@
     "Hardwood flesh": {
       "name_fr": "Peau de chêne"
     },
+    "Hawk's Talon": {
+      "name_fr": "Serre du Faucon"
+    },
     "Hawk-eyed Archer": {
       "name_fr": "Archer à l'Œil de Faucon"
-    },
-    "Hawks Talon": {
-      "name_fr": "Serre du Faucon"
     },
     "Horn of the Wild Hunt": {
       "name_fr": "Cor de la Chasse Sauvage"

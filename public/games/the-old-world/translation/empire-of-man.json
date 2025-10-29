@@ -42,6 +42,9 @@
     "Crushing Weight": {
       "name_fr": "Poids Écrasant"
     },
+    "Daemonic": {
+      "name_fr": "Démoniaques"
+    },
     "Demigryph": {
       "name_fr": "Demigriffon"
     },
@@ -80,6 +83,9 @@
     },
     "Empire Road Wardens": {
       "name_fr": "Patrouilleurs Ruraux de l'Empire"
+    },
+    "Empire War Wagon": {
+      "name_fr": "Chariot de Guerre de l'Empire"
     },
     "Empire Warhorse": {
       "name_fr": "Destrier de l'Empire"
@@ -128,9 +134,6 @@
     },
     "Griffon": {
       "name_fr": "Griffon"
-    },
-    "Griffon Helm": {
-      "name_fr": "Heaume du Griffon"
     },
     "Grinding Wheels": {
       "name_fr": "Roues Broyeuses"
@@ -336,6 +339,9 @@
     "The Daemon": {
       "name_fr": "Les Démons"
     },
+    "The Griffon Helm": {
+      "name_fr": "Heaume du Griffon"
+    },
     "The Mutant": {
       "name_fr": "Les Mutants"
     },
@@ -378,6 +384,9 @@
     "Wizard Lord": {
       "name_fr": "Seigneur Sorcier"
     },
+    "Wolf hammer": {
+      "name_fr": "Marteau du loup"
+    },
     "Wolf hammers": {
       "name_fr": "Marteaux du loup"
     },
@@ -407,8 +416,17 @@
     "([a-zA-Z\\s]+) in your army may be upgraded to belong to your chosen Knightly Order": {
       "name_fr": "$1 de votre armée peut être promu pour appartenir à l'Ordre de Chevalerie de votre choix"
     },
+    "([a-zA-Z\\s]+) are included in the cost if the unit is armed with them": {
+      "name_fr": "Avoir $1 est inclus dans le coût de l'unité si elle en est équipée"
+    },
     "taken as a mount for a ([a-zA-Z\\s]+)": {
       "name_fr": "pris comme monture pour un $1"
+    },
+    "as a member of the Order of the ([a-zA-Z\\s]+)": {
+      "name_fr": "en tant que membre de l'Ordre du $1"
+    },
+    "Only in Order of the ([a-zA-Z\\s]+) army": {
+      "name_fr": "Seulement dans une armée de l'Ordre du $1"
     },
     "Order of the Knights ([a-zA-Z\\s]+)": {
       "name_fr": "Ordre des Chevaliers $1"

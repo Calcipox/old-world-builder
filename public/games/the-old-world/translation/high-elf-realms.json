@@ -385,6 +385,9 @@
     },
     "(\\d-\\d) ([a-zA-Z]+) or ([a-zA-Z]+) (Phoenix) per (\\d+) points": {
       "name_fr": "$1 $4 $2 ou $3 par tranche de $5 points"
+    },
+    "Magic armour requires ([a-zA-Z\\s]+) Elven Honour": {
+      "name_fr": "Une armure magique nécessite l'Honneur Elfique $1"
     }
   }
 }

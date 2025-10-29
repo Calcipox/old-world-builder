@@ -18,6 +18,9 @@
     "Blood of Hashut": {
       "name_fr": "Sang d’Hashut"
     },
+    "Born of Fire": {
+      "name_fr": "Né du Feu"
+    },
     "Bull Centaur Renders": {
       "name_fr": "Hacheurs Centaures-Taureaux"
     },
@@ -175,6 +178,21 @@
     },
     "or (.*)": {
       "name_fr": "ou $1"
+    },
+    "([a-zA-Z\\s]+) chosen": {
+      "name_fr": "$1 sélectionné"
+    },
+    "if not using ([a-zA-Z\\s]+)": {
+      "name_fr": "si n'utilise pas de $1"
+    },
+    "replaces ([a-zA-Z\\s]+)": {
+      "name_fr": "remplace $1"
+    },
+    "if no ([a-zA-Z\\s]+) are taken": {
+      "name_fr": "si aucun $1 ne sont sélectionnés"
+    },
+    "and your General is an ([a-zA-Z\\s]+)": {
+      "name_fr": "et votre Général est un $1"
     }
   }
 }

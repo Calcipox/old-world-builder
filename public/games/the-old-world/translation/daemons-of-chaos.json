@@ -6,6 +6,9 @@
     "Alluress": {
       "name_fr": "Tentatrice"
     },
+    "Armour Piercing": {
+      "name_fr": "Perce Armure"
+    },
     "Attention Seeker": {
       "name_fr": "En Quête d'Attention"
     },
@@ -293,6 +296,9 @@
     }
   },
   "regex": {
+    "(\\d-\\d) Greater Daemon \\(of Khorne, Nurgle, Slaanesh or Tzeentch\\) per (\\d+) points and per unit with the same Daemonic Alignment": {
+      "name_fr": "$1 Démon Majeur (de Khorne, Nurgle, Slaanesh ou Tzeentch) par tranche de $2 points et par unité du même Alignement Démoniaque"
+    },
     "(\\d-\\d) ([\\w\\s]+) of ([\\w\\s]+) per unit with the same Daemonic Alignment": {
       "name_fr": "$1 $2 de $3 par unité du même Alignement Démoniaque"
     },

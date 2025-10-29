@@ -18,9 +18,6 @@
     "Big Stabbas": {
       "name_fr": "Grands Kitrou"
     },
-    "Black Orc Boar Chariot": {
-      "name_fr": "Char à Sangliers Orque Noir"
-    },
     "Black Orc Boss": {
       "name_fr": "Chef Orque Noir"
     },
@@ -71,6 +68,9 @@
     },
     "Fanatic": {
       "name_fr": "Fanatique"
+    },
+    "Fanatic ball & chain": {
+      "name_fr": "Chaînes & Boulets de Fanatique"
     },
     "Fanatics": {
       "name_fr": "Fanatiques"
@@ -140,6 +140,9 @@
     },
     "Ker-splat": {
       "name_fr": "Sproutch"
+    },
+    "Kiknik": {
+      "name_fr": "Kiknik"
     },
     "Kiknik Toofsnatcha": {
       "name_fr": "Kiknik Toofsnatcha"
