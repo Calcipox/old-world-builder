@@ -1,7 +1,7 @@
 {
   "direct": {
     "Ba'hal": {
-      "name_fr": "Ba'hal"
+      "name_fr": "Ba’hal"
     },
     "Backstab": {
       "name_fr": "Coup en Traître"
@@ -106,7 +106,7 @@
       "name_fr": "Démon d’Acier"
     },
     "K'daai Fireborn": {
-      "name_fr": "K'daai Rejetons de Feu"
+      "name_fr": "K’daai Rejetons de Feu"
     },
     "Lammasu": {
       "name_fr": "Lammasu"
@@ -168,7 +168,7 @@
   },
   "regex": {
     "if (\\d) crew members": {
-      "name_fr": "si $1 membres d'équipage"
+      "name_fr": "si $1 membres d’équipage"
     },
     "instead (.*)": {
       "name_fr": "à la place des $1"
@@ -183,7 +183,7 @@
       "name_fr": "$1 sélectionné"
     },
     "if not using ([a-zA-Z\\s]+)": {
-      "name_fr": "si n'utilise pas de $1"
+      "name_fr": "si n’utilise pas de $1"
     },
     "replaces ([a-zA-Z\\s]+)": {
       "name_fr": "remplace $1"

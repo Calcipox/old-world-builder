@@ -4,7 +4,7 @@
       "name_fr": "\"Tenez la Ligne!\""
     },
     "Assorted weapons": {
-      "name_fr": "Assortiment d'armes"
+      "name_fr": "Assortiment d’armes"
     },
     "Ball & chain": {
       "name_fr": "Scorpion"
@@ -19,7 +19,7 @@
       "name_fr": "Soleil"
     },
     "Blessings of Ulric": {
-      "name_fr": "Bénédiction d'Ulric"
+      "name_fr": "Bénédiction d’Ulric"
     },
     "Blunderbuss": {
       "name_fr": "Tromblon"
@@ -28,7 +28,7 @@
       "name_fr": "Capitaine"
     },
     "Captain of the Empire": {
-      "name_fr": "Capitaine de l'Empire"
+      "name_fr": "Capitaine de l’Empire"
     },
     "Chapter Master": {
       "name_fr": "Maître de Chapitre"
@@ -58,10 +58,10 @@
       "name_fr": "Ne peut pas prendre de paire de pistolets"
     },
     "Don't take crossbow": {
-      "name_fr": "Ne peut pas prendre d'arbalète"
+      "name_fr": "Ne peut pas prendre d’arbalète"
     },
     "Don't take handgun": {
-      "name_fr": "Ne peut pas prendre d'arquebuse"
+      "name_fr": "Ne peut pas prendre d’arquebuse"
     },
     "Don't take pistol": {
       "name_fr": "Ne peut pas prendre de pistolet"
@@ -70,28 +70,28 @@
       "name_fr": "Empire"
     },
     "Empire Archers": {
-      "name_fr": "Archers de l'Empire"
+      "name_fr": "Archers de l’Empire"
     },
     "Empire Engineer": {
-      "name_fr": "Ingénieur de l'Empire"
+      "name_fr": "Ingénieur de l’Empire"
     },
     "Empire Greatswords": {
-      "name_fr": "Joueurs d'Épées de l'Empire"
+      "name_fr": "Joueurs d’Épées de l’Empire"
     },
     "Empire Knights": {
-      "name_fr": "Chevaliers de l'Empire"
+      "name_fr": "Chevaliers de l’Empire"
     },
     "Empire Road Wardens": {
-      "name_fr": "Patrouilleurs Ruraux de l'Empire"
+      "name_fr": "Patrouilleurs Ruraux de l’Empire"
     },
     "Empire War Wagon": {
-      "name_fr": "Chariot de Guerre de l'Empire"
+      "name_fr": "Chariot de Guerre de l’Empire"
     },
     "Empire Warhorse": {
-      "name_fr": "Destrier de l'Empire"
+      "name_fr": "Destrier de l’Empire"
     },
     "Empire warhorse": {
-      "name_fr": "Destrier de l'Empire"
+      "name_fr": "Destrier de l’Empire"
     },
     "Fanatical Zeal": {
       "name_fr": "Zèle Fanatique"
@@ -115,7 +115,7 @@
       "name_fr": "Général Hans von Löwenhacke"
     },
     "General of the Empire": {
-      "name_fr": "Général de l'Empire"
+      "name_fr": "Général de l’Empire"
     },
     "Grand Master": {
       "name_fr": "Grand Maître"
@@ -148,10 +148,10 @@
       "name_fr": "Émissaire de la Fin"
     },
     "Helblaster Volley Gun": {
-      "name_fr": "Canon à Répétition Feu d'Enfer"
+      "name_fr": "Canon à Répétition Feu d’Enfer"
     },
     "Hellblaster": {
-      "name_fr": "Feu d'Enfer"
+      "name_fr": "Feu d’Enfer"
     },
     "Hellstorm": {
       "name_fr": "Tonnerre de Feu"
@@ -160,7 +160,7 @@
       "name_fr": "Batterie Tonnerre de Feu"
     },
     "High Priest of Ulric": {
-      "name_fr": "Grand Prêtre d'Ulric"
+      "name_fr": "Grand Prêtre d’Ulric"
     },
     "Hochland Long Rifle": {
       "name_fr": "Long Fusil du Hochland"
@@ -208,7 +208,7 @@
       "name_fr": "Attrape-coquin"
     },
     "Marksman": {
-      "name_fr": "Tireur d'Élite"
+      "name_fr": "Tireur d’Élite"
     },
     "Master Mage": {
       "name_fr": "Maître Mage"
@@ -268,7 +268,7 @@
       "name_fr": "Prières de Sigmar"
     },
     "Prayers of Ulric": {
-      "name_fr": "Prières d'Ulric"
+      "name_fr": "Prières d’Ulric"
     },
     "Preceptor": {
       "name_fr": "Précepteur"
@@ -277,7 +277,7 @@
       "name_fr": "Prêtre de Sigmar"
     },
     "Priest of Ulric": {
-      "name_fr": "Prêtre d'Ulric"
+      "name_fr": "Prêtre d’Ulric"
     },
     "Prophet of Doom": {
       "name_fr": "Prophète"
@@ -301,7 +301,7 @@
       "name_fr": "Plate-Forme de Tir Stable"
     },
     "State Missile Troops": {
-      "name_fr": "Troupes de Tir de l'Empire"
+      "name_fr": "Troupes de Tir de l’Empire"
     },
     "State Troops": {
       "name_fr": "Troupes Régulières"
@@ -370,7 +370,7 @@
       "name_fr": "Chariot de Guerre"
     },
     "Warrior Priest of Ulric": {
-      "name_fr": "Prêtre-Guerrier d'Ulric"
+      "name_fr": "Prêtre-Guerrier d’Ulric"
     },
     "White Wolf": {
       "name_fr": "Loup Blanc"
@@ -414,19 +414,19 @@
       "name_fr": "$1 unité de $2 peut être prise comme choix Spécial pour chaque $3 dans votre armée"
     },
     "([a-zA-Z\\s]+) in your army may be upgraded to belong to your chosen Knightly Order": {
-      "name_fr": "$1 de votre armée peut être promu pour appartenir à l'Ordre de Chevalerie de votre choix"
+      "name_fr": "$1 de votre armée peut être promu pour appartenir à l’Ordre de Chevalerie de votre choix"
     },
     "([a-zA-Z\\s]+) are included in the cost if the unit is armed with them": {
-      "name_fr": "Avoir $1 est inclus dans le coût de l'unité si elle en est équipée"
+      "name_fr": "Avoir $1 est inclus dans le coût de l’unité si elle en est équipée"
     },
     "taken as a mount for a ([a-zA-Z\\s]+)": {
       "name_fr": "pris comme monture pour un $1"
     },
     "as a member of the Order of the ([a-zA-Z\\s]+)": {
-      "name_fr": "en tant que membre de l'Ordre du $1"
+      "name_fr": "en tant que membre de l’Ordre du $1"
     },
     "Only in Order of the ([a-zA-Z\\s]+) army": {
-      "name_fr": "Seulement dans une armée de l'Ordre du $1"
+      "name_fr": "Seulement dans une armée de l’Ordre du $1"
     },
     "Order of the Knights ([a-zA-Z\\s]+)": {
       "name_fr": "Ordre des Chevaliers $1"
@@ -477,7 +477,7 @@
       "name_fr": "Sorciers ennemis, $1"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) belonging to the ([a-zA-Z\\s]+)": {
-      "name_fr": "$1 unité de $2 ou de $3 appartenant à l'$4"
+      "name_fr": "$1 unité de $2 ou de $3 appartenant à l’$4"
     }
   }
 }

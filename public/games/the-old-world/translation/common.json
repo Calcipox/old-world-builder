@@ -40,10 +40,10 @@
       "name_fr": "Char à Sangliers Orque Noir"
     },
     "Black Orc Mob": {
-      "name_fr": "Bande d'Orques Noirs"
+      "name_fr": "Bande d’Orques Noirs"
     },
     "Black Orc Mobs": {
-      "name_fr": "Bandes d'Orques Noirs"
+      "name_fr": "Bandes d’Orques Noirs"
     },
     "Black Orc Warboss": {
       "name_fr": "Chef de Guerre Orque Noir"
@@ -73,7 +73,7 @@
       "name_fr": "Plusieurs pistolets"
     },
     "Brace of repeater handbows": {
-      "name_fr": "Paires d'arbalètes de poing à répétitions"
+      "name_fr": "Paires d’arbalètes de poing à répétitions"
     },
     "Breath Weapon": {
       "name_fr": "Arme à Souffle"
@@ -136,7 +136,7 @@
       "name_fr": "Escorteurs de Chars"
     },
     "Choppas": {
-      "name_fr": "Kikoup'"
+      "name_fr": "Kikoup’"
     },
     "Claws": {
       "name_fr": "Griffes"
@@ -217,7 +217,7 @@
       "name_fr": "Armes Ensorcelées"
     },
     "Ethereal": {
-      "name_fr": "Ethéré"
+      "name_fr": "Éthéré"
     },
     "Evasive": {
       "name_fr": "Esquiveur"
@@ -361,7 +361,7 @@
       "name_fr": "Howdah"
     },
     "If appropriately mounted": {
-      "name_fr": "S'il est monté"
+      "name_fr": "S’il est monté"
     },
     "If frenzied": {
       "name_fr": "Si frénétique"
@@ -382,7 +382,7 @@
       "name_fr": "Immunisé à la Psychologie"
     },
     "Impact Hits": {
-      "name_fr": "Touches d'Impact"
+      "name_fr": "Touches d’Impact"
     },
     "Impetuous": {
       "name_fr": "Impétueux"
@@ -394,7 +394,7 @@
       "name_fr": "Infanterie"
     },
     "Ironfists": {
-      "name_fr": "Poings d'Acier"
+      "name_fr": "Poings d’Acier"
     },
     "Javelin": {
       "name_fr": "Javeline"
@@ -499,16 +499,16 @@
       "name_fr": "Musicien"
     },
     "Must include Command Group": {
-      "name_fr": "Doit inclure l'État-Major"
+      "name_fr": "Doit inclure l’État-Major"
     },
     "Necromancy": {
       "name_fr": "Nécromancie"
     },
     "No armour": {
-      "name_fr": "Pas d'armure"
+      "name_fr": "Pas d’armure"
     },
     "Note that this special rule does not apply to this model's mount": {
-      "name_fr": "Notez que cette règle spéciale ne s'applique pas à la monture de cette figurine"
+      "name_fr": "Notez que cette règle spéciale ne s’applique pas à la monture de cette figurine"
     },
     "Nurgle": {
       "name_fr": "Nurgle"
@@ -544,7 +544,7 @@
       "name_fr": "Incommode"
     },
     "Quell Impetuosity": {
-      "name_fr": "Calme l'Impétuosité"
+      "name_fr": "Calme l’Impétuosité"
     },
     "Quick Shot": {
       "name_fr": "Tir Rapide"
@@ -670,7 +670,7 @@
       "name_fr": "Orage Revitalisant"
     },
     "These special rules do not apply to this model's mount": {
-      "name_fr": "Ces règles spéciales ne s'appliquent pas à la monture de cette figurine"
+      "name_fr": "Ces règles spéciales ne s’appliquent pas à la monture de cette figurine"
     },
     "Third Orc crew member": {
       "name_fr": "Troisième Aurige Orque"
@@ -694,16 +694,16 @@
       "name_fr": "Armes de lancer"
     },
     "Thrusting Spear": {
-      "name_fr": "Lance d'infanterie"
+      "name_fr": "Lance d’infanterie"
     },
     "Thrusting Spears": {
-      "name_fr": "Lances d'infanterie"
+      "name_fr": "Lances d’infanterie"
     },
     "Thrusting spear": {
-      "name_fr": "Lance d'infanterie"
+      "name_fr": "Lance d’infanterie"
     },
     "Thrusting spears": {
-      "name_fr": "Lances d'infanterie"
+      "name_fr": "Lances d’infanterie"
     },
     "Timmm-berrr!": {
       "name_fr": "Timmm-berrr!"
@@ -727,7 +727,7 @@
       "name_fr": "Licorne"
     },
     "Unit Strength": {
-      "name_fr": "Puissance d'Unité"
+      "name_fr": "Puissance d’Unité"
     },
     "Unstable": {
       "name_fr": "Instables"
@@ -829,7 +829,7 @@
       "name_fr": "griffes"
     },
     "doesn't apply to a mount": {
-      "name_fr": "ne s'applique pas à la monture"
+      "name_fr": "ne s’applique pas à la monture"
     },
     "flailing appendages": {
       "name_fr": "appendices fouettards"
@@ -859,7 +859,7 @@
       "name_fr": "sans compter les montures des personnages"
     },
     "not for the mount": {
-      "name_fr": "ne s'applique pas à la monture"
+      "name_fr": "ne s’applique pas à la monture"
     },
     "only select one": {
       "name_fr": "sélectionnez-en un seul"
@@ -906,7 +906,7 @@
       "name_fr": "$1 $2 ou $3 en choix Spécial si votre général est un $4"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) may be taken as Core choice per ([a-zA-Z\\s]+)": {
-      "name_fr": "$1 $2 peut être prise comme choix d'Unité de Base par $3 choisi"
+      "name_fr": "$1 $2 peut être prise comme choix d’Unité de Base par $3 choisi"
     },
     "([a-zA-Z\\s]+) and ([a-zA-Z\\s]+) may be taken as Special choices": {
       "name_fr": "les $1 et les $2 peuvent être pris comme choix Spécial"
@@ -927,16 +927,16 @@
       "name_fr": "$1+ unité de $2 et/ou de $3"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) per (\\d+) points may be taken as a Core choice": {
-      "name_fr": "$1 unité de $2 par tranche de $3 points peut être prise comme choix d'Unité de Base"
+      "name_fr": "$1 unité de $2 par tranche de $3 points peut être prise comme choix d’Unité de Base"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) may be taken as a Core choice": {
-      "name_fr": "$1 unité de $2 peut être prise comme choix d'Unité de Base"
+      "name_fr": "$1 unité de $2 peut être prise comme choix d’Unité de Base"
     },
     "(\\d-\\d) ([a-zA-Z\\s-]+) may be taken as a Core choice": {
-      "name_fr": "$1 $2 peut être prise comme choix d'Unité de Base"
+      "name_fr": "$1 $2 peut être prise comme choix d’Unité de Base"
     },
     "(\\d-\\d) additional ([a-zA-Z\\s-]+) may be taken as a Core choice per ([a-zA-Z\\s-]+) taken": {
-      "name_fr": "$1 $2 additionnelle peut être prise comme choix d'Unité de Base par $3 prise"
+      "name_fr": "$1 $2 additionnelle peut être prise comme choix d’Unité de Base par $3 prise"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s-]+) if army includes a ([a-zA-Z\\s-]+) OR (\\d-\\d) unit of ([a-zA-Z\\s-]+) if army includes a ([a-zA-Z\\s-]+)": {
       "name_fr": "$1 unité de $2 si votre armée inclut un $3 OU $4 unité de $5 si votre armée inclut un $6"
@@ -948,7 +948,7 @@
       "name_fr": "$1 unité de $2 ou $3 par tranche de $4 points"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s-]+) per (\\d+) points:": {
-      "name_fr": "$1 $2 ou $3 par tranche de $4 points:"
+      "name_fr": "$1 $2 ou $3 par tranche de $4 points: "
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 par tranche de $4 points"
@@ -957,7 +957,7 @@
       "name_fr": "$1 ou $2 par tranche de $3 points"
     },
     "(\\d-\\d) ([a-zA-Z\\s-]+) [oO][rR] unit of ([a-zA-Z\\s-]+) may be taken per (\\d+) points": {
-      "name_fr": "$1 $2 ou unité d'$3 peut être prise par tranche de $4 points"
+      "name_fr": "$1 $2 ou unité d’$3 peut être prise par tranche de $4 points"
     },
     "(\\d-\\d) ([a-zA-Z\\s-]+) [oO][rR] ([a-zA-Z\\s-]+) may be taken per (\\d+) points": {
       "name_fr": "$1 $2 ou $3 peut être pris par tranche de $4 points"
@@ -969,10 +969,10 @@
       "name_fr": "$1 $2 ou $3 par tranche de $4 points"
     },
     "0-1 ([a-zA-Z\\s]+) chosen from the following list per (\\d+) points: ([a-zA-Z\\s]+)": {
-      "name_fr": "0-1 $1 choisie dans la liste suivante par tranche de $2 points: $3"
+      "name_fr": "0-1 $1 choisie dans la liste suivante par tranche de $2 points: $3"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) chosen from the following list per (\\d+) points: ([a-zA-Z\\s]+)": {
-      "name_fr": "$1 $2 choisies dans la liste suivante par tranche de $3 points: $4"
+      "name_fr": "$1 $2 choisies dans la liste suivante par tranche de $3 points: $4"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 unité de $2 par tranche de $3 points"
@@ -993,10 +993,10 @@
       "name_fr": "Remplace la règle spéciale $1"
     },
     "Any unit may have (\\d-\\d) of the following special rules: ([a-zA-Z\\s-]+)": {
-      "name_fr": "Toute unité peut avoir $1 des règles spéciales suivantes: $2"
+      "name_fr": "Toute unité peut avoir $1 des règles spéciales suivantes: $2"
     },
     "(\\d-\\d) unit per (\\d+) points may have one of the following: The ([a-zA-Z\\s-]+) special rule": {
-      "name_fr": "$1 unité par tranche de $2 points peut avoir l'une des options suivantes: La règle spéciale $3"
+      "name_fr": "$1 unité par tranche de $2 points peut avoir l’une des options suivantes: La règle spéciale $3"
     },
     "(\\d-\\d) unit per (\\d+) points may purchase a magic standard worth up to (\\d+) points": {
       "name_fr": "$1 unité par tranche de $2 points peut acheter une bannière magique pour une valeur maximale de $3 points"
@@ -1047,7 +1047,7 @@
       "name_fr": "$1 par tranche de $2 points peuvent avoir $3"
     },
     "(\\d-\\d) per (\\d+) points may purchase a magic standard worth up to (\\d+) points": {
-      "name_fr": "$1 par tranche de $2 points peuvent acheter une bannière magique d'une valeur maximale de $3 points"
+      "name_fr": "$1 par tranche de $2 points peuvent acheter une bannière magique d’une valeur maximale de $3 points"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) per (\\d+) points may purchase a magic standard worth up to (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points peut acheter une bannière magique pour une valeur maximale de $4 points"
@@ -1206,7 +1206,7 @@
       "name_fr": "unité de $1"
     },
     "([a-zA-Z\\s]+) if ([a-zA-Z]+) is in the army": {
-      "name_fr": "$1 si $2 est dans l'armée"
+      "name_fr": "$1 si $2 est dans l’armée"
     },
     "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+)": {
       "name_fr": "$1 ou $2"

@@ -19,7 +19,7 @@
       "name_fr": "Levez-vous!"
     },
     "Arrows of Asaph": {
-      "name_fr": "Flèches d'Asaph"
+      "name_fr": "Flèches d’Asaph"
     },
     "Banner of the King": {
       "name_fr": "Bannière du Roi"
@@ -118,7 +118,7 @@
       "name_fr": "Maître Aurige"
     },
     "Master of Arms": {
-      "name_fr": "Maître d'Armes"
+      "name_fr": "Maître d’Armes"
     },
     "Master of Arrows": {
       "name_fr": "Maître des Flèches"
@@ -127,7 +127,7 @@
       "name_fr": "Maître des Chevaux"
     },
     "May add up to two additional Tomb Guard Crew": {
-      "name_fr": "Peut ajouter jusqu'à deux Gardiens des Tombes supplémentaires"
+      "name_fr": "Peut ajouter jusqu’à deux Gardiens des Tombes supplémentaires"
     },
     "Mortuary Cult": {
       "name_fr": "Culte Mortuaire"
@@ -139,7 +139,7 @@
       "name_fr": "Que Ma Volonté Soit Faite"
     },
     "Necrolith Bone Dragon": {
-      "name_fr": "Dragon d'Os Nécrolithe"
+      "name_fr": "Dragon d’Os Nécrolithe"
     },
     "Necrolith Colossus": {
       "name_fr": "Colosse Nécrolithe"
@@ -187,16 +187,16 @@
       "name_fr": "Héraut Royal"
     },
     "Royal Host Archers": {
-      "name_fr": "Archers de l'Ost Royal"
+      "name_fr": "Archers de l’Ost Royal"
     },
     "Royal Host Horse Archers": {
-      "name_fr": "Archers à Cheval de l'Ost Royal"
+      "name_fr": "Archers à Cheval de l’Ost Royal"
     },
     "Royal Host Horsemen": {
-      "name_fr": "Cavaliers de l'Ost Royal"
+      "name_fr": "Cavaliers de l’Ost Royal"
     },
     "Royal Host Warriors": {
-      "name_fr": "Guerriers de l'Ost Royal"
+      "name_fr": "Guerriers de l’Ost Royal"
     },
     "Scarab Prince": {
       "name_fr": "Prince Scarabée"
@@ -214,16 +214,16 @@
       "name_fr": "Rôdeurs Sépulcraux"
     },
     "Set this to the total amount of Horses in the unit": {
-      "name_fr": "Indiquez ici le total de Chevaux dans l'unité"
+      "name_fr": "Indiquez ici le total de Chevaux dans l’unité"
     },
     "Settra Does Not Kneel!": {
-      "name_fr": "Settra Ne s'Agenouille Pas!"
+      "name_fr": "Settra Ne s’Agenouille Pas!"
     },
     "Settra the Great": {
       "name_fr": "Settra le Grand"
     },
     "Settra the Imperishable": {
-      "name_fr": "Settra l'Impérissable"
+      "name_fr": "Settra l’Impérissable"
     },
     "Settra's Champion": {
       "name_fr": "Champion de Settra"
@@ -247,16 +247,16 @@
       "name_fr": "Cavaliers Squelettes"
     },
     "Skeleton Infantry Cohort": {
-      "name_fr": "Cohorte d'Infanterie Squelette"
+      "name_fr": "Cohorte d’Infanterie Squelette"
     },
     "Skeleton Skirmishers": {
       "name_fr": "Tirailleurs Squelettes"
     },
     "Skulls of the Foe": {
-      "name_fr": "Crânes de l'Ennemi"
+      "name_fr": "Crânes de l’Ennemi"
     },
     "Soul Reaper": {
-      "name_fr": "Faucheur d'Âmes"
+      "name_fr": "Faucheur d’Âmes"
     },
     "Steadfast Discipline": {
       "name_fr": "Discipline Inébranlable"
@@ -283,10 +283,10 @@
       "name_fr": "Le Fléau des Rois Conquis"
     },
     "The Scarab Brooch of Usirian": {
-      "name_fr": "La Broche-Scarabée d'Usirian"
+      "name_fr": "La Broche-Scarabée d’Usirian"
     },
     "The Terrors Below": {
-      "name_fr": "Les Horreurs d'En dessous"
+      "name_fr": "Les Horreurs d’En dessous"
     },
     "Tomb Captain": {
       "name_fr": "Capitaine des Tombes"
@@ -325,7 +325,7 @@
       "name_fr": "Ushabti"
     },
     "Usirian's Reaper": {
-      "name_fr": "Faucheur d'Usirian"
+      "name_fr": "Faucheur d’Usirian"
     },
     "Venerable Ancient": {
       "name_fr": "Ancien Vénérable"
@@ -363,7 +363,7 @@
   },
   "regex": {
     "(\\d)\\+ unit of ([a-zA-Z\\s-]+) and/or (Skeleton Archers)": {
-      "name_fr": "$1+ unité de $2 et/ou d'$3"
+      "name_fr": "$1+ unité de $2 et/ou d’$3"
     }
   }
 }

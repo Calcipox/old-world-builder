@@ -19,7 +19,7 @@
       "name_fr": "Baron"
     },
     "Battle Pilgrims": {
-      "name_fr": "Pélerins du Graal"
+      "name_fr": "Pèlerins du Graal"
     },
     "Blessed Knight": {
       "name_fr": "Chevalier Béni"
@@ -130,7 +130,7 @@
       "name_fr": "Domaine de la Dame"
     },
     "Men-at-Arms": {
-      "name_fr": "Hommes d'Armes"
+      "name_fr": "Hommes d’Armes"
     },
     "Mounted Knights of the Realm": {
       "name_fr": "Chevaliers du Royaume Montés"
@@ -160,7 +160,7 @@
       "name_fr": "Chevaliers Pégases"
     },
     "Polearms": {
-      "name_fr": "Armes d'hast"
+      "name_fr": "Armes d’hast"
     },
     "Prophetess": {
       "name_fr": "Prophétesse"
@@ -175,7 +175,7 @@
       "name_fr": "Pégase Royal"
     },
     "Sergeant-at-Arms": {
-      "name_fr": "Sergent d'Armes"
+      "name_fr": "Sergent d’Armes"
     },
     "Shield of the Lady": {
       "name_fr": "Bouclier de la Dame"
@@ -196,7 +196,7 @@
       "name_fr": "La Lame de Douleur"
     },
     "The Exile's Vow": {
-      "name_fr": "Le Vœu de l'Exilé"
+      "name_fr": "Le Vœu de l’Exilé"
     },
     "The Grail Vow": {
       "name_fr": "Le Vœu du Graal"
@@ -258,7 +258,7 @@
       "name_fr": "$1+ unité de $2 et/ou $3 par tranche de $4 points"
     },
     "(\\d)\\+ unit of (Men-at-Arms) and/or ([a-zA-Z\\s-]+)": {
-      "name_fr": "$1+ unité d'$2 et/ou de $3"
+      "name_fr": "$1+ unité d’$2 et/ou de $3"
     },
     "(\\d)\\+ unit of ([a-zA-Z\\s-]+) and/or ([a-zA-Z\\s-]+)": {
       "name_fr": "$1+ unité de $2 et/ou de $3"

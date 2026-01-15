@@ -88,7 +88,7 @@
       "name_fr": "Bombes de poudre à canon"
     },
     "Harmony of Stone & Steel": {
-      "name_fr": "Harmonie de la Pierre & de l'Acier"
+      "name_fr": "Harmonie de la Pierre & de l’Acier"
     },
     "Heavenly Beacon": {
       "name_fr": "Fanal Céleste"
@@ -142,7 +142,7 @@
       "name_fr": "Les boucliers magiques ne sont pas autorisés"
     },
     "Obsidian Sentinel": {
-      "name_fr": "Sentinelle d'Obsidienne"
+      "name_fr": "Sentinelle d’Obsidienne"
     },
     "Ogre Loader": {
       "name_fr": "Chargeur Ogre"
@@ -201,7 +201,7 @@
       "name_fr": "D$1 - $2"
     },
     "(\\d-\\d) unit if ([a-zA-Z\\s-]+) is the army's General": {
-      "name_fr": "$1 unité si $2 est la Générale de l'armée"
+      "name_fr": "$1 unité si $2 est la Générale de l’armée"
     },
     "(\\d-\\d) ([a-zA-Z\\s-]+) may be taken as a Special choice per (\\d+) points if your General is a ([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+)": {
       "name_fr": "$1 $2 peut être pris comme choix Spécial par tranche de $3 points si votre Général est un $4 ou un $5"

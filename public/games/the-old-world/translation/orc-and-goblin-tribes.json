@@ -28,19 +28,19 @@
       "name_fr": "Bâton en Morta"
     },
     "Bonegrinder Giant": {
-      "name_fr": "Géant Broyeur d'Os"
+      "name_fr": "Géant Broyeur d’Os"
     },
     "Bonegrinder Giant Attacks": {
-      "name_fr": "Attaques de Géant Broyeur d'Os"
+      "name_fr": "Attaques de Géant Broyeur d’Os"
     },
     "Bonegrinders Giant's club": {
-      "name_fr": "Massue de Géant Broyeur d'Os"
+      "name_fr": "Massue de Géant Broyeur d’Os"
     },
     "Bully": {
       "name_fr": "Brute"
     },
     "Chompa": {
-      "name_fr": "Mâchoir'"
+      "name_fr": "Mâchoir’"
     },
     "Colossal fang-filled gob": {
       "name_fr": "Colossale gueule garnie de crocs"
@@ -55,10 +55,10 @@
       "name_fr": "Râtelier à Trophées du Chef"
     },
     "Da Skull Smasha": {
-      "name_fr": "Frakass' Crânes"
+      "name_fr": "Frakass’ Crânes"
     },
     "Da Troll Calla": {
-      "name_fr": "Eul' Maître des Trolls"
+      "name_fr": "Eul’ Maître des Trolls"
     },
     "Doom Diver": {
       "name_fr": "Plongeur de la Mort"
@@ -214,10 +214,10 @@
       "name_fr": "Grand Chef Orque"
     },
     "Orc Boar Boy Mob": {
-      "name_fr": "Bande d'Orques sur Sangliers"
+      "name_fr": "Bande d’Orques sur Sangliers"
     },
     "Orc Boar Boy Mobs": {
-      "name_fr": "Bandes d'Orques sur Sangliers"
+      "name_fr": "Bandes d’Orques sur Sangliers"
     },
     "Orc Boar Boys": {
       "name_fr": "Orques sur Sangliers"
@@ -235,10 +235,10 @@
       "name_fr": "Brute Orque"
     },
     "Orc Mob": {
-      "name_fr": "Bande d'Orques"
+      "name_fr": "Bande d’Orques"
     },
     "Orc Mobs": {
-      "name_fr": "Bandes d'Orques"
+      "name_fr": "Bandes d’Orques"
     },
     "Orc Warboss": {
       "name_fr": "Chef de Guerre Orque"
@@ -250,7 +250,7 @@
       "name_fr": "Bizarnob Orque"
     },
     "Protect Da Boss": {
-      "name_fr": "Protégez l'Chef"
+      "name_fr": "Protégez l’Chef"
     },
     "Pump Wagon": {
       "name_fr": "Chariot à Pompe"
@@ -259,10 +259,10 @@
       "name_fr": "Lâchez les Fanatiques!"
     },
     "River Troll Mob": {
-      "name_fr": "Bande de Trolls d'Eau"
+      "name_fr": "Bande de Trolls d’Eau"
     },
     "River Troll Mobs": {
-      "name_fr": "Bandes de Trolls d'Eau"
+      "name_fr": "Bandes de Trolls d’Eau"
     },
     "Skulking Menace": {
       "name_fr": "Menace Dissimulée"
@@ -339,10 +339,10 @@
   },
   "regex": {
     "(\\d-\\d) ([a-zA-Z\\s]+) per (\\d\\d) ([a-zA-Z\\s]+), to a maximum of (\\d)": {
-      "name_fr": "$1 $2 par tranche de $3 $4, jusqu'à un maximum de $5"
+      "name_fr": "$1 $2 par tranche de $3 $4, jusqu’à un maximum de $5"
     },
     "Any army made using the Orc & Goblin Tribes Grand Army composition list that includes one or more ([a-zA-Z\\s]+)s may include (\\d-\\d) ([a-zA-Z\\s]+) as a Rare choice.": {
-      "name_fr": "Toute armée utilisant la liste de composition de grande armée des Tribus d'Orques & Gobelins qui inclut au moins une $1 peut inclure $2 $3 comme choix d'Unité Rare"
+      "name_fr": "Toute armée utilisant la liste de composition de grande armée des Tribus d’Orques & Gobelins qui inclut au moins une $1 peut inclure $2 $3 comme choix d’Unité Rare"
     }
   }
 }

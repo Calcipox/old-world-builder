@@ -43,7 +43,7 @@
       "name_fr": "Branchimère"
     },
     "Cloak of Isha": {
-      "name_fr": "Cape d'Isha"
+      "name_fr": "Cape d’Isha"
     },
     "Courage Beyond Compare": {
       "name_fr": "Incomparable Courage"
@@ -55,7 +55,7 @@
       "name_fr": "Danses de Loec"
     },
     "Daughters of Eternity": {
-      "name_fr": "Filles de l'Éternité"
+      "name_fr": "Filles de l’Éternité"
     },
     "Deepwood Coven": {
       "name_fr": "Sabbat du Grand-bois"
@@ -130,7 +130,7 @@
       "name_fr": "Flèches de Fléau des Furies"
     },
     "Handmaiden of the Thorn": {
-      "name_fr": "Suivante de l'Épine"
+      "name_fr": "Suivante de l’Épine"
     },
     "Hardwood flesh": {
       "name_fr": "Peau de chêne"
@@ -139,7 +139,7 @@
       "name_fr": "Serre du Faucon"
     },
     "Hawk-eyed Archer": {
-      "name_fr": "Archer à l'Œil de Faucon"
+      "name_fr": "Archer à l’Œil de Faucon"
     },
     "Horn of the Wild Hunt": {
       "name_fr": "Cor de la Chasse Sauvage"
@@ -157,7 +157,7 @@
       "name_fr": "Féal"
     },
     "Lore of Athel Loren": {
-      "name_fr": "Domaine d'Athel Loren"
+      "name_fr": "Domaine d’Athel Loren"
     },
     "Moonfire Shot": {
       "name_fr": "Traits de Feu Lunaire"
@@ -181,7 +181,7 @@
       "name_fr": "Courir avec la Meute"
     },
     "Sapwood flesh": {
-      "name_fr": "Chair d'aubier"
+      "name_fr": "Chair d’aubier"
     },
     "Sentinel": {
       "name_fr": "Sentinelle"
@@ -190,7 +190,7 @@
       "name_fr": "Danseur des Ombres"
     },
     "Sisters of the Thorn": {
-      "name_fr": "Sœurs de l'Épine"
+      "name_fr": "Sœurs de l’Épine"
     },
     "Skaryn the Eye Thief": {
       "name_fr": "Skaryn le Voleur d’Yeux"
@@ -214,7 +214,7 @@
       "name_fr": "Tisseur de Charmes"
     },
     "Swiftshiver Shards": {
-      "name_fr": "Échardes d'Archère Hâtive"
+      "name_fr": "Échardes d’Archère Hâtive"
     },
     "Sylvan Boar": {
       "name_fr": "Sanglier Sylvain"
@@ -311,8 +311,8 @@
     "([a-zA-Z\\s]+) per ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par $2"
     },
-    "Note that each ([a-zA-Z\\s]+) within a ([a-zA-Z\\s]+) must take the same. In other words, a ([a-zA-Z\\s]+) can only contain ([a-zA-Z\\s]+), ([a-zA-Z\\s]+), ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+), not a mixture of different beasts.": {
-      "name_fr": "Notez que tous les $1 d’une $2 doivent prendre la même option. En d’autres termes, une $3 ne peut contenir que des $4, $5, $6 ou $7, et non un mélange de différentes bêtes."
+    "Note that each Beast Keeper within a ([a-zA-Z\\s]+) must take the same. In other words, a ([a-zA-Z\\s]+) can only contain ([a-zA-Z\\s]+), ([a-zA-Z\\s]+), ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+), not a mixture of different beasts.": {
+      "name_fr": "Notez que tous les Gardiens des Bêtes d’une $2 doivent prendre la même option. En d’autres termes, une $3 ne peut contenir que des $4, $5, $6 ou $7, et non un mélange de différentes bêtes."
     },
     "(Hand weapons) \\((.*)\\)": {
       "name_fr": "$1 ($2)"

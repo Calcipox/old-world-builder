@@ -61,7 +61,7 @@
       "name_fr": "Bolas à pyrosangsues"
     },
     "Fourth Skink crew member": {
-      "name_fr": "Quatrième membre d'équipage Skink"
+      "name_fr": "Quatrième membre d’équipage Skink"
     },
     "Giant blowpipes": {
       "name_fr": "Sarbacanes géantes"
@@ -88,7 +88,7 @@
       "name_fr": "Domaine de Lustrie"
     },
     "Obsidian Blades": {
-      "name_fr": "Lames d'Obsidienne"
+      "name_fr": "Lames d’Obsidienne"
     },
     "Pack Leader": {
       "name_fr": "Chef de Meute"
@@ -121,7 +121,7 @@
       "name_fr": "Champion Entérodactyle"
     },
     "Ripperdactyl Riders": {
-      "name_fr": "Monteurs d'Entérodactyle"
+      "name_fr": "Monteurs d’Entérodactyle"
     },
     "Salamander": {
       "name_fr": "Salamandre"
@@ -210,7 +210,7 @@
       "name_fr": "une $1 doit contenir au moins trois $2 pour chaque $3"
     },
     "gains ([a-zA-Z\\s]+) special rule when choosing ([a-zA-Z\\s]+) weapon option": {
-      "name_fr": "gagne la règle spéciale $1 si l'option d'arme $2 est choisie"
+      "name_fr": "gagne la règle spéciale $1 si l’option d’arme $2 est choisie"
     },
     "if your general is a ([a-zA-Z\\s-]+)": {
       "name_fr": "si votre général est un $1"

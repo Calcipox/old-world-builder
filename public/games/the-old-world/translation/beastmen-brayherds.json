@@ -157,7 +157,7 @@
       "name_fr": "Si sélectionné, il doit être le général"
     },
     "Infantry Chieftains and Shamans": {
-      "name_fr": "Chefs et Chamanes de type 'infanterie'"
+      "name_fr": "Chefs et Chamanes de type ‘infanterie’"
     },
     "Jabberslythe": {
       "name_fr": "Jabberslythe"
@@ -217,7 +217,7 @@
       "name_fr": "Langue protractile"
     },
     "Soul-eater": {
-      "name_fr": "Mangeur d'Âmes"
+      "name_fr": "Mangeur d’Âmes"
     },
     "Splice-horn": {
       "name_fr": "Impure-corne"
@@ -250,7 +250,7 @@
       "name_fr": "Ramure difforme"
     },
     "Ungor Herd": {
-      "name_fr": "Harde d'Ungor"
+      "name_fr": "Harde d’Ungor"
     },
     "Ungor Ravager": {
       "name_fr": "Ravageur Ungor"
@@ -279,7 +279,7 @@
   },
   "regex": {
     "([a-zA-Z\\s]+) in the same muster list as ([a-zA-Z\\s]+)": {
-      "name_fr": "$1 dans la même liste d'armée que $2"
+      "name_fr": "$1 dans la même liste d’armée que $2"
     },
     "May include one ([a-zA-Z\\s]+) for every three ([a-zA-Z\\s]+)": {
       "name_fr": "Peut inclure 1 $1 par tranche de 3 $2"
@@ -303,7 +303,7 @@
       "name_fr": "$1 si votre général est un $2 ou un $3"
     },
     "(\\d+) pts of (Magic Items)": {
-      "name_fr": "$1 points d'$2"
+      "name_fr": "$1 points d’$2"
     },
     "(\\d+) pts of (Chaos Mutations)": {
       "name_fr": "$1 points de $2"

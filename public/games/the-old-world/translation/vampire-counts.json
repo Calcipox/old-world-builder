@@ -204,13 +204,13 @@
   },
   "regex": {
     "mutually exclusive with (C[a-zA-Z\\s]+)": {
-      "name_fr": "mutuellement exclusif avec l'unité d'$1"
+      "name_fr": "mutuellement exclusif avec l’unité d’$1"
     },
     "mutually exclusive with ([a-zA-Z\\s]+)": {
-      "name_fr": "mutuellement exclusif avec l'unité de $1"
+      "name_fr": "mutuellement exclusif avec l’unité de $1"
     },
     "([a-zA-Z\\s]+) chooses (\\d+) points ([a-zA-Z\\s]+) and (\\d+) points ([a-zA-Z\\s]+)": {
-      "name_fr": "$1 peut prendre jusqu'à $2 points de $3 et jusqu'à $4 points de $5"
+      "name_fr": "$1 peut prendre jusqu’à $2 points de $3 et jusqu’à $4 points de $5"
     }
   }
 }

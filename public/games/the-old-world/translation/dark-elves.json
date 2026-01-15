@@ -94,10 +94,10 @@
       "name_fr": "Maître du Draich"
     },
     "Dread Knight": {
-      "name_fr": "Chevalier d'Effroi"
+      "name_fr": "Chevalier d’Effroi"
     },
     "Dread halberds": {
-      "name_fr": "Hallebardes d'effroi"
+      "name_fr": "Hallebardes d’effroi"
     },
     "Eternal Hatred": {
       "name_fr": "Haine Éternelle"
@@ -124,7 +124,7 @@
       "name_fr": "Harpies"
     },
     "Hekarti's Blessing": {
-      "name_fr": "Bénédiction d'Hekarti"
+      "name_fr": "Bénédiction d’Hekarti"
     },
     "Herald": {
       "name_fr": "Héraut"
@@ -220,10 +220,10 @@
       "name_fr": "Furies"
     },
     "one of the Beastmaster Crew may fire this weapon instead of their repeater crossbow": {
-      "name_fr": "l'un des membres de l'équipage Aurige Belluaire peut tirer avec cette arme au lieu de son arbalète à répétition"
+      "name_fr": "l’un des membres de l’équipage Aurige Belluaire peut tirer avec cette arme au lieu de son arbalète à répétition"
     },
     "the charge target suffers a -1 modifier to its Maximum Rank Bonus until the end of the Combat phase of that turn. A model equipped with a lash & buckler improves its armour value by 1.": {
-      "name_fr": "la cible de charge subit un modificateur de -1 à son Bonus de Rang Maximum jusqu'à la fin de la phase de Combat de ce tour. Une figurine équipée de lanières & bocle améliore sa valeur d'armure de 1."
+      "name_fr": "la cible de charge subit un modificateur de -1 à son Bonus de Rang Maximum jusqu’à la fin de la phase de Combat de ce tour. Une figurine équipée de lanières & bocle améliore sa valeur d’armure de 1."
     }
   },
   "regex": {
@@ -234,7 +234,7 @@
       "name_fr": "pris comme monture pour une $1"
     },
     "([a-zA-Z\\s&-]+): If this unit makes a successful charge move": {
-      "name_fr": "$1: Si cette unité réussit un mouvement de charge"
+      "name_fr": "$1: Si cette unité réussit un mouvement de charge"
     }
   }
 }

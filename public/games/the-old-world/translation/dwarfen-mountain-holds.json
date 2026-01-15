@@ -25,7 +25,7 @@
       "name_fr": "Fuselage blindé"
     },
     "Artillery Master": {
-      "name_fr": "Maître de l'Artillerie"
+      "name_fr": "Maître de l’Artillerie"
     },
     "Blasting Charges": {
       "name_fr": "Charges de démolition"
@@ -109,7 +109,7 @@
       "name_fr": "Ingénieur Sapeur"
     },
     "Engineering Runes": {
-      "name_fr": "Runes d'Ingéniérie"
+      "name_fr": "Runes d’Ingénierie"
     },
     "Entrenchment": {
       "name_fr": "Retranchement"
@@ -118,10 +118,10 @@
       "name_fr": "Corps Expéditionnaires"
     },
     "Expeditionary Marksman": {
-      "name_fr": "Tireur d'Élite Expéditionnaire"
+      "name_fr": "Tireur d’Élite Expéditionnaire"
     },
     "Expeditionary Marksmen": {
-      "name_fr": "Tireurs d'Élite Expéditionnaires"
+      "name_fr": "Tireurs d’Élite Expéditionnaires"
     },
     "Extended Formation": {
       "name_fr": "Formation Étendue"
@@ -334,7 +334,7 @@
       "name_fr": "Thane"
     },
     "The Armour of Skaldour": {
-      "name_fr": "L'Armure de Skaldor"
+      "name_fr": "L’Armure de Skaldor"
     },
     "The Axe of Dargo": {
       "name_fr": "La Hache de Dargo"
@@ -364,7 +364,7 @@
       "name_fr": "Vétéran (champion)"
     },
     "Weapon Runes": {
-      "name_fr": "Runes d'Arme"
+      "name_fr": "Runes d’Arme"
     },
     "Whirling blades of death": {
       "name_fr": "Lames de mort tourbillonnantes"
@@ -378,7 +378,7 @@
       "name_fr": "$1 unité de $2 par tranche de $3 points peut acheter des $4"
     },
     "Up to (\\d+) points of each rune type": {
-      "name_fr": "Jusqu'à $1 points de chaque type de rune"
+      "name_fr": "Jusqu’à $1 points de chaque type de rune"
     },
     "(\\d-\\d) unit per (\\d+) points can have ([a-zA-Z\\s]+)": {
       "name_fr": "$1 unité par tranche de $2 points peut acheter des $3"

@@ -7,13 +7,13 @@
       "name_fr": "Archers Accomplis"
     },
     "Anointed of Asuryan": {
-      "name_fr": "Élu d'Asuryan"
+      "name_fr": "Élu d’Asuryan"
     },
     "Archmage": {
       "name_fr": "Archimage"
     },
     "Arrows of Isha": {
-      "name_fr": "Flèches d'Isha"
+      "name_fr": "Flèches d’Isha"
     },
     "Barded Elven Steed": {
       "name_fr": "Coursier Elfique Caparaçonné"
@@ -22,7 +22,7 @@
       "name_fr": "Grande Lame"
     },
     "Blessings of Asuryan": {
-      "name_fr": "Bienfaits d'Asuryan"
+      "name_fr": "Bienfaits d’Asuryan"
     },
     "Blizzard Aura": {
       "name_fr": "Aura de Blizzard"
@@ -34,10 +34,10 @@
       "name_fr": "Bosco"
     },
     "Bow of Avelorn": {
-      "name_fr": "Arc d'Avelorn"
+      "name_fr": "Arc d’Avelorn"
     },
     "Bows of Avelorn": {
-      "name_fr": "Arcs d'Avelorn"
+      "name_fr": "Arcs d’Avelorn"
     },
     "Briny breath": {
       "name_fr": "Souffle saumâtre"
@@ -103,16 +103,16 @@
       "name_fr": "Maître Dragon"
     },
     "Eagle-Claw Bolt Thrower": {
-      "name_fr": "Baliste Serre d'Aigle"
+      "name_fr": "Baliste Serre d’Aigle"
     },
     "Eagle-Eye Bolt Thrower": {
-      "name_fr": "Baliste Œil-d'aigle"
+      "name_fr": "Baliste Œil-d’aigle"
     },
     "Eagle-claw Bolt Thrower": {
-      "name_fr": "Baliste Serre d'Aigle"
+      "name_fr": "Baliste Serre d’Aigle"
     },
     "Eagle-claw Bolt Throwers": {
-      "name_fr": "Balistes Serre d'Aigle"
+      "name_fr": "Balistes Serre d’Aigle"
     },
     "Ellyrian Reavers": {
       "name_fr": "Patrouilleurs Ellyriens"
@@ -181,7 +181,7 @@
       "name_fr": "Sœur Supérieure"
     },
     "Horn of Isha": {
-      "name_fr": "Cor d'Isha"
+      "name_fr": "Cor d’Isha"
     },
     "Iridescent scales": {
       "name_fr": "Écailles irisées"
@@ -307,10 +307,10 @@
       "name_fr": "Compagnie d’Équipage"
     },
     "Silver Helms": {
-      "name_fr": "Heaumes d'Argent"
+      "name_fr": "Heaumes d’Argent"
     },
     "Sisters of Avelorn": {
-      "name_fr": "Sœurs d'Avelorn"
+      "name_fr": "Sœurs d’Avelorn"
     },
     "Sons of Caledor": {
       "name_fr": "Fils de Caledor"
@@ -369,25 +369,25 @@
   },
   "regex": {
     "If your General has the ([a-zA-Z\\s]+) Elven Honour": {
-      "name_fr": "Si votre Général a l'Honneur Elfique $1"
+      "name_fr": "Si votre Général a l’Honneur Elfique $1"
     },
     "(\\d-\\d) Core choice if your General is a ([a-zA-Z\\s]+)": {
       "name_fr": "$1 en choix de Base si votre Général est une $2"
     },
     "Requires (.*) (Elven Honour)": {
-      "name_fr": "Nécessite l'$2 $1"
+      "name_fr": "Nécessite l’$2 $1"
     },
     "Replaces ([a-zA-Z\\s]+)": {
       "name_fr": "Remplace $1"
     },
     "(\\d-\\d) Rare choice if you include one or more ([a-zA-Z\\s]+) unit": {
-      "name_fr": "$1 en tant que choix d'unité Rare si l'armée inclut au moins une unité de $2"
+      "name_fr": "$1 en tant que choix d’unité Rare si l’armée inclut au moins une unité de $2"
     },
     "(\\d-\\d) ([a-zA-Z]+) or ([a-zA-Z]+) (Phoenix) per (\\d+) points": {
       "name_fr": "$1 $4 $2 ou $3 par tranche de $5 points"
     },
     "Magic armour requires ([a-zA-Z\\s]+) Elven Honour": {
-      "name_fr": "Une armure magique nécessite l'Honneur Elfique $1"
+      "name_fr": "Une armure magique nécessite l’Honneur Elfique $1"
     }
   }
 }

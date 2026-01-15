@@ -1,7 +1,7 @@
 {
   "direct": {
     "'Eadbuttin' 'At": {
-      "name_fr": "Cask' à Coup d'Boule"
+      "name_fr": "Cask’ à Coup d’Boule"
     },
     "Armour of Mork": {
       "name_fr": "Armure de Mork"
@@ -10,43 +10,43 @@
       "name_fr": "Lame du Traître"
     },
     "Banner of the Wildz": {
-      "name_fr": "Bannière des Terres Sauvaj'"
+      "name_fr": "Bannière des Terres Sauvaj’"
     },
     "Battleaxe of the last big Waaagh!": {
       "name_fr": "Hache de la Der des Der"
     },
     "Big Boss 'At": {
-      "name_fr": "Casque eud' Chef"
+      "name_fr": "Casque eud’ Chef"
     },
     "Bigger Choppier Axe": {
-      "name_fr": "Grosse Hache Ki Koup' Pluss"
+      "name_fr": "Grosse Hache Ki Koup’ Pluss"
     },
     "Buzgob's Knobbly Staff": {
       "name_fr": "Bâton Zarbi de Buzgob"
     },
     "Da Akrit Axe": {
-      "name_fr": "La Hache Préciz'"
+      "name_fr": "La Hache Préciz’"
     },
     "Da Angry Ladz Flag": {
-      "name_fr": "L'Drapeau des Gars Zenragés"
+      "name_fr": "L’Drapeau des Gars Zenragés"
     },
     "Da Banner of Butchery": {
-      "name_fr": "La Bannière du Karnaj'"
+      "name_fr": "La Bannière du Karnaj’"
     },
     "Da Banner of Da Nomadz": {
       "name_fr": "La Bannière des Nomadz"
     },
     "Da Choppiest Choppa": {
-      "name_fr": "Kikoup' Ki Koupe"
+      "name_fr": "Kikoup’ Ki Koupe"
     },
     "Da Hag's Brew": {
-      "name_fr": "L'Breuvage d'la Mégère"
+      "name_fr": "L’Breuvage d’la Mégère"
     },
     "Da Spider Banner": {
       "name_fr": "La Bannière Araignée"
     },
     "Da Thinkin' Orc's 'At": {
-      "name_fr": "L'Chapeau d'Intello"
+      "name_fr": "L’Chapeau d’Intello"
     },
     "Dead 'Ard Armour": {
       "name_fr": "Armure Très Durze"
@@ -58,7 +58,7 @@
       "name_fr": "Vin de Champignon"
     },
     "Glittering Wotnots": {
-      "name_fr": "Babiol' ki Brillent"
+      "name_fr": "Babiol’ ki Brillent"
     },
     "Glowy Green Amulet": {
       "name_fr": "Amulette Verte Luisante"
@@ -76,13 +76,13 @@
       "name_fr": "Idole de Mork"
     },
     "Martog's Best Basha": {
-      "name_fr": "Cogneur Trop Klass' de Martog"
+      "name_fr": "Cogneur Trop Klass’ de Martog"
     },
     "Necklace of Blessed Teef": {
       "name_fr": "Collier de Dents Bénies"
     },
     "Porko's Pigstikka": {
-      "name_fr": "Pik'goret de Porko"
+      "name_fr": "Pik’goret de Porko"
     },
     "Sparkly Wizard Finda": {
       "name_fr": "Trouve-Mage Scintillant"
@@ -94,19 +94,19 @@
       "name_fr": "Bâton de Badoumm"
     },
     "The Big Red Raggedy Flag": {
-      "name_fr": "Le Grand Drapeau Rouj'"
+      "name_fr": "Le Grand Drapeau Rouj’"
     },
     "The Collar of Zorga": {
       "name_fr": "Le Collier de Zorga"
     },
     "Trollhide Trousers": {
-      "name_fr": "Pantalons en Peau d'Troll"
+      "name_fr": "Pantalons en Peau d’Troll"
     },
     "Waaagh! Banner": {
       "name_fr": "Bannière Waaagh!"
     },
     "Wollopa's One Hit Wunda": {
-      "name_fr": "Tap'K'un Koup de Wollopa"
+      "name_fr": "Tap’K’un Koup de Wollopa"
     }
   },
   "regex": {}
