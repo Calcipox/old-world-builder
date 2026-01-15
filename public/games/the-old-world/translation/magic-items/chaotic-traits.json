@@ -1,0 +1,26 @@
+{
+  "direct": {
+    "Battle Hunger": {
+      "name_fr": "Soif de Batailles"
+    },
+    "Brazen Will": {
+      "name_fr": "Volonté d’Airain"
+    },
+    "Dark Hearts": {
+      "name_fr": "Sombres Cœurs"
+    },
+    "Enhanced Reflexes": {
+      "name_fr": "Réflexes Améliorés"
+    },
+    "Longstriders": {
+      "name_fr": "Grands-pas"
+    },
+    "Prophetic Foresight": {
+      "name_fr": "Visions Prophétiques"
+    },
+    "Unnatural Fortitude": {
+      "name_fr": "Résistance Contre-nature"
+    }
+  },
+  "regex": {}
+}

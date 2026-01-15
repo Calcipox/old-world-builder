@@ -15,6 +15,9 @@
     "Armoured Hide": {
       "name_fr": "Peau Blindée"
     },
+    "Barded Skeletal Steed": {
+      "name_fr": "Coursier Squelette Caparaçonné"
+    },
     "Barding": {
       "name_fr": "Caparaçon"
     },
@@ -92,6 +95,9 @@
     },
     "Cannons": {
       "name_fr": "Canons"
+    },
+    "Cannot be your general": {
+      "name_fr": "Ne peut être votre général"
     },
     "Cavalry spear": {
       "name_fr": "Lance de cavalerie"
@@ -507,6 +513,9 @@
     "No armour": {
       "name_fr": "Pas d’armure"
     },
+    "None": {
+      "name_fr": "Aucun"
+    },
     "Note that this special rule does not apply to this model's mount": {
       "name_fr": "Notez que cette règle spéciale ne s’applique pas à la monture de cette figurine"
     },
@@ -558,6 +567,9 @@
     "Random Movement": {
       "name_fr": "Mouvement Aléatoire"
     },
+    "Ranged weapon": {
+      "name_fr": "Arme de tir"
+    },
     "Regeneration": {
       "name_fr": "Régénération"
     },
@@ -599,6 +611,9 @@
     },
     "Scouts": {
       "name_fr": "Éclaireurs"
+    },
+    "Serrated maw": {
+      "name_fr": "Gueule dentelée"
     },
     "Shartak": {
       "name_fr": "Shartak"
@@ -707,6 +722,9 @@
     },
     "Timmm-berrr!": {
       "name_fr": "Timmm-berrr!"
+    },
+    "Troll vomit": {
+      "name_fr": "Vomi de Troll"
     },
     "Tusks": {
       "name_fr": "Défenses"

@@ -96,6 +96,9 @@
     "Immovable Object": {
       "name_fr": "Objet Inébranlable"
     },
+    "Incantation Scrolls": {
+      "name_fr": "Parchemins d’Incantation"
+    },
     "Khemrian Warsphinx": {
       "name_fr": "Sphinx de Guerre de Khemri"
     },
@@ -209,6 +212,12 @@
     },
     "Screaming Skulls": {
       "name_fr": "Crânes Hurlants"
+    },
+    "Screaming skull catapult": {
+      "name_fr": "Catapulte à crânes hurlants"
+    },
+    "Screaming skull catapults": {
+      "name_fr": "Catapultes à crânes hurlants"
     },
     "Sepulchral Stalkers": {
       "name_fr": "Rôdeurs Sépulcraux"
@@ -344,6 +353,9 @@
     },
     "Warsphinx": {
       "name_fr": "Sphinx de Guerre"
+    },
+    "Winged Warsphinx": {
+      "name_fr": "Sphinx de Guerre Ailé"
     },
     "Writhing tail": {
       "name_fr": "Queue sinueuse"

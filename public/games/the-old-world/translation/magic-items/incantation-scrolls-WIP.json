@@ -1,0 +1,23 @@
+{
+  "direct": {
+    "Scroll of Awakening": {
+      "name_fr": "Parchemin d’Eveil"
+    },
+    "Scroll of Righteous Smiting": {
+      "name_fr": "Parchemin du Juste Châtiment"
+    },
+    "Scroll of Summoning": {
+      "name_fr": "Parchemin d’Invocation"
+    },
+    "Scroll of Urgency": {
+      "name_fr": "Parchemin des Prestes Enjambées"
+    },
+    "Scroll of Withering": {
+      "name_fr": "Parchemin de Flétrissement"
+    },
+    "Scroll of the Outcast Dead": {
+      "name_fr": "Parchemin des Morts Bannis"
+    }
+  },
+  "regex": {}
+}

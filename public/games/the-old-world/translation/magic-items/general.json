@@ -3,6 +3,9 @@
     "Arcane Familiar": {
       "name_fr": "Familier des Arcanes"
     },
+    "Arch-Lightning Rod": {
+      "name_fr": "Paratonnere Suprême"
+    },
     "Armour of Destiny": {
       "name_fr": "Armure du Destin"
     },
@@ -15,6 +18,15 @@
     "Banner of Iron Resolve": {
       "name_fr": "Bannière de Détermination"
     },
+    "Banner of Swirling Wind": {
+      "name_fr": "Bannière des Vents Tourbillonnants"
+    },
+    "Banner of the Steadfast": {
+      "name_fr": "Bannière du Guerrier Inébranlable"
+    },
+    "Becalming Orb": {
+      "name_fr": "Orbe d’Accalmie"
+    },
     "Bedazzling Helm": {
       "name_fr": "Heaume du Trompeur"
     },
@@ -26,6 +38,9 @@
     },
     "Burning Blade": {
       "name_fr": "Lame Ardente"
+    },
+    "Cackling Blade": {
+      "name_fr": "Lame Caquetante"
     },
     "Charmed Shield": {
       "name_fr": "Bouclier Ensorcelé"
@@ -66,11 +81,29 @@
     "Healing Potion": {
       "name_fr": "Potion de Soin"
     },
+    "Hell-Forged Axe": {
+      "name_fr": "Hache Infernale"
+    },
+    "Icon of Fortitude": {
+      "name_fr": "Icône d’Endurance"
+    },
+    "Ironhide Talisman": {
+      "name_fr": "Talisman de Peau de Fer"
+    },
+    "Levitating Shield": {
+      "name_fr": "Bouclier en Lévitation"
+    },
     "Lore Familiar": {
       "name_fr": "Familier de Savoir"
     },
     "Luckstone": {
       "name_fr": "Pierre de Chance"
+    },
+    "Meteor Hammer": {
+      "name_fr": "Marteau Météore"
+    },
+    "Monster Hunter's Tapestry": {
+      "name_fr": "Tapisserie du Chasseur de Monstres"
     },
     "Obsidian Lodestone": {
       "name_fr": "Magnétite d’Obsidienne"
@@ -80,6 +113,9 @@
     },
     "Paymaster's Coin": {
       "name_fr": "Pièce du Trésorier"
+    },
+    "Potion of Fervour": {
+      "name_fr": "Potion de Ferveur"
     },
     "Potion of Foolhardiness": {
       "name_fr": "Potion d’Impétuosité"
@@ -105,6 +141,9 @@
     "Ruby Ring of Ruin": {
       "name_fr": "Anneau Rubis de Ruine"
     },
+    "Scroll of Disruption": {
+      "name_fr": "Parchemin de Disruption"
+    },
     "Scroll of Transmogrification": {
       "name_fr": "Parchemin de Transmutation"
     },
@@ -117,11 +156,17 @@
     "Spellshield": {
       "name_fr": "Bouclier d’Anti-magie"
     },
+    "Staff of Quietude": {
+      "name_fr": "Bâton de Quiétude"
+    },
     "Sword of Battle": {
       "name_fr": "Épée de Bataille"
     },
     "Sword of Might": {
       "name_fr": "Épée de Puissance"
+    },
+    "Sword of Sorrow": {
+      "name_fr": "Épée de Douleur"
     },
     "Sword of Striking": {
       "name_fr": "Épée de Frappe"
@@ -134,6 +179,15 @@
     },
     "The Blazing Banner": {
       "name_fr": "Bannière Incandescente"
+    },
+    "Tome of Spellcraft": {
+      "name_fr": "Tome des Jeteurs de Sorts"
+    },
+    "Totem of Wrath": {
+      "name_fr": "Totem de Furie"
+    },
+    "Trailblazer's Hauberk": {
+      "name_fr": "Haubert du Pionnier"
     },
     "Wand of Jet": {
       "name_fr": "Baguette de Jais"

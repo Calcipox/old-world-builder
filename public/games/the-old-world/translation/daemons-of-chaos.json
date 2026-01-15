@@ -308,6 +308,9 @@
     "Daemon of ([\\w\\s]+)": {
       "name_fr": "Démon de $1"
     },
+    "(Chaos Furies) of ([\\w\\s]+)": {
+      "name_fr": "$1 de $2"
+    },
     "Daemonic Herald of ([\\w\\s]+)": {
       "name_fr": "Héraut Démoniaque de $1"
     },

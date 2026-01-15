@@ -9,6 +9,9 @@
     "Banner of the Bastion": {
       "name_fr": "Bannière du Bastion"
     },
+    "Banner of the Dragon's Wrath": {
+      "name_fr": "Bannière de la Fureur du Dragon"
+    },
     "Cloak of Po Mei": {
       "name_fr": "Cape de Po Mei"
     },
@@ -36,6 +39,9 @@
     "Jade Armour Of Beichai": {
       "name_fr": "Armure de Jade de Beichai"
     },
+    "Jade Armour of Beichai": {
+      "name_fr": "Armure de Jade de Beichai"
+    },
     "Jade Blade of the Great Fleet": {
       "name_fr": "Lame de Jade de la Grande Flotte"
     },
@@ -48,16 +54,28 @@
     "Ring Of Jet": {
       "name_fr": "Anneau de Jais"
     },
+    "Ring of Jet": {
+      "name_fr": "Anneau de Jais"
+    },
     "Scrolls Of Wei-jin": {
       "name_fr": "Parchemins de Wei-jin"
     },
+    "Scrolls of Wei-jin": {
+      "name_fr": "Parchemins de Wei-jin"
+    },
     "Seal Of Xing Po": {
+      "name_fr": "Sceau de Xing Po"
+    },
+    "Seal of Xing Po": {
       "name_fr": "Sceau de Xing Po"
     },
     "Shield of Nan-Gau": {
       "name_fr": "Bouclier de Nan-Gau"
     },
     "Sigil Of Smoke & Powder": {
+      "name_fr": "Sigillum de Poudre & de Fumée"
+    },
+    "Sigil of Smoke & Powder": {
       "name_fr": "Sigillum de Poudre & de Fumée"
     },
     "Spirit Lantern": {
@@ -78,10 +96,16 @@
     "The Banner Of Xen Wun": {
       "name_fr": "La Bannière de Xen Wun"
     },
+    "The Banner of Xen Wun": {
+      "name_fr": "La Bannière de Xen Wun"
+    },
     "The Brazen Blade": {
       "name_fr": "La Lame d’Airain"
     },
     "The Fires Of Nan-Gau": {
+      "name_fr": "Les Feux de Nan-Gau"
+    },
+    "The Fires of Nan-Gau": {
       "name_fr": "Les Feux de Nan-Gau"
     },
     "The Jade Banner": {
@@ -90,10 +114,16 @@
     "The Mantle Of Heaven": {
       "name_fr": "Le Manteau des Cieux"
     },
+    "The Mantle of Heaven": {
+      "name_fr": "Le Manteau des Cieux"
+    },
     "The Monkey King's Wisdom": {
       "name_fr": "La Sagesse du Roi des Singes"
     },
     "The Shroud Of Shiyama": {
+      "name_fr": "Le Linceul de Shiyama"
+    },
+    "The Shroud of Shiyama": {
       "name_fr": "Le Linceul de Shiyama"
     },
     "The Sword Of Nan-Gau": {
@@ -102,7 +132,16 @@
     "The Sword Of Reason": {
       "name_fr": "L’Épée de Raison"
     },
+    "The Sword of Nan-Gau": {
+      "name_fr": "L’Épée de Nan-Gau"
+    },
+    "The Sword of Reason": {
+      "name_fr": "L’Épée de Raison"
+    },
     "The Wrath Of Xen Yang": {
+      "name_fr": "Le Courroux de Xen Yang"
+    },
+    "The Wrath of Xen Yang": {
       "name_fr": "Le Courroux de Xen Yang"
     },
     "Vermilion Quills": {

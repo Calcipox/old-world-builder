@@ -33,6 +33,15 @@
     "Chaos Warriors": {
       "name_fr": "Guerriers du Chaos"
     },
+    "Chaotic Cult": {
+      "name_fr": "Culte Chaotique"
+    },
+    "Chaotic Cults": {
+      "name_fr": "Cultes Chaotiques"
+    },
+    "Chaotic Traits": {
+      "name_fr": "Traits Chaotiques"
+    },
     "Chimera": {
       "name_fr": "Chimère"
     },
@@ -120,6 +129,9 @@
     "Marauder Chieftain": {
       "name_fr": "Chef Maraudeur"
     },
+    "Marauder Headman": {
+      "name_fr": "Chef Maraudeur"
+    },
     "Marauder Horsemaster": {
       "name_fr": "Chef Cavalier Maraudeur"
     },
@@ -176,6 +188,18 @@
     },
     "Storm's Wrath": {
       "name_fr": "Courroux de la Tempête"
+    },
+    "The Cult of the Bloodied Hound": {
+      "name_fr": "Le Culte du Chien Sanguinaire"
+    },
+    "The Cult of the Carrion Crow": {
+      "name_fr": "Le Culte de la Corneille Noire"
+    },
+    "The Cult of the Fell Raptor": {
+      "name_fr": "Le Culte du Rapace Néfaste"
+    },
+    "The Cult of the Slithering Serpent": {
+      "name_fr": "Le Culte du Serpent Sinueux"
     },
     "Two-headed Dragon": {
       "name_fr": "Dragon Bicéphale"
