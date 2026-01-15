@@ -13,7 +13,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 
-def construct_translation(to_translate, translation_data, language, current_translation, debug_prefix="", new_data={}):
+def construct_translation(to_translate, translation_data, language, current_translation, debug_prefix="", new_data={}, simple=False):
     if not to_translate:
         return to_translate
     nested_debug_prefix = debug_prefix + "__"
@@ -28,84 +28,86 @@ def construct_translation(to_translate, translation_data, language, current_tran
         logger.debug("{}DIRECT: '{}'->'{}'".format(debug_prefix, to_translate, final))
         return final
 
-    # Ugly fix to avoid translating again all champions names:
-    if "(champion)" in to_translate and current_translation is not None and current_translation and "(champion)" not in current_translation:
-        return "{} ({})".format(current_translation, construct_translation("champion", translation_data, language, None,
-                                                                           nested_debug_prefix, new_data))
+    if not simple:
+        # Ugly fix to avoid translating again all champions names:
+        if "(champion)" in to_translate and current_translation is not None and current_translation and "(champion)" not in current_translation:
+            return "{} ({})".format(current_translation, construct_translation("champion", translation_data, language, None,
+                                                                               nested_debug_prefix, new_data, keep_brackets))
 
-    # Try to match any regex (containing a number or special characters, like "Level 4 Wizard"):
-    for regex in translation_data.get("regex"):
-        val = re.fullmatch(regex, to_translate.strip())
-        curr = None if current_translation is None else re.fullmatch(regex, current_translation.strip())
+        if "regex" in translation_data:
+            # Try to match any regex (containing a number or special characters, like "Level 4 Wizard"):
+            for regex in translation_data.get("regex"):
+                val = re.fullmatch(regex, to_translate.strip())
+                curr = None if current_translation is None else re.fullmatch(regex, current_translation.strip())
 
+                if val is not None:
+                    final = translation_data.get("regex").get(regex).get(language)
+                    if final is not None:
+                        for i in range(1, len(val.groups()) + 1):
+                            final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language,
+                                                                                   None if curr is None else curr.group(i),
+                                                                                   nested_debug_prefix, new_data, keep_brackets))
+                        final = to_translate.replace(to_translate.strip(), final)
+                        logger.debug("{}REGEX({}): '{}'->'{}'".format(debug_prefix, regex, to_translate, final))
+                        return final
+
+        # Translate list of string separated by ',':
+        if "," in to_translate:
+            final = ""
+            if current_translation is None or not current_translation \
+                    or len(to_translate.split(",")) != len(current_translation.split(",")):
+                final = ",".join(
+                    [construct_translation(elt, translation_data, language, None, nested_debug_prefix, new_data, simple) for elt in
+                     to_translate.split(",")])
+            else:
+                final = ",".join(
+                    [construct_translation(to_translate.split(",")[i], translation_data, language,
+                                           current_translation.split(",")[i], nested_debug_prefix, new_data, simple)
+                     for i in range(0, len(to_translate.split(",")))])
+            logger.debug("{}LIST: '{}'->'{}'".format(debug_prefix, to_translate, final))
+            return final
+
+        # Try to match any string starting and/or ending with a '*'
+        val = re.match(r'(.*)\*(.*)', to_translate)
+        curr = None if current_translation is None else re.match(r'(.*)\*(.*)', current_translation)
         if val is not None:
-            final = translation_data.get("regex").get(regex).get(language)
-            if final is not None:
-                for i in range(1, len(val.groups()) + 1):
-                    final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language,
-                                                                           None if curr is None else curr.group(i),
-                                                                           nested_debug_prefix, new_data))
-                final = to_translate.replace(to_translate.strip(), final)
-                logger.debug("{}REGEX({}): '{}'->'{}'".format(debug_prefix, regex, to_translate, final))
-                return final
+            final = "*".join(
+                [construct_translation(val.group(1), translation_data, language, None if curr is None else curr.group(1),
+                                       nested_debug_prefix, new_data, simple),
+                 construct_translation(val.group(2), translation_data, language, None if curr is None else curr.group(2),
+                                       nested_debug_prefix, new_data, simple)])
+            logger.debug("{}STAR: '{}'->'{}'".format(debug_prefix, to_translate, final))
+            return final
 
-    # Translate list of string separated by ',':
-    if "," in to_translate:
-        final = ""
-        if current_translation is None or not current_translation \
-                or len(to_translate.split(",")) != len(current_translation.split(",")):
-            final = ",".join(
-                [construct_translation(elt, translation_data, language, None, nested_debug_prefix, new_data) for elt in
-                 to_translate.split(",")])
-        else:
-            final = ",".join(
-                [construct_translation(to_translate.split(",")[i], translation_data, language,
-                                       current_translation.split(",")[i], nested_debug_prefix, new_data)
-                 for i in range(0, len(to_translate.split(",")))])
-        logger.debug("{}LIST: '{}'->'{}'".format(debug_prefix, to_translate, final))
-        return final
+        # Split by any parentheses content and try to translate those:
+        val = re.match(r'(.*)\((.*)\)(.*)', to_translate)
+        curr = None if current_translation is None else re.match(r'(.*)\((.*)\)(.*)', current_translation)
+        if val is not None:
+            final = "".join([construct_translation(val.group(1), translation_data, language,
+                                                   None if curr is None else curr.group(1), nested_debug_prefix, new_data, simple),
+                             "(",
+                             construct_translation(val.group(2), translation_data, language,
+                                                   None if curr is None else curr.group(2), nested_debug_prefix, new_data, simple),
+                             ")",
+                             construct_translation(val.group(3), translation_data, language,
+                                                   None if curr is None else curr.group(3), nested_debug_prefix, new_data, simple)])
+            logger.debug("{}PARENTHESES: '{}'->'{}'".format(debug_prefix, to_translate, final))
+            return final
 
-    # Try to match any string starting and/or ending with a '*'
-    val = re.match(r'(.*)\*(.*)', to_translate)
-    curr = None if current_translation is None else re.match(r'(.*)\*(.*)', current_translation)
-    if val is not None:
-        final = "*".join(
-            [construct_translation(val.group(1), translation_data, language, None if curr is None else curr.group(1),
-                                   nested_debug_prefix, new_data),
-             construct_translation(val.group(2), translation_data, language, None if curr is None else curr.group(2),
-                                   nested_debug_prefix, new_data)])
-        logger.debug("{}STAR: '{}'->'{}'".format(debug_prefix, to_translate, final))
-        return final
-
-    # Split by any parentheses content and try to translate those:
-    val = re.match(r'(.*)\((.*)\)(.*)', to_translate)
-    curr = None if current_translation is None else re.match(r'(.*)\((.*)\)(.*)', current_translation)
-    if val is not None:
-        final = "".join([construct_translation(val.group(1), translation_data, language,
-                                               None if curr is None else curr.group(1), nested_debug_prefix, new_data),
-                         "(",
-                         construct_translation(val.group(2), translation_data, language,
-                                               None if curr is None else curr.group(2), nested_debug_prefix, new_data),
-                         ")",
-                         construct_translation(val.group(3), translation_data, language,
-                                               None if curr is None else curr.group(3), nested_debug_prefix, new_data)])
-        logger.debug("{}PARENTHESES: '{}'->'{}'".format(debug_prefix, to_translate, final))
-        return final
-
-    # Check string containing {}:
-    val = re.match(r'(.*)\{.*\}(.*)', to_translate)
-    curr = None if current_translation is None else re.match(r'(.*)\{.*\}(.*)', current_translation)
-    if val is not None:
-        final = "".join([construct_translation(val.group(1), translation_data, language,
-                                               None if curr is None else curr.group(1), nested_debug_prefix, new_data),
-                         construct_translation(val.group(2), translation_data, language,
-                                               None if curr is None else curr.group(2), nested_debug_prefix,
-                                               new_data)]).rstrip()
-        # Fix for Armour of Chaos (X+)
-        if to_translate.endswith(" "):
-            final = final + " "
-        logger.debug("{}BRACES: '{}'->'{}'".format(debug_prefix, to_translate, final))
-        return final
+        # Check string containing {}:
+        val = re.match(r'(.*)\{.*\}(.*)', to_translate)
+        curr = None if current_translation is None else re.match(r'(.*)\{.*\}(.*)', current_translation)
+        if val is not None:
+            final = "".join([construct_translation(val.group(1), translation_data, language,
+                                                   None if curr is None else curr.group(1), nested_debug_prefix, new_data, simple),
+                             construct_translation(val.group(2), translation_data, language,
+                                                   None if curr is None else curr.group(2), nested_debug_prefix,
+                                                   new_data, simple)]).rstrip()
+            # Fix for Armour of Chaos (X+)
+            if to_translate.endswith(" "):
+                final = final + " "
+            logger.debug("{}BRACES: '{}'->'{}'".format(debug_prefix, to_translate, final))
+            return final
 
     ignore_regex = ["\\.", "\\d+", "D\\d", "\\d\\+", "\\d-\\d", "D\\d\\+\\d", "-\\d", "\\dD\\d\\+\\d", "\\dD\\d"]
     found = False
@@ -133,19 +135,19 @@ def construct_translation(to_translate, translation_data, language, current_tran
     return to_translate
 
 
-def add_missing_translations(json_obj, translation_data, language, new_data):
+def add_missing_translations(json_obj, translation_data, language, new_data, simple):
     if isinstance(json_obj, dict):
         # If there is a "name_en" key, then something need to be translated:
         if "name_en" in json_obj:
             translation = construct_translation(json_obj.get("name_en"), translation_data, language,
-                                                json_obj.get(language), new_data=new_data)
+                                                json_obj.get(language), new_data=new_data, simple=simple)
             json_obj[language] = translation
 
         for value in json_obj.values():
-            add_missing_translations(value, translation_data, language, new_data=new_data)
+            add_missing_translations(value, translation_data, language, new_data=new_data, simple=simple)
     elif isinstance(json_obj, list):
         for value in json_obj:
-            add_missing_translations(value, translation_data, language, new_data=new_data)
+            add_missing_translations(value, translation_data, language, new_data=new_data, simple=simple)
 
 
 def get_and_sort_translations_data(file_path):
@@ -161,8 +163,8 @@ def get_and_sort_translations_data(file_path):
     return translation_data
 
 
-def translate_and_write(json_obj, translation_data, language, new_data, dump_path):
-    add_missing_translations(json_obj, translation_data, language, new_data)
+def translate_and_write(json_obj, translation_data, language, new_data, dump_path, simple=False):
+    add_missing_translations(json_obj, translation_data, language, new_data, simple)
 
     main_data = {"direct": new_data, "regex": {}}
     # if not os.path.exists(army_translation_path):
@@ -172,6 +174,30 @@ def translate_and_write(json_obj, translation_data, language, new_data, dump_pat
             new_write_file.write("\n")
     elif os.path.exists(dump_path):
         os.remove(dump_path)
+
+def get_i18n_data(directory, file, language):
+    lang_file_path = os.path.join(directory, file)
+    en_file_path = os.path.join(directory, "en.json")
+
+    with open(lang_file_path, "r", encoding='utf8') as read_file:
+        i18n_lang_data = json.load(read_file)
+
+    with open(en_file_path, "r", encoding='utf8') as read_file:
+        i18n_en_data = json.load(read_file)
+    tmp_data = {}
+
+    for key in i18n_en_data:
+        tmp_data[key] = { "name_en" : i18n_en_data.get(key), "name_{}".format(language) : i18n_lang_data.get(key) }
+
+    return tmp_data
+
+
+def format_i18n_data(data, language):
+    formatted_data = {}
+    for key in data:
+        formatted_data[key] =  data.get(key).get("name_{}".format(language))
+    return formatted_data
+
 
 
 
@@ -215,6 +241,10 @@ def main():
                         "--dry-run",
                         action="store_true",
                         help="Avoid writing result file.")
+    parser.add_argument("-t",
+                        "--translation-file",
+                        action="store_true",
+                        help="Use on translation file (i18n).")
     args = parser.parse_args()
     logger.setLevel(logging.INFO)
     if args.debug:
@@ -233,56 +263,89 @@ def main():
     for file in os.listdir(args.json_directory_path):
         if file.endswith(".json"):
             if not args.filter or args.filter in file:
-                with open(os.path.join(args.json_directory_path, file), "r", encoding='utf8') as read_file:
-                    json_file_content = json.load(read_file)
-
-                if "magic-items" not in file:
-                    logger.info("\nCheck '{}' using:\n\t{}".format(file, common_data_path))
-                    merged_translation_data = {}
-                    new_data = {}
-                    army_translation_path = os.path.join(common_data_directory, file)
-                    army_translation_data = {"direct": {}, "regex": {}}
-
-                    if os.path.exists(army_translation_path):
-                        logger.info("\t{}".format(army_translation_path))
-                        army_translation_data = get_and_sort_translations_data(army_translation_path)
-
-                    merged_translation_data["direct"] = {**army_translation_data.get("direct"),
-                                                         **common_translation_data.get("direct")}
-                    merged_translation_data["regex"] = {**army_translation_data.get("regex"),
-                                                        **common_translation_data.get("regex")}
-
-                    translate_and_write(json_file_content, merged_translation_data, language, new_data,
-                                        army_translation_path.replace(".json", "-dump.json"))
-
-                else:
-                    logger.info("\nCheck '{}':".format(file))
-                    for key in json_file_content.keys():
-                        logger.info("\t'{}' using:\n\t\t{}".format(key, common_data_path))
+                json_file_content = {}
+                if args.translation_file:
+                    if file == "{}.json".format(args.language):
+                        logger.info("\nCheck '{}' using:".format(file))
                         merged_translation_data = copy.deepcopy(common_translation_data)
                         new_data = {}
-                        army_translation_path = os.path.join(common_data_directory, "{}.json".format(key))
-                        if key == "chaos-mutations":
-                            army_translation_path = os.path.join(common_data_directory, "beastmen-brayherds.json")
+                        translation_files_list = []
+
+                        for translation_file in os.listdir(common_data_directory):
+                            full_path = os.path.join(common_data_directory, translation_file)
+                            if os.path.isdir(full_path):
+                                for translation_item_file in os.listdir(full_path):
+                                    translation_files_list.append(os.path.join(full_path, translation_item_file))
+                            else:
+                                translation_files_list.append(full_path)
+
+                        for translation_file_path in translation_files_list:
+                            if translation_file_path.endswith(".json") and not "dump" in translation_file_path:
+                                logger.info("\t{}".format(translation_file_path))
+                                translation_data = get_and_sort_translations_data(translation_file_path)
+                                merged_translation_data["direct"].update(translation_data.get("direct"))
+
+                        del merged_translation_data["regex"]
+
+                        tmp_data = get_i18n_data(args.json_directory_path, file, args.language)
+                        translate_and_write(tmp_data, merged_translation_data, language, new_data,
+                                            os.path.join(args.json_directory_path, file.replace(".json", "-dump.json")), True)
+                        json_file_content = format_i18n_data(tmp_data, args.language)
+
+
+                else:
+                    with open(os.path.join(args.json_directory_path, file), "r", encoding='utf8') as read_file:
+                        json_file_content = json.load(read_file)
+
+                    if "magic-items" not in file:
+                        logger.info("\nCheck '{}' using:\n\t{}".format(file, common_data_path))
+                        merged_translation_data = {}
+                        new_data = {}
+                        army_translation_path = os.path.join(common_data_directory, file)
+                        army_translation_data = {"direct": {}, "regex": {}}
 
                         if os.path.exists(army_translation_path):
-                            logger.info("\t\t{}".format(army_translation_path))
+                            logger.info("\t{}".format(army_translation_path))
                             army_translation_data = get_and_sort_translations_data(army_translation_path)
-                            merged_translation_data["direct"].update(army_translation_data.get("direct"))
-                            merged_translation_data["regex"].update(army_translation_data.get("regex"))
 
-                        items_translation_path = os.path.join(common_data_directory, "magic-items",
-                                                              "{}.json".format(key))
-                        if os.path.exists(items_translation_path):
-                            logger.info("\t\t{}".format(items_translation_path))
-                            items_translation_data = get_and_sort_translations_data(items_translation_path)
-                            merged_translation_data["direct"].update(items_translation_data.get("direct"))
-                            merged_translation_data["regex"].update(items_translation_data.get("regex"))
+                        merged_translation_data["direct"] = {**army_translation_data.get("direct"),
+                                                             **common_translation_data.get("direct")}
+                        merged_translation_data["regex"] = {**army_translation_data.get("regex"),
+                                                            **common_translation_data.get("regex")}
 
-                        translate_and_write(json_file_content.get(key), merged_translation_data, language, new_data,
-                                            items_translation_path.replace(".json", "-dump.json"))
+                        translate_and_write(json_file_content, merged_translation_data, language, new_data,
+                                            army_translation_path.replace(".json", "-dump.json"))
 
-                if not args.dry_run:
+                    else:
+                        logger.info("\nCheck '{}':".format(file))
+                        for key in json_file_content.keys():
+                            logger.info("\t'{}' using:\n\t\t{}".format(key, common_data_path))
+                            merged_translation_data = copy.deepcopy(common_translation_data)
+                            new_data = {}
+                            army_translation_path = os.path.join(common_data_directory, "{}.json".format(key))
+                            if key == "chaos-mutations":
+                                army_translation_path = os.path.join(common_data_directory, "beastmen-brayherds.json")
+
+                            if os.path.exists(army_translation_path):
+                                logger.info("\t\t{}".format(army_translation_path))
+                                army_translation_data = get_and_sort_translations_data(army_translation_path)
+                                merged_translation_data["direct"].update(army_translation_data.get("direct"))
+                                merged_translation_data["regex"].update(army_translation_data.get("regex"))
+
+                            items_translation_path = os.path.join(common_data_directory, "magic-items",
+                                                                  "{}.json".format(key))
+                            if os.path.exists(items_translation_path):
+                                logger.info("\t\t{}".format(items_translation_path))
+                                items_translation_data = get_and_sort_translations_data(items_translation_path)
+                                merged_translation_data["direct"].update(items_translation_data.get("direct"))
+                                merged_translation_data["regex"].update(items_translation_data.get("regex"))
+
+                            translate_and_write(json_file_content.get(key), merged_translation_data, language, new_data,
+                                                items_translation_path.replace(".json", "-dump.json"))
+
+
+
+                if not args.dry_run and json_file_content:
                     # Write the file with all new translations added:
                     with open(os.path.join(args.json_directory_path, file), "w", encoding='utf8') as write_file:
                         json.dump(json_file_content, write_file, indent=2, ensure_ascii=False)
