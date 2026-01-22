@@ -32,7 +32,7 @@ def construct_translation(to_translate, translation_data, language, current_tran
         # Ugly fix to avoid translating again all champions names:
         if "(champion)" in to_translate and current_translation is not None and current_translation and "(champion)" not in current_translation:
             return "{} ({})".format(current_translation, construct_translation("champion", translation_data, language, None,
-                                                                               nested_debug_prefix, new_data, keep_brackets))
+                                                                               nested_debug_prefix, new_data, simple))
 
         if "regex" in translation_data:
             # Try to match any regex (containing a number or special characters, like "Level 4 Wizard"):
@@ -46,7 +46,7 @@ def construct_translation(to_translate, translation_data, language, current_tran
                         for i in range(1, len(val.groups()) + 1):
                             final = final.replace("$%d" % i, construct_translation(val.group(i), translation_data, language,
                                                                                    None if curr is None else curr.group(i),
-                                                                                   nested_debug_prefix, new_data, keep_brackets))
+                                                                                   nested_debug_prefix, new_data, simple))
                         final = to_translate.replace(to_translate.strip(), final)
                         logger.debug("{}REGEX({}): '{}'->'{}'".format(debug_prefix, regex, to_translate, final))
                         return final
