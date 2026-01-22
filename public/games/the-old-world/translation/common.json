@@ -138,6 +138,9 @@
     "Chaos Armour": {
       "name_fr": "Armure du Chaos"
     },
+    "Chaos Dwarfs": {
+      "name_fr": "Nains du Chaos"
+    },
     "Chaos Giant": {
       "name_fr": "Géant du Chaos"
     },
@@ -207,6 +210,12 @@
     "Daemonology": {
       "name_fr": "Démonisme"
     },
+    "Daemons of Chaos": {
+      "name_fr": "Démons du Chaos"
+    },
+    "Dark Elves": {
+      "name_fr": "Elfes Noirs"
+    },
     "Dark Magic": {
       "name_fr": "Magie Noire"
     },
@@ -234,6 +243,9 @@
     "During the Shooting phase": {
       "name_fr": "Pendant la phase de Tir"
     },
+    "Dwarfen Mountain Holds": {
+      "name_fr": "Forteresses Naines"
+    },
     "Dwarfs": {
       "name_fr": "Nains"
     },
@@ -248,6 +260,9 @@
     },
     "Empire Archers": {
       "name_fr": "Archers de l’Empire"
+    },
+    "Empire of Man": {
+      "name_fr": "Empire de l'Homme"
     },
     "Ensorcelled Weapons": {
       "name_fr": "Armes Ensorcelées"
@@ -336,6 +351,9 @@
     "Gnashing maws": {
       "name_fr": "Gueules avides"
     },
+    "Grand Cathay": {
+      "name_fr": "Grand Cathay"
+    },
     "Great Cannon": {
       "name_fr": "Grand Canon"
     },
@@ -383,6 +401,9 @@
     },
     "Hidden": {
       "name_fr": "Caché"
+    },
+    "High Elf Realms": {
+      "name_fr": "Royaumes Hauts Elfes"
     },
     "High Elves": {
       "name_fr": "Hauts Elfes"
@@ -450,6 +471,9 @@
     "Killing Blow": {
       "name_fr": "Coup Fatal"
     },
+    "Kingdom of Bretonnia": {
+      "name_fr": "Royaume de Bretonnie"
+    },
     "Lance": {
       "name_fr": "Lance de joute"
     },
@@ -470,6 +494,9 @@
     },
     "Lightly armoured fuselage": {
       "name_fr": "Fuselage légèrement blindé"
+    },
+    "Lizardmen": {
+      "name_fr": "Hommes-Lézards"
     },
     "Loner": {
       "name_fr": "Solitaire"
@@ -570,11 +597,17 @@
     "Ogre Charge": {
       "name_fr": "Charge Ogre"
     },
+    "Ogre Kingdoms": {
+      "name_fr": "Royaumes Ogres"
+    },
     "On foot": {
       "name_fr": "À Pied"
     },
     "Open Order": {
       "name_fr": "Ordre Dispersé"
+    },
+    "Orc & Goblin Tribes": {
+      "name_fr": "Tribus des Orques & Gobelins"
     },
     "Orcs & Goblins": {
       "name_fr": "Orques & Gobelins"
@@ -633,6 +666,9 @@
     "Regimental Unit": {
       "name_fr": "Unité Régimentaire"
     },
+    "Renegade Crowns": {
+      "name_fr": "Couronnes Renégates"
+    },
     "Repeater crossbow": {
       "name_fr": "Arbalète à répétition"
     },
@@ -689,6 +725,9 @@
     },
     "Shortbows": {
       "name_fr": "Arcs courts"
+    },
+    "Skaven": {
+      "name_fr": "Skavens"
     },
     "Skeletal Steed": {
       "name_fr": "Coursier Squelette"
@@ -780,6 +819,9 @@
     "Timmm-berrr!": {
       "name_fr": "Timmm-berrr!"
     },
+    "Tomb Kings of Khemri": {
+      "name_fr": "Rois des Tombes de Khemri"
+    },
     "Troll vomit": {
       "name_fr": "Vomi de Troll"
     },
@@ -809,6 +851,9 @@
     },
     "Untutored Arcanist": {
       "name_fr": "Arcaniste Autodidacte"
+    },
+    "Vampire Counts": {
+      "name_fr": "Comtes Vampires"
     },
     "Vanguard": {
       "name_fr": "Avant-garde"
@@ -887,6 +932,9 @@
     },
     "Wizard": {
       "name_fr": "Sorcier"
+    },
+    "Wood Elf Realms": {
+      "name_fr": "Royaumes Elfes Sylvains"
     },
     "Writhing tentacles": {
       "name_fr": "Tentacules sinueux"
