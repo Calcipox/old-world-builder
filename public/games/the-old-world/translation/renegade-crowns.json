@@ -1,0 +1,117 @@
+{
+  "direct": {
+    "\"Hold the Line!\"": {
+      "name_fr": "\"Tenez la Ligne!\""
+    },
+    "Barded Warhorse": {
+      "name_fr": "Destrier Caparaçonné"
+    },
+    "Barded Warhorses": {
+      "name_fr": "Destriers Caparaçonné"
+    },
+    "Commander": {
+      "name_fr": "Commandant"
+    },
+    "Feint & Dodge": {
+      "name_fr": "Feinte et Esquive"
+    },
+    "Freeblade Knights": {
+      "name_fr": "Chevaliers Libres-lames"
+    },
+    "Hireling Outriders": {
+      "name_fr": "Escorteur à Gages"
+    },
+    "Infamous Origin": {
+      "name_fr": "Origine d’Exilé"
+    },
+    "Lance Formation": {
+      "name_fr": "Formation Fer de Lance"
+    },
+    "Noble Disdain": {
+      "name_fr": "Noble Dédain"
+    },
+    "Noble Outlaw": {
+      "name_fr": "Noble Hors-la-Loi"
+    },
+    "Officer": {
+      "name_fr": "Officier"
+    },
+    "Phalanx": {
+      "name_fr": "Phalange"
+    },
+    "Renegade Captain": {
+      "name_fr": "Capitaine Renégat"
+    },
+    "Renegade Knight": {
+      "name_fr": "Chevalier Renégat"
+    },
+    "Renegade Prince": {
+      "name_fr": "Prince Renégat"
+    },
+    "Sellsword Infantry": {
+      "name_fr": "Infanterie Épées-louées"
+    },
+    "The Might of Miragliano": {
+      "name_fr": "La Puissance de Miragliano"
+    },
+    "The Noble Outlaw": {
+      "name_fr": "Le Noble Hors-la-Loi"
+    },
+    "The Renegade Knight": {
+      "name_fr": "Le Chevalier Renégat"
+    },
+    "The Wandering Diestro": {
+      "name_fr": "Le Diestro Errant"
+    },
+    "Tilean Stoicism": {
+      "name_fr": "Stoïcisme Tiléen"
+    },
+    "Veteran Commander": {
+      "name_fr": "Commandant Vétéran"
+    },
+    "Veteran Freeblades": {
+      "name_fr": "Libre-lame Vétéran"
+    },
+    "Veteran Officer": {
+      "name_fr": "Officier Vétéran"
+    },
+    "Veteran Sellswords": {
+      "name_fr": "Épée-louée Vétéran"
+    },
+    "the Might of Miragliano": {
+      "name_fr": "la Puissance de Miragliano"
+    },
+    "the Noble Outlaw": {
+      "name_fr": "le Noble Hors-la-Loi"
+    },
+    "the Renegade Knight": {
+      "name_fr": "le Chevalier Renégat"
+    },
+    "the Wandering Diestro": {
+      "name_fr": "le Diestro Errant"
+    }
+  },
+  "regex": {
+    "each ([a-zA-Z]+) with ([a-zA-Z\\s]+) (Infamous Origin)": {
+      "name_fr": "chaque $1 avec l’$3 $2"
+    },
+    "Only with ([a-zA-Z\\s]+) (Infamous Origin)": {
+      "name_fr": "Seulement avec l’$2 $1"
+    },
+    "Ignore with ([a-zA-Z\\s]+) or ([a-zA-Z\\s]+) (Infamous Origin)": {
+      "name_fr": "Ignorez avec l’$3 $1 ou $2"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) and (\\d-\\d) ([a-zA-Z]+) per (\\d+) points": {
+      "name_fr": "$1 $2 et $3 $4 par tranche de $5 points"
+    },
+    "\\+(\\d) to ([a-zA-Z\\s]+)": {
+      "name_fr": "+$1 à la $2"
+    },
+    "Excludes ([a-zA-Z\\s]+)": {
+      "name_fr": "Exclut $1"
+    },
+    "(\\d-\\d) unit of (Veteran Sellswords) per (\\d+) points": {
+      "name_fr": "$1 unité d’$2 par tranche de $3 points"
+    }
+  }
+}

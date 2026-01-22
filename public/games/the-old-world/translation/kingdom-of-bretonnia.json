@@ -30,18 +30,6 @@
     "Blessings of the Lady": {
       "name_fr": "Bénédiction de la Dame"
     },
-    "Blunderbusses": {
-      "name_fr": "Tromblons"
-    },
-    "Bombard": {
-      "name_fr": "Bombarde"
-    },
-    "Border Princes Bombard": {
-      "name_fr": "Bombarde des Principautés Frontalières"
-    },
-    "Border Princes Brigands": {
-      "name_fr": "Brigands des Principautés Frontalières"
-    },
     "Bretonnian Warhorse": {
       "name_fr": "Destrier Bretonnien"
     },
@@ -56,9 +44,6 @@
     },
     "Defensive Stakes": {
       "name_fr": "Pieux de Défense"
-    },
-    "Desperado": {
-      "name_fr": "Desperado"
     },
     "Dispersed Formation": {
       "name_fr": "Formation Éparse"
@@ -138,9 +123,6 @@
     "Mounted Yeomen": {
       "name_fr": "Sergents montés"
     },
-    "Outcast Wizard": {
-      "name_fr": "Mage Proscrit"
-    },
     "Paladin": {
       "name_fr": "Paladin"
     },
@@ -219,17 +201,11 @@
     "Unicorn": {
       "name_fr": "Licorne"
     },
-    "Untutored Arcanist": {
-      "name_fr": "Arcaniste Autodidacte"
-    },
     "Villein": {
       "name_fr": "Maître Archer"
     },
     "Warden": {
       "name_fr": "Prévôt"
-    },
-    "Warhorse": {
-      "name_fr": "Destrier"
     },
     "Yeoman": {
       "name_fr": "Prévôt"
@@ -271,9 +247,6 @@
     },
     "replaces ([a-zA-Z\\s']+)": {
       "name_fr": "remplace $1"
-    },
-    "If ([a-zA-Z]+)": {
-      "name_fr": "Si $1"
     }
   }
 }

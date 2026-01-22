@@ -30,6 +30,9 @@
     "Blasting Charges": {
       "name_fr": "Charges de démolition"
     },
+    "Blessings of Grimnir": {
+      "name_fr": "Bénédictions de Grimnir"
+    },
     "Bombing Run": {
       "name_fr": "Bombardement"
     },
@@ -47,6 +50,9 @@
     },
     "Brimstone guns": {
       "name_fr": "Canon à soufre"
+    },
+    "Brotherhood of Grimnir": {
+      "name_fr": "Confrérie de Grimnir"
     },
     "Bugman's Cart": {
       "name_fr": "Chariot de Bugman"
@@ -75,8 +81,14 @@
     "Doomseeker": {
       "name_fr": "Cherche-mort"
     },
+    "Doomseekers": {
+      "name_fr": "Cherche-mort"
+    },
     "Dragon Slayer": {
       "name_fr": "Tueur de Dragons"
+    },
+    "Dragon Slayers": {
+      "name_fr": "Tueurs de Dragon"
     },
     "Dragonblade": {
       "name_fr": "Lame Dragon"
@@ -141,6 +153,9 @@
     "Forgefire": {
       "name_fr": "Forgefeu"
     },
+    "Function over form": {
+      "name_fr": "La Fonction L’Emporte Sur La Forme"
+    },
     "Furnace hammer": {
       "name_fr": "Marteau fournaise"
     },
@@ -189,6 +204,9 @@
     "Hammerers": {
       "name_fr": "Marteliers"
     },
+    "Hostile Terrain": {
+      "name_fr": "Terrain Hostile"
+    },
     "Immovable Object": {
       "name_fr": "Objet Inamovible"
     },
@@ -228,14 +246,8 @@
     "Ol' Deadeye": {
       "name_fr": "Baroudeur"
     },
-    "Organ Gun": {
-      "name_fr": "Canon-orgue"
-    },
-    "Organ Guns": {
-      "name_fr": "Canons-orgue"
-    },
-    "Organ gun": {
-      "name_fr": "Canon-orgue"
+    "Only in a Slayer Host Army of Infamy": {
+      "name_fr": "Seulement dans une armée d’Ost Tueur"
     },
     "Prepared Positions": {
       "name_fr": "Positions Préparées"
@@ -296,6 +308,9 @@
     },
     "Shieldbearers": {
       "name_fr": "Porteurs de Bouclier"
+    },
+    "Shrine Keeper": {
+      "name_fr": "Protecteur du Sanctuaire"
     },
     "Slayer": {
       "name_fr": "Tueur"
@@ -363,6 +378,9 @@
     "Veteran (champion)": {
       "name_fr": "Vétéran (champion)"
     },
+    "Wards of Grimnir": {
+      "name_fr": "Protections de Grimnir"
+    },
     "Weapon Runes": {
       "name_fr": "Runes d’Arme"
     },
@@ -388,6 +406,9 @@
     },
     "(\\d-\\d) ([a-zA-Z\\s]+), ([a-zA-Z\\s]+), or ([a-zA-Z\\s]+) per (\\d+) points": {
       "name_fr": "$1 $2, $3, ou $4 par tranche de $5 points"
+    },
+    "Only if ([a-zA-Z\\s]+) is not in your list": {
+      "name_fr": "Seulement si $1 n’est pas présent dans votre liste d’armée"
     },
     "Max (\\d)": {
       "name_fr": "Max $1"

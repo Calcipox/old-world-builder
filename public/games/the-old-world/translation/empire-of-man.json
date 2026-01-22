@@ -24,9 +24,6 @@
     "Blunderbuss": {
       "name_fr": "Tromblon"
     },
-    "Captain": {
-      "name_fr": "Capitaine"
-    },
     "Captain of the Empire": {
       "name_fr": "Capitaine de l’Empire"
     },
@@ -69,9 +66,6 @@
     "Empire": {
       "name_fr": "Empire"
     },
-    "Empire Archers": {
-      "name_fr": "Archers de l’Empire"
-    },
     "Empire Engineer": {
       "name_fr": "Ingénieur de l’Empire"
     },
@@ -107,9 +101,6 @@
     },
     "Flagellants": {
       "name_fr": "Flagellants"
-    },
-    "Free Company Militia": {
-      "name_fr": "Milice des Franches Compagnies"
     },
     "General Hans von Löwenhacke": {
       "name_fr": "Général Hans von Löwenhacke"
@@ -207,9 +198,6 @@
     "Man-catcher": {
       "name_fr": "Attrape-coquin"
     },
-    "Marksman": {
-      "name_fr": "Tireur d’Élite"
-    },
     "Master Mage": {
       "name_fr": "Maître Mage"
     },
@@ -224,9 +212,6 @@
     },
     "Mercenary Commander": {
       "name_fr": "Commandant Mercenaire"
-    },
-    "Militia leader": {
-      "name_fr": "Chef de Milice"
     },
     "Morning Stars": {
       "name_fr": "Morgenstern"
@@ -392,9 +377,6 @@
     },
     "Zealot": {
       "name_fr": "Zélote"
-    },
-    "mixed weapons": {
-      "name_fr": "armes mixtes"
     },
     "of Morr": {
       "name_fr": "de Morr"

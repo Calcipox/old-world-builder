@@ -54,6 +54,9 @@
     "Black Orcs": {
       "name_fr": "Orques Noirs"
     },
+    "Blunderbusses": {
+      "name_fr": "Tromblons"
+    },
     "Boar Chariot": {
       "name_fr": "Char à Sangliers"
     },
@@ -65,6 +68,24 @@
     },
     "Bolt thrower": {
       "name_fr": "Baliste"
+    },
+    "Bombard": {
+      "name_fr": "Bombarde"
+    },
+    "Border Princes Bombard": {
+      "name_fr": "Bombarde des Principautés Frontalières"
+    },
+    "Border Princes Brigands": {
+      "name_fr": "Brigands des Principautés Frontalières"
+    },
+    "Border Princes Mortar": {
+      "name_fr": "Mortier des Principautés Frontalières"
+    },
+    "Border Princes Mortars": {
+      "name_fr": "Mortiers des Principautés Frontalières"
+    },
+    "Border Princes Organ Gun": {
+      "name_fr": "Canon Orgue des Principautés Frontalières"
     },
     "Boss": {
       "name_fr": "Chef"
@@ -98,6 +119,9 @@
     },
     "Cannot be your general": {
       "name_fr": "Ne peut être votre général"
+    },
+    "Captain": {
+      "name_fr": "Capitaine"
     },
     "Cavalry spear": {
       "name_fr": "Lance de cavalerie"
@@ -186,6 +210,9 @@
     "Dark Magic": {
       "name_fr": "Magie Noire"
     },
+    "Desperado": {
+      "name_fr": "Desperado"
+    },
     "Detachment": {
       "name_fr": "Détachement"
     },
@@ -218,6 +245,9 @@
     },
     "Elves": {
       "name_fr": "Elfes"
+    },
+    "Empire Archers": {
+      "name_fr": "Archers de l’Empire"
     },
     "Ensorcelled Weapons": {
       "name_fr": "Armes Ensorcelées"
@@ -275,6 +305,9 @@
     },
     "Formation": {
       "name_fr": "Formation"
+    },
+    "Free Company Militia": {
+      "name_fr": "Milice des Franches Compagnies"
     },
     "Frenzy": {
       "name_fr": "Frénésie"
@@ -338,6 +371,9 @@
     },
     "Hatred": {
       "name_fr": "Haine"
+    },
+    "Heavy Infantry": {
+      "name_fr": "Infanterie Lourde"
     },
     "Heavy armour": {
       "name_fr": "Armure lourde"
@@ -465,11 +501,17 @@
     "Magical Standard": {
       "name_fr": "Bannière Magique"
     },
+    "Marksman": {
+      "name_fr": "Tireur d’Élite"
+    },
     "Martial Prowess": {
       "name_fr": "Prouesses Martiales"
     },
     "Mercenaries": {
       "name_fr": "Mercenaires"
+    },
+    "Militia leader": {
+      "name_fr": "Chef de Milice"
     },
     "Monster Handlers": {
       "name_fr": "Dresseurs de Monstres"
@@ -504,6 +546,9 @@
     "Musician": {
       "name_fr": "Musicien"
     },
+    "Must be your general": {
+      "name_fr": "Doit être votre général"
+    },
     "Must include Command Group": {
       "name_fr": "Doit inclure l’État-Major"
     },
@@ -533,6 +578,18 @@
     },
     "Orcs & Goblins": {
       "name_fr": "Orques & Gobelins"
+    },
+    "Organ Gun": {
+      "name_fr": "Canon-orgue"
+    },
+    "Organ Guns": {
+      "name_fr": "Canons-orgue"
+    },
+    "Organ gun": {
+      "name_fr": "Canon-orgue"
+    },
+    "Outcast Wizard": {
+      "name_fr": "Mage Proscrit"
     },
     "Petrifying gaze": {
       "name_fr": "Regard pétrificateur"
@@ -750,6 +807,9 @@
     "Unstable": {
       "name_fr": "Instables"
     },
+    "Untutored Arcanist": {
+      "name_fr": "Arcaniste Autodidacte"
+    },
     "Vanguard": {
       "name_fr": "Avant-garde"
     },
@@ -780,6 +840,12 @@
     "Warbows": {
       "name_fr": "Arcs de guerre"
     },
+    "Warhorse": {
+      "name_fr": "Destrier"
+    },
+    "Warhorses": {
+      "name_fr": "Destriers"
+    },
     "Warp-spawned": {
       "name_fr": "Engeance du Warp"
     },
@@ -788,6 +854,9 @@
     },
     "Warriors of Chaos": {
       "name_fr": "Guerriers du Chaos"
+    },
+    "Weapon Skill": {
+      "name_fr": "Capacité de Combat"
     },
     "When writing your muster list": {
       "name_fr": "Quand vous rédigez votre liste de mobilisation"
@@ -843,6 +912,9 @@
     "champion": {
       "name_fr": "champion"
     },
+    "character": {
+      "name_fr": "personnage"
+    },
     "claws": {
       "name_fr": "griffes"
     },
@@ -869,6 +941,9 @@
     },
     "light armour": {
       "name_fr": "Armure légère"
+    },
+    "mixed weapons": {
+      "name_fr": "armes mixtes"
     },
     "musician": {
       "name_fr": "musicien"
@@ -1079,11 +1154,17 @@
     "(\\d) ([a-zA-Z\\s-]+) per (\\d+) points": {
       "name_fr": "$1 $2 par tranche de $3 points"
     },
+    "(\\d-\\d) unit if your army includes ([a-zA-Z\\s]+)": {
+      "name_fr": "$1 unité si votre armée inclut $2"
+    },
     "(\\d-\\d) per unit of ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par unité de $2"
     },
     "(\\d-\\d) unit of ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+) [oO][rR] ([a-zA-Z\\s]+) taken": {
       "name_fr": "$1 unité de $2 par unité de $3 ou de $4 prise"
+    },
+    "(\\d-\\d) ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+) taken": {
+      "name_fr": "$1 $2 par unité de $3 prise"
     },
     "(\\d-\\d) ([a-zA-Z\\s]+) per unit of ([a-zA-Z\\s]+)": {
       "name_fr": "$1 $2 par unité de $3"
@@ -1123,6 +1204,9 @@
     },
     "(\\d-\\d) per (\\d+) points if your general is ([a-zA-Z\\s]+)": {
       "name_fr": "$1 par tranche de $2 points si votre général est $3"
+    },
+    "(\\d-\\d) unit of ([a-zA-Z]+) with a Unit Strength of (\\d+) or less": {
+      "name_fr": "$1 unité de $2 avec une Puissance d’Unité inférieure ou égale à $3"
     },
     "May only be taken as a character choice if your general is ([a-zA-Z\\s]+)": {
       "name_fr": "Ne peut être pris comme choix de Personnage que si votre général est $1"
@@ -1217,6 +1301,9 @@
     "per (\\d+) points": {
       "name_fr": "par tranche de $1 points"
     },
+    "Only for the ([a-zA-Z\\s]+)": {
+      "name_fr": "Seulement pour le $1"
+    },
     "([a-zA-Z\\s]+) for ([a-zA-Z\\s]+)": {
       "name_fr": "$1 pour $2"
     },
@@ -1228,6 +1315,9 @@
     },
     "([a-zA-Z\\s-]+) or ([a-zA-Z\\s-]+)": {
       "name_fr": "$1 ou $2"
+    },
+    "If ([a-zA-Z]+)": {
+      "name_fr": "Si $1"
     }
   }
 }
