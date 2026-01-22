@@ -1,8 +1,101 @@
 import { getAllOptions } from "../../utils/unit";
 import { getUnitPoints, getPoints, getAllPoints } from "../../utils/points";
 import { getStats, getUnitName } from "../../utils/unit";
-import gameSystems from "../../assets/armies.json";
+import { getGameSystems } from "../../utils/game-systems";
 import { nameMap } from "../magic";
+
+// Helper function to filter options for simple list format
+const getFilteredOptions = (unit, intl, params) => {
+  const allOptionsString = getAllOptions(unit, params);
+
+  if (!allOptionsString) return "";
+
+  // Items to exclude
+  let itemsToExclude = ["Hand weapon", "Hand weapons"];
+
+  // if (unit.equipment) {
+  //   if (unit.equipment.length === 1 && unit.equipment[0].active) {
+  //     itemsToExclude = [
+  //       ...itemsToExclude,
+  //       ...unit.equipment[0].name_en.split(", "),
+  //     ];
+  //   } else {
+  //     const activeEquipment = unit.equipment.find((eq) => eq.active);
+  //     if (activeEquipment && activeEquipment.points === 0) {
+  //       itemsToExclude = [
+  //         ...itemsToExclude,
+  //         ...activeEquipment.name_en.split(", "),
+  //       ];
+  //     }
+  //   }
+  // }
+
+  // if (unit.armor) {
+  //   if (unit.armor.length === 1 && unit.armor[0].active) {
+  //     itemsToExclude = [
+  //       ...itemsToExclude,
+  //       ...unit.armor[0].name_en.split(", "),
+  //     ];
+  //   } else {
+  //     const activeArmor = unit.armor.find((ar) => ar.active);
+  //     if (activeArmor && activeArmor.points === 0) {
+  //       itemsToExclude = [
+  //         ...itemsToExclude,
+  //         ...activeArmor.name_en.split(", "),
+  //       ];
+  //     }
+  //   }
+  // }
+
+  // if (unit.mounts) {
+  //   if (unit.mounts.length === 1 && unit.mounts[0].active) {
+  //     itemsToExclude = [
+  //       ...itemsToExclude,
+  //       ...unit.mounts[0].name_en.split(", "),
+  //     ];
+  //   } else {
+  //     const activeMount = unit.mounts.find((m) => m.active);
+  //     if (activeMount && activeMount.points === 0) {
+  //       itemsToExclude = [
+  //         ...itemsToExclude,
+  //         ...activeMount.name_en.split(", "),
+  //       ];
+  //     }
+  //   }
+  // }
+
+  // Split into array of individual options
+  const optionsArray = allOptionsString.split(", ");
+
+  let hasFullCommand = false;
+
+  // If there are 3 or more command options and all are active, replace with "Full Command"
+  if (
+    unit.command &&
+    unit.command.length >= 3 &&
+    unit.command.every((cmd) => cmd.active)
+  ) {
+    hasFullCommand = true;
+
+    unit.command.forEach((cmd) => {
+      itemsToExclude.push(cmd.name_en);
+    });
+  }
+
+  const filteredOptions = optionsArray.filter((option) => {
+    return !itemsToExclude.includes(option);
+  });
+
+  if (hasFullCommand) {
+    filteredOptions.push(
+      intl.formatMessage({
+        id: "unit.fullCommand",
+      })
+    );
+  }
+
+  return filteredOptions.join(", ");
+};
 
 const getUnitsString = ({
   units,
@@ -15,59 +108,119 @@ const getUnitsString = ({
   language,
   showStats,
   showCustomNotes,
+  armyComposition,
+  isSimpleList,
+  type,
 }) => {
+  if (isSimpleList) {
+    return units
+      .map((unit) => {
+        const unitPoints = getUnitPoints(
+          { type, ...unit },
+          { armyComposition }
+        );
+        const unitName = getUnitName({ unit, language });
+
+        const filteredOptions = getFilteredOptions(unit, intl, {
+          noMagic: isShowList,
+          pageNumbers: false,
+          armyComposition,
+        });
+
+        // Format: "name, important options - points"
+        let unitString = `${
+          unit.strength || unit.minimum
+            ? `${unit.strength || unit.minimum} `
+            : ""
+        }${unitName}${filteredOptions ? `, ${filteredOptions}` : ""}${
+          isShowList ? "" : ` - ${unitPoints}`
+        }`;
+
+        // Clean up any double commas that might have been created
+        unitString = unitString.replace(", ,", ",");
+        unitString = unitString.replace(/,\s*$/, "");
+
+        return unitString;
+      })
+      .join("\n");
+  }
+
   return units
     .map((unit) => {
       const allOptions = getAllOptions(unit, {
         noMagic: isShowList,
         pageNumbers: showPageNumbers,
+        armyComposition,
       });
       let optionsString = "";
 
       if (allOptions) {
-        if (isCompactList) {
+        if (isCompactList || isMarkdownList) {
           optionsString = `(${allOptions})\n`;
         } else {
           optionsString = `- ${allOptions.split(", ").join("\n- ")}\n`;
         }
       }
       if (showSpecialRules && unit.specialRules) {
-        optionsString += `${intl.formatMessage({
+        optionsString += `${isMarkdownList ? " - __" : ""}${intl.formatMessage({
           id: "unit.specialRules",
-        })}: ${(
+        })}:${isMarkdownList ? "__ *" : " "}${(
           unit.specialRules[`name_${language}`] || unit.specialRules.name_en
-        ).replace(/ *\{[^)]*\}/g, "")}\n`;
+        ).replace(/ *\{[^)]*\}/g, "")}${isMarkdownList ? "*" : ""}\n`;
+      }
+      if (showSpecialRules && unit.detachments) {
+        unit.detachments.forEach((detachment) => {
+          const specialRulesDetachment =
+            detachment.armyComposition?.[armyComposition]?.specialRules ||
+            detachment.specialRules;
+
+          if (specialRulesDetachment?.name_en) {
+            optionsString += `${
+              isMarkdownList ? " - __" : ""
+            }${intl.formatMessage({
+              id: "unit.specialRules",
+            })} (${detachment[`name_${language}`] || detachment.name_en}):${
+              isMarkdownList ? "__ *" : " "
+            }${(
+              specialRulesDetachment[`name_${language}`] ||
+              specialRulesDetachment.name_en
+            ).replace(/ *\{[^)]*\}/g, "")}${isMarkdownList ? "*" : ""}\n`;
+          }
+        });
       }
       if (showCustomNotes && unit.customNote) {
-        optionsString += `${intl.formatMessage({
+        optionsString += `${isMarkdownList ? " - __" : ""}${intl.formatMessage({
           id: "unit.customNote",
-        })} ${unit.customNote}\n`;
+        })}${isMarkdownList ? "__ *" : " "}${
+          isMarkdownList ? unit.customNote.replace(/\n/g, "") : unit.customNote
+        }${isMarkdownList ? "*" : ""}\n`;
       }
       if (showStats) {
-        const stats = getStats(unit);
+        const stats = getStats(unit, armyComposition);
+
+        if (!isCompactList && !isMarkdownList) {
+          optionsString += "\n";
+        }
 
         if (stats?.length > 0) {
           stats.forEach((unitStats, index) => {
             // prettier-ignore
-            optionsString += `
-[${unitStats.Name.replace(/ /g, '\xa0')}]\xa0${intl.formatMessage({id: "unit.m"})}(${unitStats.M})\xa0${intl.formatMessage({id: "unit.ws"})}(${unitStats.WS})\xa0${intl.formatMessage({id: "unit.bs"})}(${unitStats.BS})\xa0${intl.formatMessage({id: "unit.s"})}(${unitStats.S})\xa0${intl.formatMessage({id: "unit.t"})}(${unitStats.T})\xa0${intl.formatMessage({id: "unit.w"})}(${unitStats.W})\xa0${intl.formatMessage({id: "unit.i"})}(${unitStats.I})\xa0${intl.formatMessage({id: "unit.a"})}(${unitStats.A})\xa0${intl.formatMessage({id: "unit.ld"})}(${unitStats.Ld})
+            optionsString += `${isMarkdownList ? " - " : ""}[${unitStats.Name.replace(/ /g, '\xa0')}]\xa0${intl.formatMessage({id: "unit.m"})}(${unitStats.M})\xa0${intl.formatMessage({id: "unit.ws"})}(${unitStats.WS})\xa0${intl.formatMessage({id: "unit.bs"})}(${unitStats.BS})\xa0${intl.formatMessage({id: "unit.s"})}(${unitStats.S})\xa0${intl.formatMessage({id: "unit.t"})}(${unitStats.T})\xa0${intl.formatMessage({id: "unit.w"})}(${unitStats.W})\xa0${intl.formatMessage({id: "unit.i"})}(${unitStats.I})\xa0${intl.formatMessage({id: "unit.a"})}(${unitStats.A})\xa0${intl.formatMessage({id: "unit.ld"})}(${unitStats.Ld})
 `;
           });
         } else {
           // prettier-ignore
-          optionsString += `
-${intl.formatMessage({id: "unit.m"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.ws"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.bs"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.s"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.t"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.w"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.i"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.a"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.ld"})}(${'\xa0'})
+          optionsString += `${isMarkdownList ? " - " : ""}${intl.formatMessage({id: "unit.m"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.ws"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.bs"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.s"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.t"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.w"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.i"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.a"})}(${'\xa0'})\xa0${intl.formatMessage({id: "unit.ld"})}(${'\xa0'})
 `;
         }
       }
 
       // prettier-ignore
-      return `${isMarkdownList ? '### ' : ''}${unit.strength || unit.minimum ? `${unit.strength || unit.minimum} ` : ""
-}${getUnitName({ unit, language })}${isShowList ? '' : ' [' + getUnitPoints(unit) + ' ' + intl.formatMessage({
+      return `${isMarkdownList ? `- ` : ''}${unit.strength || unit.minimum ? `${unit.strength || unit.minimum} ` : ""
+}${getUnitName({ unit, language })}${isShowList ? '' : ' [' + getUnitPoints({...unit, type}, {armyComposition}) + ' ' + intl.formatMessage({
   id: "app.points",
-}) + ']'}
-${optionsString}
-`;
+}) + '] '}
+${isMarkdownList && optionsString ? ' -# ' : ''}${optionsString}${isMarkdownList ? '' : '\n'}`;
     })
     .join("");
 };
@@ -83,6 +236,7 @@ export const getListAsText = ({
   showStats,
   isMarkdownList,
   showCustomNotes,
+  isSimpleList,
 }) => {
   const allPoints = getAllPoints(list);
   const lordsPoints = getPoints({ list, type: "lords" });
@@ -93,9 +247,11 @@ export const getListAsText = ({
   const rarePoints = getPoints({ list, type: "rare" });
   const mercenariesPoints = getPoints({ list, type: "mercenaries" });
   const alliesPoints = getPoints({ list, type: "allies" });
+  const gameSystems = getGameSystems();
   const game = gameSystems.find((game) => game.id === list.game);
   const army = game.armies.find((army) => army.id === list.army);
   const armyName = army[`name_${language}`] || army.name_en;
+  const armyComposition = list.armyComposition || list.army;
   const armyCompositionName =
     list.army !== list.armyComposition && nameMap[list.armyComposition]
       ? nameMap[list.armyComposition][`name_${language}`] ||
@@ -104,7 +260,55 @@ export const getListAsText = ({
   const armyCompositionString = armyCompositionName
     ? `, ${armyCompositionName}`
     : "";
+  const compositionRuleString = intl.formatMessage({
+    id: `misc.${list.compositionRule || "open-war"}`,
+  });
   let listString = "";
+
+  if (isSimpleList) {
+    listString += `${list.name}${
+      isShowList
+        ? ""
+        : ` [${allPoints} ${intl.formatMessage({ id: "app.points" })}]`
+    }\n`;
+    listString += `${game.name}, ${armyName}${armyCompositionString}, ${compositionRuleString}\n\n`;
+
+    const allUnits = [
+      ...(list.characters.map((unit) => ({ type: "characters", ...unit })) ||
+        []),
+      ...(list.lords || []).map((unit) => ({ type: "lords", ...unit })),
+      ...(list.heroes || []).map((unit) => ({ type: "heroes", ...unit })),
+      ...(list.core || []).map((unit) => ({ type: "core", ...unit })),
+      ...(list.special || []).map((unit) => ({ type: "special", ...unit })),
+      ...(list.rare || []).map((unit) => ({ type: "rare", ...unit })),
+      ...(list.mercenaries || []).map((unit) => ({
+        type: "mercenaries",
+        ...unit,
+      })),
+      ...(list.allies || []).map((unit) => ({ type: "allies", ...unit })),
+    ];
+
+    listString += getUnitsString({
+      units: allUnits,
+      isShowList,
+      isCompactList,
+      showSpecialRules: false,
+      showPageNumbers: false,
+      isMarkdownList: false,
+      showCustomNotes: false,
+      intl,
+      language,
+      showStats: false,
+      armyComposition,
+      isSimpleList: true,
+    });
+
+    listString += `\n\n---\n${intl.formatMessage({
+      id: "export.createdWith",
+    })} "Old World Builder"\n\n[https://old-world-builder.com]`;
+
+    return listString;
+  }
 
   // HEADER
   // prettier-ignore
@@ -113,17 +317,17 @@ export const getListAsText = ({
 ${list.name}${isShowList ? '' : ' [' + allPoints + ' ' + intl.formatMessage({
   id: "app.points",
 }) + ']'}
-${game.name}, ${armyName}${armyCompositionString}
+${game.name}, ${armyName}${armyCompositionString}, ${compositionRuleString}
 ===
 
 `;
   }
   // prettier-ignore
   if (!isCompactList && isMarkdownList) {
-    listString += `# ${list.name}${isShowList ? '' : ' [' + allPoints + ' ' + intl.formatMessage({
+    listString += `## ${list.name}${isShowList ? '' : ' [' + allPoints + ' ' + intl.formatMessage({
   id: "app.points",
 }) + ']'}
-${game.name}, ${armyName}${armyCompositionString}
+${game.name}, ${armyName}${armyCompositionString}, ${compositionRuleString}
 
 `;
   }
@@ -137,7 +341,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? '' : '\n';
+    listString += isCompactList || isMarkdownList ? '' : '\n';
     
     listString += `${getUnitsString({
       isCompactList,
@@ -148,7 +352,9 @@ ${game.name}, ${armyName}${armyCompositionString}
       units: list.characters,
       isShowList,
       intl,
-      language,showStats
+      language,showStats,
+      armyComposition,
+      type: "characters",
     })}`;
   }
 
@@ -161,7 +367,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? '' : '\n';
+    listString += isCompactList || isMarkdownList ? '' : '\n';
     
     listString += `${getUnitsString({
       isCompactList,
@@ -172,7 +378,9 @@ ${game.name}, ${armyName}${armyCompositionString}
       units: list.lords,
       isShowList,
       intl,
-      language,showStats
+      language,showStats,
+      armyComposition,
+      type: "lords",
     })}`;
   }
 
@@ -185,7 +393,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? '' : '\n';
+    listString += isCompactList || isMarkdownList ? '' : '\n';
     
     listString += `${getUnitsString({
       isCompactList,
@@ -197,6 +405,8 @@ ${game.name}, ${armyName}${armyCompositionString}
       isShowList,
       intl,
       language,
+      armyComposition,
+      type: "heroes",
     })}`;
   }
 
@@ -209,7 +419,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? "" : "\n";
+    listString += isCompactList || isMarkdownList ? "" : "\n";
     
     listString += `${getUnitsString({
       isCompactList,
@@ -220,7 +430,10 @@ ${game.name}, ${armyName}${armyCompositionString}
       units: list.core,
       isShowList,
       intl,
-      language,showStats
+      language,
+      showStats,
+      armyComposition,
+      type: "core",
     })}`;
   }
 
@@ -233,7 +446,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? "" : "\n";
+    listString += isCompactList || isMarkdownList ? "" : "\n";
     
     listString += `${getUnitsString({
       isCompactList,
@@ -244,7 +457,10 @@ ${game.name}, ${armyName}${armyCompositionString}
       units: list.special,
       isShowList,
       intl,
-      language,showStats
+      language,
+      showStats,
+      armyComposition,
+      type: "special",
     })}`;
   }
 
@@ -257,7 +473,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? "" : "\n";
+    listString += isCompactList || isMarkdownList ? "" : "\n";
   
     listString += `${getUnitsString({
       isCompactList,
@@ -268,7 +484,10 @@ ${game.name}, ${armyName}${armyCompositionString}
       units: list.rare,
       isShowList,
       intl,
-      language,showStats
+      language,
+      showStats,
+      armyComposition,
+      type: "rare",
     })}`;
   }
 
@@ -281,7 +500,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? "" : "\n";
+    listString += isCompactList || isMarkdownList ? "" : "\n";
   
     listString += `${getUnitsString({
       isCompactList,
@@ -292,7 +511,10 @@ ${game.name}, ${armyName}${armyCompositionString}
       units: list.mercenaries,
       isShowList,
       intl,
-      language,showStats
+      language,
+      showStats,
+      armyComposition,
+      type: "mercenaries",
     })}`;
   }
 
@@ -305,7 +527,7 @@ ${game.name}, ${armyName}${armyCompositionString}
   id: "app.points",
 }) + ']'} ++
 `
-    listString += isCompactList ? "" : "\n";
+    listString += isCompactList || isMarkdownList ? "" : "\n";
 
     listString += `${getUnitsString({
       isCompactList,
@@ -316,19 +538,29 @@ ${game.name}, ${armyName}${armyCompositionString}
       units: list.allies,
       isShowList,
       intl,
-      language,showStats
+      language,
+      showStats,
+      armyComposition,
+      type: "allies",
     })}`;
   }
 
-  listString += `---
+  if (isMarkdownList) {
+    listString += `
+*${intl.formatMessage({
+      id: "export.createdWith",
+    })} "Old World Builder"* - https://old-world-builder.com`;
+  } else {
+    listString += `---
 ${intl.formatMessage({
   id: "export.createdWith",
 })} "Old World Builder"
 
 [https://old-world-builder.com]`;
+  }
 
   if (isMarkdownList) {
-    listString = listString.replace(/ \+\+/g, "").replace(/\+\+/g, "##");
+    listString = listString.replace(/ \+\+/g, "").replace(/\+\+/g, "###");
   }
 
   return listString;

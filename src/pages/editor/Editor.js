@@ -100,6 +100,7 @@ export const Editor = ({ isMobile }) => {
     }
   }
 
+  const armyComposition = list.armyComposition || list.army;
   const allPoints = getAllPoints(list);
   const lordsPoints = getPoints({ list, type: "lords" });
   const heroesPoints = getPoints({ list, type: "heroes" });
@@ -115,7 +116,7 @@ export const Editor = ({ isMobile }) => {
       type: "lords",
       armyPoints: list.points,
       points: lordsPoints,
-      armyComposition: list.armyComposition,
+      armyComposition,
     });
   const heroesData =
     list.lords &&
@@ -123,7 +124,7 @@ export const Editor = ({ isMobile }) => {
       type: "heroes",
       armyPoints: list.points,
       points: heroesPoints,
-      armyComposition: list.armyComposition,
+      armyComposition,
     });
   const charactersData =
     list.characters &&
@@ -131,25 +132,25 @@ export const Editor = ({ isMobile }) => {
       type: "characters",
       armyPoints: list.points,
       points: charactersPoints,
-      armyComposition: list.armyComposition,
+      armyComposition,
     });
   const coreData = getMinPercentData({
     type: "core",
     armyPoints: list.points,
     points: corePoints,
-    armyComposition: list.armyComposition,
+    armyComposition,
   });
   const specialData = getMaxPercentData({
     type: "special",
     armyPoints: list.points,
     points: specialPoints,
-    armyComposition: list.armyComposition,
+    armyComposition,
   });
   const rareData = getMaxPercentData({
     type: "rare",
     armyPoints: list.points,
     points: rarePoints,
-    armyComposition: list.armyComposition,
+    armyComposition,
   });
   const mercenariesData =
     list.mercenaries &&
@@ -157,7 +158,7 @@ export const Editor = ({ isMobile }) => {
       type: "mercenaries",
       armyPoints: list.points,
       points: mercenariesPoints,
-      armyComposition: list.armyComposition,
+      armyComposition,
     });
   const alliesData =
     list.allies &&
@@ -165,7 +166,7 @@ export const Editor = ({ isMobile }) => {
       type: "allies",
       armyPoints: list.points,
       points: alliesPoints,
-      armyComposition: list.armyComposition,
+      armyComposition,
     });
   const moreButtons = [
     {
@@ -304,7 +305,7 @@ export const Editor = ({ isMobile }) => {
           {errors
             .filter(({ section }) => section === "global")
             .map(({ message }) => (
-              <ErrorMessage key={message} spaceAfter>
+              <ErrorMessage key={message} spaceAfter spaceBefore={isMobile}>
                 <FormattedMessage id={message} />
               </ErrorMessage>
             ))}
@@ -336,6 +337,7 @@ export const Editor = ({ isMobile }) => {
               units={list.lords}
               type="lords"
               listId={listId}
+              armyComposition={armyComposition}
             />
 
             <Button
@@ -377,6 +379,7 @@ export const Editor = ({ isMobile }) => {
               units={list.heroes}
               type="heroes"
               listId={listId}
+              armyComposition={armyComposition}
             />
 
             <Button
@@ -418,11 +421,12 @@ export const Editor = ({ isMobile }) => {
               units={list.characters}
               type="characters"
               listId={listId}
+              armyComposition={armyComposition}
             />
 
             {errors
               .filter(({ section }) => section === "characters")
-              .map(({ message, name, diff, min }, index) => (
+              .map(({ message, name, diff, min, max, option }, index) => (
                 <ErrorMessage key={message + index} spaceBefore>
                   <FormattedMessage
                     id={message}
@@ -430,6 +434,8 @@ export const Editor = ({ isMobile }) => {
                       name,
                       diff,
                       min,
+                      max,
+                      option,
                     }}
                   />
                 </ErrorMessage>
@@ -470,18 +476,25 @@ export const Editor = ({ isMobile }) => {
             </p>
           </header>
 
-          <OrderableUnitList units={list.core} type="core" listId={listId} />
+          <OrderableUnitList
+            units={list.core}
+            type="core"
+            listId={listId}
+            armyComposition={armyComposition}
+          />
 
           {errors
             .filter(({ section }) => section === "core")
-            .map(({ message, name, min, diff }, index) => (
+            .map(({ message, name, min, max, diff, option }, index) => (
               <ErrorMessage key={message + index} spaceBefore>
                 <FormattedMessage
                   id={message}
                   values={{
                     name,
                     min,
+                    max,
                     diff,
+                    option,
                   }}
                 />
               </ErrorMessage>
@@ -524,11 +537,12 @@ export const Editor = ({ isMobile }) => {
             units={list.special}
             type="special"
             listId={listId}
+            armyComposition={armyComposition}
           />
 
           {errors
             .filter(({ section }) => section === "special")
-            .map(({ message, name, diff, min }, index) => (
+            .map(({ message, name, diff, min, max, option }, index) => (
               <ErrorMessage key={message + index} spaceBefore>
                 <FormattedMessage
                   id={message}
@@ -536,6 +550,8 @@ export const Editor = ({ isMobile }) => {
                     name,
                     diff,
                     min,
+                    max,
+                    option,
                   }}
                 />
               </ErrorMessage>
@@ -574,11 +590,16 @@ export const Editor = ({ isMobile }) => {
             </p>
           </header>
 
-          <OrderableUnitList units={list.rare} type="rare" listId={listId} />
+          <OrderableUnitList
+            units={list.rare}
+            type="rare"
+            listId={listId}
+            armyComposition={armyComposition}
+          />
 
           {errors
             .filter(({ section }) => section === "rare")
-            .map(({ message, name, diff, min }, index) => (
+            .map(({ message, name, diff, min, max, option }, index) => (
               <ErrorMessage key={message + index} spaceBefore>
                 <FormattedMessage
                   id={message}
@@ -586,6 +607,8 @@ export const Editor = ({ isMobile }) => {
                     name,
                     diff,
                     min,
+                    max,
+                    option,
                   }}
                 />
               </ErrorMessage>
@@ -602,65 +625,9 @@ export const Editor = ({ isMobile }) => {
           </Button>
         </section>
 
-        {list.allies && alliesData && list?.army !== "daemons-of-chaos" && (
-          <section className="editor__section">
-            <header className="editor__header">
-              <h2>
-                <FormattedMessage id="editor.allies" />
-              </h2>
-              <p className="editor__points">
-                {alliesData.diff > 0 ? (
-                  <>
-                    <strong>{alliesData.diff}</strong>
-                    <FormattedMessage id="editor.tooManyPoints" />
-                    <Icon symbol="error" color="red" />
-                  </>
-                ) : (
-                  <>
-                    <strong>{alliesData.points - alliesPoints}</strong>
-                    <FormattedMessage id="editor.availablePoints" />
-                    <Icon symbol="check" />
-                  </>
-                )}
-              </p>
-            </header>
-
-            <OrderableUnitList
-              units={list.allies}
-              type="allies"
-              listId={listId}
-            />
-
-            {errors
-              .filter(({ section }) => section === "allies")
-              .map(({ message, name, diff, min }, index) => (
-                <ErrorMessage key={message + index} spaceBefore>
-                  <FormattedMessage
-                    id={message}
-                    values={{
-                      name,
-                      diff,
-                      min,
-                    }}
-                  />
-                </ErrorMessage>
-              ))}
-
-            <Button
-              type="primary"
-              centered
-              to={`/editor/${listId}/add/allies`}
-              icon="add"
-              spaceTop
-            >
-              <FormattedMessage id="editor.add" />
-            </Button>
-          </section>
-        )}
-
         {list.mercenaries &&
           mercenariesData &&
-          list.armyComposition &&
+          armyComposition &&
           list?.army !== "daemons-of-chaos" &&
           list?.army !== "vampire-counts" && (
             <section className="editor__section">
@@ -691,11 +658,12 @@ export const Editor = ({ isMobile }) => {
                 units={list.mercenaries}
                 type="mercenaries"
                 listId={listId}
+                armyComposition={armyComposition}
               />
 
               {errors
                 .filter(({ section }) => section === "mercenaries")
-                .map(({ message, name, diff, min }, index) => (
+                .map(({ message, name, diff, min, max, option }, index) => (
                   <ErrorMessage key={message + index} spaceBefore>
                     <FormattedMessage
                       id={message}
@@ -703,6 +671,8 @@ export const Editor = ({ isMobile }) => {
                         name,
                         diff,
                         min,
+                        max,
+                        option,
                       }}
                     />
                   </ErrorMessage>
@@ -719,6 +689,75 @@ export const Editor = ({ isMobile }) => {
               </Button>
             </section>
           )}
+
+        {list.allies && alliesData && list?.army !== "daemons-of-chaos" && (
+          <section className="editor__section">
+            <header className="editor__header">
+              <h2>
+                <FormattedMessage id="editor.allies" />
+              </h2>
+              <p className="editor__points">
+                {alliesData.diff > 0 ? (
+                  <>
+                    <strong>{alliesData.diff}</strong>
+                    <FormattedMessage id="editor.tooManyPoints" />
+                    <Icon symbol="error" color="red" />
+                  </>
+                ) : (
+                  <>
+                    <strong>{alliesData.points - alliesPoints}</strong>
+                    <FormattedMessage id="editor.availablePoints" />
+                    <Icon symbol="check" />
+                  </>
+                )}
+              </p>
+            </header>
+
+            <OrderableUnitList
+              units={list.allies}
+              type="allies"
+              listId={listId}
+              armyComposition={armyComposition}
+            />
+
+            {errors
+              .filter(({ section }) => section === "allies")
+              .map(({ message, name, diff, min, max, option }, index) => (
+                <ErrorMessage key={message + index} spaceBefore>
+                  <FormattedMessage
+                    id={message}
+                    values={{
+                      name,
+                      diff,
+                      min,
+                      max,
+                      option,
+                    }}
+                  />
+                </ErrorMessage>
+              ))}
+
+            <Button
+              type="primary"
+              centered
+              to={`/editor/${listId}/add/allies`}
+              icon="add"
+              spaceTop
+            >
+              <FormattedMessage id="editor.add" />
+            </Button>
+          </section>
+        )}
+
+        <Button
+          type="secondary"
+          centered
+          to={`/game-view/${listId}`}
+          icon="shield"
+          spaceTop
+        >
+          <FormattedMessage id="misc.gameView" />
+        </Button>
       </MainComponent>
     </>
   );
@@ -730,7 +769,7 @@ export const Editor = ({ isMobile }) => {
  * @param {string} props.type
  * @param {string} props.listId
  */
-export const OrderableUnitList = ({ units, type, listId }) => {
+export const OrderableUnitList = ({ units, type, listId, armyComposition }) => {
   const dispatch = useDispatch();
   const location = useLocation();
   const intl = useIntl();
@@ -760,11 +799,16 @@ export const OrderableUnitList = ({ units, type, listId }) => {
                 <span>{`${unit.strength || unit.minimum}`}</span>
               ) : null}
               <b>{getUnitName({ unit, language })}</b>
-              <i>{`${getUnitPoints(unit)} ${intl.formatMessage({
+              <i>{`${getUnitPoints(
+                { ...unit, type },
+                {
+                  armyComposition,
+                }
+              )} ${intl.formatMessage({
                 id: "app.points",
               })}`}</i>
             </div>
-            <p>{getAllOptions(unit)}</p>
+            <p>{getAllOptions(unit, { armyComposition })}</p>
           </ListItem>
         ))}
     </OrderableList>

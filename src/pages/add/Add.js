@@ -7,109 +7,19 @@ import { Helmet } from "react-helmet-async";
 import { Icon } from "../../components/icon";
 import { RulesIndex, RuleWithIcon } from "../../components/rules-index";
 import { Header, Main } from "../../components/page";
+import { Expandable } from "../../components/expandable";
 import { addUnit } from "../../state/lists";
 import { setArmy } from "../../state/army";
 import { getUnitName } from "../../utils/unit";
 import { getRandomId } from "../../utils/id";
 import { useLanguage } from "../../utils/useLanguage";
-import { updateIds } from "../../utils/id";
+import { getArmyData } from "../../utils/army";
 import { fetcher } from "../../utils/fetcher";
-import gameSystems from "../../assets/armies.json";
+import { getGameSystems, getCustomDatasetData } from "../../utils/game-systems";
+
+import { nameMap } from "../magic";
 
 import "./Add.css";
-
-const getArmyData = ({ data, armyComposition }) => {
-  // Remove units that don't belong to the army composition
-  const characters = data.characters.filter(
-    (unit) =>
-      (unit?.armyComposition && unit.armyComposition[armyComposition]) ||
-      !unit.armyComposition
-  );
-  const core = data.core.filter(
-    (unit) =>
-      (unit?.armyComposition && unit.armyComposition[armyComposition]) ||
-      !unit.armyComposition
-  );
-  const special = data.special.filter(
-    (unit) =>
-      (unit?.armyComposition && unit.armyComposition[armyComposition]) ||
-      !unit.armyComposition
-  );
-  const rare = data.rare.filter(
-    (unit) =>
-      (unit?.armyComposition && unit.armyComposition[armyComposition]) ||
-      !unit.armyComposition
-  );
-
-  // Get units moving category
-  const specialToCore = special.filter(
-    (unit) =>
-      unit?.armyComposition &&
-      unit.armyComposition[armyComposition].category === "core"
-  );
-  const rareToCore = rare.filter(
-    (unit) =>
-      unit?.armyComposition &&
-      unit.armyComposition[armyComposition].category === "core"
-  );
-  const rareToSpecial = rare.filter(
-    (unit) =>
-      unit?.armyComposition &&
-      unit.armyComposition[armyComposition].category === "special"
-  );
-  const coreToSpecial = core.filter(
-    (unit) =>
-      unit?.armyComposition &&
-      unit.armyComposition[armyComposition].category === "special"
-  );
-  const specialToRare = special.filter(
-    (unit) =>
-      unit?.armyComposition &&
-      unit.armyComposition[armyComposition].category === "rare"
-  );
-  const charactersToRare = characters.filter(
-    (unit) =>
-      unit?.armyComposition &&
-      unit.armyComposition[armyComposition].category === "rare"
-  );
-
-  // Remove units from old category
-  const allCore = [...core, ...specialToCore, ...rareToCore].filter(
-    (unit) =>
-      (unit?.armyComposition &&
-        unit.armyComposition[armyComposition].category === "core") ||
-      !unit.armyComposition
-  );
-  const allSpecial = [...special, ...coreToSpecial, ...rareToSpecial].filter(
-    (unit) =>
-      (unit?.armyComposition &&
-        unit.armyComposition[armyComposition].category === "special") ||
-      !unit.armyComposition
-  );
-  const allRare = [...rare, ...specialToRare, ...charactersToRare].filter(
-    (unit) =>
-      (unit?.armyComposition &&
-        unit.armyComposition[armyComposition].category === "rare") ||
-      !unit.armyComposition
-  );
-  const allCharacters = [...characters].filter(
-    (unit) =>
-      (unit?.armyComposition &&
-        unit.armyComposition[armyComposition].category === "characters") ||
-      !unit.armyComposition
-  );
-
-  return {
-    lords: updateIds(data.lords),
-    heroes: updateIds(data.heroes),
-    characters: updateIds(allCharacters),
-    core: updateIds(allCore),
-    special: updateIds(allSpecial),
-    rare: updateIds(allRare),
-    mercenaries: updateIds(data.mercenaries),
-    allies: updateIds(data.allies),
-  };
-};
 
 let allAllies = [];
 let allMercenaries = [];
@@ -127,26 +37,29 @@ export const Add = ({ isMobile }) => {
   const list = useSelector((state) =>
     state.lists.find(({ id }) => listId === id)
   );
+  const gameSystems = getGameSystems();
   const army = useSelector((state) => state.army);
   const game = gameSystems.find((game) => game.id === list?.game);
   const armyData = game?.armies.find((army) => army.id === list.army);
   const allies = armyData?.allies;
   const mercenaries = armyData?.mercenaries;
-  const handleAdd = (unit, ally) => {
+  const handleAdd = (unit, ally, unitType, magicItemsArmy) => {
     const newUnit = {
       ...unit,
       army: ally,
+      unitType,
       id: `${unit.id}.${getRandomId()}`,
+      magicItemsArmy: unit.magicItemsArmy || magicItemsArmy,
     };
 
     dispatch(addUnit({ listId, type, unit: newUnit }));
     setRedirect(newUnit.id);
   };
-  const getUnit = (unit, ally) => (
+  const getUnit = (unit, ally, unitType, magicItemsArmy) => (
     <li key={unit.id} className="list">
       <button
         className="list__inner add__list-inner"
-        onClick={() => handleAdd(unit, ally)}
+        onClick={() => handleAdd(unit, ally, unitType, magicItemsArmy)}
       >
         <span className="add__name">
           {unit.minimum ? `${unit.minimum} ` : null}
@@ -170,30 +83,77 @@ export const Add = ({ isMobile }) => {
 
   useEffect(() => {
     if (list && !army && type !== "allies") {
-      fetcher({
-        url: `games/${list.game}/${list.army}`,
-        onSuccess: (data) => {
-          const armyData = getArmyData({
-            data,
-            armyComposition: list.armyComposition || list.army,
-          });
-          dispatch(setArmy(armyData));
-        },
-      });
-    } else if (list && type === "allies" && allAllies.length === 0 && allies) {
-      setAlliesLoaded(false);
-      allies.forEach((ally, index) => {
-        fetcher({
-          url: `games/${list.game}/${ally}`,
-          onSuccess: (data) => {
-            const armyData = getArmyData({
+      const isCustom = game.id !== "the-old-world";
+
+      if (isCustom) {
+        const data = getCustomDatasetData(list.army);
+
+        dispatch(
+          setArmy(
+            getArmyData({
               data,
-              armyComposition: ally,
-            });
-            allAllies = [...allAllies, { ...armyData, ally }];
-            setAlliesLoaded(index + 1);
+              armyComposition: list.armyComposition,
+            })
+          )
+        );
+      } else {
+        fetcher({
+          url: `games/${list.game}/${list.army}`,
+          onSuccess: (data) => {
+            dispatch(
+              setArmy(
+                getArmyData({
+                  data,
+                  armyComposition: list.armyComposition || list.army,
+                })
+              )
+            );
           },
         });
+      }
+    } else if (list && type === "allies" && allAllies.length === 0 && allies) {
+      setAlliesLoaded(false);
+      allies.forEach(({ army, armyComposition, magicItemsArmy }, index) => {
+        const isCustom = game.id !== "the-old-world";
+        const customData = isCustom && getCustomDatasetData(army);
+
+        if (customData) {
+          const armyData = getArmyData({
+            data: customData,
+            armyComposition: armyComposition || army,
+          });
+
+          allAllies = [
+            ...allAllies,
+            {
+              ...armyData,
+              ally: army,
+              armyComposition: armyComposition || army,
+            },
+          ];
+          setAlliesLoaded(index + 1);
+        } else {
+          fetcher({
+            url: `games/the-old-world/${army}`,
+            onSuccess: (data) => {
+              const armyData = getArmyData({
+                data,
+                armyComposition: armyComposition || army,
+              });
+
+              allAllies = [
+                ...allAllies,
+                {
+                  ...armyData,
+                  ally: army,
+                  armyComposition: armyComposition || army,
+                  magicItemsArmy: magicItemsArmy,
+                },
+              ];
+              setAlliesLoaded(index + 1);
+            },
+          });
+        }
       });
     } else if (
       list &&
@@ -204,27 +164,49 @@ export const Add = ({ isMobile }) => {
       setMercenariesLoaded(false);
       mercenaries[list.armyComposition] &&
         mercenaries[list.armyComposition].forEach((mercenary, index) => {
-          fetcher({
-            url: `games/${list.game}/${mercenary.army}`,
-            onSuccess: (data) => {
-              const armyData = getArmyData({
-                data,
-                armyComposition: mercenary.army,
-              });
-              const allUnits = [
-                ...armyData.characters,
-                ...armyData.core,
-                ...armyData.special,
-                ...armyData.rare,
-                ...armyData.mercenaries,
-              ];
-              const mercenaryUnits = allUnits.filter((unit) =>
-                mercenary.units.includes(unit.id)
-              );
-              allMercenaries = [...allMercenaries, ...mercenaryUnits];
-              setMercenariesLoaded(index + 1);
-            },
-          });
+          const isCustom = game.id !== "the-old-world";
+          const customData = isCustom && getCustomDatasetData(mercenary.army);
+
+          if (customData) {
+            const armyData = getArmyData({
+              data: customData,
+              armyComposition: mercenary.army,
+            });
+            const allUnits = [
+              ...armyData.characters,
+              ...armyData.core,
+              ...armyData.special,
+              ...armyData.rare,
+              ...armyData.mercenaries,
+            ];
+            const mercenaryUnits = allUnits
+              .filter((unit) => mercenary.units.includes(unit.id))
+              .map((unit) => ({ ...unit, army: mercenary.army }));
+            allMercenaries = [...allMercenaries, ...mercenaryUnits];
+            setMercenariesLoaded(index + 1);
+          } else {
+            fetcher({
+              url: `games/the-old-world/${mercenary.army}`,
+              onSuccess: (data) => {
+                const armyData = getArmyData({
+                  data,
+                  armyComposition: mercenary.army,
+                });
+                const allUnits = [
+                  ...armyData.characters,
+                  ...armyData.core,
+                  ...armyData.special,
+                  ...armyData.rare,
+                  ...armyData.mercenaries,
+                ];
+                const mercenaryUnits = allUnits
+                  .filter((unit) => mercenary.units.includes(unit.id))
+                  .map((unit) => ({ ...unit, army: mercenary.army }));
+                allMercenaries = [...allMercenaries, ...mercenaryUnits];
+                setMercenariesLoaded(index + 1);
+              },
+            });
+          }
         });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -236,6 +218,7 @@ export const Add = ({ isMobile }) => {
 
   if (
     (!army && type !== "allies" && type !== "mercenaries") ||
+    (type === "allies" && allAllies.length > 0 && !alliesLoaded) || // switching from custom to official
     (type === "allies" &&
       !allies &&
       alliesLoaded === 0 &&
@@ -297,22 +280,105 @@ export const Add = ({ isMobile }) => {
             </p>
             <ul>
               {allAllies.map(
-                ({ characters, core, special, rare, ally }, index) => (
-                  <Fragment key={index}>
-                    <header className="editor__header">
-                      <h2>
-                        {game?.armies.find((army) => army.id === ally)[
+                (
+                  {
+                    characters,
+                    core,
+                    special,
+                    rare,
+                    ally,
+                    armyComposition,
+                    magicItemsArmy,
+                  },
+                  index
+                ) => {
+                  // Remove duplicate units
+                  const uniqueUnits = [];
+                  const tempCharacters = characters.filter((unit) => {
+                    if (
+                      !uniqueUnits.some((name_en) => name_en === unit.name_en)
+                    ) {
+                      uniqueUnits.push(unit.name_en);
+                      return true;
+                    }
+                    return false;
+                  });
+                  const tempCore = core.filter((unit) => {
+                    if (
+                      !uniqueUnits.some((name_en) => name_en === unit.name_en)
+                    ) {
+                      uniqueUnits.push(unit.name_en);
+                      return true;
+                    }
+                    return false;
+                  });
+                  const tempSpecial = special.filter((unit) => {
+                    if (
+                      !uniqueUnits.some((name_en) => name_en === unit.name_en)
+                    ) {
+                      uniqueUnits.push(unit.name_en);
+                      return true;
+                    }
+                    return false;
+                  });
+                  const tempRare = rare.filter((unit) => {
+                    if (
+                      !uniqueUnits.some((name_en) => name_en === unit.name_en)
+                    ) {
+                      uniqueUnits.push(unit.name_en);
+                      return true;
+                    }
+                    return false;
+                  });
+
+                  return (
+                    <Expandable
+                      key={index}
+                      headline={`${
+                        game?.armies.find((army) => army.id === ally)[
                           `name_${language}`
                         ] ||
-                          game?.armies.find((army) => army.id === ally).name_en}
-                      </h2>
-                    </header>
-                    {characters.map((unit) => getUnit(unit, ally))}
-                    {core.map((unit) => getUnit(unit, ally))}
-                    {special.map((unit) => getUnit(unit, ally))}
-                    {rare.map((unit) => getUnit(unit, ally))}
-                  </Fragment>
-                )
+                        game?.armies.find((army) => army.id === ally).name_en
+                      } ${
+                        armyComposition !== ally
+                          ? ` (${
+                              nameMap[armyComposition][`name_${language}`] ||
+                              nameMap[armyComposition].name_en
+                            })`
+                          : ""
+                      }`}
+                    >
+                      {tempCharacters.map((unit) =>
+                        getUnit(
+                          unit,
+                          armyComposition,
+                          "characters",
+                          magicItemsArmy
+                        )
+                      )}
+                      {tempCore
+                        .filter((unit) => !unit.detachment)
+                        .map((unit) =>
+                          getUnit(unit, armyComposition, "core", magicItemsArmy)
+                        )}
+                      {tempSpecial
+                        .filter((unit) => !unit.detachment)
+                        .map((unit) =>
+                          getUnit(
+                            unit,
+                            armyComposition,
+                            "special",
+                            magicItemsArmy
+                          )
+                        )}
+                      {tempRare
+                        .filter((unit) => !unit.detachment)
+                        .map((unit) =>
+                          getUnit(unit, armyComposition, "rare", magicItemsArmy)
+                        )}
+                    </Expandable>
+                  );
+                }
               )}
             </ul>
           </>

@@ -11,9 +11,10 @@ import { getUnitPoints, getPoints, getAllPoints } from "../../utils/points";
 import { useLanguage } from "../../utils/useLanguage";
 import { getStats, getUnitName } from "../../utils/unit";
 import { nameMap } from "../magic";
-import gameSystems from "../../assets/armies.json";
+import { getGameSystems } from "../../utils/game-systems";
 
 import "./Print.css";
+import classNames from "classnames";
 
 export const Print = () => {
   const { listId } = useParams();
@@ -25,6 +26,9 @@ export const Print = () => {
   const [showPageNumbers, setShowPageNumbers] = useState(false);
   const [showStats, setShowStats] = useState(true);
   const [showCustomNotes, setShowCustomNotes] = useState(true);
+  const [useTwoColumns, setUseTwoColumns] = useState(false);
+  const [useThreeColumns, setUseThreeColumns] = useState(false);
+  const [showHeadings, setShowHeadings] = useState(true);
   const list = useSelector((state) =>
     state.lists.find(({ id }) => listId === id)
   );
@@ -39,15 +43,15 @@ export const Print = () => {
     );
   }
 
+  const armyComposition = list.armyComposition || list.army;
   const allPoints = getAllPoints(list);
-  const lordsPoints = getPoints({ list, type: "lords" });
-  const heroesPoints = getPoints({ list, type: "heroes" });
   const charactersPoints = getPoints({ list, type: "characters" });
   const corePoints = getPoints({ list, type: "core" });
   const specialPoints = getPoints({ list, type: "special" });
   const rarePoints = getPoints({ list, type: "rare" });
   const mercenariesPoints = getPoints({ list, type: "mercenaries" });
   const alliesPoints = getPoints({ list, type: "allies" });
+  const gameSystems = getGameSystems();
   const game = gameSystems.find((game) => game.id === list.game);
   const army = game.armies.find((army) => army.id === list.army);
   const armyName = army[`name_${language}`] || army.name_en;
@@ -110,6 +114,40 @@ export const Print = () => {
         setIsShowList(!isShowList);
       },
     },
+    {
+      name: intl.formatMessage({
+        id: "print.showHeadings",
+      }),
+      id: "isShowHeadings",
+      checked: showHeadings,
+      callback: () => {
+        setShowHeadings(!showHeadings);
+      },
+    },
+    {
+      name: intl.formatMessage({
+        id: "print.useTwoColumns",
+      }),
+      id: "isShowTwoColumns",
+      checked: useTwoColumns,
+      callback: () => {
+        setUseTwoColumns(!useTwoColumns);
+        setUseThreeColumns(false);
+        setShowHeadings(false);
+      },
+    },
+    {
+      name: intl.formatMessage({
+        id: "print.useThreeColumns",
+      }),
+      id: "isShowThreeColumns",
+      checked: useThreeColumns,
+      callback: () => {
+        setUseThreeColumns(!useThreeColumns);
+        setUseTwoColumns(false);
+        setShowHeadings(false);
+      },
+    },
   ];
   const handlePrintClick = () => {
     setIsPrinting(true);
@@ -124,9 +162,9 @@ export const Print = () => {
     const units = list[type];
 
     return (
-      <ul>
+      <>
         {units.map((unit) => {
-          const stats = getStats(unit);
+          const stats = getStats(unit, armyComposition);
 
           return (
             <li key={unit.id}>
@@ -139,26 +177,67 @@ export const Print = () => {
                 {getUnitName({ unit, language })}
                 {!isShowList && (
                   <span className="print__points">
-                    [{getUnitPoints(unit)} <FormattedMessage id="app.points" />]
+                    [
+                    {getUnitPoints(
+                      { ...unit, type },
+                      {
+                        armyComposition,
+                      }
+                    )}{" "}
+                    <FormattedMessage id="app.points" />]
                   </span>
                 )}
               </h3>
               {getAllOptions(unit, {
                 noMagic: isShowList,
                 pageNumbers: showPageNumbers,
+                armyComposition,
               })}
               {showSpecialRules && unit.specialRules ? (
-                <p className="print__special-rules">
-                  <i>
-                    <b>
-                      <FormattedMessage id="unit.specialRules" />:
-                    </b>{" "}
-                    {(
-                      unit.specialRules[`name_${language}`] ||
-                      unit.specialRules.name_en
-                    ).replace(/ *\{[^)]*\}/g, "")}
-                  </i>
-                </p>
+                <>
+                  <p className="print__special-rules">
+                    <i>
+                      <b>
+                        <FormattedMessage id="unit.specialRules" />:
+                      </b>{" "}
+                      {(
+                        unit.specialRules[`name_${language}`] ||
+                        unit.specialRules.name_en
+                      )?.replace(/ *\{[^)]*\}/g, "")}
+                    </i>
+                  </p>
+                  {unit.detachments &&
+                    unit.detachments.map((detachment) => {
+                      const specialRulesDetachment =
+                        detachment.armyComposition?.[
+                          list?.armyComposition || list?.army
+                        ]?.specialRules || detachment.specialRules;
+
+                      if (!specialRulesDetachment?.name_en) {
+                        return null;
+                      }
+
+                      return (
+                        <p
+                          className="game-view__special-rules"
+                          key={detachment.id}
+                        >
+                          <b>
+                            <i>
+                              <FormattedMessage id="unit.specialRules" /> (
+                              {detachment[`name_${language}`] ||
+                                detachment.name_en}
+                              ):
+                            </i>
+                          </b>{" "}
+                          {(
+                            specialRulesDetachment[`name_${language}`] ||
+                            specialRulesDetachment.name_en
+                          ).replace(/ *\{[^)]*\}/g, "")}
+                        </p>
+                      );
+                    })}
+                </>
               ) : null}
               {showStats &&
                 (stats?.length > 0 ? (
@@ -195,7 +274,7 @@ export const Print = () => {
             </li>
           );
         })}
-      </ul>
+      </>
     );
   };
 
@@ -218,6 +297,7 @@ export const Print = () => {
           spaceBottom
           size="large"
           disabled={isPrinting}
+          className="print__button"
         >
           {isPrinting ? (
             <FormattedMessage id="print.printing" />
@@ -230,112 +310,101 @@ export const Print = () => {
         </h2>
       </div>
 
-      <main className="print">
-        <h1>
-          {list.name}{" "}
-          {!isShowList && (
-            <span className="print__points">
-              [{allPoints} <FormattedMessage id="app.points" />]
-            </span>
-          )}
-        </h1>
-        <p className="print__subheader">
-          {game.name}, {armyName}
-          {armyCompositionName ? `, ${armyCompositionName}` : ""}
-        </p>
-
-        {list.game === "the-old-world" ? (
-          list.characters.length > 0 && (
-            <section>
-              <h2>
-                <FormattedMessage id="editor.characters" />{" "}
+      <main
+        className={classNames(
+          "print",
+          useTwoColumns && "print--two-columns",
+          useThreeColumns && "print--three-columns"
+        )}
+      >
+        <ul>
+          {showHeadings && (
+            <>
+              <h1>
+                {list.name}{" "}
                 {!isShowList && (
                   <span className="print__points">
-                    [{charactersPoints} <FormattedMessage id="app.points" />]
+                    [{allPoints} <FormattedMessage id="app.points" />]
                   </span>
                 )}
-              </h2>
+              </h1>
+              <p className="print__subheader">
+                {game.name}, {armyName}
+                {armyCompositionName ? `, ${armyCompositionName}` : ""},{" "}
+                <FormattedMessage
+                  id={`misc.${list.compositionRule || "open-war"}`}
+                />
+              </p>
+            </>
+          )}
+
+          {list.characters.length > 0 && (
+            <>
+              {showHeadings && (
+                <h2>
+                  <FormattedMessage id="editor.characters" />{" "}
+                  {!isShowList && (
+                    <span className="print__points">
+                      [{charactersPoints} <FormattedMessage id="app.points" />]
+                    </span>
+                  )}
+                </h2>
+              )}
               {getSection({ type: "characters" })}
-            </section>
-          )
-        ) : (
-          <>
-            {list.lords.length > 0 && (
-              <section>
+            </>
+          )}
+
+          {list.core.length > 0 && (
+            <>
+              {showHeadings && (
                 <h2>
-                  <FormattedMessage id="editor.lords" />{" "}
+                  <FormattedMessage id="editor.core" />{" "}
                   {!isShowList && (
                     <span className="print__points">
-                      [{lordsPoints} <FormattedMessage id="app.points" />]
+                      [{corePoints} <FormattedMessage id="app.points" />]
                     </span>
                   )}
                 </h2>
-                {getSection({ type: "lords" })}
-              </section>
-            )}
+              )}
+              {getSection({ type: "core" })}
+            </>
+          )}
 
-            {list.heroes.length > 0 && (
-              <section>
+          {list.special.length > 0 && (
+            <>
+              {showHeadings && (
                 <h2>
-                  <FormattedMessage id="editor.heroes" />{" "}
+                  <FormattedMessage id="editor.special" />{" "}
                   {!isShowList && (
                     <span className="print__points">
-                      [{heroesPoints} <FormattedMessage id="app.points" />]
+                      [{specialPoints} <FormattedMessage id="app.points" />]
                     </span>
                   )}
                 </h2>
-                {getSection({ type: "heroes" })}
-              </section>
-            )}
-          </>
-        )}
-
-        {list.core.length > 0 && (
-          <section>
-            <h2>
-              <FormattedMessage id="editor.core" />{" "}
-              {!isShowList && (
-                <span className="print__points">
-                  [{corePoints} <FormattedMessage id="app.points" />]
-                </span>
               )}
-            </h2>
-            {getSection({ type: "core" })}
-          </section>
-        )}
+              {getSection({ type: "special" })}
+            </>
+          )}
 
-        {list.special.length > 0 && (
-          <section>
-            <h2>
-              <FormattedMessage id="editor.special" />{" "}
-              {!isShowList && (
-                <span className="print__points">
-                  [{specialPoints} <FormattedMessage id="app.points" />]
-                </span>
+          {list.rare.length > 0 && (
+            <>
+              {showHeadings && (
+                <h2>
+                  <FormattedMessage id="editor.rare" />{" "}
+                  {!isShowList && (
+                    <span className="print__points">
+                      [{rarePoints} <FormattedMessage id="app.points" />]
+                    </span>
+                  )}
+                </h2>
               )}
-            </h2>
-            {getSection({ type: "special" })}
-          </section>
-        )}
+              {getSection({ type: "rare" })}
+            </>
+          )}
 
-        {list.rare.length > 0 && (
-          <section>
-            <h2>
-              <FormattedMessage id="editor.rare" />{" "}
-              {!isShowList && (
-                <span className="print__points">
-                  [{rarePoints} <FormattedMessage id="app.points" />]
-                </span>
-              )}
-            </h2>
-            {getSection({ type: "rare" })}
-          </section>
-        )}
-
-        {list.game === "the-old-world" && (
-          <>
-            {list.allies.length > 0 && (
-              <section>
+          {list.allies.length > 0 && (
+            <>
+              {showHeadings && (
                 <h2>
                   <FormattedMessage id="editor.allies" />{" "}
                   {!isShowList && (
@@ -344,12 +413,14 @@ export const Print = () => {
                     </span>
                   )}
                 </h2>
-                {getSection({ type: "allies" })}
-              </section>
-            )}
+              )}
+              {getSection({ type: "allies" })}
+            </>
+          )}
 
-            {list.mercenaries.length > 0 && (
-              <section>
+          {list.mercenaries.length > 0 && (
+            <>
+              {showHeadings && (
                 <h2>
                   <FormattedMessage id="editor.mercenaries" />{" "}
                   {!isShowList && (
@@ -358,24 +429,25 @@ export const Print = () => {
                     </span>
                   )}
                 </h2>
-                {getSection({ type: "mercenaries" })}
-              </section>
-            )}
-          </>
-        )}
-        <div className="print-footer">
-          <p>
-            <FormattedMessage id="export.createdWith" />{" "}
-            <b>"Old World Builder"</b>
-          </p>
-          <p>
-            [
-            <a href="https://old-world-builder.com">
-              <i>old-world-builder.com</i>
-            </a>
-            ]
-          </p>
-        </div>
+              )}
+              {getSection({ type: "mercenaries" })}
+            </>
+          )}
+
+          <div className="print-footer">
+            <p>
+              <FormattedMessage id="export.createdWith" />{" "}
+              <b>"Old World Builder"</b>
+            </p>
+            <p>
+              [
+              <a href="https://old-world-builder.com">
+                <i>old-world-builder.com</i>
+              </a>
+              ]
+            </p>
+          </div>
+        </ul>
       </main>
     </>
   );

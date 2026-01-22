@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
 
-import { Icon } from "..//icon";
+import { Icon } from "../icon";
 
 import "./Button.css";
 
@@ -90,7 +90,7 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   size: PropTypes.string,
   download: PropTypes.string,
-  value: PropTypes.oneOfType(PropTypes.string, PropTypes.number),
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 Button.defaultProps = {

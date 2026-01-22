@@ -1,4 +1,4 @@
-import { useState, Fragment } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { FormattedMessage, useIntl } from "react-intl";
@@ -14,31 +14,42 @@ import {
   RulesWithIcon,
   RuleWithIcon,
 } from "../../components/rules-index";
-import { getAllOptions } from "../../utils/unit";
+import { GeneratedSpells } from "../../components/generated-spells/GeneratedSpells";
+import {
+  getAllOptions,
+  getUnitGeneratedSpellCount,
+  getUnitLoresWithSpells,
+} from "../../utils/unit";
 import { getUnitPoints, getPoints, getAllPoints } from "../../utils/points";
 import { useLanguage } from "../../utils/useLanguage";
 import { getStats, getUnitName } from "../../utils/unit";
 import { editUnit } from "../../state/lists";
-import gameSystems from "../../assets/armies.json";
+import { updateSetting } from "../../state/settings";
+import { getGameSystems } from "../../utils/game-systems";
 
 import "./GameView.css";
 
 export const GameView = () => {
-  const { listId } = useParams();
+  const { listId, type } = useParams();
   const { language } = useLanguage();
   const intl = useIntl();
   const dispatch = useDispatch();
-  const [showPoints, setShowPoints] = useState(true);
-  const [showSpecialRules, setShowSpecialRules] = useState(true);
+  const settings = useSelector((state) => state.settings);
+  const {
+    showPoints,
+    showSpecialRules,
+    showStats,
+    showPageNumbers,
+    showVictoryPoints,
+    showCustomNotes,
+    showGeneratedSpells,
+  } = settings;
   const [banners, setBanners] = useState(0);
   const [scenarioPoints, setScenarioPoints] = useState(0);
   const [generalDead, setGeneralDead] = useState(false);
   const [BSBDead, setBSBDead] = useState(false);
-  const [showStats, setShowStats] = useState(true);
-  const [showPageNumbers, setShowPageNumbers] = useState(false);
+  const [detachmentsDead, setDetachmentsDead] = useState({});
   const [victoryPoints, setVictoryPoints] = useState({});
-  const [showVictoryPoints, setShowVictoryPoints] = useState(true);
-  const [showCustomNotes, setShowCustomNotes] = useState(true);
   const list = useSelector((state) =>
     state.lists.find(({ id }) => listId === id)
   );
@@ -51,6 +62,9 @@ export const GameView = () => {
         customNote: value,
       })
     );
+  };
+  const updateLocalSettings = (newSettings) => {
+    localStorage.setItem("owb.settings", JSON.stringify(newSettings));
   };
 
   if (!list) {
@@ -67,25 +81,36 @@ export const GameView = () => {
     );
   }
 
+  const armyComposition = list.armyComposition || list.army;
   const allPoints = getAllPoints(list);
-  const lordsPoints = getPoints({ list, type: "lords" });
-  const heroesPoints = getPoints({ list, type: "heroes" });
   const charactersPoints = getPoints({ list, type: "characters" });
   const corePoints = getPoints({ list, type: "core" });
   const specialPoints = getPoints({ list, type: "special" });
   const rarePoints = getPoints({ list, type: "rare" });
   const mercenariesPoints = getPoints({ list, type: "mercenaries" });
   const alliesPoints = getPoints({ list, type: "allies" });
+  const gameSystems = getGameSystems();
   const game = gameSystems.find((game) => game.id === list.game);
   const army = game.armies.find((army) => army.id === list.army);
   const armyName = army[`name_${language}`] || army.name_en;
   const getUnitVictoryPoints = (unitId) => {
     let allPoints = 0;
+    let detachmentsSum = 0;
     const unitVictoryPoints = victoryPoints[unitId];
 
+    if (unitVictoryPoints && unitVictoryPoints["detachments"]) {
+      const detachments = Object.values(unitVictoryPoints["detachments"]);
+
+      if (detachments.length) {
+        for (let i = 0; i < detachments.length; i++) {
+          detachmentsSum += detachments[i];
+        }
+      }
+    }
     allPoints += unitVictoryPoints ? unitVictoryPoints["25"] : 0;
     allPoints += unitVictoryPoints ? unitVictoryPoints["dead"] : 0;
     allPoints += unitVictoryPoints ? unitVictoryPoints["fleeing"] : 0;
+    allPoints += detachmentsSum;
 
     return allPoints;
   };
@@ -120,7 +145,13 @@ export const GameView = () => {
       id: "specialRules",
       checked: showSpecialRules,
       callback: () => {
-        setShowSpecialRules(!showSpecialRules);
+        updateLocalSettings({
+          ...settings,
+          showSpecialRules: !showSpecialRules,
+        });
+        dispatch(
+          updateSetting({ key: "showSpecialRules", value: !showSpecialRules })
+        );
       },
     },
     {
@@ -130,7 +161,11 @@ export const GameView = () => {
       id: "stats",
       checked: showStats,
       callback: () => {
-        setShowStats(!showStats);
+        updateLocalSettings({
+          ...settings,
+          showStats: !showStats,
+        });
+        dispatch(updateSetting({ key: "showStats", value: !showStats }));
       },
     },
     {
@@ -140,7 +175,11 @@ export const GameView = () => {
       id: "points",
       checked: showPoints,
       callback: () => {
-        setShowPoints(!showPoints);
+        updateLocalSettings({
+          ...settings,
+          showPoints: !showPoints,
+        });
+        dispatch(updateSetting({ key: "showPoints", value: !showPoints }));
       },
     },
     {
@@ -150,7 +189,13 @@ export const GameView = () => {
       id: "pages",
       checked: showPageNumbers,
       callback: () => {
-        setShowPageNumbers(!showPageNumbers);
+        updateLocalSettings({
+          ...settings,
+          showPageNumbers: !showPageNumbers,
+        });
+        dispatch(
+          updateSetting({ key: "showPageNumbers", value: !showPageNumbers })
+        );
       },
     },
     {
@@ -160,7 +205,32 @@ export const GameView = () => {
       id: "customNotes",
       checked: showCustomNotes,
       callback: () => {
-        setShowCustomNotes(!showCustomNotes);
+        updateLocalSettings({
+          ...settings,
+          showCustomNotes: !showCustomNotes,
+        });
+        dispatch(
+          updateSetting({ key: "showCustomNotes", value: !showCustomNotes })
+        );
+      },
+    },
+    {
+      name: intl.formatMessage({
+        id: "export.showGeneratedSpells",
+      }),
+      id: "generatedSpells",
+      checked: showGeneratedSpells,
+      callback: () => {
+        updateLocalSettings({
+          ...settings,
+          showGeneratedSpells: !showGeneratedSpells,
+        });
+        dispatch(
+          updateSetting({
+            key: "showGeneratedSpells",
+            value: !showGeneratedSpells,
+          })
+        );
       },
     },
     {
@@ -170,7 +240,13 @@ export const GameView = () => {
       id: "victory",
       checked: showVictoryPoints,
       callback: () => {
-        setShowVictoryPoints(!showVictoryPoints);
+        updateLocalSettings({
+          ...settings,
+          showVictoryPoints: !showVictoryPoints,
+        });
+        dispatch(
+          updateSetting({ key: "showVictoryPoints", value: !showVictoryPoints })
+        );
       },
     },
   ];
@@ -180,7 +256,9 @@ export const GameView = () => {
     return (
       <ul>
         {units.map((unit, index) => {
-          const stats = getStats(unit);
+          const stats = getStats(unit, armyComposition);
+          //TODO update for Wizards outside of standard Options (Flamers, Burning Chariots, Multi-Caster Models, etc)
+          const unitGeneratedSpellCount = getUnitGeneratedSpellCount(unit);
 
           return (
             <li key={index} className="list">
@@ -200,7 +278,13 @@ export const GameView = () => {
                     />
                     {showPoints && (
                       <span className="game-view__points">
-                        [{getUnitPoints(unit)}{" "}
+                        [
+                        {getUnitPoints(
+                          { ...unit, type },
+                          {
+                            armyComposition,
+                          }
+                        )}{" "}
                         <FormattedMessage id="app.points" />]
                       </span>
                     )}
@@ -212,24 +296,59 @@ export const GameView = () => {
                       name_en: getAllOptions(unit, {
                         language: "en",
                         removeFactionName: false,
+                        armyComposition,
                       }),
                       [`name_${language}`]: getAllOptions(unit, {
                         removeFactionName: false,
+                        armyComposition,
                       }),
                     }}
                   />
                   {showSpecialRules && unit.specialRules ? (
-                    <p className="game-view__special-rules">
-                      <b>
-                        <i>
-                          <FormattedMessage id="unit.specialRules" />:
-                        </i>
-                      </b>{" "}
-                      <RulesLinksText
-                        textObject={unit.specialRules}
-                        showPageNumbers={showPageNumbers}
-                      />
-                    </p>
+                    <>
+                      <p className="game-view__special-rules">
+                        <b>
+                          <i>
+                            <FormattedMessage id="unit.specialRules" />:
+                          </i>
+                        </b>{" "}
+                        <RulesLinksText
+                          textObject={unit.specialRules}
+                          showPageNumbers={showPageNumbers}
+                        />
+                      </p>
+                      {unit.detachments &&
+                        unit.detachments.map((detachment) => {
+                          const specialRulesDetachment =
+                            detachment.armyComposition?.[
+                              list?.armyComposition || list?.army
+                            ]?.specialRules || detachment.specialRules;
+
+                          if (!specialRulesDetachment) {
+                            return null;
+                          }
+
+                          return (
+                            <p
+                              className="game-view__special-rules"
+                              key={detachment.id}
+                            >
+                              <b>
+                                <i>
+                                  <FormattedMessage id="unit.specialRules" /> (
+                                  {detachment[`name_${language}`] ||
+                                    detachment.name_en}
+                                  ):
+                                </i>
+                              </b>{" "}
+                              <RulesLinksText
+                                textObject={specialRulesDetachment}
+                                showPageNumbers={showPageNumbers}
+                              />
+                            </p>
+                          );
+                        })}
+                    </>
                   ) : null}
                   {showStats &&
                     (stats?.length > 0 ? (
@@ -253,6 +372,17 @@ export const GameView = () => {
                         ]}
                       />
                     ))}
+                  {showGeneratedSpells && unitGeneratedSpellCount > 0 && (
+                    <GeneratedSpells
+                      availableLoresWithSpells={getUnitLoresWithSpells(
+                        unit,
+                        armyComposition
+                      )}
+                      maxGeneratedSpellCount={unitGeneratedSpellCount}
+                      showPageNumbers={showPageNumbers}
+                      maxSignatureSpells={unit.maxSignatureSpells}
+                    />
+                  )}
                   {showCustomNotes && (
                     <div>
                       <label
@@ -282,7 +412,7 @@ export const GameView = () => {
                   )}
                   {showVictoryPoints && (
                     <div>
-                      {getVictoryButtons(unit)}
+                      {getVictoryButtons(unit, type)}
                       <p className="game-view__special-rules">
                         <b>
                           <i>
@@ -302,11 +432,12 @@ export const GameView = () => {
       </ul>
     );
   };
-  const updateVictoryPoints = ({ unit, value }) => {
+  const updateVictoryPoints = ({ unit, value, deadDetachments }) => {
     let unitPoints = victoryPoints[unit.id] || {
       dead: 0,
       fleeing: 0,
       25: 0,
+      detachments: {},
     };
     const isGeneral = Boolean(
       unit?.command?.length &&
@@ -326,7 +457,16 @@ export const GameView = () => {
     switch (value) {
       case "dead": {
         unitPoints = {
-          dead: unitPoints.dead ? 0 : getUnitPoints(unit),
+          ...unitPoints,
+          dead: unitPoints.dead
+            ? 0
+            : getUnitPoints(
+                { ...unit, type },
+                {
+                  noDetachments: true,
+                  armyComposition,
+                }
+              ),
           fleeing: 0,
           25: 0,
         };
@@ -340,8 +480,19 @@ export const GameView = () => {
       }
       case "fleeing": {
         unitPoints = {
+          ...unitPoints,
           dead: 0,
-          fleeing: unitPoints.fleeing ? 0 : Math.round(getUnitPoints(unit) / 2),
+          fleeing: unitPoints.fleeing
+            ? 0
+            : Math.round(
+                getUnitPoints(
+                  { ...unit, type },
+                  {
+                    noDetachments: true,
+                    armyComposition,
+                  }
+                ) / 2
+              ),
           25: 0,
         };
         if (isGeneral) {
@@ -354,12 +505,42 @@ export const GameView = () => {
       }
       case "25": {
         unitPoints = {
+          ...unitPoints,
           dead: 0,
           fleeing: 0,
-          25: unitPoints["25"] ? 0 : Math.round(getUnitPoints(unit) / 4),
+          25: unitPoints["25"]
+            ? 0
+            : Math.round(
+                getUnitPoints(
+                  { ...unit, type },
+                  {
+                    noDetachments: true,
+                    armyComposition,
+                  }
+                ) / 2
+              ),
         };
-        setGeneralDead(false);
-        setBSBDead(false);
+        break;
+      }
+      case "detachment": {
+        unit.detachments.forEach((detachment) => {
+          unitPoints = {
+            ...unitPoints,
+            detachments: {
+              ...unitPoints.detachments,
+              [detachment.id]:
+                deadDetachments *
+                getUnitPoints(
+                  {
+                    ...detachment,
+                    strength: 1,
+                    type,
+                  },
+                  { armyComposition }
+                ),
+            },
+          };
+        });
       }
     }
 
@@ -368,7 +549,8 @@ export const GameView = () => {
       [unit.id]: { ...unitPoints, isGeneral, isBSB },
     });
   };
-  const getVictoryButtons = (unit) => {
+
+  const getVictoryButtons = (unit, type) => {
     return (
       <>
         <Button
@@ -395,6 +577,35 @@ export const GameView = () => {
         >
           {"<25%"}
         </Button>
+        {unit.detachments &&
+          unit.detachments.length &&
+          unit.detachments.map((detachment) => (
+            <span key={detachment.id} className="game-view__detachment">
+              <label
+                htmlFor={detachment.id}
+                className="game-view__detachment-label"
+              >
+                <FormattedMessage id="misc.dead" /> {detachment.name_en}
+              </label>
+              <NumberInput
+                id={detachment.id}
+                min={0}
+                max={detachment.strength}
+                value={detachmentsDead[detachment.id] || 0}
+                onChange={(event) => {
+                  setDetachmentsDead({
+                    ...detachmentsDead,
+                    [detachment.id]: event.target.value,
+                  });
+                  updateVictoryPoints({
+                    unit,
+                    value: "detachment",
+                    deadDetachments: event.target.value,
+                  });
+                }}
+              />
+            </span>
+          ))}
       </>
     );
   };
@@ -419,56 +630,20 @@ export const GameView = () => {
       />
 
       <Main className="game-view">
-        {list.game === "the-old-world" ? (
-          list.characters.length > 0 && (
-            <section className="game-view__section">
-              <header className="editor__header">
-                <h2>
-                  <FormattedMessage id="editor.characters" />{" "}
-                  {showPoints && (
-                    <span className="game-view__points">
-                      [{charactersPoints} <FormattedMessage id="app.points" />]
-                    </span>
-                  )}
-                </h2>
-              </header>
-              {getSection({ type: "characters" })}
-            </section>
-          )
-        ) : (
-          <>
-            {list.lords.length > 0 && (
-              <section className="game-view__section">
-                <header className="editor__header">
-                  <h2>
-                    <FormattedMessage id="editor.lords" />{" "}
-                    {showPoints && (
-                      <span className="game-view__points">
-                        [{lordsPoints} <FormattedMessage id="app.points" />]
-                      </span>
-                    )}
-                  </h2>
-                </header>
-                {getSection({ type: "lords" })}
-              </section>
-            )}
-
-            {list.heroes.length > 0 && (
-              <section className="game-view__section">
-                <header className="editor__header">
-                  <h2>
-                    <FormattedMessage id="editor.heroes" />{" "}
-                    {showPoints && (
-                      <span className="game-view__points">
-                        [{heroesPoints} <FormattedMessage id="app.points" />]
-                      </span>
-                    )}
-                  </h2>
-                </header>
-                {getSection({ type: "heroes" })}
-              </section>
-            )}
-          </>
+        {list.characters.length > 0 && (
+          <section className="game-view__section">
+            <header className="editor__header">
+              <h2>
+                <FormattedMessage id="editor.characters" />{" "}
+                {showPoints && (
+                  <span className="game-view__points">
+                    [{charactersPoints} <FormattedMessage id="app.points" />]
+                  </span>
+                )}
+              </h2>
+            </header>
+            {getSection({ type: "characters" })}
+          </section>
         )}
 
         {list.core.length > 0 && (
@@ -519,41 +694,36 @@ export const GameView = () => {
           </section>
         )}
 
-        {list.game === "the-old-world" && (
-          <>
-            {list.allies.length > 0 && (
-              <section className="game-view__section">
-                <header className="editor__header">
-                  <h2>
-                    <FormattedMessage id="editor.allies" />{" "}
-                    {showPoints && (
-                      <span className="game-view__points">
-                        [{alliesPoints} <FormattedMessage id="app.points" />]
-                      </span>
-                    )}
-                  </h2>
-                </header>
-                {getSection({ type: "allies" })}
-              </section>
-            )}
+        {list.allies.length > 0 && (
+          <section className="game-view__section">
+            <header className="editor__header">
+              <h2>
+                <FormattedMessage id="editor.allies" />{" "}
+                {showPoints && (
+                  <span className="game-view__points">
+                    [{alliesPoints} <FormattedMessage id="app.points" />]
+                  </span>
+                )}
+              </h2>
+            </header>
+            {getSection({ type: "allies" })}
+          </section>
+        )}
 
-            {list.mercenaries.length > 0 && (
-              <section className="game-view__section">
-                <header className="editor__header">
-                  <h2>
-                    <FormattedMessage id="editor.mercenaries" />{" "}
-                    {showPoints && (
-                      <span className="game-view__points">
-                        [{mercenariesPoints}{" "}
-                        <FormattedMessage id="app.points" />]
-                      </span>
-                    )}
-                  </h2>
-                </header>
-                {getSection({ type: "mercenaries" })}
-              </section>
-            )}
-          </>
+        {list.mercenaries.length > 0 && (
+          <section className="game-view__section">
+            <header className="editor__header">
+              <h2>
+                <FormattedMessage id="editor.mercenaries" />{" "}
+                {showPoints && (
+                  <span className="game-view__points">
+                    [{mercenariesPoints} <FormattedMessage id="app.points" />]
+                  </span>
+                )}
+              </h2>
+            </header>
+            {getSection({ type: "mercenaries" })}
+          </section>
         )}
 
         {showVictoryPoints && (
@@ -621,9 +791,7 @@ export const GameView = () => {
                     <p key={unitId}>
                       <b>
                         <i>
-                          {unit.name ||
-                            unit[`name_${language}`] ||
-                            unit.name_en}
+                          {getUnitName({ unit, language })}
                           {": "}
                         </i>
                       </b>

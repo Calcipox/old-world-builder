@@ -13,6 +13,10 @@
   margin-top: 0.5rem;
 }
 
+.unit__subline--space-after {
+  margin-bottom: 0.5rem;
+}
+
 .unit__points {
   font-size: 1rem;
   font-weight: 400;
@@ -54,6 +58,15 @@
 
 .unit__strength {
   margin-top: 1rem;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.unit__strength-points {
+  font-style: italic;
+  font-weight: normal;
+  text-align: right;
 }
 
 .unit__link .list__inner label {
@@ -74,6 +87,8 @@
 
 .unit__magic-headline {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
 .unit__magic-icon {
@@ -209,4 +224,36 @@
 .unit__header-rule-icon {
   position: relative;
   margin-right: 0.5rem;
+}
+
+.unit__option-note {
+  margin: -0.8rem 0 0.8rem 1.4rem;
+  line-height: normal;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.unit__option-note--stackable {
+  margin-left: 1rem;
+  margin-right: 2.2rem;
+}
+
+.unit__option-note--conditionnal {
+  margin-left: 1.8rem;
+}
+
+.unit__option-note--items {
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem !important;
+}
+
+.unit__option-note--maxitems {
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 0.9rem !important;
+}
+
+.unit__option-note--detachment {
+  margin: 0.3rem 0 0.5rem 0;
 }
